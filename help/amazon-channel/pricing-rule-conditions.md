@@ -1,11 +1,11 @@
 ---
 title: Condizioni della regola del prezzo
 description: Utilizza le condizioni della regola del prezzo per determinare quali prodotti sono idonei per la regola del prezzo di listino.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: ac190d88711f07c0b255a8cb50b12b62945f625e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 0%
 
 ---

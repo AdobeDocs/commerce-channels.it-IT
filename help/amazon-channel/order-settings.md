@@ -1,11 +1,11 @@
 ---
 title: Impostazioni ordine
 description: Utilizza le impostazioni Ordine per determinare in che modo gli ordini Amazon vengono importati ed elaborati nel tuo negozio Commerce.
-redirect_from: /sales-channels/asc/ob-order-settings.html: 
+redirect_from: /sales-channels/asc/ob-order-settings.html
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
