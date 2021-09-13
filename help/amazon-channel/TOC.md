@@ -4,7 +4,7 @@ user-guide-description: Genera le vendite tramite Amazon integrando Commerce o M
 breadcrumb-title: Channel manager per Commerce
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
