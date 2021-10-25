@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guida utente di Amazon Sales Channel
-user-guide-description: Genera le vendite tramite Amazon integrando Commerce o Magento Open Source Adobe con il tuo account [!DNL Amazon Seller Central] .
+user-guide-description: Genera le vendite tramite Amazon integrando Adobe Commerce o Magento Open Source con il tuo [!DNL Amazon Seller Central] conto.
 breadcrumb-title: Channel manager per Commerce
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
@@ -10,10 +10,10 @@ ht-degree: 0%
 ---
 
 
-# Canale di vendita Amazon - [!DNL channel manager] ad Adobe Commerce {#amazon}
+# Canale di vendita Amazon - [!DNL channel manager] per Adobe Commerce {#amazon}
 
 - [Canale di vendita Amazon](overview.md)
-- Guida introduttiva {#getting-started}
+- Introduzione {#getting-started}
    - [Informazioni sul canale di vendita Amazon](about-amazon-sales-channel.md)
    - [Informazioni su Amazon Marketplace](about-amazon-marketplace.md)
    - [Informazioni su Amazon e il catalogo Commerce](about-listings-and-catalog.md)
@@ -22,7 +22,7 @@ ht-degree: 0%
 - Onboarding {#onboarding}
    - [Canale di vendita Amazon integrato](amazon-onboarding-home.md)
    - [Attività pre-installazione](amazon-pre-setup-tasks.md)
-   - [Creare attributi [!DNL Commerce] per Amazon](ob-creating-magento-attributes.md)
+   - [Crea [!DNL Commerce] Attributi per Amazon](ob-creating-magento-attributes.md)
    - [Verifica la chiave API di Amazon](amazon-verify-api-key.md)
    - [Integrazione store](store-integration.md)
    - [Crea regola di elenco](ob-create-listing-rule.md)
@@ -53,7 +53,7 @@ ht-degree: 0%
    - [Prodotti rinnovati](renewed-products.md)
 - [Impostazioni ordine](order-settings.md)
 - [Impostazioni di integrazione store](store-integration-settings.md)
-- Regole di listino e determinazione prezzi {#rules}
+- Regole di listino e di determinazione prezzi {#rules}
    - [Regole di elenco](listing-rules.md)
    - Regole di determinazione prezzi {#pricing-rules}
       - [Gestione dei prezzi](pricing-products.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       - [Esempi di regole di prezzo](price-rule-examples.md)
 - Report e registri {#reports-logs}
    - [Registri e archiviare i rapporti](amazon-logs-reports.md)
-   - Archiviare i rapporti {#store-reports}
+   - Rapporti store {#store-reports}
       - [Analisi dei prezzi competitiva](competitive-price-analysis.md)
       - [Miglioramenti all’elenco](listing-improvements.md)
    - Registri {#logs}

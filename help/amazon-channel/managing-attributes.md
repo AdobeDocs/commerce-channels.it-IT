@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # Gestire gli attributi
 
-Sia Amazon che [!DNL Commerce] utilizzano un sistema di proprietà del prodotto, note come attributi, utilizzato per definire un prodotto. Gli attributi definiscono la descrizione, il contenuto, le immagini, i prezzi e vari dati per i prodotti.
+Amazon e [!DNL Commerce] entrambi utilizzano un sistema di proprietà del prodotto, noto come attributi, utilizzato per definire un prodotto. Gli attributi definiscono la descrizione, il contenuto, le immagini, i prezzi e vari dati per i prodotti.
 
-La comunicazione corretta tra Commerce e Amazon richiede che gli attributi [!DNL Commerce] siano mappati correttamente (o abbinati) all’attributo Amazon corrispondente. Durante l’integrazione con Amazon, associ questi attributi agli attributi di Amazon. Una volta completato, [!DNL Commerce] può sincronizzare e mantenere gli elenchi Amazon con il catalogo di prodotti [!DNL Commerce].
+La comunicazione corretta tra Commerce e Amazon richiede che [!DNL Commerce] Gli attributi devono essere mappati correttamente (o confrontati) con l&#39;attributo Amazon corrispondente. Durante l’integrazione con Amazon, associ questi attributi agli attributi di Amazon. Al termine, [!DNL Commerce] può sincronizzare e mantenere gli elenchi Amazon con [!DNL Commerce] catalogo dei prodotti.
 
-Ad esempio, immagina di avere lo stesso elemento nel catalogo [!DNL Commerce] e negli elenchi di Amazon. Un attributo per il prodotto potrebbe essere il prezzo di listino dell&#39;articolo. Il nome del prezzo di listino in [!DNL Commerce] potrebbe essere denominato `Price`, mentre il prezzo di listino per Amazon potrebbe essere denominato `ListingPrice`. È necessario indicare a [!DNL Commerce] che, durante la comunicazione con Amazon, l&#39;attributo [!DNL Commerce] denominato `Price` è lo stesso dell&#39;attributo Amazon denominato `ListingPrice`. Questo processo si chiama _gestione attributi_ e include la creazione di attributi nuovi e la modifica di attributi esistenti. Assicurati che la corrispondenza degli attributi sia corretta garantisce la corretta comunicazione tra [!DNL Commerce] e Amazon.
+Ad esempio, immagina di avere lo stesso elemento nel tuo [!DNL Commerce] elenchi di catalogo e Amazon. Un attributo per il prodotto potrebbe essere il prezzo di listino dell&#39;articolo. Nome del prezzo di listino in [!DNL Commerce] potrebbe essere denominato `Price`, mentre il prezzo di listino per Amazon potrebbe essere denominato `ListingPrice`. Devi istruire [!DNL Commerce] quando comunica con Amazon, la [!DNL Commerce] attributo denominato `Price` è lo stesso dell’attributo Amazon denominato `ListingPrice`. Questo processo si chiama _gestione attributi_ e include la creazione di attributi nuovi e la modifica di attributi esistenti. Assicurati che gli attributi corrispondano correttamente assicura la corretta comunicazione tra [!DNL Commerce] e Amazon.
 
-Quando è impostata la mappatura degli attributi, [!DNL Commerce] può comunicare le informazioni sul prodotto avanti e indietro con Amazon. Se disponi di elenchi di prodotti Amazon, [!DNL Commerce] può importare i prodotti e i dettagli Amazon nel catalogo [!DNL Commerce], per gestire gli elenchi Amazon da un unico catalogo centrale di prodotti.
+Quando è impostata la mappatura degli attributi, [!DNL Commerce] può comunicare informazioni sui prodotti avanti e indietro con Amazon. Se hai degli elenchi di prodotti Amazon, [!DNL Commerce] può importare i prodotti e i dettagli Amazon nel tuo [!DNL Commerce] catalogo, che consente di gestire gli elenchi Amazon da un unico catalogo centrale di prodotti.
 
-Il canale di vendita Amazon ti consente di accedere, rivedere, creare e gestire gli attributi, in base alle esigenze, nella [_[!UICONTROL Attributes]_view](./attributes-view.md) nella home page del canale di vendita Amazon. Se aggiungi un attributo al catalogo [!DNL Commerce], potrebbe essere necessario un aggiornamento di tali valori per tutti i prodotti.
+Il canale di vendita Amazon ti consente di accedere, rivedere, creare e gestire gli attributi, in base alle esigenze, nel [_[!UICONTROL Attributes]_visualizzare](./attributes-view.md) nella home page del canale di vendita Amazon. Se aggiungi un attributo al tuo [!DNL Commerce] catalogo, potrebbe richiedere un aggiornamento di tali valori in tutti i prodotti.
 
-Per ulteriori informazioni sui set e i valori di attributi [!DNL Commerce] e Amazon, consulta:
+Per ulteriori informazioni [!DNL Commerce] e i set di attributi e i valori di Amazon, vedi:
 
-- [Nozioni di base sugli attributi di gestione](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
+- [Informazioni di base sulla gestione degli attributi](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
 - [Creare un attributo](./creating-attributes.md#create-an-attribute)
 - [Modificare un attributo esistente](./creating-attributes.md#edit-an-attribute)
 - [Visualizza mappatura attributi](./amazon-matching-attributes-values.md)

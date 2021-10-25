@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## Termina manualmente uno o più elenchi Amazon
 
-1. Visualizza uno o più elenchi nella scheda [[!UICONTROL Product Listings]](./managing-product-listings.md) (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
+1. Visualizza uno o più elenchi nella [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ oppure _[!UICONTROL Ineligible]_).
 
 1. Nella colonna a sinistra, fai clic su per controllare ciascuno degli elenchi che desideri terminare.
 
-1. In _[!UICONTROL Actions]_, fai clic su **[!UICONTROL End listing(s) on Amazon]**.
+1. Sotto _[!UICONTROL Actions]_, fai clic su **[!UICONTROL End listing(s) on Amazon]**.
 
 1. Fai clic su **[!UICONTROL OK]** nel messaggio di conferma.
 
 ## Termina manualmente un singolo elenco Amazon
 
-1. Visualizza uno o più elenchi nella scheda [[!UICONTROL Product Listings]](./managing-product-listings.md) (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
+1. Visualizza uno o più elenchi nella [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ oppure _[!UICONTROL Ineligible]_).
 
-1. Nella colonna _[!UICONTROL Action]_, fai clic su **Seleziona**>**Fine elenco**.
+1. In _[!UICONTROL Action]_colonna, fai clic su **Seleziona**>**Elenco finale**.
 
 1. Fai clic su **[!UICONTROL OK]** nel messaggio di conferma.
 
-Quando si termina una o più inserzioni, un messaggio conferma che l’elaborazione dell’elenco selezionato è in corso per terminare. Gli elenchi terminati possono essere gestiti nella scheda [Terminato](./ended-listings.md) della pagina [_Elenco prodotti_](./managing-product-listings.md). Quando vengono elaborati e rimossi da Amazon, lo stato dell’elenco diventa `Manually Ended`. Gli elenchi terminati vengono rimossi da Amazon finché non ripubblichi manualmente l’elenco utilizzando l’azione [_Pubblica in Amazon_](./publish-listings-manually.md) .
+Quando si termina una o più inserzioni, un messaggio conferma che l’elaborazione dell’elenco selezionato è in corso per terminare. Gli elenchi terminati possono essere gestiti nel [Terminato](./ended-listings.md) nella scheda [_Elenco prodotti_](./managing-product-listings.md) pagina. Quando vengono elaborati e rimossi da Amazon, lo stato dell’elenco diventa `Manually Ended`. Le inserzioni terminate vengono rimosse da Amazon finché non ripubblicate manualmente l’inserzione utilizzando la variabile [_Pubblicare su Amazon_](./publish-listings-manually.md) azione.

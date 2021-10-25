@@ -4,7 +4,7 @@ description: Per gestire la registrazione, l’origine cron e la sincronizzazion
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Analisi dei prezzi competitiva
 
-Il rapporto Analisi dei prezzi competitivi mostra gli annunci Amazon per mercato con i rispettivi valori di prezzo [Buy Box](./buy-box-competitor-pricing.md) e [più bassi concorrenti](./lowest-competitor-pricing.md). Nessuna azione disponibile per il registro. È una funzione di sola revisione.
+Il rapporto Analisi dei prezzi competitivi mostra gli annunci Amazon per mercato con le rispettive [Buy Box](./buy-box-competitor-pricing.md) prezzo e [concorrente più basso](./lowest-competitor-pricing.md) valori di prezzo. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
 ![Rapporto Analisi dei prezzi competitivi](assets/amazon-competitive-price-analysis.png)
 
@@ -25,6 +25,6 @@ Il rapporto Analisi dei prezzi competitivi mostra gli annunci Amazon per mercato
 | [!UICONTROL Your Landed Price] | Il prezzo di listino del prodotto più il suo prezzo di spedizione. |
 | [!UICONTROL Lowest Landed Price] | Il prezzo di sbarco più basso (prezzo di listino più il prezzo di spedizione) dai tuoi concorrenti Amazon. |
 | [!UICONTROL Condition (lowest price)] | La condizione del prodotto elencato al prezzo più basso. |
-| [!UICONTROL Buy Box Landed Price] | Il prezzo di sbarco (prezzo di listino più il prezzo di spedizione) dell&#39;elenco di posizioni [Buy Box](./buy-box-competitor-pricing.md). |
+| [!UICONTROL Buy Box Landed Price] | Il prezzo di sbarco (prezzo di listino più il prezzo di spedizione) del [Buy Box](./buy-box-competitor-pricing.md) elenco di posizioni. |
 | [!UICONTROL Is Seller (Buy Box)] | Indica se hai vinto la posizione Buy Box per l&#39;inserzione (NA significa che non esiste un prezzo Buy Box per l&#39;inserzione). |
 | Condizione (Buy Box) | La condizione dell’elenco della posizione di Buy Box. |

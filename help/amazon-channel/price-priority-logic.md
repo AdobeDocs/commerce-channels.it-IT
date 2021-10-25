@@ -4,8 +4,8 @@ description: Il canale di vendita Amazon applica la definizione delle priorità 
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '412'
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Prezzi più bassi per i concorrenti
-description: La [!UICONTROL Amazon Sales Channel] fornisce la scheda [!UICONTROL Lowest Competitor Pricing] per aiutarti a comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon.
+description: La [!UICONTROL Amazon Sales Channel] fornisce [!UICONTROL Lowest Competitor Pricing] per aiutarti a capire il posizionamento del prezzo dei tuoi concorrenti su Amazon.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # Prezzo più basso della concorrenza
 
-La scheda _[!UICONTROL Lowest Competitor Pricing]_nella pagina_[!UICONTROL Product Listing Details]_ mostra il prezzo finale di sbarco più basso, ma viene suddivisa in prezzo di spedizione e prezzo di listino. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon.
+La _[!UICONTROL Lowest Competitor Pricing]_nella scheda_[!UICONTROL Product Listing Details]_ La pagina mostra il prezzo finale di sbarco più basso, ma è suddivisa in prezzo di spedizione e prezzo di listino. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon.
 
-[È possibile configurare ](./intelligent-repricing-rules.md) regole di rideterminazione dei prezzi intelligenti per adattare i prezzi in base ai prezzi della concorrenza.
+[Regole di rideterminazione intelligente dei prezzi](./intelligent-repricing-rules.md) può essere configurato per adeguare i prezzi in base ai prezzi della concorrenza.
 
 ![Prezzo più basso della concorrenza](assets/amazon-listing-details-lowest-comp.png)
 
 ## Accedi ai dettagli più bassi sui prezzi dei concorrenti
 
-1. Fai clic su **[!UICONTROL Manage Listings]** nel dashboard dello store.
+1. Fai clic su **[!UICONTROL Manage Listings]** sul dashboard dello store.
 
-   Viene visualizzata la pagina [_[!UICONTROL Product Listing]_](./managing-product-listings.md) .
+   La [_[!UICONTROL Product Listing]_](./managing-product-listings.md) viene visualizzata la pagina .
 
 1. In una delle schede dello stato dell’elenco, fai clic sul nome di un elenco di prodotti per un elenco.
 
-   Viene visualizzata la pagina _[!UICONTROL Product Listing Details]_.
+   La _[!UICONTROL Product Listing Details]_viene visualizzata la pagina .
 
-1. Fai clic sulla scheda **[!UICONTROL Lowest Competitor Pricing]** .
+1. Fai clic sul pulsante **[!UICONTROL Lowest Competitor Pricing]** scheda .
 
    Mostra un elenco dei commercianti concorrenti su Amazon e i rispettivi prezzi.
 

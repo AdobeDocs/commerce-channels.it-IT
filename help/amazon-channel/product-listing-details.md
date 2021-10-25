@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # Visualizza dettagli elenco
 
-La pagina _[!UICONTROL Product Listing Details]_mostra informazioni aggiuntive sugli elenchi di prodotti attivi, incluso il registro delle attività di elenco che mostra le modifiche su un singolo SKU/Prodotto. Queste informazioni possono essere utili per comprendere le metriche della concorrenza sui prodotti e sulle modifiche di singoli SKU/prodotti. Ulteriori informazioni su questa pagina includono:
+La _[!UICONTROL Product Listing Details]_In questa pagina sono visualizzate informazioni aggiuntive sugli elenchi di prodotti attivi, incluso il registro delle attività di elenco che mostra le modifiche apportate a un singolo SKU/Prodotto. Queste informazioni possono essere utili per comprendere le metriche della concorrenza sui prodotti e sulle modifiche di singoli SKU/prodotti. Ulteriori informazioni su questa pagina includono:
 
 - **[!UICONTROL Listing Details]** - Dettagli del prodotto, tra cui Nome e SKU del venditore Amazon
 - **[!UICONTROL Listing Activity Log]** - Registrazione cronologica di tutte le modifiche apportate alla quotazione, ad esempio le variazioni di prezzo e di quantità/scorte. Non sono necessarie ulteriori azioni. Questo registro è fornito per la revisione per comprendere la cronologia delle modifiche.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Dati sullo  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) stato di Amazon e sui prezzi dei concorrenti
+- **[!UICONTROL Buy Box Competitor Pricing]** - Dati per Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) status e prezzi concorrenti
 - **[!UICONTROL Lowest Competitor Pricing]** - Informazioni sui prezzi e sul feedback del concorrente Amazon più basso
 
-Le home page del canale di vendita Amazon condividono alcuni controlli comuni [workspace](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
+Le home page del canale di vendita Amazon condividono alcune [controlli dell&#39;area di lavoro](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
 
 ## Dettagli dell&#39;elenco
 
@@ -40,15 +40,15 @@ Mostra tutte le attività recenti per l’elenco Amazon. Le informazioni visuali
 - Commenti: Fornisce ulteriori dettagli relativi al tipo di azione di elenco che si è verificata.
 - Eseguito In: Identifica la data e l’ora in cui si è verificata l’azione.
 
-![Dettagli dell’elenco dei prodotti - Elencare il registro delle attività](assets/amazon-listing-activity-log.png)
+![Dettagli dell’elenco dei prodotti - Elenco dei registri attività](assets/amazon-listing-activity-log.png)
 __
 
 ## Prezzi concorrenza Buy Box {#buy-box-competitor-pricing}
 
-In questa scheda vengono visualizzate informazioni sul commerciante Amazon che detiene la posizione [[!DNL Buy Box]](./buy-box-competitor-pricing.md) per l’elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon. Le informazioni visualizzate comprendono:
+In questa scheda vengono visualizzate informazioni sul commerciante Amazon che detiene il [[!DNL Buy Box]](./buy-box-competitor-pricing.md) posizione dell&#39;elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon. Le informazioni visualizzate comprendono:
 
 - ASIN: Identificatore del prodotto Amazon a 10 cifre.
-- Il venditore: Identifica se sei il venditore [!DNL Buy Box]. Opzioni Sì / No
+- Il venditore: Identifica se sei il [!DNL Buy Box] venditore. Opzioni Sì / No
 - Condizione: Identifica la condizione definita per l’elenco.
 - Prezzo di listino: Identifica il prezzo di pubblicazione dell&#39;inserzione.
 - Prezzo di spedizione: Identifica il prezzo di spedizione aggiunto all&#39;elenco.
@@ -59,7 +59,7 @@ In questa scheda vengono visualizzate informazioni sul commerciante Amazon che d
 
 ## Prezzi più bassi per i concorrenti {#lowest-competitor-pricing}
 
-In questa scheda vengono visualizzate informazioni sui concorrenti Amazon per lo stesso elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento del prezzo e il [prezzo più basso per la concorrenza](./lowest-competitor-pricing.md). Le informazioni visualizzate comprendono:
+In questa scheda vengono visualizzate informazioni sui concorrenti Amazon per lo stesso elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento del prezzo e [prezzo concorrente più basso](./lowest-competitor-pricing.md). Le informazioni visualizzate comprendono:
 
 - ASIN: Identificatore del prodotto Amazon a 10 cifre.
 - Condizione: Identifica la condizione definita per l’elenco.

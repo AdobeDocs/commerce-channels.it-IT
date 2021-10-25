@@ -15,7 +15,7 @@ Il registro errori di comunicazione mostra eventuali errori di comunicazione seg
 
 Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
-Le home page del canale di vendita Amazon condividono alcuni controlli comuni [workspace](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
+Le home page del canale di vendita Amazon condividono alcune [controlli dell&#39;area di lavoro](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
 
 ![Registro errori di comunicazione](assets/amazon-comm-errors-log.png)
 

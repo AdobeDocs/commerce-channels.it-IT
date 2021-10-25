@@ -5,7 +5,7 @@ redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ description: Prima di completare il processo di onboarding dei canali di vendita
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---

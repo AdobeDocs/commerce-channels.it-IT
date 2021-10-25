@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Gestire gli elenchi di Amazon
 
-Le impostazioni di Elenco prodotti possono essere modificate in qualsiasi momento dopo l&#39;integrazione dello [!DNL Commerce] store. Puoi accedere alle impostazioni dell&#39;elenco sul [dashboard store](./amazon-store-dashboard.md).
+Le impostazioni dell&#39;elenco dei prodotti possono essere modificate in qualsiasi momento dopo la [!DNL Commerce] lo store è integrato. Puoi accedere alle impostazioni dell&#39;inserzione nel [dashboard store](./amazon-store-dashboard.md).
 
-Per accedere agli elenchi dei prodotti in base allo stato dell’elenco, fai clic su **[!UICONTROL Manage Listings]** nella sezione _[!UICONTROL Store Listings]_. Per impostazione predefinita, la pagina[_ Elenco prodotti _](./managing-listings-by-tab.md)si apre alla scheda_[!UICONTROL Active]_ .
+Per accedere agli elenchi dei prodotti in base allo stato dell’elenco, fai clic su **[!UICONTROL Manage Listings]** in _[!UICONTROL Store Listings]_sezione . La[_ Elenco prodotti _](./managing-listings-by-tab.md)viene visualizzata la pagina_[!UICONTROL Active]_ per impostazione predefinita.
 
-Puoi anche fare clic su **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** e **[!UICONTROL In Progress Listings]** nella sezione _[!UICONTROL Store Listings]_per accedere direttamente a tali schede.
+Puoi anche fare clic su **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** e **[!UICONTROL In Progress Listings]** in _[!UICONTROL Store Listings]_per accedere direttamente a tali schede.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** sono  _pronti per_ le inserzioni o le inserzioni  _incomplete_, a seconda delle impostazioni delle  [_azioni di_](./product-listing-actions.md) Product Listing. Consulta le descrizioni delle schede in [Gestisci elenchi per stato / Tab](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** o _Pronto per l&#39;elenco_ inserzioni o _Inserzioni incomplete_, a seconda del [_Azioni di elenco dei prodotti_](./product-listing-actions.md) impostazioni. Consulta le descrizioni delle schede in [Gestire gli elenchi per stato/scheda](./managing-listings-by-tab.md).
 
-Consulta [Gestire gli elenchi per stato / Tab](./managing-listings-by-tab.md) e [Gestire gli elenchi per azione](./managing-listings-by-action.md).
+Vedi [Gestire gli elenchi per stato/scheda](./managing-listings-by-tab.md) e [Gestire gli elenchi per azione](./managing-listings-by-action.md).
 
 ## Accedere agli elenchi dei prodotti
 
-1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Sulla _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. Fai clic su **[!UICONTROL View Store]** su una scheda del negozio.
 
-1. Nel dashboard dello store, fai clic su **[!UICONTROL Manage Listings]** nella sezione _[!UICONTROL Store Listings]_.
+1. Nel dashboard dello store, fai clic su **[!UICONTROL Manage Listings]** in _[!UICONTROL Store Listings]_sezione .
 
 1. Per visualizzare gli elenchi in tale stato, fare clic su una scheda.
 
-   Per impostazione predefinita viene visualizzata la scheda _[!UICONTROL Active]_.
+   La _[!UICONTROL Active]_per impostazione predefinita viene visualizzata la scheda .

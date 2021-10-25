@@ -4,7 +4,7 @@ description: Utilizza l’ambito di determinazione dei prezzi Commerce per gesti
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---

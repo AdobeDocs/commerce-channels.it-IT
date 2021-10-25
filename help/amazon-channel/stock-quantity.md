@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---

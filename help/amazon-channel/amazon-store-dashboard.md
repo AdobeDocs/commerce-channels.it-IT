@@ -12,11 +12,11 @@ ht-degree: 0%
 # Dashboard di Amazon Store
 
 
-Nella visualizzazione _[!UICONTROL Amazon Stores]_nella home page del canale di vendita Amazon, puoi fare clic su **[!UICONTROL View Store]**su una scheda store per aprire il dashboard del negozio.
+In _[!UICONTROL Amazon Stores]_visualizza nella home page del canale di vendita Amazon, puoi fare clic su **[!UICONTROL View Store]**su una scheda del negozio per aprire il dashboard del negozio.
 
-Il dashboard dello store è la posizione principale in cui visualizzare l’attività per ciascuno degli store Amazon. Con i tuoi [!DNL Amazon Seller] archivi aggiunti e integrati, gli ordini e le vendite vengono monitorati attraverso la visualizzazione dei dati del tuo negozio. Nel dashboard puoi visualizzare le entrate, monitorare le tendenze e rivedere i dati di vendita per le inserzioni. Gli elenchi e le vendite sono ulteriormente raggruppati e monitorati per tipo di elenco, inclusi attivi, inattivi e in corso.
+Il dashboard dello store è la posizione principale in cui visualizzare l’attività per ciascuno degli store Amazon. Con il tuo [!DNL Amazon Seller] memorizza gli ordini e le vendite aggiunti e integrati attraverso la visualizzazione dati del negozio. Nel dashboard puoi visualizzare le entrate, monitorare le tendenze e rivedere i dati di vendita per le inserzioni. Gli elenchi e le vendite sono ulteriormente raggruppati e monitorati per tipo di elenco, inclusi attivi, inattivi e in corso.
 
-Puoi anche accedere alle [impostazioni store](./ob-store-review.md), [gestire le inserzioni](./managing-product-listings.md) e visualizzare i dati di vendita e le informazioni recenti sull&#39;ordine.
+Puoi anche accedere al tuo [impostazioni store](./ob-store-review.md), [gestire le inserzioni](./managing-product-listings.md), e visualizzare i dati di vendita e le informazioni sugli ordini recenti.
 
 ![Dashboard di Amazon Store](assets/amazon-store-dashboard.png)
 
@@ -32,7 +32,7 @@ Il dashboard Store include anche i dati archiviati e collegamenti alle impostazi
 
 - [**[!UICONTROL Store Settings]**](./ob-store-review.md) - Accedi alle impostazioni e ai rapporti dell&#39;archivio.
 
-   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Controlla in che modo il catalogo dei prodotti interagisce con  [!DNL Amazon Marketplace].
+   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Controllare il modo in cui il catalogo dei prodotti interagisce con [!DNL Amazon Marketplace].
 
    - [**[!UICONTROL Order settings]**](./order-settings.md) - Controllare la modalità di gestione degli ordini Amazon.
 
@@ -40,18 +40,18 @@ Il dashboard Store include anche i dati archiviati e collegamenti alle impostazi
 
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Definire la modalità di modifica del prezzo di listino di Amazon per gli elenchi qualificati.
 
-   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md) -  [Analisi ](./competitive-price-analysis.md) dei prezzi competitivi e  [miglioramenti](./listing-improvements.md) nell&#39;elenco.
+   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md) - [Analisi dei prezzi competitiva](./competitive-price-analysis.md) e [elenco dei miglioramenti](./listing-improvements.md).
 
-   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) -  [Inserimento di ](./listing-changes-log.md) modifiche nell’elenco ed errori  [di comunicazione](./communication-errors-log.md).
+   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [Modifiche all&#39;elenco](./listing-changes-log.md) e [errori di comunicazione](./communication-errors-log.md).
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Controlla le impostazioni del nome dell&#39;archivio dei canali di vendita e-mail e Amazon in  [!DNL Commerce] Admin.
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Rivedi le impostazioni del nome dell&#39;archivio dei canali di vendita e-mail e Amazon nella sezione [!DNL Commerce] Amministratore.
 
 - **[!UICONTROL Store Listings]** - Mostra una rappresentazione grafica delle vendite del negozio per gli ultimi 7 o 30 giorni insieme ai dati di vendita del ciclo di vita.
 
-   Questa sezione mostra anche i conteggi degli elenchi per gli [elenchi attivi](./active-listings.md), [elenchi inattivi](./inactive-listings.md) e gli elenchi in corso, insieme ai collegamenti alla pagina corrispondente _[!UICONTROL Product Listings]_. Puoi anche fare clic su **[!UICONTROL Manage Listings]**per aprire la pagina_[!UICONTROL Product Listings]_. Consulta [Gestire gli elenchi Amazon](./managing-product-listings.md).
+   Questa sezione mostra anche i conteggi delle inserzioni per [elenchi attivi](./active-listings.md), [elenchi inattivi](./inactive-listings.md), e in corso di elaborazione, insieme ai collegamenti ai relativi _[!UICONTROL Product Listings]_pagina. Puoi anche fare clic su **[!UICONTROL Manage Listings]**per aprire_[!UICONTROL Product Listings]_ pagina. Vedi [Gestire gli elenchi di Amazon](./managing-product-listings.md).
 
-- **[!UICONTROL Recent Orders]** - Visualizza informazioni per gli ordini Amazon più recenti. Le informazioni elencate si basano sulle informazioni ricevute da Amazon. Questa tabella non viene aggiornata con le informazioni sull&#39;ordine [!DNL Commerce], anche quando è abilitato [order import](./order-settings.md). Per visualizzare tutti gli ordini di Amazon, fai clic su **Tutti gli ordini**.
+- **[!UICONTROL Recent Orders]** - Visualizza informazioni per gli ordini Amazon più recenti. Le informazioni elencate si basano sulle informazioni ricevute da Amazon. Questa tabella non viene aggiornata con [!DNL Commerce] informazioni sull&#39;ordine, anche quando [importazione ordini](./order-settings.md) è abilitato. Per visualizzare tutti gli ordini di Amazon, fai clic su **Tutti gli ordini**.
 
-   Per ulteriori informazioni, consulta [Visualizza ordini Amazon](./amazon-orders-all.md) e [Gestisci ordini](./managing-orders.md) .
+   Vedi [Visualizza ordini Amazon](./amazon-orders-all.md) per le descrizioni delle colonne, consulta [Gestisci ordini](./managing-orders.md) per ulteriori informazioni.
 
-- **[!UICONTROL Seller Central links]** - Fornisce collegamenti a  [!DNL Amazon Seller Central] informazioni importanti.
+- **[!UICONTROL Seller Central links]** - Fornisce collegamenti a importanti [!DNL Amazon Seller Central] informazioni.

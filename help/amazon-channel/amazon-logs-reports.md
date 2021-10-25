@@ -1,6 +1,6 @@
 ---
 title: Registri e rapporti sull’archivio
-description: Utilizza i registri e i rapporti dell’archivio per vedere cosa succede nel tuo Adobe Commerce o Magenti Open Source Store e negli elenchi di Amazon Marketplace.
+description: Utilizza i registri e i rapporti dell’archivio per vedere cosa succede nell’Adobe Commerce o nel tuo archivio Magenti Open Source e negli elenchi di Amazon Marketplace.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,18 +15,18 @@ L’estensione del canale di vendita Amazon include alcuni registri e rapporti s
 
 Non sono disponibili azioni per i registri o i rapporti dell’archivio, in quanto si tratta di funzioni di sola revisione.
 
-I seguenti registri sono accessibili dal [dashboard store](./amazon-store-dashboard.md).
+È possibile accedere ai seguenti registri dal [dashboard store](./amazon-store-dashboard.md).
 
-- Il [registro delle modifiche dell&#39;elenco](./listing-changes-log.md) mostra le modifiche che si sono verificate nel tuo account Amazon Seller come riflesso delle impostazioni del tuo canale di vendita Amazon.
+- La [Registro delle modifiche dell&#39;elenco](./listing-changes-log.md) mostra le modifiche che si sono verificate nel tuo account Amazon Seller come riflesso delle impostazioni del tuo canale di vendita Amazon.
 
-- Il [Registro errori di comunicazione](./communication-errors-log.md) mostra eventuali errori di comunicazione segnalati con Amazon.
+- La [Registro errori di comunicazione](./communication-errors-log.md) mostra eventuali errori di comunicazione segnalati con Amazon.
 
-È possibile accedere ai seguenti rapporti specifici per lo store dal [dashboard dello store](./amazon-store-dashboard.md).
+È possibile accedere ai seguenti rapporti specifici per archivio dal [dashboard store](./amazon-store-dashboard.md).
 
-- Il rapporto [Analisi dei prezzi competitivi](./competitive-price-analysis.md) mostra che il tuo Amazon _ha sbarcato il prezzo_ (prezzo di listino più prezzo di spedizione) in relazione al prezzo [Buy Box](./buy-box-competitor-pricing.md) e al prezzo [più basso del concorrente](./lowest-competitor-pricing.md).
+- La [Analisi dei prezzi competitiva](./competitive-price-analysis.md) il rapporto mostra che il tuo Amazon _prezzo franco_ (prezzo di listino più prezzo di spedizione) in relazione [Buy Box](./buy-box-competitor-pricing.md) prezzo e [concorrente più basso](./lowest-competitor-pricing.md) prezzo.
 
-- Il rapporto [Miglioramenti dell&#39;elenco](./listing-improvements.md) mostra tutti i miglioramenti suggeriti nell&#39;elenco di prodotti forniti da Amazon per lo store selezionato.
+- La [Miglioramenti all’elenco](./listing-improvements.md) il rapporto mostra tutti i miglioramenti suggeriti nell’elenco forniti da Amazon per lo store selezionato.
 
 >[!TIP]
 >
->È inoltre possibile controllare il file di registro per ulteriori informazioni quando è necessaria una risoluzione dei problemi. Consulta [Impostazioni amministratore canale di vendita](./sales-channel-settings.md). La registrazione della sincronizzazione dei canali di vendita Amazon viene scritta nel file `{Commerce Root}/var/log/channel_amazon.log` e può essere visualizzata in [modalità sviluppatore](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}.
+>È inoltre possibile controllare il file di registro per ulteriori informazioni quando è necessaria una risoluzione dei problemi. Vedi [impostazioni dell&#39;amministratore del canale di vendita](./sales-channel-settings.md). La registrazione della sincronizzazione dei canali di vendita Amazon viene scritta nel `{Commerce Root}/var/log/channel_amazon.log` e può essere visualizzato in [modalità sviluppatore](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}.

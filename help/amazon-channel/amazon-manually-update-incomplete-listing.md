@@ -11,35 +11,35 @@ ht-degree: 0%
 
 # Aggiorna informazioni richieste (elenco incompleto)
 
-Gli elenchi visualizzati nella scheda _[!UICONTROL Incomplete]_includono i prodotti di catalogo [!DNL Commerce] che soddisfano i requisiti di idoneità di Amazon definiti nelle regole di elenco, ma che non contengono le informazioni richieste da Amazon prima dell’inserimento nell’elenco.
+Elenco visualizzato sul _[!UICONTROL Incomplete]_includi le [!DNL Commerce] cataloghi di prodotti che soddisfano i requisiti di idoneità di Amazon definiti nelle regole di elenco, ma per i quali mancano le informazioni richieste da Amazon prima dell’inserimento nell’elenco.
 
 ## Aggiorna le informazioni richieste (impossibile assegnarle all&#39;elenco Amazon) {#update-required-info-unable-to-assign-to-amazon-listing}
 
-1. Visualizza gli elenchi nella scheda _[!UICONTROL Incomplete]_in [Gestisci elenchi](./managing-product-listings.md).
+1. Visualizza gli elenchi nella _[!UICONTROL Incomplete]_scheda in [Gestisci elenchi](./managing-product-listings.md).
 
-1. Nella colonna _[!UICONTROL Action]_, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
+1. In _[!UICONTROL Action]_colonna, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
 
 1. Controlla le informazioni sul prodotto del catalogo (SKU e Nome prodotto) per cui stai cercando di trovare una corrispondenza con un elenco Amazon.
 
-1. Per **[!UICONTROL Assign ASIN]**, immetti l’ASIN assegnato da Amazon per l’elenco da abbinare al prodotto del catalogo.
+1. Per **[!UICONTROL Assign ASIN]**, immetti l’ASIN assegnato da Amazon per l’elenco che desideri associare al prodotto catalogo.
 
 1. Per salvare la corrispondenza del prodotto, fai clic su **[!UICONTROL Save Listing Update]**.
 
-L’elenco viene ora associato al catalogo e l’elenco viene quindi aggiornato e pubblicato in Amazon in base alle impostazioni del cron e dell’elenco. Viene inoltre rimosso dalla scheda _[!UICONTROL Incomplete]_.
+L’elenco viene ora associato al catalogo e l’elenco viene quindi aggiornato e pubblicato in Amazon in base alle impostazioni del cron e dell’elenco. Viene inoltre rimosso dalla _[!UICONTROL Incomplete]_scheda .
 
 ![Assegnazione manuale di ASIN per nessuna corrispondenza dell&#39;elenco](assets/amazon-listing-update-assign-asin.png)
 
 ## Aggiorna le informazioni richieste (Trovate più corrispondenze) {#update-required-info-multiple-matches-found}
 
-1. Visualizza gli elenchi nella scheda _[!UICONTROL Incomplete]_in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Visualizza gli elenchi nella _[!UICONTROL Incomplete]_scheda in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Nella colonna _Azione_, fai clic su **Seleziona** > **Aggiorna informazioni richieste** per l&#39;elenco che desideri aggiornare.
+1. In _Azione_ colonna, fai clic su **Seleziona** > **Aggiorna informazioni richieste** per l’elenco da aggiornare.
 
 1. Controlla le informazioni sul prodotto del catalogo (SKU e Nome prodotto) per cui stai cercando di trovare una corrispondenza con un elenco Amazon.
 
-1. Per **[!UICONTROL Select Correct Amazon Listing]**, scegli l’ASIN corretto per l’elenco a cui desideri associare il prodotto.
+1. Per **[!UICONTROL Select Correct Amazon Listing]**, scegli l&#39;ASIN corretto per l&#39;elenco che desideri associare a questo prodotto.
 
-   Le opzioni elencate qui includono prodotti di catalogo identificati come possibili corrispondenze. Se nessuna delle opzioni è corretta, è possibile scegliere `Manually Enter Correct ASIN` e immettere manualmente l&#39;ASIN per il prodotto.
+   Le opzioni elencate qui includono prodotti di catalogo identificati come possibili corrispondenze. Se nessuna delle opzioni è corretta, puoi scegliere `Manually Enter Correct ASIN` e immettere manualmente l&#39;ASIN per il prodotto.
 
 1. Se si immette l&#39;ASIN manualmente, immettere l&#39;ASIN corretto per **[!UICONTROL Manually Assign ASIN]**.
 
@@ -49,15 +49,15 @@ L’elenco viene ora associato al catalogo e l’elenco viene quindi aggiornato 
 
 ## Aggiorna le informazioni richieste (ha varianti) {#update-required-info-has-variants}
 
-1. Visualizza gli elenchi nella scheda _[!UICONTROL Incomplete]_in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Visualizza gli elenchi nella _[!UICONTROL Incomplete]_scheda in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Nella colonna _[!UICONTROL Action]_, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
+1. In _[!UICONTROL Action]_colonna, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
 
 1. Controlla le informazioni sul prodotto del catalogo (SKU e Nome prodotto) per cui stai cercando di trovare una corrispondenza con un elenco Amazon.
 
-1. Per **[!UICONTROL Select Correct Amazon Listing]**, scegli l’ASIN corretto per l’elenco a cui desideri associare il prodotto.
+1. Per **[!UICONTROL Select Correct Amazon Listing]**, scegli l&#39;ASIN corretto per l&#39;elenco che desideri associare a questo prodotto.
 
-   Le opzioni elencate qui includono prodotti di catalogo identificati come possibili corrispondenze. Se nessuna delle opzioni è corretta, è possibile selezionare `Manually Enter Correct ASIN` e immettere manualmente l&#39;ASIN per il prodotto.
+   Le opzioni elencate qui includono prodotti di catalogo identificati come possibili corrispondenze. Se nessuna delle opzioni è corretta, puoi selezionare `Manually Enter Correct ASIN` e immettere manualmente l&#39;ASIN per il prodotto.
 
 1. Se si immette l&#39;ASIN manualmente, immettere l&#39;ASIN corretto per **[!UICONTROL Manually Assign ASIN]**.
 
@@ -67,15 +67,15 @@ L’elenco viene ora associato al catalogo e l’elenco viene quindi aggiornato 
 
 ## Aggiorna le informazioni richieste (condizione mancante) {#update-required-info-missing-condition}
 
-1. Visualizza gli elenchi nella scheda _[!UICONTROL Incomplete]_in [Gestisci elenchi](./managing-product-listings.md).
+1. Visualizza gli elenchi nella _[!UICONTROL Incomplete]_scheda in [Gestisci elenchi](./managing-product-listings.md).
 
-1. Nella colonna _[!UICONTROL Action]_, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
+1. In _[!UICONTROL Action]_colonna, fai clic su **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**per l’elenco da aggiornare.
 
 1. Controlla le informazioni sul prodotto del catalogo (SKU e Nome prodotto) per cui stai cercando di trovare una corrispondenza con un elenco Amazon.
 
 1. Per **[!UICONTROL Condition]**, scegli la condizione appropriata.
 
-   L&#39;elenco delle opzioni disponibili dipende dalle impostazioni [Product Listing Condition](./product-listing-condition.md).
+   L’elenco delle opzioni disponibili dipende dal [Condizione dell’elenco dei prodotti](./product-listing-condition.md) impostazioni.
 
 1. Per salvare la corrispondenza del prodotto, fai clic su **[!UICONTROL Save Listing Update]** .
 

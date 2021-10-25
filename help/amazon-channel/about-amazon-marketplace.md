@@ -1,6 +1,6 @@
 ---
 title: Informazioni su Amazon Marketplace
-description: Espandi la portata del tuo Adobe Commerce o archivio Magenti Open Source sfruttando il catalogo dei prodotti come elenchi in Amazon Marketplace.
+description: Espandi la portata del tuo Adobe Commerce o store di Magenti Open Source sfruttando il catalogo dei prodotti come elenchi in Amazon Marketplace.
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,11 +9,11 @@ ht-degree: 0%
 
 ---
 
-# Informazioni su [!DNL Amazon Marketplace]
+# Informazioni [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target=&quot;_blank&quot;} è una piattaforma di e-commerce posseduta e gestita da Amazon che consente ai venditori di terze parti di vendere prodotti nuovi o utilizzati. Utilizzando [!DNL Amazon Marketplace], i venditori di terze parti possono accedere alla base clienti globale di Amazon. I commercianti che elencano i prodotti in Amazon per la vendita, inclusi gli utenti di Adobe Commerce o di Magenti Open Source, sono definiti da Amazon come &quot;venditori di terze parti&quot;.
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target=&quot;_blank&quot;} è una piattaforma di e-commerce posseduta e gestita da Amazon che consente ai venditori di terze parti di vendere prodotti nuovi o utilizzati. Utilizzo [!DNL Amazon Marketplace], i venditori di terze parti possono accedere alla base clienti globale di Amazon. I commercianti che elencano i prodotti in Amazon per la vendita, inclusi gli utenti Adobe Commerce o di Magento Open Source, sono definiti da Amazon come &quot;venditori di terze parti&quot;.
 
-I venditori di terze parti di qualsiasi dimensione possono creare un account [!DNL Amazon Seller Central] e utilizzare [!DNL Amazon Marketplace] per raggiungere la base di clienti globale di Amazon. Una volta creato e attivo un account, i venditori possono aggiungere ed elencare i prodotti in vendita, gestire gli ordini e le scorte e soddisfare gli ordini.
+I venditori di terze parti di qualsiasi dimensione possono creare un [!DNL Amazon Seller Central] e utilizza [!DNL Amazon Marketplace] per raggiungere la base di clienti globale di Amazon. Una volta creato e attivo un account, i venditori possono aggiungere ed elencare i prodotti in vendita, gestire gli ordini e le scorte e soddisfare gli ordini.
 
 ## Elenco Amazon
 
@@ -35,16 +35,16 @@ Amazon offre due opzioni per l’evasione e la spedizione degli ordini:
 
 - **Eseguito dal commerciante (FBM)**: I venditori di terze parti memorizzano il proprio inventario. Quando un cliente effettua un ordine, il venditore gestisce l&#39;imballaggio e la spedizione al cliente. Questa opzione ti consente di completare le spedizioni tramite Adobe Commerce e Magento Open Source o un’altra terza parte.
 
-- **Realizzato da Amazon (FBA)**: I venditori di terze parti memorizzano le scorte nei centri di evasione Amazon in tutto il mondo. Quando un cliente effettua un ordine, Amazon gestisce il packaging e la spedizione al cliente. I dettagli e lo stato dell’ordine vengono inviati ad Adobe Commerce o Magenti Open Source.
+- **Realizzato da Amazon (FBA)**: I venditori di terze parti memorizzano le scorte nei centri di evasione Amazon in tutto il mondo. Quando un cliente effettua un ordine, Amazon gestisce il packaging e la spedizione al cliente. I dettagli e lo stato dell’ordine vengono inviati ad Adobe Commerce o al Magento Open Source.
 
-L&#39;estensione [!DNL Amazon Sales Channel] supporta entrambe le opzioni, ricezione e tracciamento di tali ordini. Al termine dell&#39;esecuzione, gli stati dell&#39;ordine vengono aggiornati automaticamente. Consulta [Flussi di lavoro di evasione](./fulfillment-workflows.md).
+La [!DNL Amazon Sales Channel] l&#39;estensione supporta entrambe le opzioni, ricezione e tracciamento di questi ordini. Al termine dell&#39;esecuzione, gli stati dell&#39;ordine vengono aggiornati automaticamente. Vedi [Flussi di lavoro di evasione](./fulfillment-workflows.md).
 
 ## Prima di vendere su Amazon
 
 Amazon segue una serie di criteri e flussi di lavoro per garantire che tutti i venditori e i prodotti aderiscano a specifiche linee guida. Per verificare che i prodotti e l’account siano approvati e idonei all’inserimento nell’elenco, controlla le seguenti informazioni e policy di Amazon:
 
-- [Guida per i venditori](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/) Amazon{target=&quot;_blank&quot;}
-- [Regole di spedizione](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}
-- [Criteri del programma](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target=&quot;_blank&quot;}
-- [Regole di vendita e codice di condotta](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target=&quot;_blank&quot;}
-- [Elenco di prodotti rinnovati (rinnovati, preproprietari e open-box) su Amazon](https://sell.amazon.com/programs/renewed){target=&quot;_blank&quot;}
+- [Aiuto per i venditori Amazon](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target=&quot;_blank&quot;}
+- [Politiche di spedizione](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}
+- [Politiche del programma](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target=&quot;_blank&quot;}
+- [Politiche di vendita e codice di condotta](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target=&quot;_blank&quot;}
+- [Elencare prodotti rinnovati (rinnovati, preproprietari e open-box) su Amazon](https://sell.amazon.com/programs/renewed){target=&quot;_blank&quot;}

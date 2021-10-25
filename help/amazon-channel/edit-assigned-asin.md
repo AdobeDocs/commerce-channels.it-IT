@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Modificare un ASIN assegnato
 
-Puoi modificare il valore ASIN di Amazon assegnato a un prodotto nel catalogo [!DNL Commerce]. Questa funzione è utile se un prodotto di catalogo non corrisponde correttamente a uno degli elenchi di Amazon. La modifica dell’ASIN assegnato all’elenco non modifica l’ASIN assegnato a un prodotto da Amazon. Cambia solo l’elenco Amazon a cui corrisponde il prodotto del catalogo.
+Puoi modificare il valore ASIN di Amazon assegnato a un prodotto nel tuo [!DNL Commerce] catalogo. Questa funzione è utile se un prodotto di catalogo non corrisponde correttamente a uno degli elenchi di Amazon. La modifica dell’ASIN assegnato all’elenco non modifica l’ASIN assegnato a un prodotto da Amazon. Cambia solo l’elenco Amazon a cui corrisponde il prodotto del catalogo.
 
 Quando un ASIN assegnato viene modificato:
 
@@ -22,11 +22,11 @@ Quando un ASIN assegnato viene modificato:
 
 ## Modificare un ASIN assegnato
 
-1. Visualizza l’elenco nella scheda _[!UICONTROL Product Listings]_(_[!UICONTROL Inactive]_, _[!UICONTROL Active]_o_[!UICONTROL Ineligible]_ ).
+1. Visualizza l&#39;elenco _[!UICONTROL Product Listings]_page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_oppure_[!UICONTROL Ineligible]_ ).
 
-1. In _[!UICONTROL Actions]_, fai clic su **[!UICONTROL Edit Assigned ASIN]**.
+1. Sotto _[!UICONTROL Actions]_, fai clic su **[!UICONTROL Edit Assigned ASIN]**.
 
-   Questa azione apre la pagina _[!UICONTROL Product Listing Update]_.
+   Questa azione apre la _[!UICONTROL Product Listing Update]_pagina.
 
 1. Per **[!UICONTROL Assign ASIN]**, immettere il nuovo valore ASIN.
 

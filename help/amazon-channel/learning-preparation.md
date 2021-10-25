@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Apprendimento e preparazione
 
-La vista _[!UICONTROL Learning and Preparation]_mostra l’elenco delle attività di preinstallazione consigliate prima di integrare gli archivi Amazon. Fornisce inoltre collegamenti a materiali didattici, quali:
+La _[!UICONTROL Learning and Preparation]_visualizza l&#39;elenco delle attività di preconfigurazione consigliate prima di integrare gli archivi Amazon. Fornisce inoltre collegamenti a materiali didattici, quali:
 
-- Questa [guida utente](./overview.md)
+- Questo [guida utente](./overview.md)
 - Esercitazioni video
 
 ![Vista Apprendimento e preparazione](assets/learning-preparation.png)

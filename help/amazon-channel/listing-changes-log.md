@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Registro delle modifiche dell&#39;elenco
 
-Il registro delle modifiche all&#39;elenco mostra le modifiche che si sono verificate nel [!DNL Amazon Seller Account] come riflesso delle impostazioni del canale di vendita Amazon. Questo registro indica le modifiche globali sincronizzate tra il canale di vendita Amazon e Amazon. Questo registro include l’elenco delle modifiche per un SKU di prodotto, ad esempio il tipo di azione (modifica), una breve descrizione della modifica e la data della modifica.
+Il registro delle modifiche dell&#39;elenco mostra le modifiche che si sono verificate nel [!DNL Amazon Seller Account] come riflesso delle impostazioni dei canali di vendita Amazon. Questo registro indica le modifiche globali sincronizzate tra il canale di vendita Amazon e Amazon. Questo registro include l’elenco delle modifiche per un SKU di prodotto, ad esempio il tipo di azione (modifica), una breve descrizione della modifica e la data della modifica.
 
 Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
-Le home page del canale di vendita Amazon condividono alcuni controlli comuni [workspace](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
+Le home page del canale di vendita Amazon condividono alcune [controlli dell&#39;area di lavoro](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
 
 ![Registro delle modifiche dell&#39;elenco](assets/amazon-listing-changes-log.png)
 

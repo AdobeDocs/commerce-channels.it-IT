@@ -16,7 +16,7 @@ Le azioni Regola prezzo definiscono i calcoli di adeguamento applicati all&#39;o
 
 ## Regola di prezzo standard
 
-Una [regola di prezzo standard](./standard-price-rules.md) ti consente di aumentare o diminuire un prezzo di listino Amazon di una percentuale specifica o di un importo fisso in dollari rispetto al prezzo di catalogo [!DNL Commerce] (o origine del prezzo).
+A [norma dei prezzi standard](./standard-price-rules.md) consente di aumentare o diminuire un prezzo di listino Amazon di una percentuale specifica o di un importo fisso in dollari rispetto al [!DNL Commerce] prezzo di catalogo (o fonte di prezzo).
 
 | Sezione | Descrizione |
 |--- |--- |
@@ -25,11 +25,11 @@ Una [regola di prezzo standard](./standard-price-rules.md) ti consente di aument
 
 ## Regola di rideterminazione dei prezzi intelligente
 
-Una [regola di prezzo intelligente](./intelligent-repricing-rules.md) utilizza i prezzi dei concorrenti Amazon per determinare il prezzo del tuo annuncio. I concorrenti sono altri venditori che elencano gli stessi prodotti che stai inserendo in Amazon.
+Un [regola di rideterminazione intelligente dei prezzi](./intelligent-repricing-rules.md) utilizza i prezzi dei concorrenti di Amazon per determinare il prezzo del tuo annuncio. I concorrenti sono altri venditori che elencano gli stessi prodotti che stai inserendo in Amazon.
 
 | Sezione | Descrizione |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Imposta il tipo di regola su `Intelligent repricing rule` insieme ai tuoi requisiti per l’origine del prezzo della concorrenza e il feedback. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Imposta il tipo di regola su `Intelligent repricing rule` insieme ai requisiti di origine e feedback del prezzo della concorrenza. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definire le varianze per le condizioni dello stesso prodotto venduto dai concorrenti. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definire i calcoli di adeguamento applicati all&#39;origine del prezzo per determinare il prezzo di listino |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Definisci il prezzo più basso per un prodotto per evitare che più regole di determinazione prezzi impostino un prezzo di listino troppo basso. |
