@@ -1,10 +1,10 @@
 ---
 title: Installare l’estensione
-description: Per integrare [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] e vendere tramite [!DNL Amazon Marketplace], scarica e installa l’estensione Amazon Sales Channel.
+description: Per integrare [!DNL Commerce] catalogo con [!DNL Amazon Seller Accounts] e vendere tramite [!DNL Amazon Marketplace], scarica e installa l’estensione Amazon Sales Channel.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Solo [!DNL Amazon Sales Channel] le versioni di estensione 4.0+ sono supportate per Adobe Commerce e le versioni di Magenti Open Source 2.4.x. Se esegui una versione 2.3.x, consulta la documentazione per [versione del canale di vendita Amazon compatibile](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Per ulteriori informazioni sulla compatibilità delle versioni, consulta la sezione [Disponibilità](https://devdocs.magento.com/release/availability.html){target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
 
-La [!UICONTROL Amazon Sales Channel] l’estensione installa e aggiunge funzionalità per integrare il catalogo Commerce con [!DNL Amazon Seller Accounts] per vendere tramite [!DNL Amazon Marketplace]. Per esaminare ulteriori informazioni, consulta la sezione [Sales Channel Amazon](https://marketplace.magento.com/magento-module-amazon.html) in [!DNL Commerce Marketplace] e [note sulla versione](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) nella documentazione per gli sviluppatori.
+La [!UICONTROL Amazon Sales Channel] l’estensione installa e aggiunge funzionalità per integrare il catalogo Commerce con [!DNL Amazon Seller Accounts] per vendere tramite [!DNL Amazon Marketplace]. Per esaminare ulteriori informazioni, consulta la sezione [Sales Channel Amazon](https://marketplace.magento.com/magento-module-amazon.html) in [!DNL Commerce Marketplace] e [note sulla versione](release-notes.md).
 
 ## Requisiti
 
@@ -76,7 +76,7 @@ Hai le seguenti opzioni per configurare il canale di vendita Amazon. Non è nece
 
    Questa impostazione è consigliata per **_utenti/amministratori avanzati_**.
 
-1. Fai clic su **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Aggiorna l&#39;estensione
 
