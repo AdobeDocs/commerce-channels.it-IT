@@ -1,35 +1,35 @@
 ---
 title: Inventario e aggiornamenti dei prezzi
-description: '"[!DNL Channel Manager] sincronizza l’inventario e gli aggiornamenti dei prezzi tra Commerce Store e [!DNL Walmart Marketplace] per gestire le operazioni dei canali di vendita dal tuo amministratore Commerce"'
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+description: '''[!DNL Channel Manager] sincronizza l’inventario e gli aggiornamenti dei prezzi tra Commerce Store e [!DNL Walmart Marketplace] per gestire le operazioni dei canali di vendita dal tuo amministratore Commerce'
+exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
+source-git-commit: a1944052f02968c36495275cd5ddfb2ca43ce967
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Inventario e aggiornamenti dei prezzi
 
-Channel Manager tiene traccia dell&#39;inventario e dei prezzi dei prodotti pubblicati e sincronizza le modifiche apportate a Channel Manager e a Walmart Marketplace per riflettere la quantità di azioni e i prezzi correnti negli elenchi dei prodotti.**
+[!DNL Channel Manager] tiene traccia dell&#39;inventario e del prezzo dei prodotti nel negozio di canale. Quando l&#39;inventario o il prezzo cambiano, gli aggiornamenti si sincronizzano con [!DNL Channel Manager] e [!DNL Walmart Marketplace] per riflettere la quantità corrente di scorte e la determinazione dei prezzi negli elenchi dei prodotti.
 
 ## Aggiornamenti dell&#39;inventario
 
-Quando i livelli di inventario cambiano, Channel Manager sincronizza gli aggiornamenti tra il catalogo di prodotti Commerce e il Marketplace Walmart in modo che sia Channel Manager che Walmart Marketplace visualizzino la quantità di azioni corrente.
+Quando i livelli di inventario cambiano, Channel Manager sincronizza gli aggiornamenti tra Commerce e Walmart Marketplace per garantire che Channel Manager e Walmart Marketplace abbiano la quantità di stock corretta.
 
-La visualizzazione delle modifiche all’inventario in Channel Manager e Walmart Marketplace può richiedere fino a 5 minuti.
+La sincronizzazione degli aggiornamenti di inventario tra Channel Manager e marketplace può richiedere fino a 10 minuti.
 
-* **Aggiornamenti della quantità di magazzino nel catalogo prodotti**- Se la quantità di magazzino Commerce cambia per un prodotto venduto su Walmart a causa di un [modifica manuale della quantità delle scorte](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html) o un rimborso o un annullamento dell&#39;ordine, Channel Manager sincronizza il cambiamento con il canale di vendita collegato e il [!DNL Walmart Marketplace].
+* **Aggiornamenti della quantità di magazzino nel catalogo prodotti**-Quando la quantità di magazzino Commerce cambia a causa di [modifiche alla quantità di scorte manuali](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), rimborsi o annullamenti, Channel Manager sincronizza la modifica ai canali collegati e [!DNL Walmart Marketplace].
 
-* **Ridurre la quantità di azioni per riflettere gli ordini di Walmart Marketplace**- Dopo che un ordine di Marketplace Walmart si sincronizza con Channel Manager, Channel Manager invia l&#39;aggiornamento al sistema di ordini Commerce. Il commercio adegua le quantità delle scorte in base all&#39;ordine. Quindi, la quantità aggiornata viene sincronizzata con Walmart Marketplace. potrebbero essere presenti alcune differenze nella quantità delle scorte mostrate in Channel Manager e Marketplace fino al completamento delle operazioni di sincronizzazione.
+* **Ridurre la quantità di azioni per riflettere gli ordini di Walmart Marketplace**- Dopo che un ordine di Marketplace Walmart si sincronizza con Channel Manager, Channel Manager invia l&#39;aggiornamento al sistema di ordini Commerce. Il commercio adegua le quantità delle scorte in base all&#39;ordine. Quindi, la quantità aggiornata viene sincronizzata con Walmart Marketplace. Fino al completamento delle operazioni di sincronizzazione, potrebbero verificarsi differenze di quantità tra Channel Manager e Marketplace.
 
 >[!IMPORTANT]
 >
-> Dopo che un ordine Walmart Marketplace si sincronizza con Channel Manager, le quantità di inventario e altre informazioni di elaborazione degli ordini vengono aggiornate solo per i rimborsi e le cancellazioni iniziati da Commerce. Se un ordine viene rimborsato o annullato da Walmart Marketplace, elabora la modifica da Commerce per assicurarsi che le quantità di inventario e le informazioni sull’ordine di Commerce siano accurate.
+> Dopo che un ordine Walmart Marketplace viene sincronizzato con Channel Manager, le quantità di inventario e le informazioni sull&#39;ordine vengono aggiornate solo per i rimborsi e le cancellazioni iniziati da Commerce. Se un ordine viene rimborsato o annullato da Walmart Marketplace, elabora la modifica da Commerce per garantire l&#39;accuratezza delle quantità di inventario e delle informazioni sull&#39;ordine di Commerce.
 
 ## Aggiornamenti dei prezzi
 
-Quando il prezzo del prodotto cambia in Commerce, Channel Manager sincronizza l’aggiornamento dal catalogo prodotti Commerce a Walmart Marketplace. La visualizzazione delle modifiche di inventario può richiedere fino a 5 minuti.
+Quando il prezzo del prodotto cambia in Commerce, Channel Manager sincronizza l’aggiornamento dal [!DNL Commerce] catalogo di prodotti in [!DNL Walmart Marketplace]. Il mercato può richiedere fino a cinque minuti per visualizzare le modifiche del prezzo.
 
 ### Gestione dei prezzi per un prodotto pubblicato
 
@@ -37,7 +37,5 @@ Quando il prezzo del prodotto cambia in Commerce, Channel Manager sincronizza l�
 1. Nella griglia del prodotto, individua il prodotto da aggiornare e seleziona **[!UICONTROL Edit]**.
 1. Rivedi e aggiorna il prezzo in base alle esigenze.
 1. **[!UICONTROL Save]** il cambiamento.
-
-Channel Manager sincronizza gli aggiornamenti dei prezzi al negozio di canale e [!DNL Walmart Marketplace]. Questa operazione può richiedere fino a 5 minuti.
 
 Per informazioni dettagliate sulla gestione della configurazione del prezzo del prodotto in Commerce, consulta [Gestire i prezzi](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
