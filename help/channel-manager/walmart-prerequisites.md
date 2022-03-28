@@ -1,13 +1,13 @@
 ---
 title: Prerequisiti per Walmart
 description: Verifica di disporre delle informazioni e delle risorse di Walmart Marketplace necessarie per l'integrazione con Channel Manager.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Prerequisiti per Walmart
 
@@ -34,8 +34,21 @@ Channel Manager richiede le risorse e le informazioni seguenti per configurare u
 
    * Imposta le autorizzazioni come mostrato nella tabella seguente. Per maggiori dettagli, vedi [Credenziali API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in _Aiuto per i venditori di Marketplace Walmart_.
 
-|    **Adobe di configurazione della chiave API per Walmart**
-| **Autorizzazione** | **Impostazione** | |—|—| | Contenuto | Accesso completo | | Ottieni feed | Solo visualizzazione | | Inventario | Accesso completo | | Articoli | Accesso completo | | Tempo di ritardo | Accesso completo | | Ordine | Accesso completo | | Prezzo | Accesso completo | | Rapporti | Solo visualizzazione | | Resi | Accesso completo | | Regole | Accesso completo | | Spedizione | Accesso completo |
+   **Adobe di configurazione della chiave API per Walmart**
+
+   | **Autorizzazione** | **Impostazione** |
+   |----------------|-------------|
+   | Contenuto | Accesso completo |
+   | Ottieni feed | Solo visualizzazione |
+   | Inventario | Accesso completo |
+   | Elementi | Accesso completo |
+   | Tempo ritardo | Accesso completo |
+   | Ordine | Accesso completo |
+   | Prezzo | Accesso completo |
+   | Rapporti | Solo visualizzazione |
+   | Restituisce | Accesso completo |
+   | Regole | Accesso completo |
+   | Spedizione | Accesso completo |
 
 ## Stato del Negozio Marketplace di Walmart
 
