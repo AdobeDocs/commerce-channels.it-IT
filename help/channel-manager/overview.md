@@ -75,8 +75,8 @@ Per integrare Commerce con Walmart Marketplace, è necessario disporre delle seg
 
    * Imposta le autorizzazioni come mostrato nella tabella seguente. Per maggiori dettagli, vedi [Credenziali API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in *Aiuto per i venditori di Marketplace Walmart*.
 
-|    **Adobe di configurazione della chiave API per Walmart**
-| **Autorizzazione** | **Impostazione** | |—|—| | Contenuto | Accesso completo | | Ottieni feed | Solo visualizzazione | | Inventario | Accesso completo | | Articoli | Accesso completo | | Tempo di ritardo | Accesso completo | | Ordine | Accesso completo | | Prezzo | Accesso completo | | Rapporti | Solo visualizzazione | | Resi | Accesso completo | | Regole | Accesso completo | | Spedizione | Accesso completo |
+&#x200B;|    **Adobe di configurazione della chiave API per Walmart**
+&#x200B;| **Autorizzazione** | **Impostazione** | |—|—| | Contenuto | Accesso completo | | Ottieni feed | Solo visualizzazione | | Inventario | Accesso completo | | Articoli | Accesso completo | | Tempo di ritardo | Accesso completo | | Ordine | Accesso completo | | Prezzo | Accesso completo | | Rapporti | Solo visualizzazione | | Resi | Accesso completo | | Regole | Accesso completo | | Spedizione | Accesso completo |
 
 ## Stato del Negozio Marketplace di Walmart
 
