@@ -4,9 +4,9 @@ description: Scopri come installare e utilizzare [!DNL Channel Manager] per inte
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ Per integrare Commerce con Walmart Marketplace, è necessario disporre delle seg
 
    * Imposta le autorizzazioni come mostrato nella tabella seguente. Per maggiori dettagli, vedi [Credenziali API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in *Aiuto per i venditori di Marketplace Walmart*.
 
-&#x200B;|    **Adobe di configurazione della chiave API per Walmart**
-&#x200B;| **Autorizzazione** | **Impostazione** | |—|—| | Contenuto | Accesso completo | | Ottieni feed | Solo visualizzazione | | Inventario | Accesso completo | | Articoli | Accesso completo | | Tempo di ritardo | Accesso completo | | Ordine | Accesso completo | | Prezzo | Accesso completo | | Rapporti | Solo visualizzazione | | Resi | Accesso completo | | Regole | Accesso completo | | Spedizione | Accesso completo |
+   **Adobe di configurazione della chiave API per Walmart**
+
+   | **Autorizzazione** | **Impostazione** |
+   |----------------|-------------|
+   | Contenuto | Accesso completo |
+   | Ottieni feed | Solo visualizzazione |
+   | Inventario | Accesso completo |
+   | Elementi | Accesso completo |
+   | Tempo ritardo | Accesso completo |
+   | Ordine | Accesso completo |
+   | Prezzo | Accesso completo |
+   | Rapporti | Solo visualizzazione |
+   | Restituisce | Accesso completo |
+   | Regole | Accesso completo |
+   | Spedizione | Accesso completo |
 
 ## Stato del Negozio Marketplace di Walmart
 
