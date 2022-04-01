@@ -1,9 +1,10 @@
 ---
 title: Pubblicare annunci su Walmart
 description: Pubblica annunci per i prodotti Commerce su Walmart Marketplace per iniziare a vendere.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -13,20 +14,21 @@ ht-degree: 0%
 Come altri mercati, Walmart consente ai venditori di terze parti di elencare gli articoli venduti da altri.
 
 La piattaforma utilizza identificatori di prodotto come UPC e GTIN per abbinare gli articoli già in vendita.
-Per i prodotti abbinati, l’elenco esistente di Walmart Marketplace viene aggiornato per includere l’offerta per il prodotto Commerce.
-Di solito, i prodotti con i prezzi più bassi compaiono prima nei risultati. Ma anche altri fattori come le recensioni influenzano il posizionamento.
+Per i prodotti abbinati, l’elenco esistente di Walmart Marketplace viene aggiornato per includere l’offerta di prodotto Commerce.
 
-## Flusso di lavoro corrispondente
+Di solito, i prodotti con i prezzi più bassi appaiono prima nei risultati, ma altri fattori come le recensioni influiscono anche sul posizionamento.
 
-Quando si confrontano i prodotti, Channel Manager invia i dati del prodotto a Walmart Marketplace per cercare gli elenchi esistenti con valori di attributo che corrispondono all’attributo di prodotto Commerce mappato.
+## Prodotti abbinati
+
+Quando si confrontano i prodotti, Channel Manager invia i dati del prodotto a Walmart Marketplace per cercare gli elenchi esistenti con valori di attributo che corrispondono all’attributo di prodotto Commerce mappato. I criteri di corrispondenza sono determinati dal [configurazione della mappatura degli attributi](map-product-attributes-for-matching.md) per il tuo canale store.
 
 Se viene trovata una corrispondenza, l’elenco dei prodotti esistenti viene aggiornato per aggiungere la tua offerta.
 
-## Prerequisiti
+### Prerequisiti
 
 Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Configurare la corrispondenza dei prodotti](map-product-attributes-for-matching.md)
 
-## Selezionare e abbinare i prodotti
+#### Selezionare e abbinare i prodotti
 
 1. Apri un canale di vendita collegato.
 
@@ -40,11 +42,9 @@ Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli 
 
    ![Inviare prodotti al canale di vendita collegato](assets/products-submit-for-matching.png)
 
-   Per completare l&#39;operazione di match, Walmart Marketplace può richiedere fino a 30 minuti.
+   Lo stato dei prodotti selezionati viene modificato in [!UICONTROL *Elaborazione*] fino al completamento dell’operazione di abbinamento. Per completare l&#39;operazione di match, Walmart Marketplace può richiedere fino a 30 minuti.
 
-   Lo stato dei prodotti selezionati viene modificato in *[!UICONTROL Processing]* fino al completamento delle operazioni di abbinamento. Per completare l&#39;operazione di match, Walmart Marketplace può richiedere fino a 30 minuti.
-
-## Verifica lo stato di corrispondenza
+### Verifica lo stato di corrispondenza
 
 1. Seleziona **Aggiorna prodotti** per aggiornare lo stato del prodotto più recente.
 
@@ -62,18 +62,108 @@ Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli 
 
       * Corrispondenza trovata, ma prodotto pubblicato come staging perché il [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status).
 
-## Risolvere i problemi relativi agli errori di corrispondenza del prodotto
+### Controlla l&#39;elenco su Walmart
+
+Dopo aver eseguito la corrispondenza dei prodotti, rivedi l’elenco dei prodotti aggiornato e verifica i dettagli dei prodotti, il prezzo e la quantità di scorte dalla [[!UICONTROL Walmart Marketplace Seller Account Items] dashboard](https://seller.walmart.com/items-and-inventory/manage-items) per rivedere il prodotto aggiornato.
+
+### Risolvere i problemi relativi agli errori di corrispondenza del prodotto
 
 Se l’operazione di corrispondenza del prodotto non riesce, Walmart Marketplace restituisce un codice di errore e Channel Manager visualizza lo stato di errore nelle informazioni di elenco del prodotto.
 
 Visualizzare i dettagli dei messaggi di errore passando il mouse sopra **Errore** etichetta di stato. Gli errori comuni restituiti sono valori ID prodotto formattati in modo non corretto o attributi richiesti mancanti.
 
-## Correggere i valori ID prodotto
+#### Correggere i valori ID prodotto
 
 | Tipo | Descrizione | Esempio |
-|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| UPC | GTIN-12, il numero a 12 cifre, compresa la cifra di controllo.</br></br>Se l&#39;UPC ha meno di 12 cifre, ad esempio UPC-E a 8 cifre, aggiungi</br>gli zeri iniziali per soddisfare i requisiti. | Cambia da `45678912345` a `045678912345` |
-| GTIN | GTIN-14, il numero a 14 cifre, compresa la cifra di controllo.</br></br>Se il valore GTIN è inferiore a 14 cifre, aggiungere zeri iniziali </br>per soddisfare il requisito. | Modifica `456789123456` a `0045678912345` |
-| EAN | GTIN-13, il numero a 13 cifre, compresa la cifra di controllo.</br></br>Se l&#39;EAN ha meno di 13 cifre, aggiungi l&#39;interlinea</br>zero per soddisfare il requisito. | Cambia da `4567891234` a `0004567891234` |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| UPC | GTIN-12, il numero a 12 cifre, compresa la cifra di controllo. </br></br>Se l&#39;UPC ha meno di 12 cifre, ad esempio UPC-E a 8 cifre, aggiungere zeri finali per soddisfare il requisito. | Cambia da `45678912345` a `045678912345` |
+| GTIN | GTIN-14, il numero a 14 cifre, compresa la cifra di controllo. </br></br>Se il valore GTIN è inferiore a 14 cifre, aggiungere zeri iniziali </br>per soddisfare il requisito. | Modifica `456789123456` a `0045678912345` |
+| EAN | GTIN-13, il numero a 13 cifre, compresa la cifra di controllo. </br></br>Se l&#39;EAN ha meno di 13 cifre, aggiungi l&#39;interlinea </br>zero per soddisfare il requisito. | Cambia da `4567891234` a `0004567891234` |
 
 Per informazioni dettagliate sui codici di errore di Walmart Marketplace, consulta la sezione [Aiuto per i venditori di Walmart](https://sellerhelp.walmart.com/s/guide?article=000005844).
+
+## Carica nuovi elenchi di prodotti
+
+Per i prodotti che non hanno corrispondenza su Walmart Marketplace, utilizza un modello Excel di categoria di prodotti Walmart per caricare in massa gli elenchi di prodotti. Compilare il modello Walmart utilizzando i dati del catalogo di prodotto esportati dalla tua istanza Commerce.
+
+Per i nuovi elenchi di prodotti, controlla il catalogo dei prodotti per assicurarsi che i prodotti che intendi vendere su Walmart Marketplace abbiano gli attributi necessari per gli elenchi di prodotti di Walmart Marketplace.
+
+**Elenchi di Marketplace Walmart-Requisiti degli attributi**
+
+| **Attributo** | **Livello del requisito** |
+|--------------------------|-----------------------|
+| SKU | Obbligatorio |
+| Nome del prodotto | Obbligatorio |
+| Tipo di ID prodotto | Obbligatorio |
+| ID prodotto | Obbligatorio |
+| Brand | Obbligatorio |
+| Breve descrizione | Obbligatorio |
+| Prezzo di vendita | Obbligatorio |
+| Descrizione del sito | Obbligatorio |
+| URL immagine principale | Obbligatorio |
+| Peso della spedizione | Obbligatorio |
+| Funzioni principali | Consigliato |
+| Numero del modello | Consigliato |
+| Nome del produttore | Consigliato |
+| Numero parte costruttore | Consigliato |
+| Dimensione | Consigliato |
+| Colore | Consigliato |
+| URL immagine principale | Facoltativo |
+| URL immagine aggiuntivo | Facoltativo |
+| Produttore | Facoltativo |
+
+### Prerequisiti
+
+* Verifica che la [Prerequisiti per Walmart](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+
+* Nel catalogo del prodotto Commerce, verifica che la configurazione del catalogo per i prodotti da elencare su Walmart Marketplace abbia tutti gli attributi richiesti e soddisfi le linee guida per i contenuti di Walmart Marketplace.
+
+* Verifica che il processo cron sia in esecuzione per completare l&#39;operazione di esportazione.
+
+   * Per le istanze locali, vedi [Configurare ed eseguire cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+
+   * Ad Adobe, l’infrastruttura cloud, vedi [Imposta lavori cron](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+
+### Crea il file di dati prodotto da caricare
+
+1. Dal tuo [Account venditore Walmart](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller), scarica un modello di elenco dei prodotti dal Centro Venditori Walmart.
+
+   * Dalla pagina Elementi catalogo prodotti , seleziona **[!UICONTROL Add Items]**. Quindi, seleziona **[!UICONTROL Add items in bulk]**.
+
+      ![Aggiunta di elementi in modalità collettiva nella configurazione di elementi di Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png)
+
+   * Nella pagina di download, seleziona **[!UICONTROL Full Setup]**. Quindi, seleziona una categoria di articoli e scarica il modello di categoria.
+
+      ![Opzione Scarica modello di categoria nella configurazione di elementi di Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png)
+
+   * Verifica che il modello includa gli attributi richiesti e consigliati per l’elenco dei prodotti.
+
+1. Da [!DNL Commerce] Amministratore, seleziona i dati di prodotto da esportare dal tuo sito Adobe Commerce.
+
+   * Dall’amministratore, seleziona [!UICONTROL **Sistema** > Trasferimento dati > **Esporta**].
+
+   * Sulla [!UICONTROL Export] nella pagina [!UICONTROL Entity Type] campo , seleziona [!UICONTROL **Prodotti**].
+
+   * In [!UICONTROL Entity Attributes] configura i criteri di selezione per l’esportazione dei dati di prodotto.
+   ![Esporta la pagina dei dati di prodotto in [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+
+   Utilizza i filtri per selezionare e configurare i valori degli attributi applicabili alle categorie di prodotti che vendi. Accertati di includere gli attributi richiesti e consigliati di Walmart (consulta [Esporta dati](https://docs.magento.com/user-guide/system/data-export.html) nella Guida utente di Adobe Commerce per istruzioni dettagliate.)
+
+   Per omettere un attributo dall’esportazione, seleziona la [!UICONTROL **Escludi**] all’inizio della riga.
+
+1. Scorri fino alla fine della tabella degli attributi e seleziona [!UICONTROL **Continua**] per avviare l’esportazione dei dati.
+
+   Il file di esportazione CSV viene elaborato tramite una coda di messaggi utilizzando i lavori cron e salvato nel `var/export/folder`. (Vedi [Gestire le code dei messaggi](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in *Guida per gli sviluppatori di Commerce*.)
+
+1. Aprire il modello Excel per la categoria di prodotto Walmart Marketplace e utilizzare le funzionalità macro di Excel per unire i dati di prodotto esportati nel modello Excel.
+
+1. Carica il file Excel con i dati di prodotto esportati.
+
+   * Torna alla pagina Elementi catalogo prodotti nella [Centro Venditori Walmart](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller).
+
+   * Seleziona [!UICONTROL **Aggiungi elementi** > **Aggiungi elementi in blocco**].
+   * Trascina il foglio di calcolo completato nella sezione Carica .
+   * Seleziona [!UICONTROL **Invia**].
+   * Seleziona la [!UICONTROL  **Feed attività**] per visualizzare lo stato di avanzamento.
+
+Per istruzioni complete, consulta [Aggiungi elementi in blocco utilizzando la specifica completa dell&#39;elemento](https://sellerhelp.walmart.com/s/guide?article=000007680) in [!DNL *Aiuto per i venditori di Walmart*].
