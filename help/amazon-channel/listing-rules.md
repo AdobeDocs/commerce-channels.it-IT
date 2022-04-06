@@ -40,7 +40,7 @@ Vedi [Esempio: Definire una condizione](./ob-define-condition-example.md).
 
 | Campo | Descrizione |
 |---|---|
-| [!UICONTROL Websites] | Le opzioni disponibili dipendono dal [siti web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} configurato nel tuo [!DNL Commerce] configurazione. Seleziona il sito web per i prodotti idonei elencati in Amazon. È possibile selezionare un solo sito web, in quanto ogni sito web richiede un negozio Amazon univoco creato nel canale di vendita Amazon. |
+| [!UICONTROL Websites] | Le opzioni disponibili dipendono dal [siti web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} configurato nel tuo [!DNL Commerce] configurazione. Seleziona il sito web per i prodotti idonei elencati in Amazon. È possibile selezionare un solo sito web, in quanto ogni sito web richiede un archivio Amazon univoco creato nel canale di vendita Amazon. |
 | [!UICONTROL Conditions] | Utilizzato per definire le [!DNL Commerce] attributi per l’idoneità dei prodotti nell’area Amazon. Vedi [Esempio: Definire una condizione](./ob-define-condition-example.md). |
 
 ## Area di lavoro delle condizioni
@@ -82,7 +82,7 @@ Gli elenchi Amazon potenziali si popolano sul _[!UICONTROL Listing Preview]_in u
 
 1. Modifica il [Condizioni della regola di elenco](./ob-define-condition-example.md).
 
-1. Fai clic su **[!UICONTROL Preview Changes]**.
+1. Clic **[!UICONTROL Preview Changes]**.
 
 1. Rivedi e conferma le tue inserzioni nel _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ e _[!UICONTROL New Listings]_schede.
 

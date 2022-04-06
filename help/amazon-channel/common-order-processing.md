@@ -1,10 +1,10 @@
 ---
 title: Attività di elaborazione ordine comune
-description: Utilizza il corrispondente [!DNL Commerce] orders created for Amazon orders to manage order activity and processing in the [!UICONTROL Commerce] Amministratore.
+description: Utilizza il corrispondente [!DNL Commerce] gli ordini creati per gli ordini Amazon per gestire l’attività dell’ordine e l’elaborazione nel [!UICONTROL Commerce] Amministratore.
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---

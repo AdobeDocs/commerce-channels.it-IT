@@ -19,7 +19,7 @@ Le regole di elenco possono essere definite durante l’onboarding, ma possono a
 
    Il negozio [dashboard](./amazon-store-dashboard.md) appare con `No products listed to Amazon` messaggio.
 
-1. Fai clic su **[!UICONTROL Preview and List Eligible Products]**.
+1. Clic **[!UICONTROL Preview and List Eligible Products]**.
 
    La _[!UICONTROL Listing Rules]_viene visualizzata la pagina .
 

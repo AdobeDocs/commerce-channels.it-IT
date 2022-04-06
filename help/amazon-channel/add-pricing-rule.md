@@ -5,7 +5,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Un&#39;azione standard di regola del prezzo ti consente di aumentare o diminuire
 
 1. Fai clic su **[!UICONTROL Pricing rules]** sul dashboard dello store.
 
-1. Fai clic su **[!UICONTROL Add new pricing rule]**.
+1. Clic **[!UICONTROL Add new pricing rule]**.
 
 1. Completa il **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
 
@@ -39,7 +39,7 @@ Una regola di rideterminazione intelligente dei prezzi utilizza i prezzi dei con
 
 1. Fai clic su **[!UICONTROL Pricing rules]** sul dashboard dello store.
 
-1. Fai clic su **[!UICONTROL Add new pricing rule]**.
+1. Clic **[!UICONTROL Add new pricing rule]**.
 
 1. Completa il **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
 

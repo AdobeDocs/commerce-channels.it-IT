@@ -65,7 +65,7 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 
    - `Custom Order Status` - Scegliere quando si desidera assegnare agli ordini appena creati importati da Amazon uno stato diverso da quello predefinito.
 
-   - `Processing Order Status` - Abilitato quando **[!UICONTROL Order Status]** è impostato su `Custom Order Status`. Scegli lo stato da utilizzare per gli ordini appena creati importati da Amazon. Le opzioni in questo campo si basano sulle opzioni di stato predefinite in [!DNL Commerce]. Vedi [Stato dell&#39;ordine](https://docs.magento.com/user-guide/sales/order-status.html). Puoi anche creare uno stato di ordine personalizzato da visualizzare qui per la selezione. Per creare uno stato di ordine personalizzato, consulta [Stato ordine personalizzato](https://docs.magento.com/user-guide/sales/order-status-custom.html){target=&quot;_blank&quot;}.
+   - `Processing Order Status` - Abilitato quando **[!UICONTROL Order Status]** è impostato su `Custom Order Status`. Scegli lo stato da utilizzare per gli ordini appena creati importati da Amazon. Le opzioni in questo campo sono basate sulle opzioni di stato predefinite in [!DNL Commerce]. Vedi [Stato dell&#39;ordine](https://docs.magento.com/user-guide/sales/order-status.html). Puoi anche creare uno stato di ordine personalizzato da visualizzare qui per la selezione. Per creare uno stato di ordine personalizzato, consulta [Stato ordine personalizzato](https://docs.magento.com/user-guide/sales/order-status-custom.html){target=&quot;_blank&quot;}.
 
 1. Al termine, fai clic su **[!UICONTROL Save order settings]**.
 
@@ -85,7 +85,7 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 
 [!DNL Commerce] gli ordini vengono creati per gli ordini Amazon in base alle seguenti condizioni di stato e di inventario.
 
-### Creazione di ordini con Gestione scorte
+### Creazione di ordini con Inventory management
 
 >[!NOTE]
 >
@@ -115,4 +115,4 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 >[!NOTE]
 >Se un ordine Amazon viene importato in un `Partially Shipped` o `Shipped` stato, la prenotazione di magazzino creata è per tutti gli articoli nell&#39;ordine. Il canale di vendita Amazon non compensa gli articoli che sono stati precedentemente spediti.
 >
->Se un ordine viene evaso da Amazon (FBA) ma un articolo è in `out of stock` status, [!DNL Commerce] non è in grado di creare un ordine corrispondente. Si tratta di una limitazione delle integrazioni di Inventory Management.
+>Se un ordine viene evaso da Amazon (FBA) ma un articolo è in `out of stock` status, [!DNL Commerce] non è in grado di creare un ordine corrispondente. Si tratta di una limitazione delle integrazioni Inventory management.

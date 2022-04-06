@@ -1,13 +1,13 @@
 ---
 title: Aggiungi prodotti all’archivio canali
 description: Crea assortimento di prodotti per le vendite di Marketplace aggiungendo prodotti dal catalogo al canale di vendita
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungi prodotti all’archivio canali
 

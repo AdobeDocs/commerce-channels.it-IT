@@ -49,7 +49,7 @@ Il controllo Visualizza si basa sulle colonne predefinite per la pagina, quindi 
 
 Quando le colonne vengono aggiunte o rimosse dalla pagina vengono visualizzate:
 
-1. Fai clic su **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Clic **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Immettere un nome per la visualizzazione.
 

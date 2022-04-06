@@ -25,7 +25,7 @@ Channel Manager per Adobe Commerce fornisce l&#39;estensione del canale di vendi
 
 - Visualizza registri per analisi ed errori per [prezzi competitivi](./competitive-price-analysis.md), [modifiche dell&#39;elenco](./listing-changes-log.md)e [questioni di comunicazione](./communication-errors-log.md).
 
-Accedi ai tuoi negozi Amazon per visualizzare e gestire tutte queste funzioni, informazioni sull’account, annunci, ordini e altro sul canale di vendita Amazon [home page](./amazon-sales-channel-home.md).
+Accedi ai tuoi negozi Amazon per visualizzare e gestire tutte queste funzioni, informazioni sull&#39;account, annunci, ordini e altro sul canale di vendita Amazon [home page](./amazon-sales-channel-home.md).
 
 ## Promozioni e prezzi
 

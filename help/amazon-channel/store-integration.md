@@ -25,7 +25,7 @@ _Sono necessarie le credenziali di accesso principali per [!DNL Amazon Seller Ce
 
    Quando aggiungi il tuo primo archivio canali di vendita Amazon, la _Attività pre-installazione_ viene visualizzato modale. Dopo l&#39;aggiunta del primo store, è possibile accedere alle attività pre-installazione nel [Pagina principale del canale di vendita Amazon](./amazon-sales-channel-home.md) pagina sotto _Apprendimento e preparazione_ nel menu a sinistra.
 
-1. Fai clic su **[!UICONTROL Add Amazon Store]**.
+1. Clic **[!UICONTROL Add Amazon Store]**.
 
    La _[!UICONTROL Add Amazon sales channel]_viene visualizzata la pagina .
 
@@ -60,7 +60,7 @@ _Sono necessarie le credenziali di accesso principali per [!DNL Amazon Seller Ce
 
       [Attributi di mappatura](./ob-creating-magento-attributes.md) garantisce che l’elenco di Amazon corrisponda correttamente al prodotto corrispondente nel tuo [!DNL Commerce] catalogo.
 
-1. Fai clic su **[!UICONTROL Connect]**.
+1. Clic **[!UICONTROL Connect]**.
 
    La finestra di dialogo si chiude e il nuovo archivio viene visualizzato sul [Pagina principale del canale di vendita Amazon](./amazon-sales-channel-home.md) con un messaggio di conferma.
 

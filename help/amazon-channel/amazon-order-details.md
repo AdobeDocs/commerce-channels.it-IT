@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ---
 
-# Dettagli dell’ordine Amazon
+# Dettagli dell’ordine di Amazon
 
-![Dettagli dell’ordine Amazon](assets/amazon-order-details-header.png)
+![Dettagli dell’ordine di Amazon](assets/amazon-order-details-header.png)
 
 ## Visualizza dettagli ordine Amazon
 
@@ -52,7 +52,6 @@ La _[!UICONTROL Order and Shipping Details]_La scheda mostra informazioni dettag
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
 >Non dimenticare di fare clic **Salva ordine** dopo aver apportato le modifiche.
 

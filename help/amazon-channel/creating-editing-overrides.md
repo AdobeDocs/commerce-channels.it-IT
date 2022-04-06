@@ -34,7 +34,7 @@ La _[!UICONTROL Create Override]_è disponibile quando visualizzi gli elenchi ne
    - **Condizione** - Clic **[!UICONTROL Change Condition]** e scegli l&#39;opzione corretta per il **[!UICONTROL Condition Override]**.
    - **Note sul venditore** - Clic **[!UICONTROL Change Seller Notes]** e inserire il testo delle note per **[!UICONTROL Seller Notes Override]**.
 
-1. Fai clic su **[!UICONTROL Save Listing Override]**.
+1. Clic **[!UICONTROL Save Listing Override]**.
 
    La _[!UICONTROL Product Listing Overrides]_la pagina si chiude. Lo stato dell’elenco cambia in `Relist in Progress`. La modifica verrà pubblicata in Amazon con la successiva sincronizzazione dati (come configurata nelle impostazioni cron). L’elenco viene aggiunto anche al_[!UICONTROL Overrides]_ scheda .
 
@@ -65,9 +65,9 @@ La _[!UICONTROL Edit Overrides]_è disponibile quando visualizzi gli elenchi nel
    - **Condizione** - Clic **[!UICONTROL Change Condition]** e scegli l&#39;opzione corretta per **[!UICONTROL Condition Override]**.
    - **Note sul venditore** - Clic **[!UICONTROL Change Seller Notes]** e inserire il testo delle note per **[!UICONTROL Seller Notes Override]**.
 
-1. Per rimuovere un tipo di sostituzione, fare clic su **Rimuovi** per ciascuno dei tipi da rimuovere. Se non viene rimosso, il valore definito in precedenza rimane nella sostituzione.
+1. Per rimuovere un tipo di sostituzione, fare clic su **Rimuovi** per ciascuno dei tipi da rimuovere. Se non viene rimosso, il valore definito in precedenza rimane nell&#39;override.
 
-1. Fai clic su **[!UICONTROL Save Listing Override]**.
+1. Clic **[!UICONTROL Save Listing Override]**.
 
    La _[!UICONTROL Product Listing Overrides]_la pagina si chiude. Lo stato dell’elenco cambia in `Relist in Progress`. La modifica verrà pubblicata in Amazon con la successiva sincronizzazione dati (come configurata nelle impostazioni cron). Se non è già elencato, gli elenchi vengono aggiunti anche al_[!UICONTROL Overrides]_ scheda .
 
@@ -103,9 +103,9 @@ La _[!UICONTROL Edit Listing Overrides]_è disponibile nella sezione_[!UICONTROL
    - **Condizione** - Clic **[!UICONTROL Change Condition]** e scegli l&#39;opzione corretta per **[!UICONTROL Condition Override]**.
    - **Note sul venditore** - Clic **[!UICONTROL Change Seller Notes]** e inserire il testo delle note per **[!UICONTROL Seller Notes Override]**.
 
-1. Per rimuovere un tipo di sostituzione, fare clic su **[!UICONTROL Remove]** per ciascuno dei tipi da rimuovere. Se non viene rimosso, il valore definito in precedenza rimane nella sostituzione.
+1. Per rimuovere un tipo di sostituzione, fare clic su **[!UICONTROL Remove]** per ciascuno dei tipi da rimuovere. Se non viene rimosso, il valore definito in precedenza rimane nell&#39;override.
 
-1. Fai clic su **[!UICONTROL Save Listing Override]**.
+1. Clic **[!UICONTROL Save Listing Override]**.
 
    La _[!UICONTROL Product Listing Overrides]_la pagina si chiude. Lo stato degli elenchi cambia in `Relist in Progress`. La modifica verrà pubblicata in Amazon con la successiva sincronizzazione dati (come configurata nelle impostazioni cron). Se non è già elencato, gli elenchi vengono aggiunti anche al_[!UICONTROL Overrides]_ scheda .
 
@@ -116,4 +116,4 @@ La _[!UICONTROL Edit Listing Overrides]_è disponibile nella sezione_[!UICONTROL
 | [!UICONTROL Price Override] | Una sostituzione del prezzo definisce il prezzo delle inserzioni. Questa sostituzione ha la priorità su tutte le impostazioni automatizzate fino a quando la sostituzione non viene rimossa.<br><br>Per ignorare il prezzo del prodotto, scegli **[!UICONTROL Change Listing Price]** e inserire il nuovo prezzo per **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Una sostituzione dei tempi di gestione definisce il tempo (in giorni) necessario per elaborare e spedire i prodotti. Una sostituzione del tempo di gestione ha la priorità su tutte le impostazioni di tempo di gestione automatizzata e predefinita fino a quando la sostituzione non viene rimossa.<br><br>Il valore presente nel _[!UICONTROL Handling Time Override]_è il tempo di gestione predefinito definito nel [elenco delle impostazioni](./listing-settings.md) o il tempo di gestione dell&#39;override definito. Se si rimuove una sostituzione del tempo di gestione, per impostazione predefinita l&#39;elenco riporta il tempo di gestione definito nelle impostazioni dell&#39;elenco.<br><br>Per definire una sostituzione del tempo di gestione, scegliere **[!UICONTROL Change Handling Time]**e inserire il nuovo tempo di movimentazione (in giorni) per **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Per ignorare la condizione di elenco, scegli **[!UICONTROL Change Condition]** e scegliere la nuova condizione da **Override condizione**. |
-| [!UICONTROL Seller Notes Override] | Per i prodotti del catalogo definiti con una condizione diversa da `New`, è possibile aggiungere una nota di vendita per fornire ulteriori dettagli sul prodotto e sulle sue condizioni ai potenziali acquirenti. È possibile inserire una sostituzione di una nota di vendita per un `New` condiziona il prodotto, ma Amazon non visualizza la nota.<br><br>Per ignorare le note del venditore, scegli **[!UICONTROL Change Seller Notes]** e inserire la nuova nota per **[!UICONTROL Seller Notes Override]**. |
+| [!UICONTROL Seller Notes Override] | Per i prodotti del catalogo definiti con una condizione diversa da `New`, è possibile aggiungere una nota di vendita per fornire ulteriori dettagli sul prodotto e sulle sue condizioni ai potenziali acquirenti. È possibile inserire una sostituzione di una nota venditore per un `New` condiziona il prodotto, ma Amazon non visualizza la nota.<br><br>Per ignorare le note del venditore, scegli **[!UICONTROL Change Seller Notes]** e inserire la nuova nota per **[!UICONTROL Seller Notes Override]**. |

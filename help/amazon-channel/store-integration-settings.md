@@ -27,7 +27,7 @@ Dopo aver integrato lo store, rivedi e configura le impostazioni di integrazione
 
    Viene utilizzato come [!DNL Commerce] fai riferimento solo a e identifica l&#39;archivio nell&#39;elenco nella home page del canale di vendita Amazon. Dovrebbe essere qualcosa che il tuo team può facilmente identificare. Ad esempio, potrebbe essere denominato il tuo negozio Amazon che vende nell’area degli Stati Uniti `Amazon Store USA`.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

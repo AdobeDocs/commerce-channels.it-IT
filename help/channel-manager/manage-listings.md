@@ -1,13 +1,13 @@
 ---
 title: Gestisci ordini
 description: Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source.
-source-git-commit: d1de3bb8873ea6bd141914c083b023def07999fd
+exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
+source-git-commit: f1a42dab1dbbc629ba01a4fcd8ade1052697d5a5
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Gestisci elenchi
 
@@ -76,6 +76,3 @@ Nell’area di lavoro Elenco, l’etichetta Stato mostra dove si trova un prodot
    Dopo aver risolto l’errore, invia nuovamente il prodotto per la corrispondenza. Vedi [Risolvere i problemi relativi agli errori di corrispondenza del prodotto](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.sz6eji8z9vzy).
 
 * **[!UICONTROL Error - Match in Stage]**- Identifica i prodotti a cui corrispondono [!DNL Walmart] che non possono essere pubblicati fino al [!DNL Walmart Marketplace] il negozio è in diretta. I prodotti con questo stato vengono pubblicati automaticamente quando [!DNL Walmart Marketplace] il negozio va in diretta.
-
-
-

@@ -36,7 +36,7 @@ Definisci il nome, la descrizione, le date attive e la priorità della regola.
 
 1. Per **[!UICONTROL Priority]**, immetti un valore numerico per la priorità della regola.
 
-   Valore prioritario uguale a `1` è la priorità più alta. In presenza di più regole di determinazione dei prezzi attive, è possibile utilizzare questo valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare il _[!UICONTROL Discard Subsequent Rules]_funzionalità.
+   Valore prioritario uguale a `1` è la priorità più alta. Se si dispone di più regole di determinazione dei prezzi attive, è possibile utilizzare questo valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare il _[!UICONTROL Discard Subsequent Rules]_funzionalità.
 
 1. Per **[!UICONTROL Discard Subsequent Rules]**, scegli un’opzione:
 

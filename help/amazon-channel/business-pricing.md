@@ -1,11 +1,11 @@
 ---
 title: (B2B) Prezzo aziendale
-description: È possibile elencare le [!DNL Commerce] store products on the Amazon Business (B2B) site by enabling business in your Amazon [!DNL Seller Central] conto.
+description: È possibile elencare le [!DNL Commerce] archivia i prodotti sul sito Amazon Business (B2B) abilitando il business nel tuo Amazon [!DNL Seller Central] conto.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---

@@ -51,7 +51,7 @@ La chiave API viene convalidata ogni volta che accedi al tuo canale di vendita A
 
 1. Incolla la chiave copiata per **[!UICONTROL Production Api key]**.
 
-1. Fai clic su **[!UICONTROL Save Config]**. Ora puoi tornare al canale di vendita Amazon.
+1. Clic **[!UICONTROL Save Config]**. Ora puoi tornare al canale di vendita Amazon.
 
    ![Aggiunta della chiave API nella configurazione dell&#39;archivio](assets/config-magento-services-api-screen.png)
 

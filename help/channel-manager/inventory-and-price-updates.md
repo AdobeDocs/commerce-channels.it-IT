@@ -4,7 +4,7 @@ description: '''[!DNL Channel Manager] sincronizza l’inventario e gli aggiorna
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
 source-git-commit: a1944052f02968c36495275cd5ddfb2ca43ce967
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---

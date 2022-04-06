@@ -1,10 +1,10 @@
 ---
 title: Home page
-description: Utilizza la home page del canale di vendita Amazon nel tuo [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] elenchi e attività.
+description: Utilizza la home page del canale di vendita Amazon nel tuo [!DNL Commerce] Per accedere al tuo [!DNL Amazon Marketplace] elenchi e attività.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

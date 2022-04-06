@@ -39,6 +39,6 @@ Espandi ciascuna sezione e configura in base alle esigenze.
    - [[!UICONTROL Catalog Search]](./catalog-search.md): Definisci i parametri di ricerca per garantire un processo affidabile per la corrispondenza [!DNL Commerce] catalogare i prodotti con gli elenchi dei prodotti Amazon.
    - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Definisci le impostazioni e i valori per la &quot;condizione&quot; del prodotto. La condizione è un dettaglio del prodotto richiesto da Amazon, ma non è richiesto per il tuo [!DNL Commerce] prodotti di catalogo.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ![Impostazioni elenco](assets/amazon-listing-settings.png)

@@ -49,7 +49,7 @@ Visualizza l&#39;elenco _[!UICONTROL Product Listings]_page (_[!UICONTROL Inacti
 
    - `No` - Scegliere di creare un elenco e mantenere il vecchio elenco invariato.
 
-1. Fai clic su **[!UICONTROL Save Listing Update]**.
+1. Clic **[!UICONTROL Save Listing Update]**.
 
 ## Utilizzato per associare un singolo prodotto di catalogo a due elenchi Amazon
 
@@ -71,7 +71,7 @@ Visualizza l&#39;elenco _[!UICONTROL Product Listings]_page (_[!UICONTROL Inacti
 
    - `No` - Scegliere di creare un altro elenco e mantenere il vecchio elenco invariato.
 
-1. Fai clic su **[!UICONTROL Save Listing Update]**.
+1. Clic **[!UICONTROL Save Listing Update]**.
 
 ![creare un codice SKU del venditore di alias Amazon](assets/amazon-alias-sku-create.png)
 

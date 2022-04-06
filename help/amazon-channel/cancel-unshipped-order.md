@@ -35,7 +35,7 @@ Gli ordini di Amazon possono essere annullati solo se si trovano in un `Unshippe
 
 1. Per **[!UICONTROL Reason for cancellation]**, scegli un’opzione.
 
-1. Fai clic su **[!UICONTROL Confirm]**.
+1. Clic **[!UICONTROL Confirm]**.
 
    L&#39;ordine viene annullato e lo stato viene aggiornato in `Canceled` nei dettagli dell&#39;ordine.
 
