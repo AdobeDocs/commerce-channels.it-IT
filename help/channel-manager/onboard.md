@@ -4,9 +4,9 @@ description: Collega l’istanza a [!DNL Channel Manager] per completare alcune 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Dopo aver completato l&#39;onboarding, configura e gestisci le operazioni sui ca
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [Compositore 1.x o successivo](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [[!DNL Amazon Sales Channel] versione 4.4.2 o successiva](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se hai attivato [!DNL Amazon Sales Channel] per [!DNL Commerce] siti, verifica che [!DNL Commerce] la versione 4.42 di platform è installata prima dell’installazione [!DNL Channel Manager].
+- [!DNL Inventory Management]
 
 
 ### Piattaforme supportate
