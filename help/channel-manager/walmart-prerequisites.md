@@ -2,9 +2,9 @@
 title: Prerequisiti per Walmart
 description: Verifica di disporre delle informazioni e delle risorse di Walmart Marketplace necessarie per l'integrazione con Channel Manager.
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Channel Manager richiede le risorse e le informazioni seguenti per configurare u
 
 ## Configurare un account venditore di Marketplace
 
-1. [Invia la tua richiesta di vendita Walmart](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Invia la tua richiesta di vendita Walmart](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. Dopo aver ottenuto l&#39;approvazione da Walmart, [configurare il tuo account di Venditore Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Genera una chiave API di Marketplace Walmart
+## Genera una chiave API di produzione di Marketplace Walmart
 
 1. Vai a Walmart Marketplace per generare un [ad Adobe la chiave API di produzione del provider di soluzioni](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 

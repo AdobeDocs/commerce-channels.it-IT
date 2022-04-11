@@ -2,14 +2,15 @@
 title: Installa [!DNL Channel Manager]
 description: Installa l'estensione Channel Manager.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Installa Channel Manager
+
+# Installa [!DNL Channel Manager]
 
 Consulta la sezione [prerequisiti](onboard.md#prerequisites) e raccogliere le informazioni necessarie prima di installare Channel Manager.
 
@@ -42,7 +43,7 @@ Entrambi i metodi richiedono l’utilizzo dell’interfaccia CLI (Command Line I
 
 ### Installazione su un&#39;istanza on-premise
 
-Segui queste istruzioni per l’installazione su Adobe Commerce e piattaforme di Magento Open Source.
+Utilizzare queste istruzioni per l&#39;installazione [!DNL Channel Manager] su Adobe Commerce e Magento Open Source a un’istanza locale.
 
 1. Accedi a [!DNL Commerce] come server [utente con autorizzazioni](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} per scrivere in [!DNL Commerce] file system.
 
@@ -126,7 +127,7 @@ Lavora in un ramo di sviluppo quando aggiungi un&#39;estensione all&#39;istanza 
 
 Per informazioni sull’utilizzo dei rami, consulta [Introduzione alla creazione di rami](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} nella documentazione per gli sviluppatori di Adobe Commerce.
 
-Durante l&#39;installazione, il nome dell&#39;estensione (`&lt;VendorName>\_&lt;ComponentName>`) viene inserito automaticamente nel [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)File {target=&quot;_blank&quot;}. Non è necessario modificare direttamente il file.
+Durante l&#39;installazione, il nome dell&#39;estensione (`magento\channel-manager`) viene inserito automaticamente nel [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data)File {target=&quot;_blank&quot;}. Non è necessario modificare direttamente il file.
 
 1. Nella workstation locale, passa alla directory principale del progetto Cloud.
 
@@ -158,7 +159,7 @@ Durante l&#39;installazione, il nome dell&#39;estensione (`&lt;VendorName>\_&lt;
    $ git push origin <branch-name>
    ```
 
-1. Al termine della generazione e della distribuzione, utilizza SSH per accedere all’ambiente remoto e verificare che l’estensione sia installata correttamente.
+1. Al termine del processo di compilazione e distribuzione, utilizza SSH per accedere all’ambiente remoto e verifica che l’estensione sia installata correttamente.
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Durante l&#39;installazione, il nome dell&#39;estensione (`&lt;VendorName>\_&lt;
    Module is enabled
    ```
 
-1. Al termine dell&#39;installazione, accedi al [!UICONTROL Admin] a [configurare Commerce Services Connector](connect.md).
+1. Dopo aver installato correttamente l&#39;estensione, accedi al [!UICONTROL Admin] a [configurare Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >

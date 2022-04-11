@@ -1,15 +1,16 @@
 ---
-title: Configura la corrispondenza del prodotto
+title: Configurare la corrispondenza dei prodotti
 description: Mappare gli attributi per la corrispondenza dei prodotti Commerce agli elenchi esistenti di Walmart Marketplace
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
-# Configura la corrispondenza del prodotto
+
+# Configurare la corrispondenza dei prodotti
 
 Prima di pubblicare l’elenco su Walmart Marketplace, mappa almeno un identificatore univoco dagli attributi del catalogo dei prodotti a uno degli identificatori di prodotto Walmart Marketplace richiesti. Questo passaggio è necessario per abbinare i prodotti sul Marketplace Walmart.
 
@@ -28,7 +29,7 @@ Se nel catalogo è presente un tipo diverso di attributo ID prodotto, convertirl
 
 ## Configurare le impostazioni degli attributi di prodotto
 
-1. Nella pagina di elenco dei prodotti per il canale di vendita connesso, seleziona uno o più prodotti in *Bozza* stato.
+1. Sulla [!UICONTROL Listings] per il canale di vendita collegato, selezionare uno o più prodotti in *Bozza* stato.
 
 1. Seleziona **[!UICONTROL Settings]**.
 

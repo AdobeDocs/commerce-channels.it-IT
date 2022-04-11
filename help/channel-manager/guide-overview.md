@@ -4,30 +4,31 @@ description: Informazioni complete sulle [!DNL Channel Manager] per gli amminist
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 070222df32630a7ace3b7240eb5cade68c9f0ed0
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
-# [!DNL Channel Manager] Panoramica della guida
+
+# Panoramica
 
 >[!IMPORTANT]
 >
-> Questa funzione è disponibile solo per gli utenti Beta e non è ancora accessibile per tutti i clienti. Attualmente limitato ai clienti statunitensi. Contatta > il tuo responsabile di programma Adobe Commerce Beta per ricevere assistenza e domande.
+> Questa funzione è disponibile solo per gli utenti Beta e non è ancora accessibile per tutti i clienti. Attualmente limitato ai clienti statunitensi. Per assistenza e domande, contatta il tuo responsabile di programma Adobe Commerce Beta.
 
 Questa guida è destinata agli amministratori di Adobe Commerce e Magenti Open Source. Include informazioni dettagliate su [!DNL Channel Manager] installazione, onboarding, configurazione e gestione. La guida include informazioni di base sulla configurazione e sulle funzionalità principali di Commerce.
 
 [!DNL Channel Manager] dispone di due aree per gli amministratori:
 
-* **Amministratore**- Utilizza questa area per accedere all’interfaccia utente di configurazione, al catalogo dei prodotti e all’ordine.
+* **Amministratore**- Utilizzare questa area per accedere alle opzioni di configurazione, al catalogo dei prodotti e alla gestione degli ordini.
 * **Interfaccia a riga di comando**- Utilizzare questo strumento per eseguire attività di installazione e configurazione di back-end.
 
 Questa guida tratta i seguenti argomenti:
 
-* Tutto [!DNL Channel Manager]Attività specifiche eseguite dall’amministratore di Commerce.
-* Tutto [!DNL Channel Manager]Attività specifiche per le operazioni eseguite dalla riga di comando.
+* Tutto [!DNL Channel Manager]Attività specifiche completate dall’amministratore Commerce.
+* Tutto [!DNL Channel Manager]Attività specifiche relative a -che vengono completate dalla riga di comando.
 
 Per informazioni sulla gestione delle [!DNL Commerce] piattaforma, progetti e siti web, consulta le guide per gli utenti e gli sviluppatori di Adobe Commerce e Magenti Open Source.
 
@@ -42,5 +43,5 @@ Per informazioni sulla gestione delle [!DNL Commerce] piattaforma, progetti e si
 
 Ottieni ulteriori informazioni e aiuto con Adobe Commerce e Magenti Open Source dalle seguenti risorse:
 
-* [Centro assistenza](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;}—Vedi il [!DNL Amazon Sales Channel]Articoli relativi alla risoluzione dei problemi.
-* [Biglietti di supporto](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;} - Invia un ticket per ricevere ulteriore assistenza.
+* [Centro assistenza](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;}-Vedere il [!DNL Amazon Sales Channel]Articoli relativi alla risoluzione dei problemi.
+* [Biglietti di supporto](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;}-Invia un ticket per ricevere ulteriore aiuto.

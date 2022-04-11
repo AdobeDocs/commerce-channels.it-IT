@@ -1,17 +1,17 @@
 ---
-title: Configurazione del canale completa
+title: Configurazione completa del canale
 description: Passa a un canale di vendita connesso per gestire la visualizzazione e la gestione degli elenchi di prodotti, degli aggiornamenti di scorte e prezzi e per tenere traccia degli ordini
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Configurazione completa dello store
+# Configurazione completa del canale
 
-Dopo aver collegato un negozio Commerce a [!DNL Walmart Marketplace], puoi completare la configurazione dello store dalla [!DNL Channel Manager Stores] visualizza.
+Dopo aver collegato un negozio Commerce a [!DNL Walmart Marketplace], completa la configurazione dello store da [!DNL Channel Manager Stores] visualizza.
 
 1. Dall’amministratore, seleziona **[!UICONTROL Marketing** > **Channel Manager**].
 

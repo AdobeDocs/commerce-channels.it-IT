@@ -1,26 +1,26 @@
 ---
-title: Pubblicare annunci su Walmart
+title: Pubblica annunci a Walmart
 description: Pubblica annunci per i prodotti Commerce su Walmart Marketplace per iniziare a vendere.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
-# Pubblicare annunci su Walmart
+# Pubblica annunci a Walmart
 
-Come altri mercati, Walmart consente ai venditori di terze parti di elencare gli articoli venduti da altri.
+Come altri mercati, [!DNL Walmart] consente ai venditori di terze parti di elencare gli articoli venduti da altri.
 
-La piattaforma utilizza identificatori di prodotto come UPC e GTIN per abbinare gli articoli già in vendita.
-Per i prodotti abbinati, l’elenco esistente di Walmart Marketplace viene aggiornato per includere l’offerta di prodotto Commerce.
+La piattaforma utilizza identificatori di prodotto come UPC e GTIN per abbinare quelli esistenti [!DNL Walmart Marketplace] elenchi.
+Per i prodotti corrispondenti, l’elenco di Walmart Marketplace viene aggiornato per includere l’offerta di prodotto Commerce quando si pubblica un prodotto da [!DNL Channel Manager].
 
-Di solito, i prodotti con i prezzi più bassi appaiono prima nei risultati, ma altri fattori come le recensioni influiscono anche sul posizionamento.
+Di solito, le offerte di prodotti con i prezzi più bassi compaiono per prime nel [!DNL Walmart Marketplace] l&#39;inserimento nell&#39;elenco, ma anche altri fattori come le revisioni influiscono sul posizionamento.
 
 ## Prodotti abbinati
 
-Quando si confrontano i prodotti, Channel Manager invia i dati del prodotto a Walmart Marketplace per cercare gli elenchi esistenti con valori di attributo che corrispondono all’attributo di prodotto Commerce mappato. I criteri di corrispondenza sono determinati dal [configurazione della mappatura degli attributi](map-product-attributes-for-matching.md) per il tuo canale store.
+Quando abbini prodotti, Channel Manager invia i dati del prodotto a [!DNL Walmart Marketplace] per cercare elenchi esistenti con valori di attributo corrispondenti all’attributo di prodotto Commerce mappato. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-product-attributes-for-matching.md) per il tuo canale store.
 
 Se viene trovata una corrispondenza, l’elenco dei prodotti esistenti viene aggiornato per aggiungere la tua offerta.
 
