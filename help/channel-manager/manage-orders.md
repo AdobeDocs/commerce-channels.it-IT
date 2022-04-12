@@ -1,13 +1,13 @@
 ---
 title: Gestire gli ordini di Marketplace Walmart
 description: Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Gestire gli ordini di Marketplace Walmart
 
@@ -44,8 +44,8 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 
 **Descrizioni delle colonne**
 
-| **Campo** | **Descrizione** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Campo | Descrizione |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | Numero dell&#39;ordine di acquisto assegnato all&#39;ordine nel [!DNL Walmart Marketplace]. Quando un ordine viene inizialmente importato in [!DNL Channel Manager], viene visualizzato solo il numero di ordine Walmart. Quando il [!DNL Commerce] l&#39;ordine viene creato, [!DNL Walmart] il numero dell&#39;ordine è memorizzato nel [!UICONTROL External ID] attributo di prodotto. |
 | [!DNL Commerce]  Numero ordine | Il numero assegnato al [!DNL Commerce]  ordine creato da [!DNL Walmart Marketplace] ordine. |
 | Elementi | Numero di elementi ordinati il [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 
    Al termine dell&#39;annullamento dell&#39;ordine, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli restituiti. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**- Ordini rimborsati dal [!DNL Commerce] archiviare.
+* **[!UICONTROL Refunded]**- Ordini rimborsati dal [!DNL Commerce] archiviare.
+
    Al termine del rimborso, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli rimborsati. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Ordini che non sono stati importati nell’archivio ordini a causa di informazioni mancanti o altri problemi.
 
    Per visualizzare i dettagli del messaggio di errore, passa il puntatore del mouse sul pulsante *[!UICONTROL Error]* indicatore di stato. Dopo aver risolto l’errore, l’ordine si aggiorna automaticamente per visualizzare le informazioni e lo stato correnti.
-
