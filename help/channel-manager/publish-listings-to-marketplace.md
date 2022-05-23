@@ -2,9 +2,9 @@
 title: Pubblica annunci a Walmart
 description: Pubblica annunci per i prodotti Commerce su Walmart Marketplace per iniziare a vendere.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Se viene trovata una corrispondenza, l’elenco dei prodotti esistenti viene agg
 
 ### Prerequisiti
 
-Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Configurare la corrispondenza dei prodotti](map-product-attributes-for-matching.md)
+Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Configurare la corrispondenza dei prodotti](map-product-attributes-for-matching.md).
 
 #### Selezionare e abbinare i prodotti
 
@@ -40,27 +40,29 @@ Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli 
 
    Un messaggio indica il numero di prodotti inviati per la corrispondenza.
 
-   ![Inviare prodotti al canale di vendita collegato](assets/products-submit-for-matching.png)
+   ![Inviare prodotti al canale di vendita collegato](assets/products-submitted-for-matching.png)
 
    Lo stato dei prodotti selezionati viene modificato in [!UICONTROL *Elaborazione*] fino al completamento dell’operazione di abbinamento. Per completare l&#39;operazione di match, Walmart Marketplace può richiedere fino a 30 minuti.
 
 ### Verifica lo stato di corrispondenza
 
-1. Seleziona **Aggiorna prodotti** per aggiornare lo stato del prodotto più recente.
+1. Seleziona **Aggiorna prodotti** per visualizzare lo stato corrente del prodotto.
 
 1. Controlla lo stato del prodotto.
 
-   Al termine della corrispondenza, lo stato può essere *Corrispondenza* o *Errore*.
+Al termine della corrispondenza, lo stato può essere *Corrispondenza* o *Errore*.
 
-   * **[!UICONTROL Match]** indica che la corrispondenza del prodotto è stata completata. L&#39;offerta di prodotto è stata pubblicata in un elenco esistente di Walmart Marketplace.
+* **[!UICONTROL Match]** indica che la corrispondenza del prodotto è stata completata. L&#39;offerta di prodotto è stata pubblicata in un elenco esistente di Walmart Marketplace. Se la [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* viene visualizzato in *[!UICONTROL Status detail]* colonna.
 
-   * **[!UICONTROL Error]** indica una delle seguenti opzioni:
+Se [[!DNL Walmart Marketplace] archivio non attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *Dettagli stato* la colonna indica che il prodotto è *Staging per corrispondenza*. I prodotti di staging vengono pubblicati automaticamente non appena il [!DNL Walmart Marketplace] archivio attivato.
 
-      * Si è verificato un errore e l&#39;operazione di corrispondenza non è riuscita.
+* **[!UICONTROL Error]** indica una delle seguenti opzioni:
 
-      * Non è stata trovata alcuna corrispondenza.
+   * Si è verificato un errore e l&#39;operazione di corrispondenza non è riuscita.
 
-      * Corrispondenza trovata, ma prodotto pubblicato come staging perché il [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Non è stata trovata alcuna corrispondenza.
+
+   * Corrispondenza trovata, ma l&#39;elenco non può essere pubblicato a causa di un errore restituito da Walmart marketplace.  manca un attributo o viene pubblicato come in staging perché il [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Controlla l&#39;elenco su Walmart
 
@@ -68,9 +70,9 @@ Dopo aver eseguito la corrispondenza dei prodotti, rivedi l’elenco dei prodott
 
 ### Risolvere i problemi relativi agli errori di corrispondenza del prodotto
 
-Se l’operazione di corrispondenza del prodotto non riesce, Walmart Marketplace restituisce un codice di errore e Channel Manager visualizza lo stato di errore nelle informazioni di elenco del prodotto.
+Se l’operazione di corrispondenza del prodotto non riesce e viene visualizzato un errore, nel *[!UICONTROL Status detail]* nella colonna [!UICONTROL Channel Manager] elenco dei prodotti.
 
-Visualizzare i dettagli dei messaggi di errore passando il mouse sopra **Errore** etichetta di stato. Gli errori comuni restituiti sono valori ID prodotto formattati in modo non corretto o attributi richiesti mancanti.
+Gli errori comuni restituiti sono valori ID prodotto formattati in modo non corretto o attributi richiesti mancanti.
 
 #### Correggere i valori ID prodotto
 

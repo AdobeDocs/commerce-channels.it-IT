@@ -4,9 +4,9 @@ description: Scopri come installare e utilizzare [!DNL Channel Manager] per inte
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # Informazioni [!DNL Channel Manager]
 
-Channel Manager per Adobe Commerce e Magenti Open Source offre uno spazio di lavoro utile nell&#39;amministratore per gestire le vendite di canali su mercati di terze parti come Walmart, Amazon ed eBay. Aumenta le vendite ed espandi verso nuovi mercati, gestendo al contempo le operazioni dei canali di vendita direttamente dal tuo amministratore Commerce.
+[!DNL Channel Manager] consente di aumentare le vendite e raggiungere nuovi clienti integrando il catalogo dei prodotti Adobe Commerce o Magenti Open Source con [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] vista amministratore dell&#39;estensione](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] vista amministratore dell&#39;estensione](assets/channel-manager-home.png)
 
-## Panoramica sulla versione beta
+Dopo l’installazione e la configurazione [!DNL Channel Manager], [!DNL Commerce] L’amministratore è esteso per poter gestire [!DNL Walmart Marketplace] operazioni di vendita direttamente dal tuo ambiente Commerce.
 
-La versione beta di Channel Manager supporta Adobe Commerce o i venditori di Magenti Open Source che desiderano vendere su [!DNL Walmart Marketplace].
+* **Gestione dell&#39;elenco**- Pubblicare facilmente gli elenchi dei prodotti in base ai prodotti corrispondenti dal catalogo Commerce agli elenchi esistenti di Walmart Marketplace.
 
-Questa versione supporta le seguenti funzionalità per gestire le operazioni sui canali di vendita:
+* **Inventory management**-Gli articoli nel conto del venditore del marketplace del commerciante vengono automaticamente sincronizzati e aggiornati da Commerce per garantire livelli di inventario precisi.
 
-* Stabilire una connessione API tra Adobe Commerce o Magenti Open Source e Walmart Marketplace
+* **Aggiornamenti dei prezzi**-Mantenere prezzi precisi per le inserzioni di marketplace con sincronizzazione automatica dei prezzi. Quando un prezzo cambia in Adobe Commerce, le modifiche si riflettono sul mercato entro 10 minuti.
 
-* Pubblicare prodotti da Channel Manager a Walmart utilizzando la corrispondenza dei prodotti
+* **Gestione degli ordini**- Quando vengono creati nuovi ordini in un marketplace, Channel Manager sincronizza gli ordini con Adobe Commerce e invia conferme di ordine al marketplace per garantire che l’inventario sia riservato per ogni ordine.
 
-* Gestire gli elenchi dei prodotti e tenere traccia dello stato
+* **Gestione della spedizione**- Quando gli ordini sono contrassegnati come spediti in Adobe Commerce, l&#39;aggiornamento della spedizione viene inviato al [!DNL Walmart Marketplace]. Questa notifica assicura che i venditori soddisfino i loro requisiti SLA e che i clienti ricevano notifiche di aggiornamento della spedizione per i loro ordini correnti.
 
-* Sincronizza le quantità di scorte dei prodotti abbinati da Commerce a Walmart
+* **Cancellazioni**- Quando gli ordini vengono annullati in Adobe Commerce, Channel Manager invia informazioni aggiornate sull’ordine al marketplace per replicare l’azione per l’ordine di marketplace corrispondente.
 
-* Sincronizza i prezzi dei cataloghi per i prodotti abbinati da Commerce a Walmart
+[!DNL Channel Manager] supporta Adobe Commerce o i venditori di Magenti Open Source che desiderano vendere su [!DNL Walmart Marketplace].
 
-* Ricevi ordini da Walmart Marketplace e visualizzali in [!DNL Commerce] quadro comandi
-
-### Latenza prevista per le operazioni di Channel Manager
+## Latenza prevista per le operazioni di Channel Manager
 
 I processi di sincronizzazione dei dati tra [!DNL Channel Manager] e collegati [!DNL Walmart Marketplace] archiviare richiede un po&#39; di tempo per completare. Esamina il tempo di elaborazione previsto per [!DNL Channel Manager] operazioni che consentono di pianificare il funzionamento dei canali di vendita.
 

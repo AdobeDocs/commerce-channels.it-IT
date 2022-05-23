@@ -1,16 +1,16 @@
 ---
-title: Aggiungi prodotti al canale connesso
-description: Crea assortimento di prodotti per le vendite di Marketplace aggiungendo prodotti dal catalogo al canale di vendita
+title: Aggiungi prodotti all'archivio canali di vendita
+description: Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 
-# Aggiungi prodotti al canale connesso
+# Aggiungi prodotti all&#39;archivio canali di vendita
 
 Per sincronizzare i prodotti con il canale di vendita Walmart Marketplace, seleziona i prodotti dalla [!DNL Commerce] catalogo dei prodotti e importarli in Channel Manager. I prodotti selezionati devono avere la seguente configurazione di attributi:
 
@@ -20,17 +20,17 @@ Per sincronizzare i prodotti con il canale di vendita Walmart Marketplace, selez
 
 Il processo da cui importare i prodotti [!DNL Commerce] al Channel Manager può richiedere fino a 30 minuti o più a seconda del numero di prodotti selezionati.
 
-## Aggiungi prodotti al canale di vendita
+## Aggiungi prodotti
 
 1. Da un negozio di canali di vendita collegati, seleziona **Aggiungi prodotti** per aprire il catalogo dei prodotti.
 
-   ![Aggiungi prodotti al canale connesso](assets/add-initial-products-to-connected-channel.png)
+   ![Aggiungi prodotti all&#39;archivio canali di vendita](assets/add-initial-products-to-connected-channel.png)
 
    Il catalogo si apre in una nuova scheda.
 
 1. Dalla griglia del prodotto di catalogo, selezionare i prodotti su cui vendere [!DNL Walmart Marketplace].
 
-   ![Inviare prodotti al canale collegato](assets/select-products-from-catalog.png)
+   ![Invia prodotti al negozio di canali di vendita](assets/select-products-from-catalog.png)
 
 1. Abilita la **[!UICONTROL Publish to Channel Manager]** per gli elementi selezionati.
 
@@ -42,19 +42,17 @@ Il processo da cui importare i prodotti [!DNL Commerce] al Channel Manager può 
 
    - Seleziona **[!UICONTROL Save]**.
 
-   Viene visualizzato un messaggio di conferma.
+      Viene visualizzato un messaggio di conferma.
 
-   ![Importazione di prodotti dal catalogo al messaggio di conferma del canale di vendita](assets/product-import-from-catalog-confirmation.png)
+      ![Importazione di prodotti dal catalogo al messaggio di conferma del canale di vendita](assets/product-import-from-catalog-confirmation.png)
 
-   Se il messaggio indica che l’aggiornamento è pianificato, utilizza la [coda:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] per elaborare immediatamente l&#39;aggiornamento.
+      Se il messaggio indica che l’aggiornamento è pianificato, utilizza la [coda:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] per elaborare immediatamente l&#39;aggiornamento.
 
-   ```bash
-   $ bin/magento queue:consumers:start product_action_attribute.update
-   ```
+      ```bash
+      $ bin/magento queue:consumers:start product_action_attribute.update
+      ```
 
-1. Torna al canale di vendita collegato in [!DNL Channel Manager].
-
-1. Al termine dell’operazione di importazione, visualizza i prodotti da **[!UICONTROL Listings]**.
+1. Al termine dell’operazione di importazione, verifica i prodotti aggiunti ritornando a [!DNL Channel Manager] e selezionando **[!UICONTROL Listings]**.
 
    ![Prodotti importati in un canale di vendita collegato](assets/products-in-marketplace-sales-channel.png)
 
