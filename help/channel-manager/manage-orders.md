@@ -2,7 +2,7 @@
 title: Gestire gli ordini di Marketplace Walmart
 description: Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Può richiedere fino a 35 minuti per un [!DNL Walmart Marketplace] per visualizzare nel [!DNL Channel Manager] elenco ordini. [!DNL Walmart] richiede circa 30 minuti per elaborare gli ordini in arrivo e inviarli a [!DNL Channel Manager].  Dopo che Channel Manager ha ricevuto l’ordine, ci vogliono altri 5 minuti per creare e visualizzare l’ordine in Adobe Commerce o Magento Open Source.
+>Può richiedere fino a 35 minuti per un [!DNL Walmart Marketplace] per visualizzare nel [!DNL Channel Manager] elenco ordini. [!DNL Walmart] richiede circa 30 minuti per elaborare gli ordini in arrivo e inviarli a [!DNL Channel Manager]. Dopo che Channel Manager ha ricevuto l’ordine, ci vogliono circa cinque minuti in più per creare e visualizzare l’ordine in Adobe Commerce o Magento Open Source.
 
 ## Ordini di revisione
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. Apri la vista Store selezionando l&#39;icona a forma di matita in una riga di voce dello store.
 
 1. Per visualizzare le informazioni sull&#39;ordine, selezionare *[!UICONTROL *Orders]**
+
+1. Ottenere informazioni sull&#39;ordine e determinare i passaggi successivi controllando il **[Stato](#about-order-status)** per ottenere informazioni sugli ordini.
 
 ## Visualizza dettagli ordine
 
@@ -54,6 +56,8 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 | [!UICONTROL Ship By Date] | Data in cui l&#39;ordine deve essere spedito per soddisfare [!DNL Walmart Marketplace] requisiti. |
 | [!UICONTROL Order Status] | Indica lo stato corrente dell&#39;ordine nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando abbini i prodotti [!DNL Walmart Marketplace]. Se un&#39;operazione non riesce, nell&#39;elenco viene visualizzato lo stato Error. Dopo aver corretto l&#39;errore, [!DNL Channel Manager] prova nuovamente l&#39;operazione e aggiorna lo stato. |
 
+| [!UICONTROL Error description]    | Fornisce informazioni più dettagliate sugli ordini con un *Errore* stato.|
+
 ### Informazioni sullo stato dell’ordine
 
 [!UICONTROL Order Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] ordini gestiti da Adobe Commerce o Magenti Open Source. Gli aggiornamenti dello stato dell&#39;ordine si verificano quando [!DNL Channel Manager] riceve informazioni aggiornate sull&#39;ordine da [!DNL Walmart Marketplace] o [!DNL Commerce] sistema d&#39;ordine. Gli ordini possono avere i seguenti stati:
@@ -74,6 +78,6 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 
    Al termine del rimborso, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli rimborsati. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- Ordini che non sono stati importati nell’archivio ordini a causa di informazioni mancanti o altri problemi.
+* **[!UICONTROL Error]**- Ordini con errori. Gli errori possono verificarsi quando un’operazione di aggiornamento dell’ordine non riesce. Ad esempio, si verificano degli errori se [!DNL Channel Manager] non può ricevere un nuovo ordine da Walmart. Possono anche verificarsi se [!DNL Channel Manager] impossibile inviare un aggiornamento della spedizione o dell&#39;annullamento dell&#39;ordine al [!DNL Walmart Marketplace].
 
-   Per visualizzare i dettagli del messaggio di errore, passa il puntatore del mouse sul pulsante *[!UICONTROL Error]* indicatore di stato. Dopo aver risolto l’errore, l’ordine si aggiorna automaticamente per visualizzare le informazioni e lo stato correnti.
+* **[!UICONTROL Error description]**- Fornisce informazioni dettagliate sugli errori dell&#39;ordine che si verificano a causa di problemi come informazioni mancanti o valori non validi, dettagli di spedizione errati o annullamento dell&#39;ordine non riuscito. La descrizione aiuta a determinare se si è verificato un errore nel [!DNL Commerce] o [!DNL Walmart Marketplace].

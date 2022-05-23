@@ -2,7 +2,7 @@
 title: Impostazione completa del canale di vendita
 description: Passa a un canale di vendita connesso per gestire la visualizzazione e la gestione degli elenchi di prodotti, degli aggiornamenti di scorte e prezzi e per tenere traccia degli ordini
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Dopo aver collegato un negozio Commerce a [!DNL Walmart Marketplace], completa l
 
 1. Inizia le operazioni dei canali di vendita.
 
-   - [Aggiungi prodotti dal tuo [!DNL Commerce Catalog] a Channel Manager](add-products-to-connected-channel.md)
+   - [Aggiungi prodotti dal tuo [!DNL Commerce Catalog] a Channel Manager](add-products-to-channel-store.md)
 
    - [Pubblicare gli elenchi dei prodotti in [!DNL Walmart] utilizzo della corrispondenza dei prodotti](publish-listings-to-marketplace.md)
 

@@ -2,9 +2,9 @@
 title: Pubblica annunci a Walmart
 description: Pubblica annunci per i prodotti Commerce su Walmart Marketplace per iniziare a vendere.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Di solito, le offerte di prodotti con i prezzi più bassi compaiono per prime ne
 
 ## Prodotti abbinati
 
-Quando abbini prodotti, Channel Manager invia i dati del prodotto a [!DNL Walmart Marketplace] per cercare elenchi esistenti con valori di attributo corrispondenti all’attributo di prodotto Commerce mappato. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-product-attributes-for-matching.md) per il tuo canale store.
+Quando abbini prodotti, Channel Manager invia i dati del prodotto a [!DNL Walmart Marketplace] per cercare elenchi esistenti con valori di attributo corrispondenti all’attributo di prodotto Commerce mappato. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-catalog-attributes.md) per il tuo canale store.
 
 Se viene trovata una corrispondenza, l’elenco dei prodotti esistenti viene aggiornato per aggiungere la tua offerta.
 
 ### Prerequisiti
 
-Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Configurare la corrispondenza dei prodotti](map-product-attributes-for-matching.md).
+Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Mappare gli attributi del catalogo](map-catalog-attributes.md).
 
 #### Selezionare e abbinare i prodotti
 
@@ -54,15 +54,15 @@ Al termine della corrispondenza, lo stato può essere *Corrispondenza* o *Errore
 
 * **[!UICONTROL Match]** indica che la corrispondenza del prodotto è stata completata. L&#39;offerta di prodotto è stata pubblicata in un elenco esistente di Walmart Marketplace. Se la [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* viene visualizzato in *[!UICONTROL Status detail]* colonna.
 
-Se [[!DNL Walmart Marketplace] archivio non attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *Dettagli stato* la colonna indica che il prodotto è *Staging per corrispondenza*. I prodotti di staging vengono pubblicati automaticamente non appena il [!DNL Walmart Marketplace] archivio attivato.
+Se [[!DNL Walmart Marketplace] archivio non attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *Dettagli stato* la colonna indica che il prodotto è *Staging per corrispondenza*. I prodotti di staging vengono pubblicati automaticamente quando il [!DNL Walmart Marketplace] archivio attivato.
 
-* **[!UICONTROL Error]** indica una delle seguenti opzioni:
+* **[!UICONTROL Error]** indica che l’operazione di corrispondenza non è riuscita a causa di uno dei seguenti problemi:
 
-   * Si è verificato un errore e l&#39;operazione di corrispondenza non è riuscita.
+   * [!DNL Channel Manager] impossibile inviare per la corrispondenza a causa di un problema di connessione.
 
    * Non è stata trovata alcuna corrispondenza.
 
-   * Corrispondenza trovata, ma l&#39;elenco non può essere pubblicato a causa di un errore restituito da Walmart marketplace.  manca un attributo o viene pubblicato come in staging perché il [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Trovata corrispondenza, ma l’elenco non può essere pubblicato perché [!DNL Walmart Marketplace] ha restituito un codice di errore. Vedi *Dettagli stato** per la descrizione dell’errore.
 
 ### Controlla l&#39;elenco su Walmart
 
@@ -116,7 +116,7 @@ Per i nuovi elenchi di prodotti, controlla il catalogo dei prodotti per assicura
 
 ### Prerequisiti
 
-* Verifica che la [Prerequisiti per Walmart](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Verifica che la [Prerequisiti per Walmart](walmart-prerequisites.md).
 
 * Nel catalogo del prodotto Commerce, verifica che la configurazione del catalogo per i prodotti da elencare su Walmart Marketplace abbia tutti gli attributi richiesti e soddisfi le linee guida per i contenuti di Walmart Marketplace.
 
