@@ -1,19 +1,19 @@
 ---
 title: Panoramica delle impostazioni
 description: Scopri le [!DNL Channel Manager settings] per configurare l'autenticazione e mappare gli attributi del catalogo dei prodotti e i vettori di spedizione necessari per coordinare le operazioni di vendita tra [!DNL Commerce] e [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # Panoramica delle impostazioni
 
-Le impostazioni del canale di vendita consentono la comunicazione e la sincronizzazione dei dati tra [!DNL Commerce] e [!DNL Walmart Marketplace] per gestire le operazioni di vendita di Walmart Marketplace da [!DNL Commerce] Amministratore:
+Le impostazioni del canale di vendita consentono la comunicazione e la sincronizzazione dei dati tra [!DNL Commerce] e [!DNL Walmart Marketplace] per gestire le operazioni di vendita di Walmart Marketplace da [!DNL Commerce] Amministratore.
 
-In [!DNL Channel Manager], è possibile configurare alcune impostazioni dei canali di vendita durante il processo di onboarding. Dopo l’onboarding, puoi visualizzare e gestire la configurazione delle impostazioni da *Impostazioni* pagina.
+In [!DNL Channel Manager], è possibile configurare alcune impostazioni dei canali di vendita durante il processo di onboarding. Dopo l’onboarding, puoi visualizzare e gestire la configurazione dal *Impostazioni* pagina.
 
 * **[Mappa identificatori univoci](map-catalog-attributes.md)**-Prima di pubblicare gli elenchi da [!DNL Commerce] a [!DNL Walmart Marketplace], mappare almeno un identificatore univoco dal [!DNL Commerce] catalogo con l&#39;identificatore corrispondente da Walmart. Questo passaggio deve corrispondere a [!DNL Commerce] prodotti a quelli esistenti [!DNL Walmart] elenchi e sincronizzazione dei dati dei prodotti tra [!DNL Commerce] e [!DNL Walmart].
 

@@ -1,13 +1,13 @@
 ---
 title: Mappare gli attributi del catalogo
 description: Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart].
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+exl-id: 6678d81f-d167-460d-b656-d082d56f670c
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Mappare gli attributi del catalogo
 
@@ -25,7 +25,7 @@ Per la corrispondenza dei prodotti, il prodotto Commerce deve avere almeno un at
 | ISSN | Numero di serie standard internazionale | Numero di serie a 8 cifre utilizzato per identificare riviste, riviste, giornali e periodici di tutti i tipi consegnati su tutti i supporti-stampa ed elettronici | 8 cifre |
 | UPC | Codice prodotto universale | Codice di tracciamento per la vendita al dettaglio standard | 12 cifre |
 
-Se il catalogo non dispone di un attributo corrispondente a uno di questi tipi, [aggiungere o convertire un attributo di catalogo esistente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un attributo di catalogo esistente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
 
 ## Mappare identificatori univoci
 
@@ -37,6 +37,7 @@ Se il catalogo non dispone di un attributo corrispondente a uno di questi tipi, 
 
       L’esempio seguente mappa l’attributo UPC di Walmart Marketplace all’attributo UPC nel catalogo dei prodotti.
    ![Mappatura attributi per i criteri di corrispondenza dei prodotti](assets/products-map-attributes-for-match.png)
+   - Facoltativamente, puoi mappare più attributi per aumentare le corrispondenze. Se mappi più attributi, selezionane uno come **Identificatore principale**. Questo
 
    - Seleziona **[!UICONTROL Save]**.
 
