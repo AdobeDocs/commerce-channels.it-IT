@@ -2,7 +2,7 @@
 title: Gestire gli ordini di Marketplace Walmart
 description: Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -54,9 +54,10 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 | [!UICONTROL Order Value] | Costo totale degli articoli ordinati. |
 | [!UICONTROL Date Created] | La data di creazione dell&#39;ordine nel [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Data in cui l&#39;ordine deve essere spedito per soddisfare [!DNL Walmart Marketplace] requisiti. |
-| [!UICONTROL Order Status] | Indica lo stato corrente dell&#39;ordine nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando abbini i prodotti [!DNL Walmart Marketplace]. Se un&#39;operazione non riesce, nell&#39;elenco viene visualizzato lo stato Error. Dopo aver corretto l&#39;errore, [!DNL Channel Manager] prova nuovamente l&#39;operazione e aggiorna lo stato. |
-
-| [!UICONTROL Error description]    | Fornisce informazioni più dettagliate sugli ordini con un *Errore* stato.|
+| [!UICONTROL Deliver By Date] | Data in cui l&#39;ordine deve essere consegnato al cliente per soddisfare [!DNL Walmart Marketplace] requisiti. |
+| [!UICONTROL Last Update At] | Timestamp che indica l’ultima volta in cui i dati dell’ordine sono stati aggiornati [!DNL Channel Manager] |
+| [!UICONTROL Status] | Indica lo stato corrente dell&#39;ordine nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando abbini i prodotti [!DNL Walmart Marketplace]. Se un&#39;operazione non riesce, nell&#39;elenco viene visualizzato lo stato Error. Dopo aver corretto l&#39;errore, [!DNL Channel Manager] prova nuovamente l&#39;operazione e aggiorna lo stato. |
+| [!UICONTROL Error Description] | Fornisce informazioni più dettagliate sugli ordini con un *Errore* stato. |
 
 ### Informazioni sullo stato dell’ordine
 

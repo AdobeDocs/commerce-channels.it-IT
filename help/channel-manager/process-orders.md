@@ -2,9 +2,9 @@
 title: Elabora ordini
 description: Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,9 @@ Quando si elabora un ordine in Commerce, Channel Manager sincronizza gli aggiorn
    ![Visualizzazione dettagli ordine di Commerce per un ordine Marketplace Walmart](assets/order-detail-with-external-order-id.png)
 
    * Scegliere un vettore di spedizione e aggiungere un numero di tracciamento selezionando **[!UICONTROL Add tracking number]**.
+
+      ![Visualizzazione dettagli ordine di Commerce per un ordine Marketplace Walmart](assets/order-shipment-add-tracking-number.png)
+
 
    * Compilare il resto del modulo di spedizione in base alle esigenze. Vedi [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) per istruzioni dettagliate.
 
