@@ -1,19 +1,19 @@
 ---
-title: Gestire gli ordini di Marketplace Walmart
-description: Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
+title: '"Gestisci [!DNL Walmart Marketplace] Ordini"'
+description: '"Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Gestire gli ordini di Marketplace Walmart
+# Gestisci [!DNL Walmart Marketplace] ordini
 
-[!DNL Walmart Marketplace] ordini [!DNL Commerce] gli elenchi dei prodotti si sincronizzano automaticamente con [!DNL Channel Manager] dopo che Walmart elabora l&#39;ordine. Al termine della sincronizzazione, puoi visualizzare le informazioni sull’ordine selezionando **[!UICONTROL Orders]** dalla visualizzazione dell&#39;archivio canali collegata in [!DNL Channel Manager].
+[!DNL Walmart Marketplace] ordini [!DNL Commerce] gli elenchi dei prodotti si sincronizzano automaticamente con [!DNL Channel Manager] dopo [!DNL Walmart] elabora l&#39;ordine. Al termine della sincronizzazione, puoi visualizzare le informazioni sull’ordine selezionando **[!UICONTROL Orders]** dalla visualizzazione dell&#39;archivio canali collegata in [!DNL Channel Manager].
 
-![Vista Ordini di Channel Manager per gestire gli ordini di Walmart Marketplace](assets/orders-dashboard-view.png)
+![Vista Ordini di Channel Manager da gestire [!DNL Walmart Marketplace] ordini](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Dopo aver ricevuto un ordine dal marketplace e importato in Adobe Commerce o nel
 
 Da **[!UICONTROL Orders]**, seleziona **[!UICONTROL Commerce Order Number]** per aprire [!DNL Commerce] dettaglio dell&#39;ordine.
 
-![Visualizzazione dettagli ordine di Commerce per un ordine Marketplace Walmart](assets/order-detail-with-external-order-id.png)
+![Visualizzazione dettagli ordine di Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-detail-with-external-order-id.png)
 
 ### Controlli sugli ordini e descrizioni delle colonne
 
@@ -48,7 +48,7 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 
 | Campo | Descrizione |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | Numero dell&#39;ordine di acquisto assegnato all&#39;ordine nel [!DNL Walmart Marketplace]. Quando un ordine viene inizialmente importato in [!DNL Channel Manager], viene visualizzato solo il numero di ordine Walmart. Quando il [!DNL Commerce] l&#39;ordine viene creato, [!DNL Walmart] il numero dell&#39;ordine è memorizzato nel [!UICONTROL External ID] attributo di prodotto. |
+| [!UICONTROL  Walmart Order Number] | Numero dell&#39;ordine di acquisto assegnato all&#39;ordine nel [!DNL Walmart Marketplace]. Quando un ordine viene inizialmente importato in [!DNL Channel Manager], solo [!DNL Walmart] viene visualizzato il numero dell&#39;ordine. Quando il [!DNL Commerce] l&#39;ordine viene creato, [!DNL Walmart] il numero dell&#39;ordine è memorizzato nel [!UICONTROL External ID] attributo di prodotto. |
 | [!DNL Commerce]  Numero ordine | Il numero assegnato al [!DNL Commerce]  ordine creato da [!DNL Walmart Marketplace] ordine. |
 | Elementi | Numero di elementi ordinati il [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | Costo totale degli articoli ordinati. |
@@ -60,6 +60,7 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per Ordini.
 | [!UICONTROL Error Description] | Fornisce informazioni più dettagliate sugli ordini con un *Errore* stato. |
 
 ### Informazioni sullo stato dell’ordine
+
 
 [!UICONTROL Order Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] ordini gestiti da Adobe Commerce o Magenti Open Source. Gli aggiornamenti dello stato dell&#39;ordine si verificano quando [!DNL Channel Manager] riceve informazioni aggiornate sull&#39;ordine da [!DNL Walmart Marketplace] o [!DNL Commerce] sistema d&#39;ordine. Gli ordini possono avere i seguenti stati:
 

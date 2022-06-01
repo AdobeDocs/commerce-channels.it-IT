@@ -2,9 +2,9 @@
 title: Mappa delle navi
 description: Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: aff38e59771fb973b789450b1a7b9552a7a809ff
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Prima di [spedizioni di ordini di elaborazione](process-orders.md#ship-an-order) per [!DNL Walmart Marketplace] ordini, mappare i vettori di spedizione preferiti Walmart al corrispondente vettore in [!DNL Commerce] in modo che i dati di spedizione possano essere sincronizzati tra [!DNL Walmart] e [!DNL Commerce].
 
-I vettori commerciali che non si mappano a un vettore preferito sono etichettati come *[!UICONTROL Other Carrier]* a Walmart.
+I vettori commerciali che non si mappano a un vettore preferito sono etichettati come *[!UICONTROL Other Carrier]* su [!DNL Walmart].
 
 **Prerequisiti**
 
 Prima di mappare i vettori di spedizione, completare le seguenti attività:
 
-1. Consulta la sezione [Metodi di trasporto e best practice di spedizione per la consegna puntuale](https://sellerhelp.walmart.com/s/guide?article=000009473) per Walmart Marketplace.
+1. Consulta la sezione [Metodi di trasporto e best practice di spedizione per la consegna puntuale](https://sellerhelp.walmart.com/s/guide?article=000009473) per [!DNL Walmart Marketplace].
 
-1. Verifica la [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) e [!UICONTROL Shipping Settings] nella configurazione [!DNL Commerce] per assicurarti di aver ottimizzato la configurazione per [!DNL Walmart Marketplace sales].
+1. Verifica la [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) e [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) nella configurazione [!DNL Commerce] per assicurarti di aver ottimizzato la configurazione per [!DNL Walmart Marketplace sales].
 
 ## Mappa delle navi
 

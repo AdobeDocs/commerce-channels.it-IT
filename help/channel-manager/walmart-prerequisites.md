@@ -1,32 +1,32 @@
 ---
-title: Prerequisiti per Walmart
-description: Verifica di disporre delle informazioni e delle risorse di Walmart Marketplace necessarie per l'integrazione con Channel Manager.
+title: '"[!DNL Walmart] Prerequisiti"'
+description: '"Verifica di disporre del [!DNL Walmart Marketplace] informazioni e risorse da integrare con Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Prerequisiti per Walmart
+# [!DNL Walmart] prerequisiti
 
-Channel Manager richiede le risorse e le informazioni seguenti per configurare un canale di vendita Commerce per Walmart Marketplace.
+[!DNL Channel Manager] richiede le risorse e le informazioni seguenti per configurare un [!DNL Commerce] canale di vendita per [!DNL Walmart Marketplace.]
 
-* Approvazione per vendere su Walmart e le credenziali per accedere all&#39;account registrato Marketplace Seller
+* Autorizzazione a vendere [!DNL Walmart] e le credenziali per accedere all&#39;account del venditore di Marketplace registrato
 
-* Una chiave API per collegare Adobe Commerce o Magento Open Source a Walmart Marketplace
+* Una chiave API per collegare Adobe Commerce o Magento Open Source a [!DNL Walmart Marketplace]
 
-   La chiave API Walmart Marketplace consente l&#39;integrazione tra Channel Manager per Adobe Commerce o Magenti Open Source e Walmart Marketplace. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
+   La [!DNL Walmart Marketplace] La chiave API consente l’integrazione tra [!DNL Channel Manager] per Adobe Commerce o Magenti Open Source e il Marketplace Walmart. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
 
 ## Configurare un account venditore di Marketplace
 
 1. [Invia la tua richiesta di vendita Walmart](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Dopo aver ottenuto l&#39;approvazione da Walmart, [configurare il tuo account di Venditore Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Dopo aver ottenuto l&#39;approvazione da [!DNL Walmart], [configurare il tuo account di Venditore Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Genera una chiave API di produzione di Marketplace Walmart
+## Genera un [!DNL Walmart Marketplace] Chiave API di produzione
 
-1. Vai a Walmart Marketplace per generare un [ad Adobe la chiave API di produzione del provider di soluzioni](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Vai a [!DNL Walmart Marketplace] per generare un [ad Adobe la chiave API di produzione del provider di soluzioni](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Crea la chiave e configura le autorizzazioni:
 
@@ -50,12 +50,12 @@ Channel Manager richiede le risorse e le informazioni seguenti per configurare u
    | Regole | Accesso completo |
    | Spedizione | Accesso completo |
 
-## Stato del Negozio Marketplace di Walmart
+## [!DNL Walmart Marketplace] Stato del negozio
 
-Quando pubblichi i prodotti su Walmart Marketplace, la disponibilità dell&#39;elenco dipende dallo stato dei tuoi negozi Walmart Marketplace:
+Quando pubblichi i prodotti sul mercato, la disponibilità dell’elenco dipende dallo stato del tuo [!DNL Walmart Marketplace] negozi:
 
 * Per gli archivi live, le offerte dei prodotti sono elencate e disponibili per la vendita al termine dell’operazione di abbinamento.
 
-* Per i negozi che non sono in diretta, le offerte di prodotto sono organizzate e non sono visibili ai clienti. Quando il negozio è in diretta, le inserzioni in serie vengono inviate automaticamente al Live Store.
+* Per i negozi che non sono in diretta, le offerte di prodotto sono organizzate e non sono visibili ai clienti. Quando il [!DNL Walmart Marketplace] il negozio va in diretta, le inserzioni in serie vengono inviate automaticamente al negozio live.
 
 ![[!DNL Walmart Seller Central] prodotti a cascata](assets/walmart-seller-central-staged.png)

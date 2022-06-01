@@ -2,9 +2,9 @@
 title: Aggiungi prodotti all'archivio canali di vendita
 description: Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Aggiungi prodotti all&#39;archivio canali di vendita
 
-Per sincronizzare i prodotti con il canale di vendita Walmart Marketplace, seleziona i prodotti dalla [!DNL Commerce] catalogo dei prodotti e importarli in Channel Manager. I prodotti selezionati devono avere la seguente configurazione di attributi:
+Per sincronizzare i prodotti con [!DNL Walmart Marketplace] canale di vendita, seleziona i prodotti dal [!DNL Commerce] catalogo dei prodotti e importarli in Channel Manager. I prodotti selezionati devono avere la seguente configurazione di attributi:
 
 - **[!UICONTROL Publish to Channel Manager]** attributo abilitato
 
-- Almeno un attributo di prodotto deve corrispondere a uno degli [attributi richiesti di Walmart Marketplace](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Almeno un attributo di prodotto deve corrispondere a uno degli [obbligatorio [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 Il processo da cui importare i prodotti [!DNL Commerce] al Channel Manager può richiedere fino a 30 minuti o più a seconda del numero di prodotti selezionati.
 
@@ -38,7 +38,7 @@ Il processo da cui importare i prodotti [!DNL Commerce] al Channel Manager può 
 
    - Scorri fino a **[!UICONTROL Publish to Channel Manager]** e attivarlo.
 
-   - Verifica che gli attributi del prodotto includano almeno uno degli ID di prodotto Walmart richiesti.
+   - Verifica che gli attributi del prodotto includano almeno uno dei requisiti [!DNL Walmart Product IDs].
 
    - Seleziona **[!UICONTROL Save]**.
 

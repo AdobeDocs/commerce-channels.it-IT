@@ -2,9 +2,9 @@
 title: Gestisci elenchi
 description: Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Man
 
 ## Aggiungere prodotti Commerce a Channel Manager
 
-Crea l&#39;assortimento di prodotti per il canale Marketplace Walmart completando le seguenti attività:
+Crea l&#39;assortimento di prodotti per il [!DNL Walmart Marketplace] completando le seguenti attività:
 
-* [Aggiungere prodotti dal catalogo di prodotti Commerce a Channel Manager](add-products-to-channel-store.md)
+* [Aggiungi prodotti dal tuo [!DNL Commerce] catalogo di prodotti in [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Mappare gli attributi del catalogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Pubblicare prodotti su Walmart
+## Pubblicare prodotti in [!DNL Walmart]
 
-Puoi creare offerte di prodotti su Walmart Marketplace utilizzando la corrispondenza dei prodotti o caricando manualmente gli elenchi di prodotti per i nuovi prodotti.
+Puoi creare offerte di prodotti sul [!DNL Walmart Marketplace] utilizzando la corrispondenza dei prodotti o caricando manualmente gli elenchi di prodotti per i nuovi prodotti.
 
 * **[Prodotti abbinati su Walmart](publish-listings-to-marketplace.md)**- Pubblica gli elenchi dei prodotti dal tuo canale su [!DNL Walmart Marketplace] aggiornando gli elenchi esistenti che vendono lo stesso prodotto. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-catalog-attributes.md) per il tuo canale.
 
-* **[Carica manualmente le nuove inserzioni](publish-listings-to-marketplace.md#upload-new-product-listings)**- Per i prodotti che non corrispondono a un elenco esistente su Walmart Marketplace, utilizza un modello Excel di categoria di prodotti Walmart per caricare in massa gli elenchi di prodotti.
+* **[Carica manualmente le nuove inserzioni](publish-listings-to-marketplace.md#upload-new-product-listings)**- Per i prodotti che non corrispondono a un elenco esistente su [!DNL Walmart Marketplace], utilizza [!DNL Walmart] modello Excel per categoria prodotto per caricare in massa gli elenchi di prodotti.
 
 ## Controlli elenco e descrizioni a colonne
 
@@ -64,7 +64,7 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per [!UICONT
 | **Controllo** | **Descrizione** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Apre la [!UICONTROL Admin Product Catalog] per selezionare i prodotti da aggiungere al tuo [!DNL Walmart Marketplace] assortimento o per aggiornare gli attributi di prodotto per soddisfare i requisiti di elenchi di Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Dopo aver selezionato uno o più prodotti in stato Bozza, seleziona Confronta prodotti su Walmart per verificare la presenza di offerte di prodotti che possono essere aggiunte a un esistente [!DNL Walmart Marketplace] elenco. |
+| [!UICONTROL Match products on Walmart] | Dopo aver selezionato uno o più prodotti in stato Bozza, seleziona Confronta prodotti in [!DNL Walmart] per verificare le offerte di prodotti che possono essere aggiunte a un [!DNL Walmart Marketplace] elenco. |
 | [!UICONTROL Refresh products] | Aggiorna la visualizzazione con l&#39;elenco e lo stato più aggiornati. Questo controllo ripristina inoltre l&#39;ordinamento predefinito della visualizzazione elenco e rimuove eventuali filtri. |
 | [!UICONTROL Filter by *Stato*] | Mostra solo gli elenchi con uno stato specifico selezionando una delle schede del conteggio di stato sopra la tabella Elenco. Utilizza la *Aggiorna prodotti* per rimuovere il filtro. |
 | [!UICONTROL Sort products] | Per modificare l’ordinamento dell’elenco, seleziona un’intestazione di colonna. |
@@ -91,7 +91,7 @@ Nell’area di lavoro Elenco, l’etichetta Stato mostra dove si trova un prodot
 
 * **[!UICONTROL Match]**- Identifica i prodotti su cui è stata eseguita la corrispondenza [!DNL Walmart].
 
-   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un[!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’elenco esistente di Walmart.
+   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un[!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’offerta esistente [!DNL Walmart] elenco.
 
    Controlla la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard per esaminare l&#39;elenco dei prodotti aggiornato e verificare i dettagli dei prodotti, il prezzo e la quantità di scorte.
 
