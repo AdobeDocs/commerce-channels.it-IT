@@ -2,9 +2,9 @@
 title: Pubblica annunci a Walmart
 description: Pubblicare gli elenchi dei prodotti Commerce in [!DNL Walmart Marketplace]per iniziare a vendere.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Se viene trovata una corrispondenza, l’elenco dei prodotti esistenti viene agg
 
 ### Prerequisiti
 
-Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi. Vedi [Mappare gli attributi del catalogo](map-catalog-attributes.md).
+Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli attributi del catalogo dei prodotti soddisfino i requisiti di Walmart e configura le impostazioni degli attributi dei prodotti. Vedi [Mappare gli attributi del catalogo](map-catalog-attributes.md).
 
 #### Selezionare e abbinare i prodotti
 
@@ -52,9 +52,7 @@ Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli 
 
 Al termine della corrispondenza, lo stato può essere *Corrispondenza* o *Errore*.
 
-* **[!UICONTROL Match]** indica che la corrispondenza del prodotto è stata completata. L&#39;offerta di prodotto è stata pubblicata in un elenco esistente di Walmart Marketplace. Se la [L&#39;archivio Marketplace non è attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* viene visualizzato in *[!UICONTROL Status detail]* colonna.
-
-Se [[!DNL Walmart Marketplace] archivio non attivo](walmart-prerequisites.md#walmart-marketplace-store-status), *Dettagli stato* la colonna indica che il prodotto è *Staging per corrispondenza*. I prodotti di staging vengono pubblicati automaticamente quando il [!DNL Walmart Marketplace] archivio attivato.
+* **[!UICONTROL Match]** indica che la corrispondenza del prodotto è stata completata. L&#39;offerta di prodotto è stata pubblicata in un elenco esistente di Walmart Marketplace. Se la [L&#39;archivio Marketplace non è attivo](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* viene visualizzato in *[!UICONTROL Status detail]* colonna. I prodotti di staging vengono pubblicati automaticamente quando il [!DNL Walmart Marketplace] archivio attivato.
 
 * **[!UICONTROL Error]** indica che l’operazione di corrispondenza non è riuscita a causa di uno dei seguenti problemi:
 
@@ -116,7 +114,7 @@ Per i nuovi elenchi di prodotti, controlla il catalogo dei prodotti per assicura
 
 ### Prerequisiti
 
-* Verifica che la [Prerequisiti per Walmart](walmart-prerequisites.md).
+* Verifica che la [Requisiti di Walmart](walmart-requirements.md).
 
 * Nel catalogo del prodotto Commerce, verifica che la configurazione del catalogo per i prodotti da elencare su Walmart Marketplace abbia tutti gli attributi richiesti e soddisfi le linee guida per i contenuti di Walmart Marketplace.
 

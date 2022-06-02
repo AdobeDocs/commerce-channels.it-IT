@@ -2,9 +2,9 @@
 title: Panoramica delle impostazioni
 description: Scopri le [!DNL Channel Manager settings] per configurare l'autenticazione e mappare gli attributi del catalogo dei prodotti e i vettori di spedizione necessari per coordinare le operazioni di vendita tra [!DNL Commerce] e [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ In [!DNL Channel Manager], è possibile configurare alcune impostazioni dei cana
 
 * **[Mappa vettori di spedizione](map-shipping-carriers.md)**-Prima di elaborare [!DNL Walmart Marketplace] ordini da [!DNL Commerce], assicurati di mappare i vettori di spedizione dal tuo [!DNL Commerce] istanza ai corrispondenti vettori [!DNL Walmart Marketplace].
 
-* **Credenziali API di Walmart**-Durante il [!DNL Channel Manager] il processo di onboarding, [Credenziali API di Walmart](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) dal[!DNL Walmart Marketplace] Account del venditore da collegare [!DNL Commerce] a [!DNL Walmart Marketplace] per la comunicazione e la sincronizzazione dei dati. Se necessario, puoi aggiornare queste credenziali dalla *Impostazioni* pagina.
+* **Credenziali API di Walmart**-Durante il [!DNL Channel Manager] processo di onboarding, fornire [Credenziali API](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) dal [!DNL Walmart Marketplace] Account del venditore da collegare [!DNL Commerce] a [!DNL Walmart Marketplace] per la comunicazione e la sincronizzazione dei dati. Se necessario, puoi aggiornare queste credenziali dalla *Impostazioni* pagina.

@@ -4,17 +4,15 @@ description: Collega l’istanza a [!DNL Channel Manager] per completare alcune 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # Onboard [!DNL Channel Manager]
-
-Channel Manager integrato installando l&#39;estensione Channel Manager sul tuo [!DNL Commerce] istanza e configurazione delle connessioni API. Queste connessioni consentono la comunicazione e la sincronizzazione dei dati tra la tua istanza Commerce e [!DNL Walmart Marketplace].
 
 Dopo aver completato l&#39;onboarding, configura e gestisci le operazioni sui canali di vendita dal [!UICONTROL Channel Manager] l&#39;opzione [!UICONTROL Commerce Admin Marketing] menu.
 
@@ -30,9 +28,9 @@ Dopo aver completato l&#39;onboarding, configura e gestisci le operazioni sui ca
 
 1. [Configurazione completa dello store](complete-store-setup.md).
 
-## Prerequisiti
+## Requisiti
 
-- Verifica di disporre dei requisiti necessari [Prerequisiti per Walmart Marketplace](walmart-prerequisites.md) per l’integrazione con Channel Manager.
+- Verifica che la [Requisiti di Marketplace di Walmart](walmart-requirements.md) per l’integrazione con Channel Manager.
 
 - **Informazioni sull’account Commerce**- Download e installazione [!DNL Channel Manager] richiede un [Account Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. È necessario un ID account e le credenziali con accesso Proprietario o Amministratore al [!DNL Adobe Commerce] o [!DNL Magento Open Source] istanza.
 
@@ -62,7 +60,7 @@ Dopo aver completato l&#39;onboarding, configura e gestisci le operazioni sui ca
 
    Se prevedi di utilizzare Channel Manager per l&#39;inventario e la gestione degli ordini, devi avere l&#39;estensione Inventory management installata e abilitata nell&#39;istanza Adobe Commerce e Magenti Open Source. In genere, questa estensione viene installata e abilitata per impostazione predefinita in Adobe Commerce e Magenti Open Source 2.3.x e versioni successive. Per ulteriori informazioni, consulta [Installare Inventory management](https://devdocs.magento.com/extensions/inventory-management/) nella documentazione per sviluppatori di Adobe Commerce.
 
-### Requisiti
+### Requisiti di sistema
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
