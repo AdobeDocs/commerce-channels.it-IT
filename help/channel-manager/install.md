@@ -2,9 +2,9 @@
 title: Installa [!DNL Channel Manager]
 description: Installa l'estensione Channel Manager.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Utilizzare queste istruzioni per l&#39;installazione [!DNL Channel Manager] su A
 1. Da [!DNL Commerce] directory principale del progetto, aggiungi Channel Manager a `composer.json`.
 
    ```bash
-    composer require magento/module-sales-channels-extension --no-update
+    composer require magento/channel-manager --no-update
    ```
 
 1. Se richiesto, immetti le chiavi di accesso dal [!DNL Commerce] conto.
@@ -66,7 +66,7 @@ Utilizzare queste istruzioni per l&#39;installazione [!DNL Channel Manager] su A
 1. Aggiorna le dipendenze e installa l&#39;estensione.
 
    ```bash
-   composer update magento/module-sales-channels-extension
+   composer update magento/channel-manager
    ```
 
    La `composer update` il comando aggiorna solo le dipendenze necessarie per [!DNL Channel Manager]. Per aggiornare tutte le dipendenze, utilizza invece questo comando: `composer update`.
