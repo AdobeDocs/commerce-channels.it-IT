@@ -2,20 +2,20 @@
 title: Gestisci elenchi
 description: Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
 
 # Gestire gli elenchi
 
-Gestire gli elenchi dei prodotti per [!DNL Walmart Marketplace] canale di vendita dal [!UICONTROL Listings] nella visualizzazione archivio canali. Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Manager] flusso di lavoro per determinare i passaggi successivi e risolvere eventuali errori.
+Gestire gli elenchi dei prodotti per [!DNL Walmart Marketplace] canale di vendita dall&#39;interfaccia utente di Channel Manager.
 
 Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Manager] flusso di lavoro per determinare i passaggi successivi e risolvere eventuali errori.
 
-![Pagina inserzioni per un canale di vendita connesso](assets/product-listing-landing.png)
+![Pagina inserzioni per un canale di vendita connesso](assets/listings-dashboard-view.png)
 
 È possibile completare le seguenti attività dalla vista Elenco.
 
@@ -24,12 +24,13 @@ Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Man
 * Aggiungi prodotti
 * Prodotti abbinati
 * Tracciare lo stato dell’elenco
+* Descrizione dell’errore per eventuali elenchi di prodotti con stato di errore
 
 ## Visualizza elenchi prodotti
 
-1. Dall’amministratore, vai a [!UICONTROL **Marketing** > Canali > **Channel Manager**].
+1. Dall’amministratore, vai a [!UICONTROL **Marketing** > **Channel Manager**].
 
-1. Dall&#39;elenco Store canali, seleziona l&#39;icona a forma di matita in una riga di voce dello store per aprire la visualizzazione store.
+1. Dall&#39;elenco Store, seleziona l&#39;icona occhio in una riga della voce store per aprire la vista store.
 
 1. Seleziona [!UICONTROL **Elenco**].
 
@@ -47,13 +48,13 @@ Crea l&#39;assortimento di prodotti per il [!DNL Walmart Marketplace] completand
 
 * [Mappare gli attributi del catalogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Pubblicare prodotti in [!DNL Walmart]
+## Confronta prodotti su [!DNL Walmart]
 
 Puoi creare offerte di prodotti sul [!DNL Walmart Marketplace] utilizzando la corrispondenza dei prodotti o caricando manualmente gli elenchi di prodotti per i nuovi prodotti.
 
-* **[Prodotti abbinati su Walmart](publish-listings-to-marketplace.md)**- Pubblica gli elenchi dei prodotti dal tuo canale su [!DNL Walmart Marketplace] aggiornando gli elenchi esistenti che vendono lo stesso prodotto. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-catalog-attributes.md) per il tuo canale.
+* **[Prodotti abbinati su Walmart](connect-listings-to-marketplace.md)**- Collegare gli elenchi dei prodotti dal canale a [!DNL Walmart Marketplace] aggiornando gli elenchi esistenti che vendono lo stesso prodotto. I criteri di corrispondenza sono determinati dal [configurazione di mappatura degli attributi](map-catalog-attributes.md) per il tuo canale.
 
-* **[Carica manualmente le nuove inserzioni](publish-listings-to-marketplace.md#upload-new-product-listings)**- Per i prodotti che non corrispondono a un elenco esistente su [!DNL Walmart Marketplace], utilizza [!DNL Walmart] modello Excel per categoria prodotto per caricare in massa gli elenchi di prodotti.
+* **[Carica manualmente le nuove inserzioni](connect-listings-to-marketplace.md#upload-new-product-listings)**- Per i prodotti che non corrispondono a un elenco esistente su [!DNL Walmart Marketplace], utilizza [!DNL Walmart] modello Excel per categoria prodotto per caricare in massa gli elenchi di prodotti.
 
 ## Controlli elenco e descrizioni a colonne
 
@@ -73,32 +74,33 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per [!UICONT
 **Descrizioni delle colonne**
 
 | **Campo** | **Descrizione** |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Nome del prodotto dal [!DNL Commerce] memorizzare il catalogo. |
-| [!UICONTROL SKU (Unique ID)] | L’attributo mappato utilizzato per abbinare i prodotti sul marketplace. Il nome del campo varia a seconda della configurazione dell&#39;attributo mappata per [!DNL Channel Manager] elenchi. In questo caso, l’operazione di corrispondenza del prodotto utilizza la SKU del prodotto dal [!DNL Commerce] catalogo per trovare un [!DNL Walmart Marketplace]  Elenco con un valore SKU che corrisponde al valore SKU del [!DNL Commerce] attributi del prodotto. |
+| [!UICONTROL SKU (Unique ID)] | SKU assegnato al prodotto nel [!DNL Commerce] catalogo. |
 | [!UICONTROL  Quantity] | Quantità di scorte disponibili in Adobe Commerce o Magento Open Source. |
 | [!UICONTROL Price] | Il prezzo del prodotto dal [!DNL Commerce] memorizzare il catalogo. Gli aggiornamenti dei prezzi del catalogo vengono sincronizzati in Channel Manager e quindi inviati a [!DNL Walmart Marketplace]  in modo che gli articoli elencati mostrino il prezzo corrente. |
 | [!UICONTROL Status] | Indica lo stato corrente dell&#39;ordine nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando abbini prodotti sul mercato. Se un&#39;operazione non riesce, nell&#39;elenco viene visualizzato uno stato di errore. Dopo aver corretto l&#39;errore, [!DNL Channel Manager] prova nuovamente l&#39;operazione e aggiorna lo stato. |
+| [!UICONTROL Error Description] | Fornisce informazioni aggiuntive sull’errore per i prodotti con un `[!DNL Error]` stato. |
 | [!UICONTROL Status Detail] | Fornisce informazioni aggiuntive sui prodotti con *Errore* o *Corrispondenza* stato. |
 
 ### Informazioni sullo stato dell’elenco
 
 Nell’area di lavoro Elenco, l’etichetta Stato mostra dove si trova un prodotto [!DNL Channel Manager] flusso di lavoro per determinare i passaggi successivi e risolvere gli errori. Le inserzioni possono avere le seguenti etichette di stato:
 
-* **[!UICONTROL Draft]**- Identifica i prodotti che non sono stati [presentata [!DNL Walmart] per corrispondenza](publish-listings-to-marketplace.md#match-products).
+* **[!UICONTROL Draft]**- Identifica i prodotti che non sono stati [presentata [!DNL Walmart] per corrispondenza](connect-listings-to-marketplace.md#match-products).
 
 * **[!UICONTROL Processing]**- Identifica i prodotti presentati per la corrispondenza [!DNL Walmart Marketplace]. I prodotti rimangono in *Elaborazione* fino al [!DNL Walmart] restituisce un messaggio di stato HTTP che indica se la corrispondenza è avvenuta correttamente o se si è verificato un errore. Possono essere necessari fino a 30 minuti per completare l&#39;operazione della partita sul [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identifica i prodotti su cui è stata eseguita la corrispondenza [!DNL Walmart].
 
-   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un[!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’offerta esistente [!DNL Walmart] elenco.
+   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un [!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’offerta esistente [!DNL Walmart] elenco.
 
    Controlla la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard per esaminare l&#39;elenco dei prodotti aggiornato e verificare i dettagli dei prodotti, il prezzo e la quantità di scorte.
 
-* **[!UICONTROL Match - Match in Stage]**- Identifica i prodotti a cui corrispondono [!DNL Walmart] che non possono essere pubblicati fino al [!DNL Walmart Marketplace] il negozio è in diretta. I prodotti con questo stato vengono pubblicati automaticamente quando [!DNL Walmart Marketplace] il negozio va in diretta.
+* **[!UICONTROL Match - Match in Stage]**- Identifica i prodotti a cui corrispondono [!DNL Walmart] che non possono essere collegati fino a quando [!DNL Walmart Marketplace] il negozio è in diretta. I prodotti con questo stato si collegano automaticamente quando [!DNL Walmart Marketplace] il negozio va in diretta.
 
 * **[!UICONTROL Error]**- Identifica i prodotti che non sono stati confrontati con un esistente [!DNL Walmart Marketplace] elenco.
 
 * **[!UICONTROL Error description]**- Fornisce informazioni dettagliate sull&#39;errore di inserimento nell&#39;elenco.
 
-   Dopo aver risolto l’errore, invia nuovamente il prodotto per la corrispondenza. Vedi [Risolvere i problemi relativi agli errori di corrispondenza del prodotto](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
+   Dopo aver risolto l’errore, invia nuovamente il prodotto per la corrispondenza. Vedi [Risolvere i problemi relativi agli errori di corrispondenza del prodotto](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

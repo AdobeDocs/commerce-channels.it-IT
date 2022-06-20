@@ -2,9 +2,9 @@
 title: Impostazione completa del canale di vendita
 description: Passa a un canale di vendita connesso per gestire la visualizzazione e la gestione degli elenchi di prodotti, degli aggiornamenti di scorte e prezzi e per tenere traccia degli ordini
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 20ba244a656a13bad1637d27980331cdbd88bb69
+source-git-commit: c2d5961526e6c5ff7f1efa86dc7e831fa096f924
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,18 @@ Dopo aver collegato un negozio Commerce a [!DNL Walmart Marketplace], completa l
 
 1. Inizia le operazioni dei canali di vendita.
 
+   - [Configurare le impostazioni del canale per gli identificatori del prodotto e i vettori di spedizione](configure-channel-settings.md)
+
    - [Aggiungi prodotti dal tuo [!DNL Commerce Catalog] a Channel Manager](add-products-to-channel-store.md)
 
-   - [Pubblicare gli elenchi dei prodotti in [!DNL Walmart] utilizzo della corrispondenza dei prodotti](publish-listings-to-marketplace.md)
+   - [Collegare gli elenchi dei prodotti a [!DNL Walmart] utilizzo della corrispondenza dei prodotti](connect-listings-to-marketplace.md)
 
    - [Scopri come [!DNL Channel Manager] sincronizza l&#39;inventario e gli aggiornamenti dei prezzi tra [!DNL Commerce] e [!DNL Walmart]](inventory-and-price-updates.md)
 
    - [Visualizza e gestisci [!DNL Walmart] gli ordini [!DNL Commerce Admin]](manage-orders.md)
+
+Dopo aver creato il canale di vendita e abbinare i prodotti a [!DNL Walmart Marketplace], puoi gestire tutte le operazioni di inserimento nell’elenco dei prodotti, inventario, prezzo, ordine, spedizione e annullamento da [!DNL Commerce]. I dati di prodotto e ordine vengono sincronizzati automaticamente da [!DNL Commerce] a [!DNL Walmart Marketplace]. Per evitare conflitti o discrepanze tra [!DNL Commerce] e [!DNL Walmart Marketplace] aggiornamenti, non aggiornare i dati di prodotto o ordine per [!DNL Commerce] i prodotti [!DNL Walmart Marketplace] conto.
+
+>[!IMPORTANT]
+>
+>In alcuni casi, quando [!DNL Channel Manager] restituisce errori durante l&#39;elaborazione degli ordini, potrebbe essere necessario completare le operazioni di ordine, spedizione o annullamento dal [!DNL Walmart Marketplace]. Vedi [Correggere gli errori di ordine](process-orders.md#fix-order-errors).

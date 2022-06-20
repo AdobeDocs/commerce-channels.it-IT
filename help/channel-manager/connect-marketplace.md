@@ -2,9 +2,9 @@
 title: Collegare il canale di vendita a [!DNL Walmart Marketplace]
 description: Configura il canale di vendita e collegati a Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Collegare il canale di vendita a [!DNL Walmart Marketplace]
 
 Dopo aver installato Channel Manager sul tuo [!DNL Commerce] istanza, collegare un [!DNL Commerce] archiviare [!DNL Walmart Marketplace].
+
+>[!NOTE]
+>
+>Channel Manager richiede una connessione uno-a-uno tra un account Walmart e una visualizzazione negozio Commerce. Non è possibile collegare la stessa visualizzazione store a più account Walmart.
 
 1. [Creare il canale di vendita](#create-the-sales-channel) selezionando Commerce store per gli elenchi di prodotti.
 

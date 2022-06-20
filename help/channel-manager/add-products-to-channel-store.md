@@ -2,17 +2,17 @@
 title: Aggiungi prodotti all'archivio canali di vendita
 description: Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# Aggiungi prodotti all&#39;archivio canali di vendita
+# Aggiungi prodotti a [!DNL Channel Manager]
 
-Aggiungi il prodotto al [!DNL Walmart Marketplace] canale di vendita selezionando i prodotti dal [!DNL Commerce] catalogo dei prodotti e importazione [!DNL Channel Manager].
+Per aggiungere prodotti al [!DNL Walmart Marketplace] canale di vendita, selezionali dal [!DNL Commerce] catalogo dei prodotti e importarli in [!DNL Channel Manager].
 Il processo di importazione può richiedere fino a 30 minuti o più a seconda del numero di prodotti selezionati.
 
 ## Prerequisito
@@ -23,7 +23,7 @@ Il processo di importazione può richiedere fino a 30 minuti o più a seconda de
 
 [!DNL Commerce] gli elenchi di prodotti devono avere la seguente configurazione di attributi obbligatoria:
 
-- **[!UICONTROL Publish to Channel Manager]** attributo abilitato
+- **[!UICONTROL Connect to Channel Manager]** attributo abilitato
 
 - Fornire valori validi per gli attributi Walmart richiesti.
 
@@ -49,11 +49,11 @@ Il processo di importazione può richiedere fino a 30 minuti o più a seconda de
 
    ![Invia prodotti al negozio di canali di vendita](assets/select-products-from-catalog.png)
 
-1. Abilita la **[!UICONTROL Publish to Channel Manager]** per gli elementi selezionati.
+1. Abilita la **[!UICONTROL Connect to Channel Manager]** per gli elementi selezionati.
 
    - Da **[!UICONTROL Actions]**, seleziona **[!UICONTROL Update attributes]**.
 
-   - Scorri fino a **[!UICONTROL Publish to Channel Manager]** e attivarlo.
+   - Scorri fino a **[!UICONTROL Connect to Channel Manager]** e attivarlo.
 
    - Verifica che gli attributi del prodotto includano almeno uno dei requisiti [!DNL Walmart Product IDs].
 
