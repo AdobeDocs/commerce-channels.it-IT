@@ -1,10 +1,10 @@
 ---
 title: Elabora ordini
-description: Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source.
+description: '"Istruzioni per la spedizione e l''annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Dopo [!DNL Walmart Marketplace] gli ordini sono stati riconosciuti e sono stati inviati con successo a [!DNL Channel Manager], utilizza [Gestione ordini di Commerce](https://docs.magento.com/user-guide/sales/orders-workspace.html) per elaborare l&#39;ordine.
 
-Channel Manager sincronizza gli aggiornamenti di [!DNL Walmart Marketplace] per garantire che lo stato dell’ordine e le informazioni di spedizione da Commerce corrispondano ai dati tracciati nel [!DNL Walmart Marketplace].
+Channel Manager sincronizza gli aggiornamenti di [!DNL Walmart Marketplace] per garantire che lo stato dell&#39;ordine e le informazioni di spedizione siano [!DNL Commerce] corrisponde ai dati tracciati in [!DNL Walmart Marketplace].
 
 * **Spedizioni ordine**-Walmart richiede un numero di registrazione per tutte le spedizioni. Se alcuni articoli sono esauriti, è possibile creare spedizioni parziali per inviare gli articoli attualmente disponibili. Dopo aver inviato la spedizione, gli aggiornamenti dell&#39;ordine vengono sincronizzati con [!DNL Walmart Marketplace]. Successivamente, Walmart comunica ai clienti lo stato dell&#39;ordine e i dettagli di spedizione.
 
 * **Annullamento dell&#39;ordine**-Quando si annulla un [!DNL Walmart Marketplace] ordine, Walmart richiede un motivo di cancellazione che è incluso nell&#39;avviso di cancellazione dell&#39;ordine inviato al cliente. Il motivo dell&#39;annullamento viene visualizzato anche nel [!DNL Commerce] informazioni sui pagamenti degli ordini. Dopo l&#39;invio dell&#39;annullamento, gli aggiornamenti dell&#39;inventario vengono sincronizzati con [!DNL Walmart Marketplace]. Successivamente, Walmart comunica ai clienti lo stato dell&#39;ordine e i dettagli di spedizione.
 
-   Nella vetrina è necessario annullare l&#39;intero ordine. Commerce non consente annullamenti parziali.
+   Nella vetrina è necessario annullare l&#39;intero ordine. [!DNL Commerce] non consente annullamenti parziali.
 
 Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizza con successo la spedizione, la spedizione parziale e gli aggiornamenti di annullamento alla [!DNL Walmart Marketplace], l’elaborazione dell’ordine è completa.
 
@@ -58,7 +58,7 @@ Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizz
 
 1. Per visualizzare [!DNL Walmart Marketplace] ordini, selezionare *[!UICONTROL *Orders]**
 
-1. Nella tabella Ordini aprire la pagina dei dettagli dell’ordine selezionando la **Numero ordine di Commerce** per l&#39;ordine di annullamento.
+1. Nella tabella Ordini aprire la [pagina dei dettagli dell&#39;ordine](manage-orders.md#view-order-detail) selezionando la **Numero ordine di Commerce** per l&#39;ordine di annullamento.
 
    ![Visualizzazione dettagli ordine di Commerce per un[!DNL Walmart Marketplace]ordine](assets/order-detail-with-external-order-id.png)
 

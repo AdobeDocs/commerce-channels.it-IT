@@ -1,10 +1,10 @@
 ---
-title: Gestisci elenchi
-description: Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source.
+title: Gestire gli elenchi
+description: '''Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archivia con Channel Manager per Adobe Commerce e Magenti Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Man
 * Aggiungi prodotti
 * Prodotti abbinati
 * Tracciare lo stato dell’elenco
-* Descrizione dell’errore per eventuali elenchi di prodotti con stato di errore
+* Rivedi la descrizione dell’errore per gli elenchi con stato di errore
 
 ## Visualizza elenchi prodotti
 
@@ -40,7 +40,7 @@ Lo stato di un singolo elenco indica dove si trova il prodotto [!DNL Channel Man
 
 1. Ripristinare l’ordinamento e rimuovere i filtri selezionando **Aggiorna prodotti**.
 
-## Aggiungere prodotti Commerce a Channel Manager
+## Aggiungi [!DNL Commerce] prodotti a Channel Manager
 
 Crea l&#39;assortimento di prodotti per il [!DNL Walmart Marketplace] completando le seguenti attività:
 
@@ -93,7 +93,7 @@ Nell’area di lavoro Elenco, l’etichetta Stato mostra dove si trova un prodot
 
 * **[!UICONTROL Match]**- Identifica i prodotti su cui è stata eseguita la corrispondenza [!DNL Walmart].
 
-   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un [!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’offerta esistente [!DNL Walmart] elenco.
+   Una corrispondenza si verifica quando il valore dell&#39;attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un [!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde, l’offerta Commerce viene aggiunta all’elenco esistente.
 
    Controlla la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard per esaminare l&#39;elenco dei prodotti aggiornato e verificare i dettagli dei prodotti, il prezzo e la quantità di scorte.
 

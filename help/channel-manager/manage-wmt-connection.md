@@ -1,13 +1,13 @@
 ---
 title: Gestire la connessione a Marketplace Walmart
-description: Aggiorna le credenziali API per autorizzare la connessione tra un [DNL! Commerce] e la vista Store e [!DNL Walmart Marketplace]. La connessione è necessaria per collegare gli elenchi dei prodotti Commerce e sincronizzare i dati di inventario, prezzo, ordine e spedizione tra Commerce e Walmart.
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+description: '''Aggiorna le credenziali API per autorizzare la connessione tra un [DNL! Commerce] e la vista Store e [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] elenchi dei prodotti e sincronizza i dati di inventario, prezzo, ordine e spedizione tra [!DNL Commerce] e il Walmart."'
+exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
+source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Mappa delle navi
 

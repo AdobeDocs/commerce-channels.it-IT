@@ -1,10 +1,10 @@
 ---
 title: Mappare gli attributi del catalogo
-description: Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart].
+description: '''Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

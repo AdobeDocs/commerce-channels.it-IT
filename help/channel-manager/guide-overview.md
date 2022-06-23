@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] Panoramica della guida"'
-description: Informazioni complete sulle [!DNL Channel Manager] per gli amministratori di Adobe Commerce e Magenti Open Source, inclusi l'installazione e l'onboarding
+description: '"Informazioni complete su [!DNL Channel Manager] per gli amministratori di Adobe Commerce e di Magento Open Source, inclusa l''installazione e l''onboarding."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panoramica
 
-Questa guida è destinata agli amministratori di Adobe Commerce e Magenti Open Source. Include informazioni dettagliate su [!DNL Channel Manager] installazione, onboarding, configurazione e gestione. La guida include informazioni di base sulla configurazione e sulle funzionalità principali di Commerce.
+Questa guida è destinata agli amministratori di Adobe Commerce e Magenti Open Source. Include informazioni dettagliate su [!DNL Channel Manager] installazione, onboarding, configurazione e gestione. La guida presuppone una comprensione di base del nucleo [!DNL Commerce] configurazione e funzionalità.
 
 [!DNL Channel Manager] dispone di due aree per gli amministratori:
 
@@ -23,7 +23,7 @@ Questa guida è destinata agli amministratori di Adobe Commerce e Magenti Open S
 
 Questa guida tratta i seguenti argomenti:
 
-* Tutto [!DNL Channel Manager]Attività specifiche completate dall’amministratore Commerce.
+* Tutto [!DNL Channel Manager]- attività specifiche completate dal [!DNL Commerce] Amministratore.
 * Tutto [!DNL Channel Manager]Attività specifiche relative a -che vengono completate dalla riga di comando.
 
 Per informazioni sulla gestione delle [!DNL Commerce] piattaforma, progetti e siti web, consulta le guide per gli utenti e gli sviluppatori di Adobe Commerce e Magenti Open Source.

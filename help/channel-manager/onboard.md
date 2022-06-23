@@ -1,12 +1,12 @@
 ---
 title: Onboard [!DNL Channel Manager]
-description: Collega l’istanza a [!DNL Channel Manager] per completare alcune fasi di onboarding.
+description: '''Collega l''istanza a [!DNL Channel Manager] completando alcuni passaggi di onboarding."'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Dopo aver completato l&#39;onboarding, configura e gestisci le operazioni sui ca
 
 - **Informazioni sull’account Commerce**- Download e installazione [!DNL Channel Manager] richiede un [Account Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. È necessario un ID account e le credenziali con accesso Proprietario o Amministratore al [!DNL Adobe Commerce] o [!DNL Magento Open Source] istanza.
 
-   - **ID MAGLIA**-[Accedere](https://account.magento.com/customer/account/login/) all’account Commerce per ottenere l’ID da **[!UICONTROL My Account - Magento settings]**.
+   - **ID MAGLIA**-[Accedere](https://account.magento.com/customer/account/login/) al [!DNL Commerce] per ottenere l&#39;ID da **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] sulle impostazioni dell’account Commerce](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] su [!DNL Commerce] impostazioni account](assets/mageid-my-commerce-account.png)
 
-   - **Tasti di accesso-** Ottenere le chiavi di autenticazione per scaricare estensioni Commerce dall’archivio Commerce Composer `([!DNL repo.magento.com]`).
+   - **Tasti di accesso-** Scarica le chiavi di autenticazione [!DNL Commerce] estensioni da [!DNL Commerce] Archivio compositore `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

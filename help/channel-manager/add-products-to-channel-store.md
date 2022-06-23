@@ -1,10 +1,10 @@
 ---
-title: Aggiungi prodotti all'archivio canali di vendita
-description: Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita
+title: Aggiungi prodotti a Channel Manager
+description: '''Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita configurato in Channel Manager." '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---

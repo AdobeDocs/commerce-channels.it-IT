@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] Requisiti"'
-description: '"Verifica di disporre del[!DNL Walmart Marketplace]informazioni e risorse da integrare con Channel Manager."'
+title: '''[!DNL Walmart] Requisiti"'
+description: '''Verifica di avere il [!DNL Walmart Marketplace]informazioni e risorse da integrare con Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * Una chiave API per collegare Adobe Commerce o Magento Open Source a [!DNL Walmart Marketplace]
 
-   La [!DNL Walmart Marketplace] La chiave API consente l’integrazione tra [!DNL Channel Manager] per Adobe Commerce o Magenti Open Source e il Marketplace Walmart. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
+   La [!DNL Walmart Marketplace] La chiave API consente l’integrazione tra [!DNL Channel Manager] Adobe [!DNL Commerce] o il Magento Open Source e il Marketplace Walmart. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
 
 ## Imposta un [!DNL Walmart Seller] account
 
@@ -62,5 +62,5 @@ Quando colleghi i prodotti al marketplace, la disponibilità dell&#39;elenco dip
 
 >[!IMPORTANT]
 >
->Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo, ordine vengono sincronizzati automaticamente. Non collegare Channel Manager a un negozio Walmart Marketplace live finché non avrai disabilitato altre integrazioni che aggiornano i dati di prodotto e ordine e sei pronto per la sincronizzazione degli aggiornamenti Commerce con [!DNL Walmart Marketplace].
+>Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo e ordine vengono sincronizzati automaticamente. Non connettere [!DNL Channel Manager] in un negozio Walmart Marketplace finché non avrai disabilitato altre integrazioni che aggiornano i dati di prodotto e ordine. Se hai configurato altre integrazioni, verifica che la quantità e i prezzi dell’articolo in [!DNL Commerce] corrispondono alle quantità in [!DNL Walmart Marketplace] prima di connettersi a un negozio live.
 

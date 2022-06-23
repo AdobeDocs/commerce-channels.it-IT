@@ -1,10 +1,10 @@
 ---
 title: Inventario e aggiornamenti dei prezzi
-description: '''[!DNL Channel Manager] sincronizza l’inventario e gli aggiornamenti dei prezzi tra Commerce Store e [!DNL Walmart Marketplace] per gestire le operazioni dei canali di vendita dal tuo amministratore Commerce'
+description: '''[!DNL Channel Manager] sincronizza l''inventario e gli aggiornamenti dei prezzi tra [!DNL Commerce] e [!DNL Walmart Marketplace] per gestire le operazioni dei canali di vendita [!DNL Commerce] Amministratore'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo e ordine vengono sincronizzati automaticamente. Se vendi già su Walmart Marketplace direttamente o tramite un&#39;altra integrazione, assicurati di disabilitare l&#39;integrazione precedente e di verificare che i livelli e i prezzi delle scorte di magazzino nella vetrina Commerce siano accurati e corrispondano ai dati in [!DNL Walmart Marketplace] prima della connessione [!DNL Channel Manager] al negozio del mercato live.
+>Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo e ordine vengono sincronizzati automaticamente. Se vendi già su Walmart Marketplace, assicurati di disabilitare altre integrazioni che aggiornano i dati di prodotto e ordine. Quindi, verificare che i livelli e i prezzi delle scorte di magazzino nel [!DNL Commerce] storefront è accurato e corrisponde ai dati in [!DNL Walmart Marketplace] prima della connessione [!DNL Channel Manager] al negozio del mercato live.
 
 
 ## Aggiornamenti dell&#39;inventario
