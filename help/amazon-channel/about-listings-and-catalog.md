@@ -2,9 +2,9 @@
 title: Informazioni su Amazon e sul catalogo Commerce
 description: Il canale di vendita Amazon importa gli elenchi Amazon nel backend Commerce e sincronizza continuamente con i prodotti e le vendite.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Per gestire e rivedere meglio il catalogo dei prodotti e le vendite tramite un&#
 
 Adobe Commerce e Magenti Open Source gestiscono le sincronizzazioni dei cataloghi con l&#39;uso del prodotto [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} per definire le impostazioni del prodotto e i dati. Amazon utilizza anche gli attributi da mappare tramite onboarding. Periodo [attività pre-installazione](./amazon-pre-setup-tasks.md) per il canale di vendita Amazon, definisci gli attributi aggiuntivi di Amazon (se necessario) per garantire la corretta mappatura del prodotto durante l’importazione degli elenchi Amazon nel [!DNL Commerce] catalogo. Questi attributi includono UPC, EAN, ISBN e ASIN ([!DNL Amazon Standard Identification Number]). Attraverso l’onboarding, la sincronizzazione dei prodotti tra Amazon e [!DNL Commerce] cataloghi utilizzando gli attributi. Mappatura corretta della [!DNL Commerce] e i prodotti Amazon garantiscono una sincronizzazione continua delle informazioni sui prodotti, degli ordini e delle scorte.
 
-Se questi attributi non sono stati creati o configurati per il catalogo, è necessario aggiungere un [!DNL Commerce] [attributo prodotto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} e i valori ai prodotti prima dell&#39;onboarding. Quando un attributo Amazon viene importato, può essere utilizzato per ricerca, navigazione, regole di prezzo e molto altro. Per ulteriori informazioni su questi attributi, consulta [Amazon: Cosa sono gli UPC, gli EAN, gli ISBN e gli ASIN?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Se questi attributi non sono stati creati o configurati per il catalogo, è necessario aggiungere un [!DNL Commerce] [attributo prodotto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} e i valori ai prodotti prima dell&#39;onboarding. Quando un attributo Amazon viene importato, può essere utilizzato per ricerca, navigazione, regole di prezzo e molto altro. Vedi [Cosa significa ASIN, UPC, EAN, ISBN, SKU e altri codici a barre?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 Dopo l’onboarding, puoi gestire e aggiornare gli attributi del prodotto e le mappature Amazon in qualsiasi momento.
 
