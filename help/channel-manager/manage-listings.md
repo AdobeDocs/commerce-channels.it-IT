@@ -2,9 +2,9 @@
 title: Gestire gli elenchi
 description: '''Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archivia con Channel Manager per Adobe Commerce e Magenti Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per [!UICONT
 **Controlli per[!UICONTROL Listings]**
 
 | **Controllo** | **Descrizione** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Apre la [!UICONTROL Admin Product Catalog] per selezionare i prodotti da aggiungere al tuo [!DNL Walmart Marketplace] assortimento o per aggiornare gli attributi di prodotto per soddisfare i requisiti di elenchi di Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Dopo aver selezionato uno o più prodotti in stato Bozza, seleziona Confronta prodotti in [!DNL Walmart] per verificare le offerte di prodotti che possono essere aggiunte a un [!DNL Walmart Marketplace] elenco. |
+| [!UICONTROL Match products on Walmart] | Dopo aver selezionato uno o più prodotti in [!UICONTROL Draft] stato, seleziona [!UICONTROL Match products on Walmart] per verificare le offerte di prodotti che possono essere aggiunte a un [!DNL Walmart Marketplace] elenco. |
 | [!UICONTROL Refresh products] | Aggiorna la visualizzazione con l&#39;elenco e lo stato più aggiornati. Questo controllo ripristina inoltre l&#39;ordinamento predefinito della visualizzazione elenco e rimuove eventuali filtri. |
-| [!UICONTROL Filter by *Stato*] | Mostra solo gli elenchi con uno stato specifico selezionando una delle schede del conteggio di stato sopra la tabella Elenco. Utilizza la *Aggiorna prodotti* per rimuovere il filtro. |
+| [!UICONTROL Filter by *Stato*] | Mostra solo gli elenchi con uno stato specifico selezionando una delle schede di stato sopra la tabella Elenco. Rimuovi il filtro selezionando **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Per modificare l’ordinamento dell’elenco, seleziona un’intestazione di colonna. |
 
 
@@ -81,7 +81,6 @@ Le tabelle seguenti descrivono i controlli e le colonne disponibili per [!UICONT
 | [!UICONTROL Price] | Il prezzo del prodotto dal [!DNL Commerce] memorizzare il catalogo. Gli aggiornamenti dei prezzi del catalogo vengono sincronizzati in Channel Manager e quindi inviati a [!DNL Walmart Marketplace]  in modo che gli articoli elencati mostrino il prezzo corrente. |
 | [!UICONTROL Status] | Indica lo stato corrente dell&#39;ordine nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando abbini prodotti sul mercato. Se un&#39;operazione non riesce, nell&#39;elenco viene visualizzato uno stato di errore. Dopo aver corretto l&#39;errore, [!DNL Channel Manager] prova nuovamente l&#39;operazione e aggiorna lo stato. |
 | [!UICONTROL Error Description] | Fornisce informazioni aggiuntive sull’errore per i prodotti con un `[!DNL Error]` stato. |
-| [!UICONTROL Status Detail] | Fornisce informazioni aggiuntive sui prodotti con *Errore* o *Corrispondenza* stato. |
 
 ### Informazioni sullo stato dell’elenco
 

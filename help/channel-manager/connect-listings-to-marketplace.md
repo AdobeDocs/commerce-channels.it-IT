@@ -2,9 +2,9 @@
 title: Collegare gli annunci a Walmart
 description: '''Collega elenchi per [!DNL Commerce] prodotti [!DNL Walmart Marketplace]per iniziare a vendere".'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Prima di eseguire la corrispondenza con i prodotti, verifica che i valori degli 
 1. Seleziona **[!UICONTROL Match Products]**.
 
    Un messaggio indica il numero di prodotti inviati per la corrispondenza.
-
-   ![Inviare prodotti al canale di vendita collegato](assets/products-submitted-for-matching.png)
 
    Lo stato dei prodotti selezionati viene modificato in [!UICONTROL *Elaborazione*] fino al completamento dell’operazione di abbinamento. Per completare l&#39;operazione di match, Walmart Marketplace può richiedere fino a 30 minuti.
 
@@ -144,7 +142,7 @@ Per i nuovi elenchi di prodotti, controlla il catalogo dei prodotti per assicura
    - In [!UICONTROL Entity Attributes] configura i criteri di selezione per l’esportazione dei dati di prodotto.
    ![Esporta la pagina dei dati di prodotto in [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilizza i filtri per selezionare e configurare i valori degli attributi applicabili alle categorie di prodotti che vendi. Accertati di includere gli attributi richiesti e consigliati di Walmart (consulta [Esporta dati](https://docs.magento.com/user-guide/system/data-export.html) nell&#39;Adobe [!DNL Commerce] Guida utente per istruzioni dettagliate.)
+   Utilizza i filtri per selezionare e configurare i valori degli attributi applicabili alle categorie di prodotti che vendi. Assicurati di includere gli attributi richiesti e consigliati da Walmart. (Vedi [Esporta dati](https://docs.magento.com/user-guide/system/data-export.html) nell&#39;Adobe [!DNL Commerce] Guida utente per istruzioni dettagliate.)
 
    Per omettere un attributo dall’esportazione, seleziona la [!UICONTROL **Escludi**] all’inizio della riga.
 

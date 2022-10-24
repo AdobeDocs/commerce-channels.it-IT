@@ -2,7 +2,7 @@
 title: Mappa delle navi
 description: '''Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -35,3 +35,4 @@ Prima di mappare i vettori di spedizione, completare le seguenti attività:
 1. Per ogni [!DNL Walmart] vettore preferito elencato, selezionare [!DNL Commerce] nome del vettore dal menu a discesa, se il vettore è disponibile.
 
 1. Seleziona **[!UICONTROL Save]** per applicare la configurazione.
+

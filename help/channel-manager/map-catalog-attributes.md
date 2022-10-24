@@ -2,9 +2,9 @@
 title: Mappare gli attributi del catalogo
 description: '''Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,15 @@ Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un a
 
 1. Da **[!UICONTROL Listings]** o **[!UICONTROL Orders]** pagina per l&#39;archivio canali di vendita, seleziona **[!UICONTROL Channel Settings]**.
 
-1. On **[!UICONTROL Channel Settings]**, seleziona **[!UICONTROL Shipping Carriers]**.
+1. On **[!UICONTROL Channel Settings]**, seleziona **[!UICONTROL Map Attributes]**.
 
    - Trova il [!DNL Walmart Marketplace] attributo da mappare.
 
    - Seleziona l’attributo corrispondente dal [!DNL Commerce] memorizzare il catalogo.
 
       L’esempio seguente mappa il [!UICONTROL Walmart Marketplace UPC] attributo all&#39;attributo UPC nel catalogo dei prodotti.
-   ![Mappatura attributi per i criteri di corrispondenza dei prodotti](assets/products-map-attributes-for-match.png)
+
+      ![Mappatura attributi per i criteri di corrispondenza dei prodotti](assets/products-map-attributes-for-match.png)
 
    - Seleziona **[!UICONTROL Save]**.
 

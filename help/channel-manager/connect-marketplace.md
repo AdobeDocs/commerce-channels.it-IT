@@ -1,8 +1,8 @@
 ---
-title: '''Connetti [!DNL Channel Manager] a [!DNL Walmart Marketplace]'''
-description: '"Collegare una visualizzazione Negozio Commerce a [!DNL Walmart Marketplace] creare il canale di vendita per gestire gli elenchi dei prodotti Commerce, le scorte, i prezzi e gli ordini per le vendite di Walmart Marketplace."'
+title: 'Connetti [!DNL Channel Manager] a [!DNL Walmart Marketplace]'
+description: "Collegare una visualizzazione Negozio Commerce a [!DNL Walmart Marketplace] creare il canale di vendita per gestire gli elenchi dei prodotti Commerce, le scorte, i prezzi e gli ordini per le vendite di Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Dopo aver installato Channel Manager sul tuo [!DNL Commerce] istanza, crea un ca
 
 1. [Collegare il canale a [!DNL Walmart Marketplace] aggiungendo [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Impostazione completa del canale di vendita](#complete-store-setup) per gestire elenchi, scorte, prezzi e ordini per le [!DNL Walmart Marketplace] assortimento di prodotti.
+1. [Impostazione completa del canale di vendita](#complete-sales-channel-store-setup) per gestire elenchi, scorte, prezzi e ordini per le [!DNL Walmart Marketplace] assortimento di prodotti.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Dopo aver installato Channel Manager sul tuo [!DNL Commerce] istanza, crea un ca
 
 1. Seleziona **[!UICONTROL Save Store]** per applicare la configurazione e connettersi al [!DNL Walmart marketplace].
 
-1. Dopo la connessione, [configurazione completa dello store](complete-store-setup.md) dal **[!UICONTROL Channel Manager]** pagina store.
+1. Dopo la connessione, [configurazione completa dello store](complete-sales-channel-store-setup.md) dal **[!UICONTROL Channel Manager]** pagina store.
 
 ![Imposta primo store](assets/channel-manager-setup-first-store.png)
 

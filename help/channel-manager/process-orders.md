@@ -1,10 +1,10 @@
 ---
 title: Elabora ordini
-description: '"Istruzioni per la spedizione e l''annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."'
+description: "Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Channel Manager sincronizza gli aggiornamenti di [!DNL Walmart Marketplace] per 
 
    Nella vetrina è necessario annullare l&#39;intero ordine. [!DNL Commerce] non consente annullamenti parziali.
 
-Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizza con successo la spedizione, la spedizione parziale e gli aggiornamenti di annullamento alla [!DNL Walmart Marketplace], l’elaborazione dell’ordine è completa.
+* **Richiesta di rimborso**- Se viene richiesto un reso Walmart Marketplace per un ordine spedito, il [!UICONTROL Status details] include un collegamento al ritorno. I restituzioni e i rimborsi vengono gestiti dal [Restituisce](return-refund-orders.md) dashboard.
+
+Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizza con successo la spedizione, la spedizione parziale e gli aggiornamenti di annullamento alla [!DNL Walmart Marketplace], l’elaborazione dell’ordine è completa. Le richieste di restituzione e i rimborsi per gli ordini spediti sono gestiti dal [Restituisce](return-refund-orders.md) dashboard.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizz
 
 1. Apri la vista Store selezionando l&#39;icona occhio per un negozio di canali di vendita.
 
-1. Per visualizzare [!DNL Walmart Marketplace] ordini, selezionare *[!UICONTROL *Orders]**
+1. Per visualizzare [!DNL Walmart Marketplace] ordini, seleziona **[!UICONTROL Orders]**.
 
 1. Nella tabella Ordini aprire l&#39;ordine di spedizione selezionando la **Numero ordine di Commerce**.
 
@@ -49,6 +51,8 @@ Quando gli ordini Commerce vengono elaborati e [!DNL Channel Manager] sincronizz
    * Compilare il resto del modulo di spedizione in base alle esigenze. Vedi [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) per istruzioni dettagliate.
 
 1. Dopo aver sottomesso la spedizione, tenere traccia della [stato dell&#39;ordine](manage-orders.md#about-order-status) in [!DNL Channel Manager] per verificare che gli aggiornamenti siano stati inviati a [!DNL Walmart Marketplace].
+
+Dopo la spedizione di un ordine è possibile elaborare rimborsi completi o parziali a partire da [!DNL Channel Manager] per gli articoli inclusi nell&#39;ordine in base alle richieste di restituzione ricevute da [!DNL Walmart Marketplace]. Vedi [ordini di restituzione](return-refund-orders.md).
 
 ## Annullare un ordine
 
