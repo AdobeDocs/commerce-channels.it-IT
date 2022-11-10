@@ -1,10 +1,10 @@
 ---
-title: '''Installazione [!DNL Channel Manager]'''
+title: 'Installazione [!DNL Channel Manager]'
 description: '''Installa il[!DNL Channel Manager] estensione."'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Utilizzare queste istruzioni per l&#39;installazione [!DNL Channel Manager] su A
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       Risposta di esempio:
 
       ```terminal
@@ -119,7 +118,7 @@ Durante l&#39;installazione, il nome dell&#39;estensione (`magento\channel-manag
 1. Utilizzando il nome del Compositore , aggiungi l’estensione al `require` della sezione `composer.json` file.
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Aggiorna le dipendenze e installa l&#39;estensione.
