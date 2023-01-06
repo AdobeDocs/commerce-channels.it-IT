@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0a1505a47bfd7912c559cefb972e54cbd0bfd72e
+source-git-commit: 139bfba8155461ddf4471793c13e0b87f4a0b263
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -11,17 +11,17 @@ Accogliamo con favore i contributi della nostra community e di dipendenti di Ado
 
 ## Codice di condotta open source di Adobe
 
-Questo progetto ha adottato il [Codice di condotta open source Adobe](code-of-conduct.md) o il [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Contribuzione](contributing.md) .
+Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Contribuzione](contributing.md).
 
 ## Informazioni sui contributi al contenuto di Adobe
 
-Consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulta la sezione [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Il tuo contributo dipende da chi sei e dal tipo di modifiche che desideri apportare:
 
 ### Modifiche minori
 
-Se stai contribuendo piccoli aggiornamenti per la bontà del tuo cuore, visita l&#39;articolo e fai clic sul collegamento **Modifica** nell&#39;articolo che va alla sorgente GitHub per l&#39;articolo. Quindi, utilizza l’interfaccia utente GitHub per apportare i tuoi aggiornamenti. Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) .
+Se stai contribuendo piccoli aggiornamenti per la bontà del tuo cuore, visita l&#39;articolo e fai clic sul **Modifica** nell’articolo che accede all’origine GitHub per l’articolo. Quindi, utilizza l’interfaccia utente GitHub per apportare i tuoi aggiornamenti. Vedi il generale [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) per ulteriori informazioni.
 
 Le correzioni minori o i chiarimenti inviati per la documentazione e gli esempi di codice in questo repository sono coperti dai termini di utilizzo Adobi.
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifiche di rilievo apportate dai dipendenti Adobi
 
-Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe Experience Cloud ed è tuo compito contribuire a o creare articoli tecnici, devi utilizzare l’archivio privato all’indirizzo `https://git.corp.adobe.com/AdobeDocs`.
+Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe Experience Cloud ed è tuo compito creare o contribuire ad articoli tecnici, devi utilizzare l’archivio privato all’indirizzo `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +43,7 @@ Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del te
 
 I collaboratori della community possono utilizzare l’interfaccia utente GitHub per effettuare modifiche di base o creare un fork dell’archivio per apportare contributi importanti.
 
-Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) .
+Consulta la sezione [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) per i dettagli.
 
 ## Come utilizzare markdown per formattare l’argomento
 
