@@ -2,9 +2,9 @@
 title: 'Connetti [!DNL Channel Manager] a [!DNL Walmart Marketplace]'
 description: "Collegare una visualizzazione Negozio Commerce a [!DNL Walmart Marketplace] creare il canale di vendita per gestire gli elenchi dei prodotti Commerce, le scorte, i prezzi e gli ordini per le vendite di Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ Dopo aver installato Channel Manager sul tuo [!DNL Commerce] istanza, crea un ca
 
 ### Risoluzione dei problemi di connessione
 
-Se la connessione a [!DNL Walmart] fallisce, vedi [Domande frequenti su Marketplace Walmart](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;} per suggerimenti sulla risoluzione dei problemi.
+Se la connessione a [!DNL Walmart] fallisce, vedi [Domande frequenti su Marketplace Walmart](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} per suggerimenti sulla risoluzione dei problemi.
 
 - Da [!DNL Walmart Developer Portal], verifica di aver copiato le credenziali corrette per la chiave API di produzione per [!UICONTROL Adobe Inc.]
 
 - Verifica che la configurazione di accesso per [!UICONTROL Walmart Adobe API key] dispone delle autorizzazioni corrette. Vedi [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- Conferma che [!DNL Walmart API] il servizio è disponibile dal [Pagina di stato API di Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- Conferma che [!DNL Walmart API] il servizio è disponibile dal [Pagina di stato API di Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

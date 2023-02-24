@@ -2,7 +2,7 @@
 title: Collegare gli annunci a Walmart
 description: '''Collega elenchi per [!DNL Commerce] prodotti [!DNL Walmart Marketplace]per iniziare a vendere".'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%

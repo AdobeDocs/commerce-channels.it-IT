@@ -1,15 +1,15 @@
 ---
-title: 'Visualizza e gestisci gli ordini da [!DNL Channel Manager]'
+title: '"Visualizza e gestisci ordini da [!DNL Channel Manager]'''
 description: '''Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Visualizzare e tenere traccia degli ordini da [!DNL Channel Manager]
+# Visualizza e traccia ordini da [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] dati dell&#39;ordine per [!DNL Commerce] i prodotti si sincronizzano automaticamente con [!DNL Channel Manager] dopo [!DNL Walmart] elabora l&#39;ordine.
 
@@ -175,6 +175,3 @@ Nella vetrina Commerce, gli ordini importati da [!DNL Walmart Marketplace] dispo
    ![Dettagli ordine - Cronologia stato articolo ordinato [!DNL Walmart Marketplace] ordini](assets/order-detail-status-history.png)
 
 Visualizza i dettagli della fattura dell&#39;articolo e del rimborso selezionando [!UICONTROL Invoice] e [!UICONTROL Credit Memo] dal menu di navigazione. È inoltre possibile accedere alla nota di accredito direttamente dalla sezione [[!UICONTROL Returns]](return-refund-orders.md) dashboard nell&#39;archivio canali di vendita.
-
-
-

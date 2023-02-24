@@ -1,15 +1,15 @@
 ---
-title: Elabora ordini
+title: Ordini di elaborazione
 description: "Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Elabora ordini
+# Ordini di elaborazione
 
 Dopo [!DNL Walmart Marketplace] gli ordini sono stati riconosciuti e sono stati inviati con successo a [!DNL Channel Manager], utilizza [Gestione ordini di Commerce](https://docs.magento.com/user-guide/sales/orders-workspace.html) per elaborare l&#39;ordine.
 

@@ -1,15 +1,15 @@
 ---
-title: Mappare gli attributi del catalogo
+title: Attributi del catalogo mappa
 description: '''Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Mappare gli attributi del catalogo
+# Attributi del catalogo mappa
 
 Prima di collegare gli elenchi da [!DNL Commerce] a [!DNL Walmart Marketplace], devi mappare almeno un identificatore univoco dal tuo [!DNL Commerce] catalogo con l&#39;identificatore corrispondente da Walmart.
 
@@ -41,5 +41,3 @@ Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un a
       ![Mappatura attributi per i criteri di corrispondenza dei prodotti](assets/products-map-attributes-for-match.png)
 
    - Seleziona **[!UICONTROL Save]**.
-
-

@@ -1,16 +1,16 @@
 ---
-title: Mappa delle navi
+title: Mappa vettori di spedizione
 description: '''Mappa gli attributi per la corrispondenza [DNL! Prodotti Commerce a quelli esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Mappa delle navi
+# Mappa vettori di spedizione
 
 Prima di [spedizioni di ordini di elaborazione](process-orders.md#ship-an-order) per [!DNL Walmart Marketplace] ordini, mappare i vettori di spedizione preferiti Walmart al corrispondente vettore in [!DNL Commerce] in modo che i dati di spedizione possano essere sincronizzati tra [!DNL Walmart] e [!DNL Commerce].
 

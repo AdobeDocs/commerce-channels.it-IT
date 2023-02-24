@@ -1,15 +1,15 @@
 ---
-title: Gestire gli elenchi
+title: Gestisci elenchi
 description: '''Gestire gli elenchi dei canali di vendita per un [!DNL Commerce] archivia con Channel Manager per Adobe Commerce e Magenti Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Gestire gli elenchi
+# Gestisci elenchi
 
 Gestire gli elenchi dei prodotti per [!DNL Walmart Marketplace] canale di vendita dall&#39;interfaccia utente di Channel Manager.
 

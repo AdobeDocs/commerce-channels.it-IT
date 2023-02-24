@@ -2,14 +2,14 @@
 title: Gestire la connessione a Marketplace Walmart
 description: '''Aggiorna le credenziali API per autorizzare la connessione tra un [DNL! Commerce] e la vista Store e [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] elenchi dei prodotti e sincronizza i dati di inventario, prezzo, ordine e spedizione tra [!DNL Commerce] e il Walmart."'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Mappa delle navi
+# Mappa vettori di spedizione
 
 Prima di [spedizioni di ordini di elaborazione](process-orders.md#ship-an-order) per [!DNL Walmart Marketplace] ordini, mappare i vettori di spedizione preferiti Walmart al corrispondente vettore in [!DNL Commerce] in modo che i dati di spedizione possano essere sincronizzati tra [!DNL Walmart] e [!DNL Commerce].
 

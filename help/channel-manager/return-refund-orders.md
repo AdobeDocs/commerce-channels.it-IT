@@ -1,9 +1,10 @@
 ---
 title: Ordini di restituzione
-description: "Istruzioni per il rilascio dei rimborsi completi o parziali per le richieste di restituzione ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Istruzioni per il rilascio dei rimborsi completi o parziali per le richieste di rimpatrio ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -189,5 +190,3 @@ Puoi visualizzare informazioni sulle richieste di restituzione e sull&#39;elabor
 Gli errori possono verificarsi quando si ricevono le informazioni di ritorno da [!DNL Walmart Marketplace]o quando [!DNL Channel Manager] sincronizza gli aggiornamenti di stato da [!DNL Commerce] a [!DNL Walmart Marketplace].
 
 Se l&#39;operazione di sincronizzazione per un aggiornamento di ritorno non riesce, il [!DNL Channel Manager] Restituisce un dashboard *[!UICONTROL Error]* stato della voce di ritorno. Per garantire che le informazioni di restituzione e rimborso siano riportate con precisione nell&#39;account Marketplace Walmart, aggiorna manualmente l&#39;ordine nel tuo [!DNL Walmart Marketplace] archiviare.
-
-

@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Channel Manager] Panoramica della guida"'
-description: '"Informazioni complete su [!DNL Channel Manager] per gli amministratori di Adobe Commerce e di Magento Open Source, inclusa l''installazione e l''onboarding."'
+description: "Informazioni complete su [!DNL Channel Manager] per gli amministratori di Adobe Commerce e di Magento Open Source, inclusa l'installazione e l'onboarding."
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 366edd4b4d3946c26c92b1367c7b68c9513edff8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -39,5 +39,5 @@ Per informazioni sulla gestione delle [!DNL Commerce] piattaforma, progetti e si
 
 Ottieni ulteriori informazioni e aiuto con Adobe Commerce e Magenti Open Source dalle seguenti risorse:
 
-* [Centro assistenza](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;}
-* [Biglietti di supporto](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;}-Invia un ticket per ricevere ulteriore aiuto.
+* [Centro assistenza](https://support.magento.com/hc/en-us){target="_blank"}
+* [Biglietti di supporto](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}-Inviare un ticket per ricevere ulteriore assistenza.

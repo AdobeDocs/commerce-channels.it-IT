@@ -1,10 +1,10 @@
 ---
-title: '''Connetti a [!DNL Commerce] servizi"'
+title: '''Connetti a [!DNL Commerce] Servizi'
 description: '''Connetti Channel Manager a [!DNL Commerce] servizi per abilitare la sincronizzazione dei dati e la comunicazione tra [!DNL Commerce] istanza, Channel Manager e altri servizi di supporto."'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Connetti a [!DNL Commerce] servizi
+# Connetti a [!DNL Commerce] Servizi
 
 La [!DNL Commerce Services Connector] integra il servizio Channel Manager con le istanze Adobe Commerce e Magenti Open Source. Il connettore consente la sincronizzazione dei dati e la comunicazione tra [!DNL Commerce] istanza, [!DNL Channel Manager]e altri servizi di supporto.
 
-[!DNL Commerce Services Connector] la configurazione è un processo una tantum necessario per utilizzare [Servizi SaaS di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;}, ad esempio [!DNL Channel Manager], [!DNL Live Search]e [!DNL Product Recommendations]. Se hai già configurato il connettore per un altro servizio, salta questo passaggio.
+[!DNL Commerce Services Connector] la configurazione è un processo una tantum necessario per utilizzare [Servizi SaaS di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} quali [!DNL Channel Manager], [!DNL Live Search]e [!DNL Product Recommendations]. Se hai già configurato il connettore per un altro servizio, salta questo passaggio.
 
 ## Requisiti
 
@@ -24,11 +24,11 @@ La [!DNL Commerce Services Connector] integra il servizio Channel Manager con le
 
    I proprietari dell&#39;account e gli utenti privilegiati possono creare account amministratore da [!DNL Commerce] istanza o dalla riga di comando utilizzando [!DNL Commerce] Comando CLI `admin:user:create`.
 
-- **Chiave API di produzione Adobe Commerce**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} abilita l&#39;accesso API ai servizi richiesti da Channel Manager. Per questa chiave sono necessarie le credenziali pubbliche e private.
+- **Chiave API di produzione Adobe Commerce**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} consente l’accesso API ai servizi richiesti da Channel Manager. Per questa chiave sono necessarie le credenziali pubbliche e private.
 
 >[!TIP]
 >
->Per fornire le credenziali, [!DNL Commerce] il titolare della licenza o il proprietario dell&#39;account ha opzioni per [accesso condiviso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, oppure fornisci [Chiave API](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} credenziali a uno sviluppatore fidato.
+>Per fornire le credenziali, [!DNL Commerce] il titolare della licenza o il proprietario dell&#39;account ha opzioni per [accesso condiviso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} credenziali per uno sviluppatore affidabile.
 
 ## Configura le [!DNL Commerce Services Connector]
 
