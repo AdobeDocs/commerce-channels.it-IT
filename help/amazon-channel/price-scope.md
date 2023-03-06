@@ -1,23 +1,23 @@
 ---
-title: Portata del prezzo
-description: Utilizza l’ambito di determinazione dei prezzi Commerce per gestire i prezzi in base a più siti web o globalmente.
+title: Limite prezzo
+description: Utilizza l’ambito di determinazione prezzi di Commerce per gestire i prezzi in base a più siti web o a livello globale.
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
-# Scopo del prezzo
+# Limite prezzo
 
-[!DNL Commerce] fornisce la configurazione per [ambito tariffario](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target=&quot;_blank&quot;} da impostare su `Global` o `Website`. Se il prezzo è impostato su `Global`, esiste un&#39;unica fonte di prezzo per tutti i siti web. Se il prezzo è impostato su `Website`, i siti web possono variare i prezzi e hanno anche un valore predefinito di fallback. Vedi [Prezzo catalogo](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target=&quot;_blank&quot;} nella guida utente di Commerce di base.
+[!DNL Commerce] fornisce la configurazione per [ambito di determinazione prezzi](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} nella guida utente di base di Commerce.
 
-Se cambi l&#39;ambito del prezzo del catalogo da `Global` a `Website`, anche tutti gli attributi del tipo di prezzo vengono modificati in `Website`. Vedi [Aggiunta di siti Web](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target=&quot;_blank&quot;}.
+Se modifichi l’ambito del prezzo del catalogo da `Global` a `Website`, anche tutti gli attributi del tipo di prezzo cambiano in `Website`. Consulta [Aggiunta di siti Web](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
 
-Quando si sceglie il prezzo di un sito web, ci sono due fonti di prezzo:
+Quando si sceglie il prezzo di un sito Web, sono disponibili due origini di prezzo:
 
 - Prezzo del sito web
-- Il prezzo predefinito (calo)
+- Prezzo predefinito (di riserva)
 
-Per l’integrazione dei canali di vendita Amazon, in base al [regole di elenco](./listing-rules.md), puoi mappare i prodotti da più siti web in un unico [!DNL Amazon Marketplace] Paese (definito durante [integrazione store](./store-integration.md)). Tuttavia, questa mappatura introduce il problema del prezzo da pubblicare se il prodotto esiste su più siti web con prezzi diversi.
+Per l’integrazione del canale di vendita Amazon, in base al [regole di inserzione](./listing-rules.md), è possibile mappare prodotti da più siti web in un unico [!DNL Amazon Marketplace] Paese (definito durante [integrazione store](./store-integration.md)). Tuttavia, questa mappatura introduce la questione di quale prezzo dovrebbe essere pubblicato se il prodotto esiste su più siti web con prezzi diversi.

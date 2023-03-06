@@ -1,25 +1,25 @@
 ---
-title: Aggiungi regole di determinazione prezzi
-description: Utilizza le regole di prezzo per gestire i prezzi di listino in Amazon Marketplace per il catalogo di prodotti Commerce.
+title: Aggiungi regole determinazione prezzi
+description: Utilizza le regole di determinazione prezzi per gestire i prezzi di inserzione sul Marketplace Amazon per il catalogo prodotti Commerce.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Aggiungi regole di determinazione prezzi
+# Aggiungi regole determinazione prezzi
 
-Le regole di determinazione prezzi possono essere configurate o modificate in qualsiasi momento dopo l&#39;integrazione dello store. Le regole di determinazione dei prezzi fanno parte di [Impostazioni elenco](./listing-settings.md) e sono accessibili nel [dashboard store](./amazon-store-dashboard.md).
+Le regole di determinazione prezzi possono essere configurate o modificate in qualsiasi momento dopo l&#39;integrazione del negozio. Le regole di determinazione prezzi fanno parte di [Impostazioni elenco](./listing-settings.md) e sono accessibili nel [dashboard store](./amazon-store-dashboard.md).
 
-## Regola di prezzo standard
+## Regola prezzo standard
 
-Un&#39;azione standard di regola del prezzo ti consente di aumentare o diminuire un prezzo di listino Amazon di una percentuale specifica o un importo fisso del dollaro rispetto al **[!UICONTROL Magento Price Source*]* definiti nella [Prezzo di listino](./listing-price.md).
+Un’azione di regola di prezzo standard ti consente di aumentare o diminuire un prezzo di inserzione di Amazon di una percentuale specifica o di un importo in dollari fisso relativo al **[!UICONTROL Magento Price Source*]* definito nel [Prezzo di vendita](./listing-price.md).
 
-### Aggiungere una regola di prezzo standard
+### Aggiungere una regola di determinazione prezzi standard
 
-1. Fai clic su **[!UICONTROL Pricing rules]** sul dashboard dello store.
+1. Clic **[!UICONTROL Pricing rules]** nel dashboard del negozio.
 
 1. Clic **[!UICONTROL Add new pricing rule]**.
 
@@ -31,13 +31,13 @@ Un&#39;azione standard di regola del prezzo ti consente di aumentare o diminuire
 
 1. Al termine, fai clic su **[!UICONTROL Save pricing rule]**.
 
-## Regola di rideterminazione dei prezzi intelligente
+## Regola di rideterminazione prezzi intelligente
 
-Una regola di rideterminazione intelligente dei prezzi utilizza i prezzi dei concorrenti Amazon per determinare il prezzo del tuo annuncio. I concorrenti sono altri venditori che elencano gli stessi prodotti che stai inserendo in Amazon.
+Una regola di rideterminazione dei prezzi intelligente utilizza i prezzi dei concorrenti di Amazon per determinare il prezzo dell&#39;inserzione. I concorrenti sono altri venditori che mettono in vendita gli stessi prodotti che stai mettendo in vendita su Amazon.
 
-### Aggiungere una regola di rideterminazione intelligente dei prezzi
+### Aggiungere una regola di rideterminazione prezzi intelligente
 
-1. Fai clic su **[!UICONTROL Pricing rules]** sul dashboard dello store.
+1. Clic **[!UICONTROL Pricing rules]** nel dashboard del negozio.
 
 1. Clic **[!UICONTROL Add new pricing rule]**.
 

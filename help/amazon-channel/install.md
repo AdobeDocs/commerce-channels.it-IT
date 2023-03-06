@@ -1,10 +1,10 @@
 ---
 title: Installare l’estensione
-description: Per integrare [!DNL Commerce] catalogo con [!DNL Amazon Seller Accounts] e vendere tramite [!DNL Amazon Marketplace], scarica e installa l’estensione Amazon Sales Channel.
+description: Per integrare [!DNL Commerce] catalogo con [!DNL Amazon Seller Accounts] e vendere tramite [!DNL Amazon Marketplace], scarica e installa l’estensione di Sales Channel Amazon.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -13,64 +13,64 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Solo [!DNL Amazon Sales Channel] le versioni di estensione 4.0+ sono supportate per Adobe Commerce e le versioni di Magenti Open Source 2.4.x. Se esegui una versione 2.3.x, consulta la documentazione per [versione del canale di vendita Amazon compatibile](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Per ulteriori informazioni sulla compatibilità delle versioni, consulta la sezione [Disponibilità](https://devdocs.magento.com/release/availability.html){target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
+>Solo [!DNL Amazon Sales Channel] le versioni di estensione 4.0+ sono supportate per le versioni di Adobe Commerce e Magenti Open Source 2.4.x. Se esegui una versione 2.3.x, consulta la documentazione di [versione del canale di vendita Amazon compatibile](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target="_blank"}. For more information about version compatibility, see the [Availability](https://devdocs.magento.com/release/availability.html){target="_blank"} nella documentazione per gli sviluppatori.
 
-La [!UICONTROL Amazon Sales Channel] l’estensione installa e aggiunge funzionalità per integrare il catalogo Commerce con [!DNL Amazon Seller Accounts] per vendere tramite [!DNL Amazon Marketplace]. Per esaminare ulteriori informazioni, consulta la sezione [Sales Channel Amazon](https://marketplace.magento.com/magento-module-amazon.html) in [!DNL Commerce Marketplace] e [note sulla versione](release-notes.md).
+Il [!UICONTROL Amazon Sales Channel] L’estensione installa e aggiunge funzioni per integrare il catalogo Commerce con [!DNL Amazon Seller Accounts] per vendere tramite [!DNL Amazon Marketplace]. Per ulteriori informazioni, vedere [Sales Channel Amazon](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] e [note sulla versione](release-notes.md).
 
 ## Requisiti
 
-- **Istanza Commerce**: La [!DNL Amazon Sales Channel] L&#39;estensione può essere installata su istanze con Magenti Open Source, Adobe Commerce e Adobe Commerce sulle versioni 2.3.x o successive dell&#39;infrastruttura cloud. Non è più supportato nelle versioni 2.1, 2.2 o 1.x.
-- **Account web Commerce**: Devi disporre di un account web Commerce, utilizzato per creare e monitorare una chiave API.
-- **Chiave API**: Crea una chiave API del canale di vendita Amazon tramite il tuo account web Commerce. Le istruzioni seguenti includono questi passaggi.
+- **Istanza Commerce**: Il [!DNL Amazon Sales Channel] l’estensione può essere installata sulle istanze con Magenti Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x o successive dell’infrastruttura cloud. Non è più supportato nelle versioni 2.1, 2.2 o 1.x.
+- **Account Web Commerce**: è necessario disporre di un account web Commerce, utilizzato per creare e tenere traccia di una chiave API.
+- **Chiave API**: crea una chiave API del canale di vendita di Amazon tramite il tuo account web Commerce. Le istruzioni seguenti includono questi passaggi.
 
 ## Installa
 
-Per informazioni più dettagliate sull&#39;utilizzo del Compositore per questo processo, vedi [installazione di estensioni](https://devdocs.magento.com/extensions/install/)Istruzioni per {target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
+Per informazioni più dettagliate sull&#39;utilizzo di Composer per questo processo, vedere [installazione dell’estensione](https://devdocs.magento.com/extensions/install/){target="_blank"} istruzioni nella documentazione per gli sviluppatori.
 
-1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}.
+1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
 
-1. Fai clic sul pulsante **[!UICONTROL Marketplace]** , quindi fai clic su **[!UICONTROL My Purchases]**.
+1. Fai clic su **[!UICONTROL Marketplace]** e quindi fare clic su **[!UICONTROL My Purchases]**.
 
 1. Individua e seleziona **[!UICONTROL Amazon Sales Channel]**.
 
-1. Nella pagina dell&#39;estensione , seleziona la versione .
+1. Nella pagina dell&#39;estensione, seleziona la versione.
 
-1. Per il nome e la versione del componente, fai clic su **[!UICONTROL Technical Details]**.
+1. Per nome e versione del componente, fai clic su **[!UICONTROL Technical Details]**.
 
-1. Utilizza il nome e le informazioni sulla versione per aggiornare la voce del connettore servizi nel `composer.json` file.
+1. Utilizza il nome e le informazioni sulla versione per aggiornare la voce del connettore servizi nel tuo `composer.json` file.
 
    - Aggiungi il nome e la versione dell&#39;estensione al tuo `composer.json` file.
 
-   - Passa alla [!DNL Commerce] directory di progetto e aggiorna il tuo `composer.json` file.
+   - Accedi al tuo [!DNL Commerce] directory del progetto e aggiornare `composer.json` file.
 
    ```bash
    composer require magento/services-connector:~1.0.3
    ```
 
-   - Inserisci il tuo [chiavi di autenticazione](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}. La tua chiave pubblica è il tuo nome utente; la tua chiave privata è la tua password.
+   - Immetti il [chiavi di autenticazione](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"}. La chiave pubblica è il nome utente; la chiave privata è la password.
 
-   - Attendi che Compositore completi l’aggiornamento delle dipendenze del progetto e assicurati che non ci siano errori.
+   - Attendi che Composer finisca di aggiornare le dipendenze del progetto e assicurati che non vi siano errori.
 
 
-1. [Verifica dell&#39;estensione](https://devdocs.magento.com/extensions/install/#verify-the-extension){target=&quot;_blank&quot;}.
+1. [Verificare l’estensione](https://devdocs.magento.com/extensions/install/#verify-the-extension){target="_blank"}.
 
 ## Aggiungi la chiave API del canale di vendita Amazon
 
-Dopo l’installazione, immetti un [Chiave API](./amazon-verify-api-key.md) per completare la configurazione.
+Dopo l&#39;installazione, immettere un [Chiave API](./amazon-verify-api-key.md) per completare la configurazione.
 
 ## Impostare le opzioni di configurazione del canale Amazon
 
-Hai le seguenti opzioni per configurare il canale di vendita Amazon. Non è necessario modificare queste impostazioni per iniziare l’onboarding e la vendita su Amazon. È consigliabile che gli amministratori avanzati considerino queste opzioni.
+Sono disponibili le seguenti opzioni per la configurazione del canale di vendita Amazon. Non è necessario modificare queste impostazioni per iniziare l’onboarding e la vendita su Amazon. Si consiglia agli amministratori avanzati di prendere in considerazione queste opzioni.
 
-1. Accedi all’amministratore.
+1. Accedi ad Admin.
 
-1. Sulla _Amministratore_ barra laterale, vai a **Negozi** > _Impostazioni_ > **Configurazione**.
+1. Il giorno _Amministratore_ barra laterale, vai a **Negozi** > _Impostazioni_ > **Configurazione**.
 
-1. Fai clic su **Sales Channel**, quindi **Impostazioni globali**.
+1. Clic **Sales Channel**, quindi **Impostazioni globali**.
 
-1. Per **Cancella cronologia log**, definisce l’intervallo per la cancellazione dei registri raccolti.
+1. Per **Cancella cronologia registro**, definisci l’intervallo per cancellare i registri raccolti.
 
-   Le opzioni includono `Once Daily`, `Once Weekly`e `Once Monthly` (predefinito).
+   Le opzioni includono `Once Daily`, `Once Weekly`, e `Once Monthly` (impostazione predefinita).
 
 1. (Facoltativo) Per **Origine attività in background (CRON)**, modifica l’impostazione in `Command Line (CLI) CRON`.
 
@@ -78,16 +78,16 @@ Hai le seguenti opzioni per configurare il canale di vendita Amazon. Non è nece
 
 1. Clic **[!UICONTROL Save Config]**.
 
-## Aggiorna l&#39;estensione
+## Aggiornare l’estensione
 
-1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}.
+1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
 
-1. Fai clic sul pulsante **[!UICONTROL Marketplace]** , quindi fai clic su **[!UICONTROL My Purchases]**.
+1. Fai clic su **[!UICONTROL Marketplace]** e quindi fare clic su **[!UICONTROL My Purchases]**.
 
 1. Individua e seleziona **[!UICONTROL Amazon Sales Channel]**.
 
-1. Nella pagina dell&#39;estensione , seleziona la versione .
+1. Nella pagina dell&#39;estensione, seleziona la versione.
 
-1. Per il nome e la versione del componente, fai clic su **[!UICONTROL Technical Details]**.
+1. Per nome e versione del componente, fai clic su **[!UICONTROL Technical Details]**.
 
-1. Completa il [istruzioni per l&#39;aggiornamento dell&#39;estensione](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
+1. Completa il [istruzioni per l’aggiornamento dell’estensione](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target="_blank"} nella documentazione per gli sviluppatori.

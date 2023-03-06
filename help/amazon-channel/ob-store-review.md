@@ -1,8 +1,8 @@
 ---
 title: Impostazioni store
-description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e aggiorna il [!DNL Commerce] impostazioni store.
+description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e aggiorna il [!DNL Commerce] impostazioni dello store.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 # Impostazioni store
 
-Dopo aver creato e integrato l&#39;archivio dei canali di vendita Amazon, controlla le impostazioni predefinite del tuo negozio per verificare che il prodotto, l&#39;elenco, i prezzi e altre impostazioni siano corretti.
+Dopo aver creato e integrato il tuo store del canale di vendita Amazon, controlla le impostazioni predefinite del tuo store per assicurarti che il prodotto, l’inserzione, i prezzi e le altre impostazioni siano corretti.
 
-1. Sulla _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Selezionare lo store da visualizzare e fare clic su **[!UICONTROL View Store]**.
+1. Selezionare il negozio che si desidera visualizzare e fare clic su **[!UICONTROL View Store]**.
 
-1. Nel dashboard Store, fai clic su un&#39;impostazione store nel menu a sinistra.
+1. Nel dashboard del punto vendita fare clic su un&#39;impostazione del punto vendita nel menu a sinistra.
 
-   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Controllare il modo in cui il catalogo dei prodotti interagisce con [!DNL Amazon Marketplace].
-   - [**[!UICONTROL Order settings]**](./order-settings.md) - Controllare la modalità di gestione degli ordini Amazon.
-   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Definisci quali prodotti di catalogo possono essere elencati in Amazon.
-   - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Definire la modalità di modifica del prezzo di listino di Amazon per gli elenchi qualificati.
-   - **[!UICONTROL Store reports]** - [Analisi dei prezzi competitiva](./competitive-price-analysis.md) e [elenco dei miglioramenti](./listing-improvements.md).
-   - **[!UICONTROL Logs]** - [Modifiche all&#39;elenco](./listing-changes-log.md) e [errori di comunicazione](./communication-errors-log.md).
-   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Rivedi le impostazioni del nome dell&#39;archivio dei canali di vendita e-mail e Amazon nella sezione [!DNL Commerce] Amministratore.
+   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Controllare l&#39;interazione del catalogo dei prodotti con [!DNL Amazon Marketplace].
+   - [**[!UICONTROL Order settings]**](./order-settings.md) : controlla come vengono gestiti gli ordini di Amazon.
+   - [**[!UICONTROL Listing rules]**](./listing-rules.md) : definisci quali prodotti del catalogo possono essere elencati in Amazon.
+   - [**[!UICONTROL Pricing rules]**](./pricing-products.md) : definisci in che modo viene modificato il prezzo di listino di Amazon per le inserzioni qualificate.
+   - **[!UICONTROL Store reports]** - [Analisi dei prezzi competitivi](./competitive-price-analysis.md) e [miglioramenti alle inserzioni](./listing-improvements.md).
+   - **[!UICONTROL Logs]** - [Modifiche all’elenco](./listing-changes-log.md) e [errori di comunicazione](./communication-errors-log.md).
+   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Controlla le impostazioni delle e-mail e del nome del negozio del canale di vendita Amazon nella [!DNL Commerce] Amministratore
 
 ![Dashboard store](assets/ob-store-review.png)

@@ -1,61 +1,61 @@
 ---
-title: Impostazioni generali della regola di determinazione prezzi
-description: Utilizza le impostazioni generali della regola del prezzo per definire le caratteristiche principali di una regola del prezzo di listino.
+title: Impostazioni generali regola determinazione prezzi
+description: Utilizzare le impostazioni generali della regola prezzo per definire le caratteristiche principali di una regola prezzo di vendita.
 redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Impostazioni generali della regola di determinazione prezzi
+# Impostazioni generali regola determinazione prezzi
 
-Definisci il nome, la descrizione, le date attive e la priorità della regola.
+Definisci il nome, la descrizione, le date di attivazione e la priorità della regola.
 
-## Completa la sezione Impostazioni generali della regola del prezzo
+## Completare la sezione Impostazioni generali regola prezzo
 
-1. Per **[!UICONTROL Rule Name]** (obbligatorio), immetti il nome della regola.
+1. Per **[!UICONTROL Rule Name]** (obbligatorio), inserisci il nome della regola.
 
-   Questo nome è solo a scopo di identificazione interno. Più descrittivo è il nome della regola, meglio sarà.
+   Questo nome è solo a scopo di identificazione interna. Il nome della regola è tanto più descrittivo quanto migliore.
 
-1. Per **[!UICONTROL Description]**, inserisci una descrizione dettagliata della regola.
+1. Per **[!UICONTROL Description]**, immettere una descrizione dettagliata della regola.
 
-   Questa descrizione potrebbe includere informazioni sui prodotti idonei, sulle date attive, sulla formula per il calcolo del prezzo adeguato o su qualsiasi altra informazione utile per modificare la regola.
+   Questa descrizione può includere informazioni sui prodotti idonei, sulle date attive, sulla formula per il calcolo del prezzo adeguato o qualsiasi altra informazione utile per modificare la regola.
 
 1. Per **[!UICONTROL Status]**, scegli un’opzione:
 
-   - `Active` - Scegli questa opzione quando desideri che la regola di prezzo si applichi ai prodotti idonei e regola il prezzo dell&#39;inserzione prima della pubblicazione in Amazon.
+   - `Active` - Scegli questa opzione quando desideri che la regola di determinazione dei prezzi venga applicata ai prodotti idonei e che adegui i prezzi delle inserzioni prima di pubblicarle su Amazon.
 
-   - `Inactive` - Scegliere questa opzione se non si desidera che la regola di determinazione dei prezzi si applichi ai prodotti idonei. Questa opzione viene utilizzata molto probabilmente quando si modifica una regola di prezzo o la si disattiva dopo una promozione limitata.
+   - `Inactive` - Scegliere questa opzione quando non si desidera applicare la regola di determinazione prezzi ai prodotti idonei. Questa opzione verrà probabilmente utilizzata quando si modifica una regola di determinazione prezzi o si disattiva dopo una promozione limitata.
 
-1. Per **[!UICONTROL From]** e **[!UICONTROL To]**, immetti una data di inizio e una data di fine per la regola di determinazione dei prezzi.
+1. Per **[!UICONTROL From]** e **[!UICONTROL To]** Immettere una data di inizio e una data di fine per la regola di determinazione prezzi.
 
-   Puoi anche fare clic sull’icona del calendario per selezionare una data dal calendario dinamico. Questa opzione di avvio e arresto automatico è utile quando si impostano promozioni a tempo limitato o stagionali con date di inizio e fine definite.
+   Puoi anche fare clic sull’icona del calendario per selezionare una data dal calendario dinamico. Questa opzione di avvio e arresto automatici è utile quando si impostano promozioni a tempo limitato o stagionali con date di inizio e fine definite.
 
 1. Per **[!UICONTROL Priority]**, immetti un valore numerico per la priorità della regola.
 
-   Valore prioritario uguale a `1` è la priorità più alta. Se si dispone di più regole di determinazione dei prezzi attive, è possibile utilizzare questo valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare il _[!UICONTROL Discard Subsequent Rules]_funzionalità.
+   Valore di priorità uguale a `1` è la priorità più alta. Se sono presenti più regole di determinazione prezzi attive, è possibile utilizzare questo valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare _[!UICONTROL Discard Subsequent Rules]_funzionalità.
 
 1. Per **[!UICONTROL Discard Subsequent Rules]**, scegli un’opzione:
 
-   - `Yes` - Scegliere questa opzione quando non si desidera applicare altre regole di determinazione prezzi applicabili a un prodotto. Se si scartano le regole successive, se al prodotto vengono applicate più regole di determinazione dei prezzi, al prodotto viene applicata solo la regola di determinazione dei prezzi con il valore di priorità definito più elevato. Questa opzione impedisce a più regole di determinazione dei prezzi di sovrapporsi e di fornire sconti aggiuntivi non intenzionali.
+   - `Yes` - Scegliere questa opzione quando non si desidera che vengano applicate altre regole di determinazione dei prezzi applicabili a un prodotto. Ignorare le regole successive significa che, se più regole di determinazione dei prezzi si applicano allo stesso prodotto, solo la regola di determinazione dei prezzi con il valore di priorità definito più alto viene applicata al prodotto. Questa opzione impedisce a più regole di determinazione dei prezzi di sovrapporsi e di offrire sconti aggiuntivi non desiderati.
 
-   - `No` - Scegliere questa opzione quando si desidera consentire l&#39;applicazione di più regole di determinazione prezzi allo stesso prodotto. Questa opzione può comportare l’impilamento e l’offerta di più sconti da applicare.
+   - `No` - Scegliere questa opzione quando si desidera consentire l&#39;applicazione di più regole di determinazione prezzi allo stesso prodotto. Questa opzione potrebbe comportare lo stacking e l&#39;applicazione di più sconti.
 
 >[!NOTE]
 >
->Per eliminare le regole successive, una regola di determinazione prezzi deve avere una definizione **Priorità** valore.
+>Per ignorare le regole successive, una regola di determinazione dei prezzi deve avere un valore **Priorità** valore.
 
-![Impostazioni generali della regola di determinazione prezzi](assets/amazon-pricing-rule-general.png)
+![Impostazioni generali delle regole di determinazione prezzi](assets/amazon-pricing-rule-general.png)
 
 | Campo | Descrizione |
 |---|---|
-| [!UICONTROL Rule Name] | (Obbligatorio) Immetti un nome per la regola, utilizzato a scopo di identificazione interna. Più descrittivo è il nome della regola, meglio sarà. Ad esempio, &quot;25% di sconto sulla vendita di libri di fine anno&quot;. |
-| [!UICONTROL Description] | Immetti una descrizione dettagliata che spieghi la regola (utilizzata anche per scopi interni). Ad esempio, &quot;Vendita di fine anno, 25% di sconto su tutti gli articoli della categoria Libri&quot;. |
-| [!UICONTROL Status] | Opzioni:<ul><li>**[!UICONTROL Inactive]** - La regola dei prezzi non si applica alle inserzioni. Questa opzione può essere utilizzata per modificare una regola di prezzo o disattivarla dopo una promozione limitata.</li><li>**[!UICONTROL Active]** - La regola dei prezzi si applica alle inserzioni e regola i prezzi delle inserzioni prima di pubblicarle in Amazon.</li></ul> |
-| [!UICONTROL From] | Immettere la data di inizio all&#39;inizio della regola di determinazione prezzi. Ad esempio, per avere una vendita durante l&#39;ultimo mese dell&#39;anno, imposta il `From` data al 1 dicembre in modo che la regola dei prezzi si applichi automaticamente alle inserzioni Amazon a partire dal 1° dicembre. |
-| [!UICONTROL To] | Immettere la data di fine alla fine della regola di determinazione dei prezzi. Se si continua con l&#39;esempio precedente, per limitare la vendita all&#39;ultimo mese dell&#39;anno, si imposta la `To` data del 31 dicembre, quindi la regola dei prezzi scade il 31 dicembre. |
-| [!UICONTROL Priority] | Immettere un valore per la priorità della regola di determinazione prezzi. Un valore di priorità uguale a `1` è la priorità più alta. In presenza di più regole di determinazione dei prezzi, è possibile utilizzare il valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare il **Ignora regole successive** funzionalità. |
-| [!UICONTROL Discard Subsequent Rules] | Utilizzato per consentire o impedire che più regole di determinazione dei prezzi vengano sovrapposte e fornire ulteriori sconti. Per eliminare le regole successive, una regola di determinazione prezzi deve avere un valore definito per **[!UICONTROL Priority]**. Opzioni:<ul><li>**[!UICONTROL Yes]** - Scegliere il momento in cui non si desidera applicare altre regole di determinazione dei prezzi applicabili a un prodotto. Se si scartano le regole successive, quando più regole di determinazione dei prezzi si applicano allo stesso prodotto, viene applicata solo la regola di determinazione dei prezzi con il valore di priorità definito più elevato.</li><li>**[!UICONTROL No]** - Scegli quando consentire l&#39;applicazione di più regole di determinazione prezzi allo stesso prodotto. Questa opzione potrebbe comportare l’applicazione di stacking e di più sconti al prezzo dell’inserzione.</li></ul> |
+| [!UICONTROL Rule Name] | (Obbligatorio) Immetti un nome per la regola, utilizzato a scopo di identificazione interna. Il nome della regola è tanto più descrittivo quanto migliore. Ad esempio, &quot;25% di sconto sulla vendita di libri di fine anno&quot;. |
+| [!UICONTROL Description] | Immettere una descrizione dettagliata che illustri la regola (utilizzata anche per scopi interni). Ad esempio, &quot;Vendita di fine anno, 25% di sconto su tutti gli articoli della categoria Libri&quot;. |
+| [!UICONTROL Status] | Opzioni:<ul><li>**[!UICONTROL Inactive]** - La regola di prezzo non si applica alle tue inserzioni. Questa opzione può essere utilizzata quando si modifica una regola di determinazione dei prezzi o si disattiva dopo una promozione limitata.</li><li>**[!UICONTROL Active]** - La regola di determinazione dei prezzi si applica alle tue inserzioni e regola i prezzi prima di pubblicarle su Amazon.</li></ul> |
+| [!UICONTROL From] | Inserire la data di inizio della regola di determinazione prezzi. Ad esempio, per effettuare una vendita nell&#39;ultimo mese dell&#39;anno, devi impostare `From` data: 1 dicembre, in modo che la regola di determinazione dei prezzi venga applicata automaticamente alle tue inserzioni Amazon a partire dal 1 dicembre. |
+| [!UICONTROL To] | Inserire la data di fine al termine della regola di determinazione prezzi. Continuando con l&#39;esempio precedente, per limitare la vendita all&#39;ultimo mese dell&#39;anno, è necessario impostare `To` data: 31 dicembre, quindi la regola di determinazione dei prezzi scade il 31 dicembre. |
+| [!UICONTROL Priority] | Inserire un valore per la priorità della regola di determinazione prezzi. Un valore di priorità uguale a `1` è la priorità più alta. Se si dispone di più regole di determinazione prezzi, è possibile utilizzare il valore di priorità per determinare quale regola viene applicata per prima. Questo campo è necessario per utilizzare **Elimina regole successive** funzionalità. |
+| [!UICONTROL Discard Subsequent Rules] | Utilizzato per consentire o impedire lo stacking di più regole di determinazione dei prezzi e per offrire sconti aggiuntivi. Per ignorare le regole successive, una regola di determinazione prezzi deve avere un valore definito per **[!UICONTROL Priority]**. Opzioni:<ul><li>**[!UICONTROL Yes]** - Scegliere quando non si desidera che vengano applicate altre regole di determinazione dei prezzi applicabili a un prodotto. Ignorare le regole successive significa che, quando più regole di determinazione dei prezzi si applicano allo stesso prodotto, viene applicata solo la regola di determinazione dei prezzi con il valore di priorità definito più alto.</li><li>**[!UICONTROL No]** - Scegliere quando si desidera consentire l&#39;applicazione di più regole di determinazione prezzi allo stesso prodotto. Questa opzione potrebbe comportare lo stacking e l&#39;applicazione di più sconti al prezzo dell&#39;inserzione.</li></ul> |

@@ -1,8 +1,8 @@
 ---
 title: Impostazioni di integrazione store
-description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e configura le impostazioni di integrazione dello store tramite [!UICONTROL Amazon Store] dashboard
+description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e configura le impostazioni di integrazione del negozio tramite [!UICONTROL Amazon Store] dashboard
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Impostazioni di integrazione store
 
-Dopo aver integrato lo store, rivedi e configura le impostazioni di integrazione dello store tramite [!UICONTROL Amazon Store] dashboard. Queste impostazioni vengono visualizzate per *Inattivo* e *Attivo* negozi. Qui puoi modificare il nome del tuo negozio Amazon e l&#39;indirizzo e-mail che hai associato allo store durante l&#39;integrazione dello store.
+Dopo aver integrato il tuo store, rivedi e configura le impostazioni di integrazione tramite il [!UICONTROL Amazon Store] dashboard. Queste impostazioni vengono visualizzate per *Inattivo* e *Attivo* negozi. Qui puoi modificare il nome del tuo store di Amazon e l’indirizzo e-mail associato al store durante l’integrazione.
 
-## Modificare le impostazioni di integrazione dell&#39;archivio
+## Modifica impostazioni di integrazione store
 
-1. Per visualizzare il negozio [dashboard](./amazon-store-dashboard.md), fai clic su **[!UICONTROL View Store]** in una scheda del negozio.
+1. Per mostrare il negozio [dashboard](./amazon-store-dashboard.md), fai clic su **[!UICONTROL View Store]** in una carta del negozio.
 
-1. Fai clic su **[!UICONTROL Store Integration Settings]** nel menu a sinistra.
+1. Clic **[!UICONTROL Store Integration Settings]** nel menu a sinistra.
 
-1. Per **[!UICONTROL Email Address]**, aggiorna l’indirizzo e-mail del contatto preferito.
+1. Per **[!UICONTROL Email Address]**, aggiorna l’indirizzo e-mail di contatto preferito.
 
-1. Per **[!UICONTROL New Store Name]**, aggiorna il nome descrittivo per il tuo nuovo archivio canali di vendita Amazon.
+1. Per **[!UICONTROL New Store Name]**, aggiorna il nome descrittivo del nuovo negozio del canale di vendita Amazon.
 
-   Questo nome viene visualizzato sul [_[!UICONTROL Amazon Stores]_](./managing-stores.md) scheda .
+   Questo nome viene visualizzato nella [_[!UICONTROL Amazon Stores]_](./managing-stores.md) scheda.
 
-   Viene utilizzato come [!DNL Commerce] fai riferimento solo a e identifica l&#39;archivio nell&#39;elenco nella home page del canale di vendita Amazon. Dovrebbe essere qualcosa che il tuo team può facilmente identificare. Ad esempio, potrebbe essere denominato il tuo negozio Amazon che vende nell’area degli Stati Uniti `Amazon Store USA`.
+   Viene utilizzato come [!DNL Commerce] fai riferimento solo a e identifica il negozio nell’elenco nella home page del canale di vendita Amazon. Dovrebbe essere qualcosa che il tuo team può facilmente identificare. Ad esempio, il nome del tuo store Amazon che vende negli Stati Uniti `Amazon Store USA`.
 
 1. Clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->La _[!UICONTROL Amazon Marketplace Country]_impostazione definita durante [integrazione store](./store-integration.md) non può essere aggiornato. Per modificare l&#39;impostazione del paese, è necessario eliminare lo store (in_[!UICONTROL Action]_ sulla scheda del negozio) e aggiungere un negozio per il paese diverso.
+>Il _[!UICONTROL Amazon Marketplace Country]_impostazione definita durante [integrazione store](./store-integration.md) non può essere aggiornato. Per modificare l&#39;impostazione relativa al paese, è necessario eliminare l&#39;archivio (in_[!UICONTROL Action]_ sulla scheda dello store) e aggiungere un negozio per il diverso paese.
 
-![Impostazioni di integrazione store](assets/amazon-store-settings.png)
+![Impostazioni integrazione store](assets/amazon-store-settings.png)

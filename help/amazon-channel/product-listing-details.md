@@ -1,8 +1,8 @@
 ---
 title: Visualizza dettagli elenco
-description: Per comprendere le metriche sulla concorrenza negli elenchi di Amazon e sulle singole modifiche SKU/prodotto, consulta la pagina Dettagli elenco prodotti .
+description: Per informazioni sulle metriche della concorrenza nelle inserzioni Amazon e sulle singole modifiche SKU/prodotto, consulta la pagina Dettagli sull’elenco dei prodotti .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -11,64 +11,64 @@ ht-degree: 0%
 
 # Visualizza dettagli elenco
 
-La _[!UICONTROL Product Listing Details]_In questa pagina sono visualizzate informazioni aggiuntive sugli elenchi di prodotti attivi, incluso il registro delle attività di elenco che mostra le modifiche apportate a un singolo SKU/Prodotto. Queste informazioni possono essere utili per comprendere le metriche della concorrenza sui prodotti e sulle modifiche di singoli SKU/prodotti. Ulteriori informazioni su questa pagina includono:
+Il _[!UICONTROL Product Listing Details]_Questa pagina mostra ulteriori informazioni sugli elenchi di prodotti attivi, incluso il Log delle attività di elenco, che mostra le modifiche su un singolo SKU/prodotto. Queste informazioni possono aiutarti a comprendere le metriche della concorrenza sui tuoi prodotti e sulle singole modifiche SKU/prodotto. Ulteriori informazioni su questa pagina includono:
 
-- **[!UICONTROL Listing Details]** - Dettagli del prodotto, tra cui Nome e SKU del venditore Amazon
-- **[!UICONTROL Listing Activity Log]** - Registrazione cronologica di tutte le modifiche apportate alla quotazione, ad esempio le variazioni di prezzo e di quantità/scorte. Non sono necessarie ulteriori azioni. Questo registro è fornito per la revisione per comprendere la cronologia delle modifiche.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Dati per Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) status e prezzi concorrenti
-- **[!UICONTROL Lowest Competitor Pricing]** - Informazioni sui prezzi e sul feedback del concorrente Amazon più basso
+- **[!UICONTROL Listing Details]** - Dettagli del prodotto tra cui il nome e lo SKU del venditore Amazon
+- **[!UICONTROL Listing Activity Log]** - Registrazione cronologica di tutte le modifiche apportate alla quotazione, ad esempio variazioni di prezzo e di quantità/scorte. Non sono necessarie ulteriori azioni. Questo registro viene fornito per la revisione al fine di comprendere la cronologia delle modifiche.
+- **[!UICONTROL Buy Box Competitor Pricing]** - Dati per Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) stato e prezzi dei concorrenti
+- **[!UICONTROL Lowest Competitor Pricing]** - Informazioni sui prezzi e sul feedback del concorrente più basso di Amazon
 
-Le home page del canale di vendita Amazon condividono alcune [controlli dell&#39;area di lavoro](./workspace-controls.md) che consentono di personalizzare i dati visualizzati.
+Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 
-## Dettagli dell&#39;elenco
+## Dettagli inserzione
 
-Le informazioni sul prodotto visualizzate includono:
+Le informazioni visualizzate sul prodotto includono:
 
 - _[!UICONTROL Amazon Name]_
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Dettagli dell&#39;elenco](assets/amazon-product-listing-details.png)
+![Dettagli inserzione](assets/amazon-product-listing-details.png)
 
-## Elenco del registro delle attività {#listing-activity-log}
+## Registro attività elenco {#listing-activity-log}
 
-Mostra tutte le attività recenti per l’elenco Amazon. Le informazioni visualizzate comprendono:
+Mostra tutte le attività recenti per l’elenco di Amazon. Le informazioni visualizzate includono:
 
-- SKU del venditore Amazon: Identifica la SKU (Stock Keeping Unit) definita per la quotazione.
-- ASIN: Identifica l’identificatore di prodotto Amazon a 10 cifre.
-- Azione di elenco: Identifica il tipo di azione che si è verificata per l’elenco.
-- Commenti: Fornisce ulteriori dettagli relativi al tipo di azione di elenco che si è verificata.
-- Eseguito In: Identifica la data e l’ora in cui si è verificata l’azione.
+- Amazon Seller SKU (SKU del venditore): identifica l’unità di gestione delle scorte (SKU) definita per l’inserzione.
+- ASIN: identifica l’identificatore del prodotto Amazon a 10 cifre.
+- Azione di inserzione: identifica il tipo di azione che si è verificata per l’inserzione.
+- Commenti: fornisce ulteriori dettagli relativi al tipo di azione di inserimento nell’elenco che si è verificata.
+- Data di esecuzione: identifica la data e l&#39;ora in cui si è verificata l&#39;azione.
 
-![Dettagli dell’elenco dei prodotti - Elenco dei registri attività](assets/amazon-listing-activity-log.png)
+![Dettagli dell’elenco dei prodotti - Registro delle attività dell’elenco](assets/amazon-listing-activity-log.png)
 __
 
-## Prezzi concorrenza Buy Box {#buy-box-competitor-pricing}
+## Prezzo Buy Box concorrente {#buy-box-competitor-pricing}
 
-In questa scheda vengono visualizzate informazioni sul commerciante Amazon che detiene il [[!DNL Buy Box]](./buy-box-competitor-pricing.md) posizione dell&#39;elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon. Le informazioni visualizzate comprendono:
+Questa scheda mostra informazioni sul commerciante Amazon che detiene il [[!DNL Buy Box]](./buy-box-competitor-pricing.md) posizione per l’inserzione. Queste informazioni possono essere utilizzate per comprendere il posizionamento dei prezzi dei tuoi concorrenti su Amazon. Le informazioni visualizzate includono:
 
-- ASIN: Identificatore del prodotto Amazon a 10 cifre.
-- Il venditore: Identifica se sei il [!DNL Buy Box] venditore. Opzioni Sì / No
-- Condizione: Identifica la condizione definita per l’elenco.
-- Prezzo di listino: Identifica il prezzo di pubblicazione dell&#39;inserzione.
-- Prezzo di spedizione: Identifica il prezzo di spedizione aggiunto all&#39;elenco.
-- Prezzo di atterraggio: Identifica il prezzo di listino più il prezzo di spedizione per l&#39;inserzione.
-- Ultimo aggiornamento: Identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
+- ASIN: identificatore del prodotto Amazon a 10 cifre.
+- È il venditore: identifica se sei il [!DNL Buy Box] venditore. Opzioni Sì / No.
+- Condizione: identifica la condizione definita per l’elenco.
+- Prezzo d&#39;inserzione: identifica il prezzo a cui è stata pubblicata l&#39;inserzione.
+- Prezzo di spedizione: identifica il prezzo di spedizione aggiunto all&#39;inserzione.
+- Landed Price (Prezzo di arrivo): identifica il prezzo di listino più il prezzo di spedizione per l&#39;inserzione.
+- Ultimo aggiornamento: identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
 
-![Dettagli dell’elenco dei prodotti: Prezzo concorrente Buy Box](assets/amazon-listing-details-buy-box-2.png)
+![Dettagli dell’elenco dei prodotti: prezzi Buy Box concorrenti](assets/amazon-listing-details-buy-box-2.png)
 
-## Prezzi più bassi per i concorrenti {#lowest-competitor-pricing}
+## Prezzi del concorrente più basso {#lowest-competitor-pricing}
 
-In questa scheda vengono visualizzate informazioni sui concorrenti Amazon per lo stesso elenco. Queste informazioni possono essere utilizzate per comprendere il posizionamento del prezzo e [prezzo concorrente più basso](./lowest-competitor-pricing.md). Le informazioni visualizzate comprendono:
+In questa scheda vengono visualizzate informazioni sui concorrenti di Amazon per la stessa inserzione. Queste informazioni possono essere utilizzate per comprendere il posizionamento del prezzo e [prezzo concorrente più basso](./lowest-competitor-pricing.md). Le informazioni visualizzate includono:
 
-- ASIN: Identificatore del prodotto Amazon a 10 cifre.
-- Condizione: Identifica la condizione definita per l’elenco.
-- Canale di evasione: Identifica il responsabile dell&#39;adempimento. Opzioni: Merchant/Amazon.
-- Prezzo di listino: Identifica il prezzo di pubblicazione dell&#39;inserzione.
-- Prezzo di spedizione: Identifica il prezzo di spedizione aggiunto all&#39;elenco.
-- Prezzo di atterraggio: Identifica il prezzo di listino più il prezzo di spedizione per l&#39;inserzione.
-- Valutazione feedback: Identifica il rating di feedback Amazon per il commerciante al prezzo più basso.
-- Conteggio feedback: Identifica il conteggio dei feedback di Amazon per il commerciante al prezzo più basso.
-- Ultimo aggiornamento: Identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
+- ASIN: identificatore del prodotto Amazon a 10 cifre.
+- Condizione: identifica la condizione definita per l’elenco.
+- Canale evasione: identifica il responsabile dell&#39;evasione. Opzioni: esercente/Amazon.
+- Prezzo d&#39;inserzione: identifica il prezzo a cui è stata pubblicata l&#39;inserzione.
+- Prezzo di spedizione: identifica il prezzo di spedizione aggiunto all&#39;inserzione.
+- Landed Price (Prezzo di arrivo): identifica il prezzo di listino più il prezzo di spedizione per l&#39;inserzione.
+- Punteggio di feedback: identifica il punteggio di feedback di Amazon per l’esercente al prezzo più basso.
+- Conteggio feedback: identifica il conteggio dei feedback di Amazon per il commerciante al prezzo più basso.
+- Ultimo aggiornamento: identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
 
-![Dettagli dell&#39;elenco dei prodotti - prezzi più bassi per i concorrenti](assets/amazon-listing-details-lowest-comp.png)
+![Dettagli dell’elenco dei prodotti - Prezzo concorrente più basso](assets/amazon-listing-details-lowest-comp.png)
