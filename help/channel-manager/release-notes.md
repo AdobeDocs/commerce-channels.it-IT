@@ -1,10 +1,11 @@
 ---
-title: Note sulla versione di '[!DNLChannel Manager]'
-description: "Informazioni sulla versione più recente per [!DNL Channel Manager] da Adobe Commerce."
-source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
+title: '''[!DNL Channel Manager] Note sulla versione"'
+description: Informazioni aggiornate sulla versione di [!DNL Channel Manager] da Adobe Commerce.
+exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
+source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
