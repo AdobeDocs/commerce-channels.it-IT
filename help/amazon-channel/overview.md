@@ -1,18 +1,18 @@
 ---
-title: '"[!DNL Amazon Sales Channel] Guida utente"'
-description: '"[!DNL Channel manager] per Adobe Commerce fornisce l''estensione del canale di vendita Amazon per consentire ai commercianti di vendere prodotti senza soluzione di continuità nel [!DNL Amazon Marketplace]."'
+title: "[!DNL Amazon Sales Channel] Guida utente"
+description: "[!DNL Amazon Sales Channel] consente ai commercianti di vendere facilmente i prodotti nel [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d
+source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # [!DNL Amazon Sales Channel] Guida utente
 
-[!DNL Channel manager] per Adobe Commerce fornisce l’estensione del canale di vendita Amazon per consentire ai commercianti di vendere prodotti in modo trasparente in Amazon Marketplace.
+[!DNL Amazon Sales Channel] consente ai commercianti di vendere facilmente i prodotti nel [!DNL Amazon Marketplace].
 
 In qualità di commerciante Adobe Commerce o Magenti Open Source, puoi utilizzare il [!DNL Amazon Sales Channel] estensione per integrare i tuoi negozi con la più grande destinazione globale di acquisti via Internet del mondo. Questa estensione consente alle vendite di Amazon tramite la connessione [!DNL Commerce] con il tuo [!DNL Amazon Seller Central] e fornisce sia automazione che sincronizzazione dei dati di catalogo e ordine. Gestisci completamente tutti gli elenchi di Amazon, implementa regole di prezzo semplici o intelligenti e mantieni gli ordini e l&#39;inventario in un unico sito [!DNL Commerce] dashboard.
 
@@ -37,5 +37,5 @@ Questa guida analizza alcuni elementi di base [!DNL Amazon Seller Central] infor
 
 ## Documentazione Adobe Commerce aggiuntiva
 
-- [Guida utente di Adobe Commerce](https://docs.magento.com/user-guide/){target=&quot;_blank&quot;}
-- [Guida per gli sviluppatori di Adobe Commerce](https://devdocs.magento.com/){target=&quot;_blank&quot;}
+- [Guida utente di Adobe Commerce](https://docs.magento.com/user-guide/){target="_blank"}
+- [Guida per gli sviluppatori di Adobe Commerce](https://devdocs.magento.com/){target="_blank"}
