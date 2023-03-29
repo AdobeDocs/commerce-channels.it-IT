@@ -2,10 +2,10 @@
 title: '''[!DNL Channel Manager] Note sulla versione"'
 description: Informazioni aggiornate sulla versione di [!DNL Channel Manager] da Adobe Commerce.
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
+source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,19 @@ Queste note sulla versione descrivono la versione iniziale di [!DNL Channel Mana
 ![Problema noto](../assets/bug.svg) Problemi noti
 
 
+## v2.0.0
+
+*20 marzo 2023*
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+![Nuovo](../assets/new.svg)<!--CHAN-5893--> Channel Manager è ora compatibile con Adobe Commerce versione 2.4.6.
+
 ## v1.1.0
+
+*23 novembre 2022*
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
 
 ![Nuovo](../assets/new.svg)<!--CHAN-5204--> **Restituzioni**- È ora possibile elaborare il processo di restituzione e rimborso di Walmart Marketplace per gli ordini spediti attraverso un negozio Adobe Commerce e Magenti Open Source Channel Manager. Informazioni e aggiornamenti su restituzioni e rimborsi sono sincronizzati tra Walmart e Adobe Commerce in modo che i dati correnti siano disponibili in entrambi i [!DNL Commerce] vetrina e [!DNL Walmart Marketplace]. Vedi [Ordini di restituzione](return-refund-orders.md).
 
@@ -26,9 +38,9 @@ Queste note sulla versione descrivono la versione iniziale di [!DNL Channel Mana
 
 ## v1.0.0
 
-Versione iniziale, compatibile con le seguenti versioni Commerce:
+*14 gennaio 2022*
 
-* Open Source (CE): 2.4.x
-* Adobe Commerce (EE): 2.4.x
-* Adobe Commerce for Cloud (ECE): 2.4.x
-* Stabilità: Stabile
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+![Nuovo](../assets/new.svg) Versione iniziale di Channel Manager per la disponibilità generale
+
