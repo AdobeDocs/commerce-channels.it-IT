@@ -1,6 +1,6 @@
 ---
-title: Analisi dei prezzi competitiva
-description: L’analisi dei prezzi competitivi mostra le tue inserzioni Amazon per mercato con il rispettivo prezzo Buy Box e il prezzo più basso della concorrenza.
+title: Analisi dei prezzi competitivi
+description: L'analisi dei prezzi competitivi visualizza le inserzioni Amazon per marketplace con il rispettivo prezzo Buy Box e il prezzo concorrente più basso.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Analisi dei prezzi competitiva
+# Analisi dei prezzi competitivi
 
-Il rapporto Analisi dei prezzi competitivi mostra gli annunci Amazon per mercato con le rispettive [Buy Box](./buy-box-competitor-pricing.md) prezzo e [concorrente più basso](./lowest-competitor-pricing.md) valori di prezzo. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
+Il rapporto Analisi prezzi competitivi mostra le inserzioni Amazon per marketplace con i rispettivi [Buy Box](./buy-box-competitor-pricing.md) prezzo e [concorrente più basso](./lowest-competitor-pricing.md) valori di prezzo. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
-![Rapporto Analisi dei prezzi competitivi](assets/amazon-competitive-price-analysis.png)
+![Rapporto Analisi prezzi competitivi](assets/amazon-competitive-price-analysis.png)
 
 ## Colonne predefinite
 
 | Colonna | Descrizione |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
-| [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN sta per numeri di identificazione standard Amazon. Un ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, l&#39;ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo ASIN quando l&#39;articolo viene caricato sul loro catalogo. Puoi trovare un articolo ASIN nella pagina dei dettagli del prodotto su Amazon, insieme a ulteriori dettagli relativi all’articolo. |
-| [!UICONTROL Product Listing Name] | Nome del prodotto. |
-| [!UICONTROL Your Landed Price] | Il prezzo di listino del prodotto più il suo prezzo di spedizione. |
-| [!UICONTROL Lowest Landed Price] | Il prezzo di sbarco più basso (prezzo di listino più il prezzo di spedizione) dai tuoi concorrenti Amazon. |
-| [!UICONTROL Condition (lowest price)] | La condizione del prodotto elencato al prezzo più basso. |
-| [!UICONTROL Buy Box Landed Price] | Il prezzo di sbarco (prezzo di listino più il prezzo di spedizione) del [Buy Box](./buy-box-competitor-pricing.md) elenco di posizioni. |
-| [!UICONTROL Is Seller (Buy Box)] | Indica se hai vinto la posizione Buy Box per l&#39;inserzione (NA significa che non esiste un prezzo Buy Box per l&#39;inserzione). |
-| Condizione (Buy Box) | La condizione dell’elenco della posizione di Buy Box. |
+| [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
+| [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN sta per Numeri di identificazione standard di Amazon. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
+| [!UICONTROL Product Listing Name] | Il nome del prodotto. |
+| [!UICONTROL Your Landed Price] | Il prezzo di vendita del prodotto più il prezzo di spedizione. |
+| [!UICONTROL Lowest Landed Price] | Il prezzo più basso (prezzo di listino più il prezzo di spedizione) dai tuoi concorrenti Amazon. |
+| [!UICONTROL Condition (lowest price)] | Lo stato del prodotto elencato al prezzo più basso. |
+| [!UICONTROL Buy Box Landed Price] | Il prezzo allo sbarco (prezzo di listino più il prezzo di spedizione) del [Buy Box](./buy-box-competitor-pricing.md) elenco posizioni. |
+| [!UICONTROL Is Seller (Buy Box)] | Indica se hai vinto la posizione di Buy Box per l’inserzione (NA significa che non esiste un prezzo Buy Box per l’inserzione). |
+| Condizione (Buy Box) | La condizione dell’elenco delle posizioni dei Buy Box. |

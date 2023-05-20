@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Walmart] Requisiti"'
-description: '''Verifica di avere il [!DNL Walmart Marketplace]informazioni e risorse da integrare con Channel Manager."'
+description: '''Verifica di disporre dei [!DNL Walmart Marketplace]informazioni e risorse da integrare con Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -13,25 +13,25 @@ ht-degree: 0%
 
 [!DNL Channel Manager] richiede le risorse e le informazioni seguenti per configurare un [!DNL Commerce] canale di vendita per [!DNL Walmart Marketplace.]
 
-* A [!DNL Walmart] Account venditore
+* A [!DNL Walmart] Account del venditore
 
-* Una chiave API per collegare Adobe Commerce o Magento Open Source a [!DNL Walmart Marketplace]
+* Una chiave API a cui collegare Adobe Commerce o Magenti Open Source [!DNL Walmart Marketplace]
 
-   La [!DNL Walmart Marketplace] La chiave API consente l’integrazione tra [!DNL Channel Manager] Adobe [!DNL Commerce] o il Magento Open Source e il Marketplace Walmart. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
+   Il [!DNL Walmart Marketplace] Chiave API per abilitare l’integrazione tra [!DNL Channel Manager] ad Adobe [!DNL Commerce] o Magenti Open Source e il Walmart Marketplace. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
 
-## Imposta un [!DNL Walmart Seller] account
+## Configurare un [!DNL Walmart Seller] account
 
-Vai a [!DNL Walmart Seller Center] per configurare il [Account venditore Walmart](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+Vai a [!DNL Walmart Seller Center] per configurare [Account del venditore Walmart](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Genera un [!DNL Walmart Marketplace] Chiave API di produzione
 
-1. Vai a [!DNL Walmart Marketplace] per generare un [ad Adobe la chiave API di produzione del provider di soluzioni](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Vai a [!DNL Walmart Marketplace] per generare un [chiave API di produzione del provider di soluzioni, ad Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Crea la chiave e configura le autorizzazioni:
 
-   * Seleziona Adobe come provider della soluzione.
+   * Seleziona Adobe come provider di soluzioni.
 
-   * Imposta le autorizzazioni come mostrato nella tabella seguente. Per maggiori dettagli, vedi [Credenziali API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in _Aiuto per i venditori di Marketplace Walmart_.
+   * Impostare le autorizzazioni come illustrato nella tabella seguente. Per ulteriori informazioni, consulta [Credenziali API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) nel _Aiuto per i venditori di Walmart Marketplace_.
 
    **Adobe di configurazione della chiave API per Walmart**
 
@@ -41,7 +41,7 @@ Vai a [!DNL Walmart Seller Center] per configurare il [Account venditore Walmart
    | Ottieni feed | Solo visualizzazione |
    | Inventario | Accesso completo |
    | Elementi | Accesso completo |
-   | Tempo ritardo | Accesso completo |
+   | Tempo di ritardo | Accesso completo |
    | Ordine | Accesso completo |
    | Prezzo | Accesso completo |
    | Rapporti | Solo visualizzazione |
@@ -49,17 +49,17 @@ Vai a [!DNL Walmart Seller Center] per configurare il [Account venditore Walmart
    | Regole | Accesso completo |
    | Spedizione | Accesso completo |
 
-## [!DNL Walmart Marketplace] Stato del negozio
+## [!DNL Walmart Marketplace] Stato store
 
-Quando colleghi i prodotti al marketplace, la disponibilità dell&#39;elenco dipende dallo stato del tuo [!DNL Walmart Marketplace] negozi:
+Quando colleghi i prodotti al marketplace, la disponibilità dell’inserzione dipende dallo stato del [!DNL Walmart Marketplace] archivi:
 
-* Per gli archivi live, le offerte dei prodotti sono elencate e disponibili per la vendita al termine dell’operazione di abbinamento.
+* Per i negozi live, le offerte dei tuoi prodotti sono elencate e disponibili per la vendita al termine dell&#39;operazione di partita.
 
-* Per i negozi che non sono in diretta, le offerte di prodotto sono organizzate e non sono visibili ai clienti. Quando il [!DNL Walmart Marketplace] il negozio va in diretta, le inserzioni in serie vengono inviate automaticamente al negozio live.
+* Per i negozi che non sono live, le offerte di prodotti sono in staging e non visibili ai clienti. Quando [!DNL Walmart Marketplace] il negozio diventa live, le inserzioni in staging vengono inviate automaticamente al live store.
 
-![[!DNL Walmart Seller Central] prodotti a cascata](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] prodotti in staging](assets/walmart-seller-central-staged.png)
 
 >[!IMPORTANT]
 >
->Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo e ordine vengono sincronizzati automaticamente. Non connettere [!DNL Channel Manager] in un negozio Walmart Marketplace finché non avrai disabilitato altre integrazioni che aggiornano i dati di prodotto e ordine. Se hai configurato altre integrazioni, verifica che la quantità e i prezzi dell’articolo in [!DNL Commerce] corrispondono alle quantità in [!DNL Walmart Marketplace] prima di connettersi a un negozio live.
+>Dopo [!DNL Channel Manager] è installato e configurato, tutti gli aggiornamenti di inventario, prezzo e ordine vengono sincronizzati automaticamente. Non connettere [!DNL Channel Manager] in un negozio online di Walmart Marketplace fino a quando non vengono disattivate tutte le altre integrazioni che aggiornano i dati di prodotto e ordine. Se hai configurato altre integrazioni, verifica che la quantità e i prezzi dell’articolo in [!DNL Commerce] corrisponde alle quantità in [!DNL Walmart Marketplace] prima di collegarsi a un negozio live.
 

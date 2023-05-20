@@ -1,6 +1,6 @@
 ---
-title: Miglioramenti all’elenco
-description: Amazon Sales Channel fornisce il rapporto Miglioramenti all’elenco per fornire suggerimenti per i miglioramenti di qualità nell’elenco di Amazon.
+title: Miglioramenti alle inserzioni
+description: Il Sales Channel Amazon fornisce il rapporto Miglioramenti dell’inserzione per darti suggerimenti su come migliorare la qualità dell’inserzione in Amazon.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,20 +9,20 @@ ht-degree: 0%
 
 ---
 
-# Miglioramenti all’elenco
+# Miglioramenti alle inserzioni
 
-La [!UICONTROL Listing Improvements] il rapporto mostra i prodotti con suggerimenti di Amazon per migliorare la qualità dell’elenco. Puoi esaminare questi suggerimenti, che potrebbero essere utili per le prestazioni dei prodotti nell’elenco di Amazon. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
+Il [!UICONTROL Listing Improvements] Il rapporto mostra i prodotti con i suggerimenti di Amazon per migliorare la qualità dell’inserzione. Puoi rivedere questi suggerimenti, che potrebbero migliorare le prestazioni dei prodotti nell’elenco di Amazon. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
-Un miglioramento nell’elenco ricevuto da Amazon non impedisce che il prodotto venga elencato con Amazon.
+Un miglioramento dell’inserzione ricevuto da Amazon non impedisce che il prodotto venga inserito nell’elenco con Amazon.
 
-![Miglioramenti all’elenco](assets/amazon-listing-improvements.png)
+![Miglioramenti alle inserzioni](assets/amazon-listing-improvements.png)
 
 ## Colonne predefinite
 
 | Colonna | Descrizione |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
-| [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN sta per [!DNL Amazon Standard Identification Number]. Un ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, l&#39;ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo ASIN quando l&#39;articolo viene caricato sul loro catalogo. Puoi trovare un articolo ASIN nella pagina dei dettagli del prodotto su Amazon, insieme a ulteriori dettagli relativi all’articolo. |
-| [!UICONTROL Alert Type] | Descrive il tipo di problema relativo all’elenco. Ad esempio, &quot;Mancante&quot; indica che manca un attributo obbligatorio. |
-| [!UICONTROL Field Name] | Nome del campo nell’elenco dei dettagli del venditore Amazon per i quali si consiglia il miglioramento. |
+| [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
+| [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN è l&#39;acronimo di [!DNL Amazon Standard Identification Number]. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
+| [!UICONTROL Alert Type] | Descrive il tipo di problema con l’elenco. Ad esempio, &quot;Missing&quot; indica che manca un attributo obbligatorio. |
+| [!UICONTROL Field Name] | Il nome del campo nell’elenco del venditore di Amazon dei dettagli per i quali viene consigliato il miglioramento. |
 | [!UICONTROL Notes] | Una descrizione del miglioramento suggerito ricevuto da Amazon. |

@@ -1,6 +1,6 @@
 ---
 title: Apprendimento e preparazione
-description: Amazon Sales Channel fornisce la scheda della vista Apprendimento e preparazione per fornire un facile accesso a un elenco di attività di configurazione e risorse informative.
+description: Il Sales Channel Amazon fornisce la scheda della vista Apprendimento e preparazione per fornire un facile accesso a un elenco di attività di configurazione e risorse informative.
 exl-id: 0b31132b-9106-4492-8be7-e784ff436a6d
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Apprendimento e preparazione
 
-La _[!UICONTROL Learning and Preparation]_visualizza l&#39;elenco delle attività di preconfigurazione consigliate prima di integrare gli archivi Amazon. Fornisce inoltre collegamenti a materiali didattici, quali:
+Il _[!UICONTROL Learning and Preparation]_visualizza mostra l’elenco delle attività di preconfigurazione consigliate prima dell’integrazione degli store di Amazon. Fornisce inoltre collegamenti ai materiali di apprendimento, ad esempio:
 
 - Questo [guida utente](./overview.md)
-- Esercitazioni video
+- Tutorial video
 
 ![Vista Apprendimento e preparazione](assets/learning-preparation.png)

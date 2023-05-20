@@ -53,7 +53,7 @@ Per eseguire l&#39;integrazione, è necessario disporre di un [!DNL Amazon Selle
 
 Durante l’onboarding, il canale di vendita Amazon utilizza gli attributi del prodotto per far corrispondere gli elenchi Amazon esistenti (se applicabili) ai prodotti esistenti nel tuo [!DNL Commerce] catalogo. Dopo l’onboarding, questi attributi di prodotto vengono utilizzati per pubblicare [!DNL Commerce] catalogare gli elementi in un’inserzione Amazon e sincronizzare i dati di prodotto tra [!DNL Commerce] e Amazon.
 
-Per avere il numero più alto di [!DNL Commerce] i prodotti corrispondano automaticamente agli elenchi di Amazon, devi creare un set di attributi di prodotto per il tuo [!DNL Commerce] catalogo. Prima di configurare il tuo Amazon Sales Channel Store, devi aggiungere [!DNL Commerce] attributi del prodotto corrispondenti a questi attributi di Amazon, ad esempio: ASIN, EAN, ISBN, UPC o GCID. Consulta [Creare un attributo di prodotto in [!DNL Commerce]](./ob-creating-magento-attributes.md).
+Per avere il numero più alto di [!DNL Commerce] prodotti corrispondono automaticamente agli elenchi di Amazon, devi creare un set di attributi di prodotto per il tuo [!DNL Commerce] catalogo. Prima di configurare il tuo Amazon Sales Channel Store, devi aggiungere [!DNL Commerce] attributi del prodotto corrispondenti a questi attributi di Amazon, ad esempio: ASIN, EAN, ISBN, UPC o GCID. Consulta [Creare un attributo di prodotto in [!DNL Commerce]](./ob-creating-magento-attributes.md).
 
 ## 6. Configurare la valuta e la conversione (in base alle esigenze)
 

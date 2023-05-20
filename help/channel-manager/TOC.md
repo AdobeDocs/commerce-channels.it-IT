@@ -1,6 +1,6 @@
 ---
 user-guide-title: '''[!DNL Channel Manager] Guida"'
-user-guide-description: "Aumenta le vendite ed espandi la tua base di clienti integrando Adobe Commerce o Magento Open Source con il tuo [!DNL Walmart Marketplace] Conto centrale del venditore."
+user-guide-description: '"Incrementa le vendite ed espandi la tua base di clienti integrando Adobe Commerce o Magenti Open Source con il tuo [!DNL Walmart Marketplace] Account centrale del venditore.'''
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 source-git-commit: d43c4760246f38caa5f944025e8d701c79a15ee4
 workflow-type: tm+mt
@@ -10,32 +10,32 @@ ht-degree: 0%
 ---
 
 
-# Channel Manager - [!DNL Channel Manager] per Adobe Commerce {#channel-manager}
+# Gestore canale - [!DNL Channel Manager] per Adobe Commerce {#channel-manager}
 
 - [Panoramica della guida](guide-overview.md)
 - [Introduzione a [!DNL Channel Manager]](overview.md)
 - [Note sulla versione](release-notes.md)
 - [Requisiti di Walmart](walmart-requirements.md)
-- Onboard [!DNL Channel Manager] {#on-boarding}
+- Onboarding [!DNL Channel Manager] {#on-boarding}
    - [Onboarding](onboard.md)
-   - [Installa il [!DNL Channel Manager] estensione](install.md)
-   - [Connessione a Commerce Services](connect.md)
+   - [Installare [!DNL Channel Manager] estensione](install.md)
+   - [Connetti a Commerce Services](connect.md)
    - [Connetti a [!DNL Walmart Marketplace]](connect-marketplace.md)
-   - [Configurazione completa del canale](complete-sales-channel-store-setup.md)
+   - [Completare la configurazione del canale](complete-sales-channel-store-setup.md)
 - Configurare le impostazioni {#configure-settings}
    - [Panoramica delle impostazioni del canale](settings-overview.md)
-   - [Mappare gli attributi del catalogo](map-catalog-attributes.md)
-   - [Mappa delle navi](map-shipping-carriers.md)
-   - [Gestisci connessione Walmart](manage-wmt-connection.md)
+   - [Mappa attributi catalogo](map-catalog-attributes.md)
+   - [Mappa vettori di spedizione](map-shipping-carriers.md)
+   - [Gestire la connessione Walmart](manage-wmt-connection.md)
 - Elenco prodotti {#list-products}
-   - [Gestire gli elenchi](manage-listings.md)
-   - [Aggiungi prodotti all&#39;archivio canali](add-products-to-channel-store.md)
-   - [Collegare gli annunci a Walmart](connect-listings-to-marketplace.md)
-- Inventario e prezzi {#inventory-pricing}
-   - [Aggiornare inventario e prezzi](inventory-and-price-updates.md)
+   - [Gestisci le inserzioni](manage-listings.md)
+   - [Aggiungi prodotti a channel store](add-products-to-channel-store.md)
+   - [Collega le inserzioni a Walmart](connect-listings-to-marketplace.md)
+- Inventario e determinazione prezzi {#inventory-pricing}
+   - [Aggiorna scorte e prezzi](inventory-and-price-updates.md)
 - Gestire gli ordini {#manage-orders}
    - [Visualizza e traccia](manage-orders.md)
    - [Processo](process-orders.md)
-- [Ordini di restituzione](return-refund-orders.md)
+- [Ordini di reso e di rimborso](return-refund-orders.md)
 
 
