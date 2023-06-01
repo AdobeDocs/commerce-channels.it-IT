@@ -1,15 +1,15 @@
 ---
-title: Sostituzioni
+title: Canale di vendita Amazon - [!UICONTROL Overrides]
 description: Il Sales Channel Amazon fornisce la scheda Sostituzioni per aiutarti a identificare e gestire le modalità di applicazione delle sostituzioni nelle inserzioni Amazon.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Sostituzioni
+# [!UICONTROL Overrides]
 
 Il _[!UICONTROL Overrides]_Questa scheda mostra le tue inserzioni Amazon alle quali hai applicato una sostituzione. Una sostituzione è un&#39;impostazione specifica dell&#39;elenco che può essere utilizzata per impostare un valore definito su un elenco. Un override applicato a un elenco definisce l&#39;impostazione per l&#39;elenco, indipendentemente da altre impostazioni o regole definite per l&#39;elenco per le quali l&#39;elenco è idoneo. Quando si applica una sostituzione a un elenco, l&#39;elenco viene visualizzato sul_[!UICONTROL Overrides]_ scheda. Il valore definito nella sostituzione viene visualizzato nella colonna appropriata per l&#39;elenco. È possibile applicare quattro tipi di sostituzioni: prezzo, tempo di gestione, condizione e note del venditore.
 
@@ -36,7 +36,7 @@ Consulta [Creare e modificare le sostituzioni](./creating-editing-overrides.md).
 >
 >Se sono presenti inserzioni in corso, il numero di inserzioni viene visualizzato in un messaggio sopra le schede.
 
-![Scheda Sostituzioni](assets/amazon-overrides.png)
+![Scheda Sostituzioni](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

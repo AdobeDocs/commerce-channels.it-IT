@@ -2,7 +2,7 @@
 title: Terminare un’inserzione in Amazon
 description: Nell’amministratore di Commerce, puoi terminare un’inserzione Amazon dal dashboard Sales Channel di Amazon.
 exl-id: 178c878b-89fb-4239-8d57-733d0884a73a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

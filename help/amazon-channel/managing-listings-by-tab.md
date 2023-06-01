@@ -1,15 +1,15 @@
 ---
-title: Gestisci elenchi prodotti per stato/scheda
+title: Gestisci gli elenchi di prodotti Amazon per stato/scheda
 description: Quando gestisci le inserzioni di Amazon, puoi applicare azioni alle inserzioni in base allo stato.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Gestisci elenchi prodotti per stato/scheda
+# Gestisci gli elenchi di prodotti Amazon per stato/scheda
 
 Il _[!UICONTROL Product Listings]_La pagina contiene diverse schede da cui puoi visualizzare gli stati di tutte le inserzioni e abbinare i tuoi prodotti alle inserzioni di Amazon.
 
@@ -19,7 +19,7 @@ Opzioni in **[!UICONTROL Actions]** può applicare l’azione a più inserzioni,
 
 Vedi anche [Gestisci le inserzioni per Azione](./managing-listings-by-action.md).
 
-![Schede Elenco prodotti](assets/amazon-product-listings-tabs.png)
+![Schede Elenco prodotti](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Linguetta | Descrizione | Azioni |
 |--- |--- |--- |

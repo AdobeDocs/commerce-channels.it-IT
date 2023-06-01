@@ -2,9 +2,9 @@
 title: Aggiornamenti di magazzino e prezzo
 description: '[!DNL Channel Manager] sincronizza gli aggiornamenti di inventario e prezzo tra [!DNL Commerce] memorizzare e [!DNL Walmart Marketplace] in modo da poter gestire le operazioni del canale di vendita da [!DNL Commerce] Amministratore'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Quando i livelli di inventario dei prodotti cambiano in [!DNL Commerce], [!DNL Channel Manager] sincronizza gli aggiornamenti a [!DNL Walmart Marketplace]. La sincronizzazione degli aggiornamenti dell&#39;inventario tra il canale di vendita e il [!DNL Walmart marketplace].
 
-* **Aggiornamenti alla quantità di scorte nel catalogo prodotti**- Quando [!DNL Commerce] variazioni quantità di magazzino a causa di [modifiche quantità scorte manuali](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), rimborsi o annullamenti, [!DNL Channel Manager] sincronizza la modifica ai canali collegati e [!DNL Walmart Marketplace].
+* **Aggiornamenti alla quantità di scorte nel catalogo prodotti**- Quando [!DNL Commerce] variazioni quantità di magazzino a causa di [modifiche quantità scorte manuali](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html), rimborsi o annullamenti, [!DNL Channel Manager] sincronizza la modifica ai canali collegati e [!DNL Walmart Marketplace].
 
 * **Riduci quantità di magazzino per riflettere [!DNL Walmart Marketplace] ordini**- Dopo un [!DNL Walmart Marketplace] ordina sincronizzazioni a [!DNL Channel Manager], [!DNL Channel Manager] invia l&#39;aggiornamento al [!DNL Commerce] sistema di ordinazione. [!DNL Commerce] adegua le quantità delle scorte in base all&#39;ordine. Quindi, la quantità aggiornata viene sincronizzata in [!DNL Walmart Marketplace]. Fino al completamento delle operazioni di sincronizzazione, nelle inserzioni del canale di vendita potrebbero essere visibili quantità diverse e [!DNL Walmart].
 
@@ -42,4 +42,4 @@ Quando il prezzo del prodotto cambia in [!DNL Commerce], [!DNL Channel Manager] 
 1. Rivedi e aggiorna il prezzo in base alle esigenze.
 1. **[!UICONTROL Save]** il cambiamento.
 
-Per assistenza nella gestione della configurazione del prezzo del prodotto in [!DNL Commerce], vedi [Gestisci prezzi](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
+Per assistenza nella gestione della configurazione del prezzo del prodotto in [!DNL Commerce], vedi [Gestisci prezzi](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).

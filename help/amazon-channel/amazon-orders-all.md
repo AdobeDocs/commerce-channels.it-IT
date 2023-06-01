@@ -2,7 +2,7 @@
 title: Visualizza ordini Amazon
 description: Visualizza gli ordini di Amazon Marketplace in Adobe Commerce o nell’amministratore di Magento Open Source.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_visualizza aggiunge opzioni di filtro per le ricerche d
 
 Puoi visualizzare gli ordini più recenti in _[!UICONTROL Recent Orders]_sezione del [dashboard store](./amazon-store-dashboard.md).
 
-![Ordini recenti](assets/amazon-recent-orders-imported.png)
+![Ordini recenti](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Visualizza gli ordini recenti di Amazon
 
@@ -54,7 +54,7 @@ Puoi visualizzare tutti gli ordini di Amazon sulla _[!UICONTROL Amazon orders]_p
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Ordini Amazon](assets/amazon-orders-list-all.png)
+![Ordini Amazon](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Visualizza tutti gli ordini Amazon
 
@@ -72,7 +72,7 @@ Puoi visualizzare tutti gli ordini di Amazon sulla _[!UICONTROL Amazon orders]_p
 
 Puoi applicare i filtri all’elenco degli ordini nel _[!UICONTROL Filter by]_sezione. Effettuare le selezioni e fare clic su **[!UICONTROL Apply filters]**. I filtri applicati vengono visualizzati sopra la griglia degli ordini.
 
-![Filtri per visualizzare gli ordini di Amazon](assets/amazon-orders-filter-view.png)
+![Filtri per visualizzare gli ordini di Amazon](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Modifica dei filtri applicati
 

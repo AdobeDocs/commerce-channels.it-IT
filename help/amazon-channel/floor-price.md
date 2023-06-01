@@ -2,9 +2,9 @@
 title: "Regola di tariffazione intelligente: prezzo minimo"
 description: Utilizza le impostazioni del prezzo base per determinare il prezzo più basso per una regola di determinazione prezzi intelligente per gestire le tue inserzioni Amazon.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Definisci l’impostazione del prezzo più basso in _[!UICONTROL Floor Price]_se
 
 1. Per **[!UICONTROL Floor Price Source]**, scegliere un attributo origine prezzo.
 
-   Scegli la [!DNL Commerce] [attributo prodotto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} che indica il limite del pavimento relativo. Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli il *Costo* attributo.
+   Scegli la [!DNL Commerce] [attributo prodotto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) che indica il limite del pavimento relativo. Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli il *Costo* attributo.
 
 1. Per **[!UICONTROL Floor Price Action]**, scegli un’opzione.
 
@@ -47,7 +47,7 @@ Definisci l’impostazione del prezzo più basso in _[!UICONTROL Floor Price]_se
 
 In questo esempio, il prezzo minimo è impostato per essere superiore del 3% al costo dell&#39;articolo.
 
-![Esempio di regola di rideterminazione prezzi intelligente: prezzo minimo](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Esempio di regola di rideterminazione prezzi intelligente: prezzo minimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |

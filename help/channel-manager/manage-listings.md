@@ -2,7 +2,7 @@
 title: Gestisci le inserzioni
 description: '''Gestire le inserzioni del canale di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Gestire gli elenchi di prodotti per [!DNL Walmart Marketplace] canale di vendita
 
 Lo stato di una singola inserzione indica dove si trova il prodotto nel [!DNL Channel Manager] in modo da poter determinare i passaggi successivi e risolvere eventuali errori.
 
-![Pagina delle inserzioni per un canale di vendita connesso](assets/listings-dashboard-view.png)
+![Pagina delle inserzioni per un canale di vendita connesso](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 È possibile completare le seguenti attività dalla visualizzazione Elenco.
 

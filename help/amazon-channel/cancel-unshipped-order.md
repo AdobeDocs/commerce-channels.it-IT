@@ -1,15 +1,15 @@
 ---
-title: Annulla un ordine non spedito
+title: Annulla un ordine Amazon non spedito
 description: Annullare un ordine in sospeso o parzialmente spedito (non spedito) tramite Amazon [!DNL Seller Central] account.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Annulla un ordine non spedito
+# Annulla un ordine Amazon non spedito
 
 Gli ordini di Amazon possono essere annullati solo se si trovano in un `Unshipped` stato. Se l&#39;ordine è in sospeso o parzialmente spedito (non spedito), l&#39;ordine può essere annullato solo tramite [!DNL Amazon Seller Central] account. Se l&#39;oggetto è stato spedito, le restituzioni e gli scambi devono essere gestiti anche nel tuo [!DNL Amazon Seller Central] Account.
 
@@ -17,7 +17,7 @@ Gli ordini di Amazon possono essere annullati solo se si trovano in un `Unshippe
 >
 >Per le attività diverse dall&#39;annullamento di un ordine:
 >
->- Se è stato [importazione ordine](./order-settings.md) abilitato, gli ordini vengono gestiti in [[!DNL Commerce] flusso di lavoro ordini](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- Se è stato [importazione ordine](./order-settings.md) abilitato, gli ordini vengono gestiti in [[!DNL Commerce] flusso di lavoro ordini](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- Se [importazione ordine](./order-settings.md) è disabilitato, devi gestire i tuoi ordini in [!DNL Amazon Seller Central].
 
 

@@ -1,15 +1,15 @@
 ---
-title: Inserzioni incomplete
+title: Inserzioni Amazon incomplete
 description: Il canale di vendita Amazon offre [!UICONTROL Incomplete] per identificare e soddisfare i requisiti di idoneità per le inserzioni incomplete in Amazon.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Inserzioni incomplete
+# Inserzioni Amazon incomplete
 
 Il _[!UICONTROL Incomplete]_elenca le opzioni [!DNL Commerce] catalogare prodotti che soddisfano i requisiti di idoneità di Amazon (definiti nel [regole di inserzione](./listing-rules.md)), ma mancano le informazioni richieste da Amazon (ad esempio Amazon ASIN o una condizione di prodotto definita).
 
@@ -41,7 +41,7 @@ Sotto **[!UICONTROL Select]** nel _[!UICONTROL Action]_colonna:
 >
 >Se sono presenti inserzioni in corso, il numero di inserzioni viene visualizzato in un messaggio sopra le schede.
 
-![Inserzioni Amazon incomplete](assets/amazon-incomplete-listings.png)
+![Inserzioni Amazon incomplete](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

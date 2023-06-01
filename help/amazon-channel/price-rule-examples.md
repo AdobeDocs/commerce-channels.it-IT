@@ -1,10 +1,10 @@
 ---
-title: Esempi di regole di prezzo
+title: Canale di vendita Amazon - Esempi di regole di prezzo
 description: Per aiutarti a progettare le regole di prezzo per le inserzioni Amazon, rivedi questi esempi in base a scenari comuni.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ Prezzo finale dopo l&#39;applicazione della regola di determinazione prezzi stan
 
 In questo esempio, il prezzo più competitivo viene definito osservando l’Amazon [il prezzo più basso del concorrente](./lowest-competitor-pricing.md) con un feedback positivo del 95% e un numero minimo di feedback pari a 1.000 recensioni di esercenti.
 
-![Esempio di rettifica prezzo](assets/amazon-price-adjustment-example.png)
+![Esempio di rettifica prezzo](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Dopo aver eseguito questa ricerca in base a questi parametri, il prezzo competitivo torna a 25 $.
 

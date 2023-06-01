@@ -1,15 +1,15 @@
 ---
-title: Dashboard di Amazon Store
+title: Dashboard store di Amazon
 description: Visualizza l’attività per i tuoi store di Amazon dall’amministratore di Commerce utilizzando il dashboard di Amazon Store.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Dashboard di Amazon Store
+# Dashboard store di Amazon
 
 In _[!UICONTROL Amazon Stores]_visualizzare nella home page del canale di vendita Amazon, puoi fare clic su **[!UICONTROL View Store]**su una scheda del negozio per aprire il dashboard del negozio.
 
@@ -17,7 +17,7 @@ Il dashboard del negozio è la posizione principale in cui puoi visualizzare l�
 
 Puoi anche accedere al tuo [impostazioni store](./ob-store-review.md), [gestisci le tue inserzioni](./managing-product-listings.md)e visualizzare i dati di vendita e le informazioni sugli ordini recenti.
 
-![Dashboard di Amazon Store](assets/amazon-store-dashboard.png)
+![Dashboard di Amazon Store](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 L’intestazione del dashboard del negozio visualizza le stesse informazioni di base del negozio visualizzate nella scheda del negozio:
 

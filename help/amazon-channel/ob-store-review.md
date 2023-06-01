@@ -1,15 +1,15 @@
 ---
-title: Impostazioni store
+title: Verifica le impostazioni del negozio per il canale di vendita Amazon
 description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e aggiorna il [!DNL Commerce] impostazioni dello store.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Impostazioni store
+# Verifica le impostazioni del negozio per il canale di vendita Amazon
 
 Dopo aver creato e integrato il tuo store del canale di vendita Amazon, controlla le impostazioni predefinite del tuo store per assicurarti che il prodotto, l’inserzione, i prezzi e le altre impostazioni siano corretti.
 
@@ -27,4 +27,4 @@ Dopo aver creato e integrato il tuo store del canale di vendita Amazon, controll
    - **[!UICONTROL Logs]** - [Modifiche all’elenco](./listing-changes-log.md) e [errori di comunicazione](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Controlla le impostazioni delle e-mail e del nome del negozio del canale di vendita Amazon nella [!DNL Commerce] Amministratore
 
-![Dashboard store](assets/ob-store-review.png)
+![Dashboard store](assets/ob-store-review.png){width="600" zoomable="yes"}

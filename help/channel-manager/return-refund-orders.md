@@ -2,9 +2,9 @@
 title: Ordini di restituzione e di rimborso
 description: Istruzioni per l'emissione di rimborsi completi o parziali per le richieste di rimpatrio ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Sul lato Commerce, la richiesta di ritorno avvia il seguente flusso di lavoro:
 
 1. Channel Manager crea una richiesta di ritorno corrispondente con lo stato ricevuto e aggiunge il numero ID restituito ([!UICONTROL RMA #]) al [!UICONTROL Returns] dashboard. Il giorno [!DNL Orders] dashboard, i dettagli dello stato per l&#39;ordine associato agli aggiornamenti di restituzione per includere un [!UICONTROL Return requested] per visualizzare ed elaborare il reso.
 
-1. I commercianti elaborano il rimborso associato alla restituzione creando una nota di credito dopo la [Flusso di lavoro di rimborso di Adobe Commerce](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Tutti i rimborsi vengono elaborati utilizzando il metodo offline.
+1. I commercianti elaborano il rimborso associato alla restituzione creando una nota di credito dopo la [Flusso di lavoro di rimborso di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Tutti i rimborsi vengono elaborati utilizzando il metodo offline.
 
 1. [!DNL Channel Manager] invia un aggiornamento del rimborso a Walmart marketplace in modo che lo stato di restituzione possa essere aggiornato per riflettere il rimborso completato da Adobe Commerce.
 
 In amministrazione vetrina, puoi visualizzare ed elaborare i resi da Channel Manager aprendo il negozio del canale di vendita e selezionando **[!UICONTROL Returns]**.
 
-![Il dashboard Restituzioni di Channel Manager consente di elaborare i rimborsi per le richieste di restituzione ricevute da [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![Il dashboard Restituzioni di Channel Manager consente di elaborare i rimborsi per le richieste di restituzione ricevute da [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Gli scenari seguenti descrivono come emettere rimborsi per diversi tipi di richi
 
    * Dalla sezione [!UICONTROL Status Details] colonna, seleziona **[!UICONTROL Create credit memo]** per aprire la pagina dei dettagli dell&#39;ordine in [!DNL Commerce].
 
-      Se l&#39;ordine non è stato fatturato, nella pagina Dettagli ordine viene visualizzato un messaggio di errore che richiede di crearne uno. Seleziona **[!UICONTROL Create invoice]**. Allora, [crea e salva la fattura](https://docs.magento.com/user-guide/sales/invoices.html).
+      Se l&#39;ordine non è stato fatturato, nella pagina Dettagli ordine viene visualizzato un messaggio di errore che richiede di crearne uno. Seleziona **[!UICONTROL Create invoice]**. Allora, [crea e salva la fattura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Nella pagina dei dettagli dell&#39;ordine selezionare **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Dopo aver completato la restituzione, [!DNL Channel Manager] aggiorna lo stato d
 
 1. Visualizzare i dettagli del rimborso per una restituzione selezionando **[!UICONTROL View credit memo]**.
 
-   ![Nota di accredito per il rimborso di articoli restituiti per un [!DNL Walmart Marketplace] ordine](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Nota di accredito per il rimborso di articoli restituiti per un [!DNL Walmart Marketplace] ordine](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

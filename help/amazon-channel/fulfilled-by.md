@@ -1,16 +1,16 @@
 ---
-title: Soddisfatto da
+title: Impostazioni di Evasione per le inserzioni Amazon
 description: Utilizza le impostazioni Evasione di per determinare come vengono evasi (spediti) gli ordini provenienti dalle inserzioni di Amazon.
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# Soddisfatto da
+# Impostazioni di Evasione per le inserzioni Amazon
 
 _[!UICONTROL Fulfilled By]_Le impostazioni fanno parte delle impostazioni dell&#39;inserzione del Negozio. Le impostazioni dell&#39;inserzione sono accessibili da [dashboard store](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ Il metodo di evasione è un attributo regionale e si basa sul **[!UICONTROL Amaz
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Impostazioni di Evasione da](assets/amazon-fulfilled-by.png)
+![Impostazioni di Evasione da](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | Opzioni:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Scegli se evadere gli ordini. Quando viene effettuato un ordine, le scorte vengono detratte dal [!DNL Commerce] catalogo. Quando viene creato un nuovo prodotto, viene assegnato il metodo di evasione dell&#39;esercente evaso.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Scegli se Amazon evade gli ordini. Con questo metodo di evasione, l&#39;inventario dei prodotti non viene dedotto dal [!DNL Commerce] quando viene effettuato un ordine. Quando viene creato un prodotto, questo viene creato con _[!UICONTROL Fulfilled by Amazon (FBA)]_come tipo di adempimento. Assicurati che i tuoi prodotti siano idonei per l&#39;adempimento FBA all&#39;interno del tuo [!DNL Amazon Seller Central] account. L’inventario FBA viene gestito direttamente anche tramite [!DNL Amazon Seller Central] account. Con questo metodo di evasione, gli aggiornamenti della quantità non vengono inviati in relazione al [!DNL Commerce] , pertanto non è possibile utilizzare alcuni degli strumenti di marketing descritti in [Impostazioni scorte/quantità](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Scegli se disponi di un [!DNL Commerce] attributo che determina se è soddisfatto dall’esercente o da Amazon. Quando viene scelto, **[!UICONTROL Fulfilled by Attribute]** abilita.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | Scegli la [!DNL Commerce] attributo utilizzato per determinare il metodo di adempimento.<br><br>Ad esempio, se l’attributo è _Soddisfatto da_ e scegli il valore attributo come _[!UICONTROL Fulfilled By Merchant]_o_[!UICONTROL Fulfilled By Amazon (FBA)]_, il sistema utilizza tale valore come tipo di adempimento per un nuovo prodotto. In qualità di commerciante, devi assicurarti che i tuoi prodotti siano idonei per l’adempimento FBA all’interno del tuo [!DNL Amazon Seller Central] account. L’inventario FBA viene gestito direttamente anche tramite il tuo account Amazon Seller.<br><br>Le opzioni dipendono dagli attributi impostati per i prodotti Amazon. |
+| [!UICONTROL Fulfilled By Attribute] | Scegli la [!DNL Commerce] attributo utilizzato per determinare il metodo di adempimento.<br><br>Ad esempio, se l’attributo è _Soddisfatto da_ e scegli il valore attributo come `Fulfilled By Merchant` o `Fulfilled By Amazon (FBA)`, il sistema utilizza tale valore come tipo di adempimento per un nuovo prodotto. In qualità di commerciante, devi assicurarti che i tuoi prodotti siano idonei per l’adempimento FBA all’interno del tuo [!DNL Amazon Seller Central] account. L’inventario FBA viene gestito direttamente anche tramite il tuo account Amazon Seller.<br><br>Le opzioni dipendono dagli attributi impostati per i prodotti Amazon. |
 
 **Accesso rapido** - [!UICONTROL Listing Settings] sezioni
 

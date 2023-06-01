@@ -1,18 +1,18 @@
 ---
-title: Condizioni regola prezzo
+title: Canale di vendita Amazon - Condizioni della regola di prezzo
 description: Utilizzare le condizioni della regola del prezzo per determinare quali prodotti sono idonei per la regola del prezzo di listino.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-# Condizioni regola prezzo
+# Condizioni della regola di prezzo
 
-Le condizioni determinano quali prodotti sono idonei per la regola del prezzo. La definizione delle condizioni per le regole di determinazione dei prezzi di Amazon segue la stessa logica e la stessa procedura utilizzata per definire le condizioni per [Regole prezzo carrello](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
+Le condizioni determinano quali prodotti sono idonei per la regola del prezzo. La definizione delle condizioni per le regole di determinazione dei prezzi di Amazon segue la stessa logica e la stessa procedura utilizzata per definire le condizioni per [Regole prezzo carrello](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ Le condizioni determinano quali prodotti sono idonei per la regola del prezzo. L
 
 Questo processo può essere semplice o dettagliato, a seconda della configurazione del catalogo. È possibile definire le condizioni in modo che quando `ALL` o `ANY` delle condizioni sono: `TRUE` o `FALSE` per un prodotto, il prodotto è idoneo per la regola di prezzo da applicare.
 
-Le condizioni si basano su [attributi prodotto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Per applicare la regola a tutti i prodotti, lascia vuota la sezione condizioni.
+Le condizioni si basano su [attributi prodotto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Per applicare la regola a tutti i prodotti, lascia vuota la sezione condizioni.
 
 >[!NOTE]
 >
->Se desideri definire una condizione in base a un attributo di prodotto specifico, **Usa per condizioni regola promozionale** per l’attributo deve essere impostato su `Yes` nel tuo [Proprietà vetrina](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} per l’attributo.
+>Se desideri definire una condizione in base a un attributo di prodotto specifico, **Usa per condizioni regola promozionale** per l’attributo deve essere impostato su `Yes` nel tuo [Proprietà vetrina](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) per l’attributo.
 
-![Condizione regola prezzo - riga 1](assets/ob-price-rules-condition-1.png)
+![Condizione regola prezzo - riga 1](assets/ob-price-rules-condition-1.png){width="600" zoomable="yes"}
 
 Questo esempio definisce una regola che applica uno sconto del 25% a tutti i prodotti definiti nel `Books` categoria.
 
@@ -48,13 +48,13 @@ L’istruzione della regola dispone di due collegamenti in grassetto che, se cli
 
    **[!UICONTROL Conditions Combination]** - Scegli di creare un altro set di `All/Any` e `True/False` condizioni all&#39;interno della condizione esistente.
 
-   ![Combinazione di condizioni della regola di prezzo](assets/ob-conditions-combinations.png)
+   ![Combinazione di condizioni della regola di prezzo](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]** : gli attributi di prodotto disponibili dipendono dal [impostazione dell’attributo](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
+   **[!UICONTROL Product Attribute]** : gli attributi di prodotto disponibili dipendono dal [impostazione dell’attributo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Per visualizzare un attributo nell&#39;elenco: *[!UICONTROL Use for Promo Rule Conditions]* per l’attributo deve essere impostato su `Yes` nelle proprietà della vetrina.
 
    - Per **[!UICONTROL Product Attribute]**, scegli l’attributo che desideri definire come base della condizione. Per questo esempio, la condizione selezionata è `Category`.
 
-      ![Condizione regola prezzo - riga 2, parte 2](assets/ob-price-rule-condition-2.png)
+      ![Condizione regola prezzo - riga 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
 
       La condizione selezionata viene visualizzata nell&#39;istruzione, seguita da altri due collegamenti in grassetto. Le opzioni variano a seconda dell’attributo di prodotto selezionato.
 
@@ -68,11 +68,11 @@ L’istruzione della regola dispone di due collegamenti in grassetto che, se cli
 
       Potrebbe essere richiesto di selezionare un&#39;opzione o di immettere un valore per la condizione. In questo esempio, il campo viene visualizzato vuoto. Per selezionare le categorie per la regola, fai clic sull’icona del selettore (![Icona selettore](assets/btn-chooser.png)) per visualizzare le opzioni selezionate. Questa regola è per _Libri_, seleziona la **[!UICONTROL Books]** casella di controllo. Il numero di categoria viene popolato. Per accettare le selezioni della categoria, fai clic sull’icona del segno di spunta verde (![Icona segno di spunta](assets/btn-check-mark-green.png)).
 
-      ![Condizione regola prezzo - riga 2, parte 3](assets/ob-price-rule-condition-3.png)
+      ![Condizione regola prezzo - riga 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
 
       L&#39;elemento selezionato viene visualizzato nell&#39;istruzione per completare la condizione.
 
-      ![Condizione regola prezzo - riga 2, parte 4](assets/ob-price-rule-condition-4.png)
+      ![Condizione regola prezzo - riga 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
 
       Questa condizione di esempio è completa. Come indicato, questa condizione significa che qualsiasi prodotto nel [!DNL Commerce] catalogo con una categoria di libri definita (`4`) è idoneo per questa regola tariffaria. Puoi aggiungere altre righe di condizione per restringere ulteriormente i prodotti idonei.
 

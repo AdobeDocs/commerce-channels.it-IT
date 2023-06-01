@@ -2,9 +2,9 @@
 title: Visualizza mappatura attributi di Amazon
 description: Verifica i valori per gli attributi Commerce collegati per la corretta sincronizzazione tra Commerce e Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Quando mappi gli attributi Amazon a [!DNL Commerce] attributi, canale di vendita Amazon tiene traccia e fornisce un elenco filtrabile di tutti i valori Amazon. Utilizzare questa pagina per verificare i valori per il collegamento [!DNL Commerce] attributi sincronizzati correttamente tra [!DNL Commerce] e Amazon. Puoi rivedere i valori sincronizzati per l&#39;attributo Amazon collegato o non collegato a un [!DNL Commerce] attributo. Per creare o modificare gli attributi di Amazon, consulta [Creazione e modifica di attributi](./creating-attributes.md).
 
-Il _Valore Amazon_ varia a seconda del tipo di attributo e dell’attributo Amazon visualizzato. Ad esempio, un valore Amazon elencato per `Label` sarebbe un valore di testo mentre `AmazonListPrice` sarebbe un importo numerico. Lo stato indica se il valore Amazon è stato importato.
+Il _Valore Amazon_ varia a seconda del tipo di attributo e dell’attributo Amazon visualizzati. Ad esempio, un valore Amazon elencato per `Label` sarebbe un valore di testo mentre `AmazonListPrice` sarebbe un importo numerico. Lo stato indica se il valore Amazon è stato importato.
 
 ## Visualizzare i valori degli attributi
 
@@ -23,12 +23,12 @@ Il _Valore Amazon_ varia a seconda del tipo di attributo e dell’attributo Amaz
 
 1. Fai clic su **[!UICONTROL Matching Attribute Values]** scheda.
 
-   Le inserzioni che hanno un corrispondente [!DNL Commerce] il prodotto di catalogo mostra un valore collegato nel _SKU prodotto Magento_ colonna. Facendo clic su un collegamento si apre la pagina dei dettagli del prodotto di catalogo corrispondente. Le modifiche apportate agli attributi di Amazon nella pagina dei dettagli del prodotto non vengono sincronizzate con il canale di vendita di Amazon.
+   Le inserzioni che hanno un corrispondente [!DNL Commerce] il prodotto di catalogo mostra un valore collegato nel _[!UICONTROL Magento Product SKU]_colonna. Facendo clic su un collegamento si apre la pagina dei dettagli del prodotto di catalogo corrispondente. Le modifiche apportate agli attributi di Amazon nella pagina dei dettagli del prodotto non vengono sincronizzate con il canale di vendita di Amazon.
 
 >[!TIP]
 >Per modificare o assegnare il mapping per un&#39;inserzione a un prodotto catalogo, vedere [Aggiorna informazioni richieste](./amazon-manually-update-incomplete-listing.md).
 
-![Visualizza valori attributo](assets/amazon-managing-attribute-values.png)
+![Visualizza valori attributo](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |

@@ -1,15 +1,15 @@
 ---
-title: Gestisci attributi
+title: Gestisci gli attributi per le inserzioni Amazon
 description: Puoi gestire la mappatura degli attributi del prodotto Commerce agli attributi di Amazon per garantire informazioni accurate sui prodotti tra i sistemi.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Gestisci attributi
+# Gestisci gli attributi per le inserzioni Amazon
 
 AMAZON e [!DNL Commerce] entrambi utilizzano un sistema di proprietà del prodotto, note come attributi, utilizzato per definire un prodotto. Gli attributi definiscono la descrizione, il contenuto, le immagini, i prezzi e i vari dati dei tuoi prodotti.
 
@@ -23,7 +23,7 @@ Il canale di vendita Amazon ti consente di accedere, esaminare, creare e gestire
 
 Per ulteriori informazioni su [!DNL Commerce] e i set di attributi e i valori di Amazon, consulta:
 
-- [Gestisci nozioni di base sugli attributi](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [Gestisci nozioni di base sugli attributi](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Creare un attributo](./creating-attributes.md#create-an-attribute)
 - [Modifica un attributo esistente](./creating-attributes.md#edit-an-attribute)
 - [Visualizza mappatura attributi](./amazon-matching-attributes-values.md)

@@ -1,18 +1,18 @@
 ---
-title: (B2B) Prezzo aziendale
+title: "[!DNL (B2B) Business Price] per le inserzioni in Amazon"
 description: Puoi elencare i tuoi [!DNL Commerce] archiviare i prodotti sul sito Amazon Business (B2B) consentendo l’attività aziendale nel tuo Amazon [!DNL Seller Central] account.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Prezzo aziendale
+# [!DNL (B2B) Business Price] per le inserzioni in Amazon
 
-(B2B) Le impostazioni del prezzo aziendale fanno parte delle impostazioni dell’inserzione del negozio. Le impostazioni dell&#39;inserzione sono accessibili da [dashboard store](./amazon-store-dashboard.md).
+(B2B) Le impostazioni del prezzo aziendale fanno parte delle impostazioni dell’inserzione del negozio. Le impostazioni dell&#39;inserzione sono accessibili da [Dashboard store di Amazon](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] è un mercato esclusivo per gli account aziendali registrati di Amazon ed è disponibile solo negli Stati Uniti, in Francia, in Germania e nel Regno Unito. Se il marketplace consente prezzi aziendali B2B, è modificabile all’interno delle impostazioni dell’inserzione.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Per i prodotti da inserire nell&#39;elenco [!DNL Amazon Business (B2B)] , devi prima abilitare l&#39;attività nel tuo sito [!DNL Amazon Seller Central] account. Per ulteriori informazioni sulla funzione B2B, consulta [Amazon: B2B centrale](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (richiede l&#39;accesso al sito Web del venditore).
 
-## Configurare le impostazioni dei prezzi aziendali (B2B)
+## Configura [!DNL (B2B) Business Price] impostazioni
 
 1. Clic **[!UICONTROL Listing Settings]** nel dashboard del negozio.
 
@@ -44,7 +44,7 @@ Per i prodotti da inserire nell&#39;elenco [!DNL Amazon Business (B2B)] , devi p
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |

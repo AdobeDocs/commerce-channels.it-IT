@@ -1,10 +1,10 @@
 ---
-title: Creare e modificare le sostituzioni
+title: Creare e modificare le sostituzioni del canale di vendita Amazon
 description: Utilizza le sostituzioni del Sales Channel Amazon per applicare le modifiche a una singola inserzione Amazon o a più inserzioni.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il _[!UICONTROL Create Override]_azione è disponibile quando si visualizzano le
 
 1. In _[!UICONTROL Action]_, fare clic su **[!UICONTROL Select]**>**[!UICONTROL Create Override]**per aprire la pagina Sostituzioni elenco prodotti.
 
-   ![crea sostituzione elenco Amazon](assets/amazon-select-create-override.png)
+   ![crea sostituzione elenco Amazon](assets/amazon-select-create-override.png){width="220"}
 
 1. Per essere certi di visualizzare l’inserzione corretta, verifica che _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ Il _[!UICONTROL Create Override]_azione è disponibile quando si visualizzano le
 
 L&#39;esempio seguente mostra una sostituzione che definisce un nuovo prezzo di `$55`, un nuovo tempo di imballaggio di `1 day`, una nuova condizione di `Used; Like New`e il nuovo testo della Nota del venditore.
 
-![Esempio di sostituzione dell’elenco Amazon](assets/amazon-overrides-edit.png)
+![Esempio di sostituzione dell’elenco Amazon](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Modificare o rimuovere una sostituzione per una singola inserzione {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ Il _[!UICONTROL Edit Overrides]_azione è disponibile quando si visualizzano le 
 
    Il _[!UICONTROL Product Listing Overrides]_viene visualizzata la pagina.
 
-   ![Seleziona una sostituzione dell’inserzione Amazon](assets/amazon-select-edit-overrides.png)
+   ![Seleziona una sostituzione dell’inserzione Amazon](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Per assicurarti di sovrascrivere l’inserzione corretta, verifica _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ Il _[!UICONTROL Edit Overrides]_azione è disponibile quando si visualizzano le 
 
 Piggyback sul _Creare una sostituzione_ esempio. L&#39;esempio seguente mostra una modifica alla sostituzione creata in precedenza che definisce un nuovo prezzo di `$50`, rimuove la sostituzione del tempo di gestione e mantiene le sostituzioni precedenti di Condizione e Note del venditore.
 
-![Modifica o rimozione di una sostituzione](assets/amazon-overrides-edit-2.png)
+![Modifica o rimozione di una sostituzione](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Modifica o rimuovi una sostituzione per più inserzioni {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ Il _[!UICONTROL Edit Listing Overrides]_è disponibile sul_[!UICONTROL Inactive]
 
    Il _[!UICONTROL Product Listing Overrides]_viene visualizzata la pagina.
 
-   ![Seleziona una sostituzione dell’inserzione Amazon](assets/amazon-actions-edit-listing-overrides.png)
+   ![Seleziona una sostituzione dell’inserzione Amazon](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Per modificare _[!UICONTROL Override]_, definire le sezioni per il tipo che si desidera modificare (Prezzo, Tempo di imballaggio, Condizione, Note del venditore).
 

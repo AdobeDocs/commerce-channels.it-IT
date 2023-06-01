@@ -1,15 +1,15 @@
 ---
-title: Nuove inserzioni di terze parti
+title: Nuove inserzioni di Amazon di terze parti
 description: Gestisci le nuove inserzioni di Amazon confrontandole con un prodotto nel tuo catalogo Commerce.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Nuove inserzioni di terze parti
+# Nuove inserzioni di Amazon di terze parti
 
 Il _[!UICONTROL New Third Party]_mostra le inserzioni esistenti di Amazon che non corrispondono a un prodotto nel tuo [!DNL Commerce] catalogo. Per utilizzare la gestione delle inserzioni in base a quantità, prezzi, tempi di imballaggio e altro ancora, è necessario che ogni inserzione di Amazon corrisponda (sia assegnata) a un prodotto nel tuo [!DNL Commerce] catalogo. Sono disponibili alcune opzioni per assegnare un&#39;inserzione a un prodotto nel tuo [!DNL Commerce] catalogo.
 
@@ -31,7 +31,7 @@ Sotto _[!UICONTROL Select]_:
 >
 >Se sono presenti inserzioni in corso, viene visualizzato un messaggio sopra le schede che indicano il numero di inserzioni.
 
-![Nuove inserzioni di terze parti](assets/amazon-listings-new-third-party.png)
+![Nuove inserzioni di terze parti](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

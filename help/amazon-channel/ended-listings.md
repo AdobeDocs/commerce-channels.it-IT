@@ -1,15 +1,15 @@
 ---
-title: Inserzioni scadute
+title: Inserzioni Amazon scadute
 description: Il Sales Channel Amazon fornisce la scheda Terminato per esaminare le inserzioni scadute di Amazon Marketplace, che puoi ripubblicare quando lo desideri.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Inserzioni scadute
+# Inserzioni Amazon scadute
 
 Il _[!UICONTROL Ended]_mostra tutti i prodotti Amazon terminati (rimossi) manualmente dal tuo [!DNL Amazon Seller Central] account. Questi prodotti soddisfano tutti i requisiti dell’inserzione e possono essere ripubblicati in qualsiasi momento senza richiedere ulteriori informazioni. Se un prodotto si trova in_[!UICONTROL Ineligible]_ , è possibile scegliere di modificare il [impostazioni elenco](./listing-settings.md) in modo che il prodotto soddisfi i requisiti per l’inserzione.
 
@@ -33,7 +33,7 @@ Per le inserzioni in scadenza, vedi [Terminare un’inserzione in Amazon](./end-
 
 Per la pubblicazione delle inserzioni, consulta [Pubblicare manualmente un elenco di Amazon](./publish-listings-manually.md).
 
-![Inserzioni Amazon scadute](assets/amazon-ended-listings.png)
+![Inserzioni Amazon scadute](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

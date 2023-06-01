@@ -1,15 +1,15 @@
 ---
-title: Gestisci elenchi prodotti per azione
+title: Gestire gli elenchi di prodotti Amazon per azione
 description: Quando gestisci le inserzioni di Amazon, puoi applicare un’azione a una o più inserzioni.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Gestisci elenchi prodotti per azione
+# Gestire gli elenchi di prodotti Amazon per azione
 
 Il _[!UICONTROL Product Listings]_La pagina contiene diverse schede da cui puoi visualizzare gli stati di tutte le inserzioni e abbinare i tuoi prodotti alle inserzioni di Amazon.
 

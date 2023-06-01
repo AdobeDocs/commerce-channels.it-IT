@@ -1,21 +1,21 @@
 ---
-title: Miglioramenti alle inserzioni
+title: Canale di vendita Amazon - [!UICONTROL Listing Improvements]
 description: Il Sales Channel Amazon fornisce il rapporto Miglioramenti dell’inserzione per darti suggerimenti su come migliorare la qualità dell’inserzione in Amazon.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti alle inserzioni
+# [!UICONTROL Listing Improvements]
 
 Il [!UICONTROL Listing Improvements] Il rapporto mostra i prodotti con i suggerimenti di Amazon per migliorare la qualità dell’inserzione. Puoi rivedere questi suggerimenti, che potrebbero migliorare le prestazioni dei prodotti nell’elenco di Amazon. Nessuna azione disponibile per il registro. È una funzione di sola revisione.
 
 Un miglioramento dell’inserzione ricevuto da Amazon non impedisce che il prodotto venga inserito nell’elenco con Amazon.
 
-![Miglioramenti alle inserzioni](assets/amazon-listing-improvements.png)
+![Miglioramenti alle inserzioni](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## Colonne predefinite
 

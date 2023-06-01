@@ -2,7 +2,7 @@
 title: 'Visualizza e gestisci ordini da [!DNL Channel Manager]'
 description: '''Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Il giorno [!DNL Commerce] una sincronizzazione corretta attiva le azioni seguent
 
 Nell’amministratore della vetrina, puoi visualizzare i dati dell’ordine da [!DNL Channel Manager] aprendo il negozio del canale di vendita e selezionando **[!UICONTROL Orders]**.
 
-![Visualizzazione Ordini di Channel Manager da gestire [!DNL Walmart Marketplace] ordini](assets/orders-dashboard-view.png)
+![Visualizzazione Ordini di Channel Manager da gestire [!DNL Walmart Marketplace] ordini](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Dopo aver ricevuto un ordine dal marketplace e averlo importato nel tuo negozio 
 
 Da **[!UICONTROL Orders]**, seleziona la **[!UICONTROL Commerce Order Number]** per aprire [!DNL Commerce] dettagli ordine.
 
-![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-detail-with-external-order-id.png)
+![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 Nella vetrina Commerce, gli ordini importati da [!DNL Walmart Marketplace] includere nei dati dell’ordine le seguenti informazioni aggiuntive:
 
@@ -172,6 +172,6 @@ Nella vetrina Commerce, gli ordini importati da [!DNL Walmart Marketplace] inclu
 
 - **Elementi ordinati**- In questa sezione vengono elencati gli articoli dell&#39;ordine in tutti gli ordini di Commerce. Il [!UICONTROL Qty] fornisce la cronologia dello stato per gli elementi dell&#39;ordine. Ad esempio, se un ordine è stato fatturato, spedito e rimborsato, è possibile visualizzare le transizioni di stato.
 
-   ![Dettagli ordine cronologia stato articoli ordinati [!DNL Walmart Marketplace] ordini](assets/order-detail-status-history.png)
+   ![Dettagli ordine cronologia stato articoli ordinati [!DNL Walmart Marketplace] ordini](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Visualizzare i dettagli della fattura articolo e del rimborso selezionando [!UICONTROL Invoice] e [!UICONTROL Credit Memo] dal menu di navigazione. È inoltre possibile accedere alla nota di credito direttamente dal [[!UICONTROL Returns]](return-refund-orders.md) dashboard nel tuo negozio del canale di vendita.

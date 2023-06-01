@@ -1,17 +1,17 @@
 ---
-title: Integrazione store
+title: Integrazione store con un [!DNL Amazon Seller Account]
 description: Prima di iniziare il processo di onboarding, devi creare (aggiungere) un archivio di Sales Channel di Amazon e collegarlo al tuo account Amazon Seller.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Integrazione store
+# Integrazione store con un [!DNL Amazon Seller Account]
 
-Per iniziare a utilizzare il canale di vendita Amazon, devi creare (aggiungere) un negozio del canale di vendita Amazon e collegarlo al tuo account venditore Amazon. Questi due passaggi integrano [!DNL Commerce] e account Amazon per condividere dati, sincronizzare prodotti e altro ancora.
+Per iniziare a utilizzare il canale di vendita Amazon, devi creare (aggiungere) un negozio del canale di vendita Amazon e collegarlo al tuo [!DNL Amazon Seller Account]. Questi due passaggi integrano [!DNL Commerce] e account Amazon per condividere dati, sincronizzare prodotti e altro ancora.
 
 _Sono necessarie le credenziali di accesso primarie per [!DNL Amazon Seller Central] account (l&#39;e-mail o il telefono utilizzato per creare l&#39;account del venditore) per collegare il tuo negozio._
 
@@ -29,7 +29,7 @@ _Sono necessarie le credenziali di accesso primarie per [!DNL Amazon Seller Cent
 
    Il _[!UICONTROL Add Amazon sales channel]_viene visualizzata la pagina.
 
-   ![Aggiungi il negozio del canale di vendita Amazon](assets/amazon-store-integration.png)
+   ![Aggiungi il negozio del canale di vendita Amazon](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Per **[!UICONTROL Magento Website to use for Amazon Listing]**, scegli quale [!DNL Commerce] siti Web da connettere per questo negozio del canale di vendita Amazon.
 
@@ -84,7 +84,7 @@ _Sono necessarie le credenziali di accesso primarie per [!DNL Amazon Seller Cent
 
    Per visualizzare il dashboard del negozio, fai clic su **[!UICONTROL View Store]** sulla scheda del negozio.
 
-![Home del canale di vendita Amazon con nuova scheda del negozio](assets/asc-dashboard-after-2fa.png)
+![Home del canale di vendita Amazon con nuova scheda del negozio](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Il tuo nuovo canale di vendita Amazon è ora collegato al tuo [!DNL Amazon Seller Central] account.
 

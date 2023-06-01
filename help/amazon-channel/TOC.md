@@ -2,9 +2,9 @@
 user-guide-title: Guida utente del Sales Channel Amazon
 user-guide-description: Genera vendite tramite Amazon integrando Adobe Commerce o Magenti Open Source con il tuo [!DNL Amazon Seller Central] account.
 breadcrumb-title: Canale di vendita Amazon
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Canale di vendita Amazon - [!DNL channel manager] per Adobe Commerce {#amazon}
 
-- [Panoramica della guida](guide-overview.md)
+- [Guida utente del Sales Channel Amazon](guide-overview.md)
 - [Introduzione al canale di vendita Amazon](overview.md)
-- [Note sulla versione](release-notes.md)
 - Introduzione {#getting-started}
-   - [Informazioni sul canale di vendita Amazon](about-amazon-sales-channel.md)
    - [Informazioni su Amazon Marketplace](about-amazon-marketplace.md)
-   - [Informazioni su Amazon e sul catalogo Commerce](about-listings-and-catalog.md)
+   - [Amazon e il catalogo Commerce](about-listings-and-catalog.md)
    - [Best practice e limitazioni](amazon-best-practices.md)
    - [Installare l’estensione](install.md)
 - Onboarding {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [Attività comuni di elaborazione degli ordini](common-order-processing.md)
    - [Flussi di lavoro di evasione](fulfillment-workflows.md)
    - [Annulla ordini non spediti](cancel-unshipped-order.md)
+- [Note sulla versione](release-notes.md)

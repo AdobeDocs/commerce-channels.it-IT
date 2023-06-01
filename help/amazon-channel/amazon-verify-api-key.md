@@ -2,9 +2,9 @@
 title: Aggiungere o verificare la chiave API di Amazon
 description: Nella configurazione Commerce, la chiave API di Amazon convalidata ti consente di integrare i negozi con l’account Amazon Seller.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ La chiave API viene convalidata ogni volta che accedi al tuo canale di vendita A
 
    Se è la prima volta che accedi al canale di vendita Amazon o se la tua chiave API richiede un aggiornamento, il sistema ti chiederà di completare la procedura.
 
-   ![Ottenere e aggiungere il prompt della chiave API di Amazon](assets/amazon-api-verification-prompt.png)
+   ![Ottenere e aggiungere il prompt della chiave API di Amazon](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. Clic **[!UICONTROL Sign in]** per accedere al [!DNL Commerce] account web.
 
@@ -41,7 +41,7 @@ La chiave API viene convalidata ogni volta che accedi al tuo canale di vendita A
 
    Per creare una chiave API, immetti una descrizione come `Amazon Sales Channel` e fai clic su **[!UICONTROL Add New]**. La nuova chiave viene generata e visualizzata con il nome immesso. Clic **[!UICONTROL Copy]** per copiare la nuova chiave.
 
-   ![Generare o copiare una chiave API](assets/amazon-add-api-key.png)
+   ![Generare o copiare una chiave API](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. Con la nuova chiave generata e copiata, torna a _[!UICONTROL Amazon Sales Channel]_nel browser.
 
@@ -53,7 +53,7 @@ La chiave API viene convalidata ogni volta che accedi al tuo canale di vendita A
 
 1. Clic **[!UICONTROL Save Config]**. Ora puoi tornare al canale di vendita Amazon.
 
-   ![Aggiunta della chiave API nella configurazione dell’archivio](assets/config-magento-services-api-screen.png)
+   ![Aggiunta della chiave API nella configurazione dell’archivio](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. Il giorno _[!UICONTROL Admin]_barra laterale, vai a **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 

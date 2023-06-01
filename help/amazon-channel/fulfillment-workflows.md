@@ -1,15 +1,15 @@
 ---
-title: Flussi di lavoro per evasione Amazon
+title: Flussi di lavoro di evasione di Amazon
 description: L'evasione di un ordine da un'inserzione Amazon segue una sequenza specifica dalla sottomissione dell'ordine alla spedizione.
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
 
 ---
 
-# Flussi di lavoro per evasione Amazon
+# Flussi di lavoro di evasione di Amazon
 
 ## Esempio: evaso dal commerciante
 

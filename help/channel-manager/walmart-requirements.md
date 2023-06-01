@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] Requisiti"'
 description: '''Verifica di disporre dei [!DNL Walmart Marketplace]informazioni e risorse da integrare con Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Quando colleghi i prodotti al marketplace, la disponibilità dell’inserzione d
 
 * Per i negozi che non sono live, le offerte di prodotti sono in staging e non visibili ai clienti. Quando [!DNL Walmart Marketplace] il negozio diventa live, le inserzioni in staging vengono inviate automaticamente al live store.
 
-![[!DNL Walmart Seller Central] prodotti in staging](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] prodotti in staging](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

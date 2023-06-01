@@ -1,15 +1,15 @@
 ---
-title: Home page
+title: Home page del canale di vendita Amazon
 description: Utilizza la home page del canale di vendita Amazon nel tuo [!DNL Commerce] L’Amministratore deve accedere al tuo [!DNL Amazon Marketplace] inserzioni e attività.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Home page
+# Home page del canale di vendita Amazon
 
 La home page del canale di vendita Amazon è la pagina di destinazione per l’accesso al canale di vendita Amazon.
 

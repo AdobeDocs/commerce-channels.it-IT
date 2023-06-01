@@ -1,16 +1,16 @@
 ---
-title: Condizione elenco prodotti
+title: Canale di vendita Amazon - Condizione di elenco prodotti
 description: Utilizza le impostazioni di condizione dell’elenco dei prodotti per mappare i prodotti Commerce in base a una condizione di prodotto Amazon, ad esempio "Nuovo" o "Rinnovato".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Condizione elenco prodotti
+# Condizione di elenco prodotti
 
 Le impostazioni di condizione per l’inserzione del prodotto fanno parte delle impostazioni per l’inserzione nello store. Puoi accedere alle impostazioni dell’inserzione su [dashboard store](./amazon-store-dashboard.md).
 
@@ -57,7 +57,7 @@ Durante [Attività di pre-configurazione](./amazon-pre-setup-tasks.md), si consi
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Condizione di elenco prodotti](assets/amazon-product-listing-condition.png)
+![Condizione di elenco prodotti](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |---|---|

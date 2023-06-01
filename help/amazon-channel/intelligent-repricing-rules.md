@@ -2,7 +2,7 @@
 title: "Regola di tariffazione intelligente: seleziona tipo di regola"
 description: Determina il prezzo dell’inserzione di Amazon in base ai prezzi della concorrenza creando una regola di rideterminazione intelligente dei prezzi.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Definisci il tipo di regola in _[!UICONTROL Select Rule Type]_sezione.
 >
 >Potresti usare le opzioni di feedback e prezzi dei concorrenti per evitare di basare i tuoi prezzi su un concorrente che ha un feedback negativo e vende un prodotto di qualità inferiore.
 
-![Regola di rideterminazione prezzi intelligente: seleziona tipo di regola](assets/ob-intelligent-price-rule-type.png)
+![Regola di rideterminazione prezzi intelligente: seleziona tipo di regola](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |

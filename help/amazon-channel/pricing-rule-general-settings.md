@@ -1,16 +1,15 @@
 ---
-title: Impostazioni generali regola determinazione prezzi
+title: Canale di vendita Amazon - Impostazioni generali delle regole di determinazione prezzi
 description: Utilizzare le impostazioni generali della regola prezzo per definire le caratteristiche principali di una regola prezzo di vendita.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
-# Impostazioni generali regola determinazione prezzi
+# Impostazioni generali delle regole di determinazione prezzi
 
 Definisci il nome, la descrizione, le date di attivazione e la priorità della regola.
 
@@ -48,7 +47,7 @@ Definisci il nome, la descrizione, le date di attivazione e la priorità della r
 >
 >Per ignorare le regole successive, una regola di determinazione dei prezzi deve avere un valore **Priorità** valore.
 
-![Impostazioni generali delle regole di determinazione prezzi](assets/amazon-pricing-rule-general.png)
+![Impostazioni generali delle regole di determinazione prezzi](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |---|---|

@@ -1,16 +1,16 @@
 ---
-title: Prezzo di vendita
+title: Canale di vendita Amazon - [!UICONTROL Listing Price]
 description: Utilizza le impostazioni Prezzo inserzione per determinare l'origine del prezzo e il valore del prezzo di base (predefinito) per le tue inserzioni Amazon.
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# Prezzo di vendita
+# [!UICONTROL Listing Price]
 
 [!UICONTROL Listing Price] Le impostazioni fanno parte delle impostazioni dell&#39;inserzione del Negozio. Le impostazioni dell&#39;inserzione sono accessibili da [dashboard store](./amazon-store-dashboard.md).
 
@@ -18,9 +18,9 @@ Queste impostazioni definiscono quali [!DNL Commerce] attributo di determinazion
 
 Puoi configurare il [ambito di determinazione prezzi](./price-scope.md) come sito globale o sito Web. Se l&#39;ambito di determinazione prezzi è impostato su `Global`, esiste un’unica fonte di prezzo per tutti i tuoi negozi/siti web. Se l&#39;ambito di determinazione prezzi è impostato su `Website`, l’origine del prezzo utilizza la logica di fallback del prezzo del sito web (se disponibile) seguita dal prezzo predefinito (globale).
 
-Se una regola di inserzione è impostata per essere applicata a più siti Web, l&#39;ordine in cui viene utilizzato il prezzo del sito Web è determinato dall&#39;impostazione di priorità del sito Web definita nella [regola di elenco](./listing-rules.md). Queste regole ti consentono di definire i prezzi dei prodotti all’interno del catalogo. Per verificare se si utilizza l&#39;ambito di prezzo del sito Web, vedere [Ambito prezzo catalogo](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target="_blank"}.
+Se una regola di inserzione è impostata per essere applicata a più siti Web, l&#39;ordine in cui viene utilizzato il prezzo del sito Web è determinato dall&#39;impostazione di priorità del sito Web definita nella [regola di elenco](./listing-rules.md). Queste regole ti consentono di definire i prezzi dei prodotti all’interno del catalogo. Per verificare se si utilizza l&#39;ambito di prezzo del sito Web, vedere [Ambito prezzo catalogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html).
 
-Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, e _[!UICONTROL Strike Through Price (MSRP)]_includere gli attributi di determinazione prezzi configurati. Gli attributi di determinazione prezzi sono [!DNL Commerce] attributi del prodotto con il valore Tipo di input catalogo per Proprietario negozio impostato su `Price`. Consulta [Tipi di input degli attributi](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target="_blank"}.
+Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, e _[!UICONTROL Strike Through Price (MSRP)]_includere gli attributi di determinazione prezzi configurati. Gli attributi di determinazione prezzi sono [!DNL Commerce] attributi del prodotto con il valore Tipo di input catalogo per Proprietario negozio impostato su `Price`. Consulta [Tipi di input degli attributi](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html).
 
 ## Configura le impostazioni del prezzo dell&#39;inserzione {#configure-listing-price-settings}
 
@@ -51,7 +51,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
    - `Enabled` - Scegli quando applicare l&#39;IVA al prezzo dell&#39;inserzione. L’IVA viene generalmente utilizzata come imposta sulle vendite nei paesi europei e viene aggiunta al prezzo finale indicato in Amazon. L&#39;IVA non si applica al prezzo finale per le inserzioni utilizzate in una regola di determinazione prezzi intelligente, a meno che [prezzo base](./floor-price.md) è un hit.
    >[!NOTE]
    >
-   >Le imprese dell&#39;Unione europea (UE) sono tenute a inviare fatture agli acquirenti, in modo che il cliente possa trasferire l&#39;imposta. È possibile generare queste fatture e calcolare le imposte personalmente oppure utilizzare un servizio di calcolo delle imposte come Amazon VAT Calculation Service. Amazon consiglia di registrarsi al [Servizio di calcolo IVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target="_blank"}. Se scegli un metodo diverso, sei responsabile della conformità IVA.>
+   >Le imprese dell&#39;Unione europea (UE) sono tenute a inviare fatture agli acquirenti, in modo che il cliente possa trasferire l&#39;imposta. È possibile generare queste fatture e calcolare le imposte personalmente oppure utilizzare un servizio di calcolo delle imposte come Amazon VAT Calculation Service. Amazon consiglia di registrarsi al [Servizio di calcolo IVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Se scegli un metodo diverso, sei responsabile della conformità IVA.>
    >
    >Potrebbero essere necessari 10-14 giorni affinché Amazon verifichi e attivi il tuo account del Servizio di calcolo dell’IVA.
 
@@ -72,11 +72,11 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
 
 1. Per **[!UICONTROL Currency Conversion]**, scegli un’opzione.
 
-   Il valore predefinito è `Disabled`. Queste opzioni dipendono dal [!DNL Commerce] [valuta](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} impostazioni. Se non sono disponibili opzioni, impostare le impostazioni di valuta.
+   Il valore predefinito è `Disabled`. Queste opzioni dipendono dal [!DNL Commerce] [valuta](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) impostazioni. Se non sono disponibili opzioni, impostare le impostazioni di valuta.
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Prezzo di vendita](assets/amazon-listing-price.png)
+![Prezzo di vendita](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |
@@ -87,7 +87,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
 | [!UICONTROL VAT Percentage] | Definisci la percentuale da utilizzare per calcolare l&#39;importo IVA da aggiungere al prezzo di inserzione per le inserzioni Amazon. <br><br>Se si immette `5`, al prezzo di vendita finale verrà applicata un&#39;IVA del 5% dopo l&#39;applicazione di tutte le regole di determinazione dei prezzi. L&#39;IVA non si applica al prezzo finale per le inserzioni utilizzate in una regola di determinazione prezzi intelligente, a meno che il [piano](./floor-price.md) o [soffitto](./optional-ceiling-price.md) è un hit. |
 | [!UICONTROL Amazon Product Tax Code (PTC)] | (Solo per i Negozi del Regno Unito) Determina se il canale di vendita Amazon invia le informazioni sul codice fiscale del prodotto al tuo [!DNL Amazon Seller Central] account. <br><br>Seleziona **Non gestire PTC** se si utilizza un servizio di calcolo delle imposte di terze parti o si dispone già di tutti i calcoli delle imposte impostati nel [!DNL Amazon Seller Central] account. Quando è impostato su questa opzione, il canale di vendita Amazon non invia informazioni sul codice IVA del prodotto al tuo [!DNL Amazon Seller Central] account.<br><br>Seleziona **Imposta PTC predefinito** se si dispone di un codice imposta prodotto universale da utilizzare per tutti i prodotti.<br><br>Consulta [Codici imposta prodotto di Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Viene visualizzato solo quando **Codice imposta prodotto Amazon (PTC)** è impostato su `Set Default PTC`. Immettere il PTC predefinito da utilizzare per tutte le inserzioni Amazon idonee. Se il PTC predefinito è impostato nel [!DNL Amazon Seller Central] account, lascia vuoto questo campo. <br><br>Le modifiche apportate a questo campo non influiscono sulle inserzioni esistenti. L’inserzione deve essere [terminato](./end-listings-manually.md) e viene creata una nuova inserzione per rendere effettiva la modifica. |
-| [!UICONTROL Currency Conversion] | Consente il [!DNL Commerce] storefront valuta predefinita per convertire accuratamente nella tua valuta Amazon predefinita per pubblicare i prezzi delle inserzioni nella valuta corretta. La conversione della valuta si basa sempre sul [!DNL Commerce] valuta predefinita.<br><br>Puoi comunque visualizzare le impostazioni predefinite [!DNL Commerce] e le valute di Amazon quando sono disponibili altre valute. Se il valore predefinito [!DNL Commerce] La valuta corrisponde alla valuta Amazon predefinita; lascia disabilitata la funzione Conversione valuta.<br><br>Ad esempio, se [!DNL Commerce] La valuta predefinita è CAD (Dollaro canadese) e la valuta predefinita di Amazon è USD. È necessario abilitare la funzione Conversione valuta e scegliere il tasso di conversione da CAD a USD. Le opzioni visualizzate si basano sul [!DNL Commerce] conversioni di valuta. Se l&#39;opzione desiderata non è visualizzata, [imposta la valuta in [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}. |
+| [!UICONTROL Currency Conversion] | Consente il [!DNL Commerce] storefront valuta predefinita per convertire accuratamente nella tua valuta Amazon predefinita per pubblicare i prezzi delle inserzioni nella valuta corretta. La conversione della valuta si basa sempre sul [!DNL Commerce] valuta predefinita.<br><br>Puoi comunque visualizzare le impostazioni predefinite [!DNL Commerce] e le valute di Amazon quando sono disponibili altre valute. Se il valore predefinito [!DNL Commerce] La valuta corrisponde alla valuta Amazon predefinita; lascia disabilitata la funzione Conversione valuta.<br><br>Ad esempio, se [!DNL Commerce] La valuta predefinita è CAD (Dollaro canadese) e la valuta predefinita di Amazon è USD. È necessario abilitare la funzione Conversione valuta e scegliere il tasso di conversione da CAD a USD. Le opzioni visualizzate si basano sul [!DNL Commerce] conversioni di valuta. Se l&#39;opzione desiderata non è visualizzata, [imposta la valuta in [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 
 **Accesso rapido** - [!UICONTROL Listing Settings] sezioni
 

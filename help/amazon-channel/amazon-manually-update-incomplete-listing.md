@@ -1,10 +1,10 @@
 ---
-title: Aggiorna informazioni richieste (elenco incompleto)
+title: Aggiorna informazioni richieste di Amazon
 description: Il canale di vendita Amazon fornisce la scheda Incompleta per monitorare i prodotti del catalogo Commerce per i quali mancano le informazioni richieste da Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Inserzioni visualizzate sul _[!UICONTROL Incomplete]_la scheda include il [!DNL 
 
 L’inserzione ora corrisponde al tuo catalogo e viene aggiornata e pubblicata in Amazon in base alle impostazioni della tua cron e dell’inserzione. Viene rimosso anche dal _[!UICONTROL Incomplete]_scheda.
 
-![Assegna manualmente ASIN per nessuna corrispondenza di inserzione](assets/amazon-listing-update-assign-asin.png)
+![Assegna manualmente ASIN per nessuna corrispondenza di inserzione](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Aggiorna informazioni richieste (trovate più corrispondenze) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ L’inserzione ora corrisponde al tuo catalogo e viene aggiornata e pubblicata i
 
 1. Per salvare la corrispondenza del prodotto, fai clic su **[!UICONTROL Save Listing Update]**.
 
-![Seleziona manualmente il codice ASIN da più corrispondenze possibili](assets/amazon-listing-update-multiple-matches.png)
+![Seleziona manualmente il codice ASIN da più corrispondenze possibili](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Aggiorna informazioni richieste (con varianti) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ L’inserzione ora corrisponde al tuo catalogo e viene aggiornata e pubblicata i
 
 1. Per salvare la corrispondenza del prodotto, fai clic su **[!UICONTROL Save Listing Update]**.
 
-![Seleziona manualmente il codice ASIN dalle possibili corrispondenze delle varianti](assets/amazon-listing-update-multiple-matches.png)
-
 ## Aggiorna informazioni richieste (condizione mancante) {#update-required-info-missing-condition}
 
 1. Visualizza le inserzioni in _[!UICONTROL Incomplete]_scheda in [Gestisci le inserzioni](./managing-product-listings.md).
@@ -79,4 +77,4 @@ L’inserzione ora corrisponde al tuo catalogo e viene aggiornata e pubblicata i
 
 1. Per salvare la corrispondenza del prodotto, fai clic su **[!UICONTROL Save Listing Update]** .
 
-![Aggiorna manualmente la condizione mancante](assets/amazon-update-listing-missing-condition.png)
+![Aggiorna manualmente la condizione mancante](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

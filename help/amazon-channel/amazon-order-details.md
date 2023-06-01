@@ -2,7 +2,7 @@
 title: Dettagli ordine Amazon
 description: Visualizza i dettagli degli ordini di Amazon Marketplace in Adobe Commerce o nell’amministratore di Magento Open Source.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Dettagli ordine Amazon
 
-![Dettagli ordine Amazon](assets/amazon-order-details-header.png)
+![Dettagli ordine Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Visualizza dettagli ordine Amazon
 
@@ -55,16 +55,16 @@ Il _[!UICONTROL Order and Shipping Details]_Questa scheda mostra informazioni de
 >
 >Non dimenticare di fare clic su **Salva ordine** dopo aver apportato modifiche.
 
-![Dettagli ordine e spedizione](assets/amazon-order-details.png)
+![Dettagli ordine e spedizione](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Scheda Articoli ordine
 
 Il _[!UICONTROL Order Items]_Questa scheda mostra tutti gli elementi associati all’ordine di Amazon, così come sono stati ricevuti da Amazon.
 
-![Dettagli articolo ordine](assets/amazon-order-item-details.png)
+![Dettagli articolo ordine](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Scheda Tracciamento
 
 Il _[!UICONTROL Tracking]_Questa scheda mostra le informazioni di tracciamento associate all’ordine Amazon.
 
-![Dettagli di tracciamento](assets/amazon-order-tracking-details.png)
+![Dettagli di tracciamento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

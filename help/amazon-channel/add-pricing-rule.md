@@ -1,15 +1,15 @@
 ---
-title: Aggiungi regole determinazione prezzi
+title: Aggiungere regole di determinazione prezzi di Amazon
 description: Utilizza le regole di determinazione prezzi per gestire i prezzi di inserzione sul Marketplace Amazon per il catalogo prodotti Commerce.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Aggiungi regole determinazione prezzi
+# Aggiungere regole di determinazione prezzi di Amazon
 
 Le regole di determinazione prezzi possono essere configurate o modificate in qualsiasi momento dopo l&#39;integrazione del negozio. Le regole di determinazione prezzi fanno parte di [Impostazioni elenco](./listing-settings.md) e sono accessibili nel [dashboard store](./amazon-store-dashboard.md).
 

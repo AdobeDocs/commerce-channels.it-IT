@@ -1,16 +1,16 @@
 ---
-title: Ricerca nel catalogo
+title: Ricerca nel catalogo per inserzioni Amazon
 description: Per impostare la corrispondenza degli attributi che consente di mappare i prodotti idonei del catalogo Commerce con le inserzioni di Amazon, aggiorna le impostazioni di Ricerca nel catalogo.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Ricerca nel catalogo
+# Ricerca nel catalogo per inserzioni Amazon
 
 _Ricerca nel catalogo_ Le impostazioni fanno parte delle impostazioni dell&#39;inserzione del Negozio. Le impostazioni dell&#39;inserzione sono accessibili da [dashboard store](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Se desideri aggiungere attributi, consulta [Creare attributi di prodotto per cor
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Ricerca nel catalogo](assets/amazon-catalog-search.png)
+![Ricerca nel catalogo](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |

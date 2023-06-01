@@ -2,9 +2,9 @@
 title: Mappa attributi catalogo
 description: '''Mappa attributi per corrispondenza [DNL! Prodotti Commerce] a esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Questo passaggio è necessario per la corrispondenza [!DNL Commerce] prodotti a 
 | ISSN | Numero di serie standard internazionale | Numero di serie a 8 cifre utilizzato per identificare riviste, giornali, quotidiani e periodici di ogni tipo consegnati su tutti i supporti cartacei ed elettronici | 8 cifre |
 | UPC | Codice prodotto universale | Codice di tracciamento standard per la vendita al dettaglio | 12 cifre |
 
-Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un attributo di catalogo esistente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un attributo di catalogo esistente](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## Mappare identificatori univoci
 
@@ -38,6 +38,6 @@ Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un a
 
       L&#39;esempio seguente mappa [!UICONTROL Walmart Marketplace UPC] all’attributo UPC nel catalogo dei prodotti.
 
-      ![Mappa gli attributi per i criteri di corrispondenza prodotto](assets/products-map-attributes-for-match.png)
+      ![Mappa gli attributi per i criteri di corrispondenza prodotto](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Seleziona **[!UICONTROL Save]**.

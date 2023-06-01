@@ -1,19 +1,19 @@
 ---
-title: Visualizzazione store Amazon
+title: "[!UICONTROL Amazon Stores] view"
 description: Vai alla vista Amazon Stores per rivedere rapidamente le statistiche di base per ciascuno dei tuoi store Amazon e accedere alle opzioni di gestione.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Visualizzazione store Amazon
+# [!UICONTROL Amazon Stores] visualizza
 
 Quando si visualizza la home page del canale di vendita Amazon, il _Amazon Stores_ la vista viene aperta per impostazione predefinita.
 
-![Vista Amazon Stores](assets/amazon-sales-channel-home-tabs.png)
+![Vista Amazon Stores](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 Il _[!UICONTROL Amazon Stores]_visualizza mostra una &quot;scheda store&quot; per ciascuno dei tuoi store Amazon insieme ad alcune statistiche di base e opzioni di gestione. Le informazioni di riepilogo visualizzate in ogni scheda includono lo stato di ogni negozio, la data di creazione, la data dell&#39;ultimo aggiornamento, le inserzioni che richiedono attenzione (ad esempio: Inserzioni incomplete) e il [!DNL Commerce] sito Web.
 

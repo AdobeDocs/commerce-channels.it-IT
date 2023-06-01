@@ -1,16 +1,15 @@
 ---
-title: Magazzino/Quantità
+title: Canale di vendita Amazon - [!UICONTROL Stock/Quantity]
 description: Per controllare la sincronizzazione dei dettagli sulla quantità di prodotti dal tuo punto vendita al tuo [!DNL Amazon Seller Central] conto, aggiorna le impostazioni Stock/Quantità.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Magazzino/Quantità
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* Le impostazioni fanno parte delle impostazioni dell&#39;inserzione del Negozio. Le impostazioni dell&#39;inserzione sono accessibili da [dashboard store](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ La quantità è un attributo regionale e si basa sulla **[!UICONTROL Amazon Mark
 
 1. Al termine, fai clic su **[!UICONTROL Save listing settings]**.
 
-![Impostazioni scorte/quantità](assets/amazon-stock-quantity.png)
+![Impostazioni scorte/quantità](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |---|---|
@@ -67,10 +66,10 @@ Quando un articolo viene venduto, l&#39;inserzione Amazon lo rimette in vendita 
 
 Ad esempio, se imposti *[!UICONTROL Maximum Listed Quantity]* as `12`, l’elenco di Amazon mostra una quantità di 12 anche se il prodotto ha [!DNL Commerce] quantità di 80:
 
-![Quantità massima elencata esempio 1](assets/amazon-max-listed-quantity.png)
+![Quantità massima elencata esempio 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 Se si imposta *[!UICONTROL Maximum Listed Quantity]* as `1`, tutti i prodotti ammissibili sono elencati con un quantitativo di `1`. Quando un articolo viene venduto, il sistema visualizza [!DNL Commerce] prodotto e, se sono presenti scorte aggiuntive, rimette in vendita l&#39;articolo su Amazon con una quantità di `1`.
 
 Questa opzione potrebbe essere utile per i prodotti che in genere vengono ordinati a una quantità pari a 1. Inoltre, aumenta l’urgenza per l’acquirente quando visualizza l’inserzione Amazon.
 
-![Quantità massima elencata esempio 2](assets/amazon-max-listed-quantity-1.png)
+![Quantità massima elencata esempio 2](assets/amazon-max-listed-quantity-1.png){width="300"}

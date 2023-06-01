@@ -1,10 +1,10 @@
 ---
-title: Creare e modificare gli attributi
+title: Creazione e modifica degli attributi per il canale di vendita Amazon
 description: Il Sales Channel Amazon fornisce la vista Attributi per aiutarti a rivedere gli attributi Amazon correnti e gli attributi Commerce collegati.
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Questi passaggi creano un [!DNL Commerce] e mapparlo su un attributo Amazon. A s
 
 1. Per **[!UICONTROL Comparable on Storefront]**, impostato su `Yes` se il valore dell’attributo può essere utilizzato nella funzionalità &quot;Confronta con&quot; di Amazon.
 
-1. Scegli la [!DNL Commerce] [ambito](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} per l’attributo, quindi seleziona una o più Viste archivio in cui importare i valori Amazon.
+1. Scegli la [!DNL Commerce] [ambito](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) per l’attributo, quindi seleziona una o più Viste archivio in cui importare i valori Amazon.
 
    Se l&#39;ambito è impostato su `Global`, il _[!UICONTROL Store View]_non può essere modificato dopo la creazione dell&#39;attributo.
 
@@ -61,7 +61,7 @@ Questi passaggi creano un [!DNL Commerce] e mapparlo su un attributo Amazon. A s
 
 Dopo il salvataggio, puoi modificare l’attributo per rivedere le impostazioni e le corrispondenze con Amazon e [!DNL Commerce] valori per l&#39;attributo. Puoi anche indicare se i valori di Amazon devono essere sovrascritti [!DNL Commerce] valori.
 
-![crea impostazioni attributo](assets/amazon-attribute-settings-create.png)
+![crea impostazioni attributo](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |
@@ -75,8 +75,8 @@ Dopo il salvataggio, puoi modificare l’attributo per rivedere le impostazioni 
 | [!UICONTROL Use for Promo Rule Conditions] | Passa a `Yes` per consentire la disponibilità dell&#39;attributo per un parametro nelle condizioni promozionali. |
 | [!UICONTROL Used in Search] | Indica se l’attributo e il valore possono essere utilizzati nelle ricerche di prodotti. |
 | [!UICONTROL Comparable on Storefront] | Indica se il valore dell’attributo può essere utilizzato nella funzionalità &quot;Confronta per&quot; di Amazon. |
-| [!UICONTROL Magento Product Attribute Scope] | Indica il [ambito](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} per l’attributo. Opzioni: globale / vista store<br>Se impostato su `Global`, non è possibile modificare la visualizzazione Store dopo la creazione dell&#39;attributo. |
-| [!UICONTROL Store Views (to import values into to)] | Viene visualizzato solo se l&#39;ambito è impostato su `Store View`. Scegli la [visualizzazione store](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} in cui vengono sincronizzati i valori degli attributi di Amazon. Scelta `All Store Views (Global)` aggiorna il valore in tutti [!DNL Commerce] visualizzazioni dello store. |
+| [!UICONTROL Magento Product Attribute Scope] | Indica il [ambito](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) per l’attributo. Opzioni: globale / vista store<br>Se impostato su `Global`, non è possibile modificare la visualizzazione Store dopo la creazione dell&#39;attributo. |
+| [!UICONTROL Store Views (to import values into to)] | Viene visualizzato solo se l&#39;ambito è impostato su `Store View`. Scegli la [visualizzazione store](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) in cui vengono sincronizzati i valori degli attributi di Amazon. Scelta `All Store Views (Global)` aggiorna il valore in tutti [!DNL Commerce] visualizzazioni dello store. |
 
 ## Modificare un attributo {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ Dopo il salvataggio, puoi modificare l’attributo per rivedere le impostazioni 
 
 1. Al termine, fai clic su **[!UICONTROL Save Attribute Settings]**.
 
-![modifica impostazioni attributo](assets/amazon-attribute-settings-edit.png)
+![modifica impostazioni attributo](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--- |--- |
@@ -114,5 +114,5 @@ Dopo il salvataggio, puoi modificare l’attributo per rivedere le impostazioni 
 | [!UICONTROL Select Magento Product Attribute] | Indica la selezione [!DNL Commerce] che desideri collegare al Nome attributo di Amazon elencato. Se si desidera modificare il [!DNL Commerce] , scegliere un attributo diverso dall&#39;elenco a discesa. I valori vengono sincronizzati in base alle configurazioni. |
 | [!UICONTROL Amazon Attribute Name] | Mostra il nome dell&#39;attributo Amazon come definito in [!DNL Amazon Seller Central]. Il valore selezionato [!DNL Commerce] collegamenti attributo a questo attributo Amazon. Non è possibile modificare questo valore tramite [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Indica se i valori dell’attributo Amazon sovrascrivono quelli esistenti [!DNL Commerce] valori, che interessano tutti i prodotti con questo [!DNL Commerce] attributo.<ul><li>**Non sovrascrivere i valori Magenti esistenti** - (Impostazione predefinita) Mantiene il [!DNL Commerce] valore, mantenendo valori diversi per [!DNL Commerce] e nei negozi Amazon.</li><li>**Sovrascrivi valori Magenti esistenti** - Salva il valore di Amazon nel [!DNL Commerce] valore in [!DNL Commerce] catalogo dei prodotti.</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | Non viene visualizzato quando si modifica un attributo se l&#39;attributo è stato creato con `Global` ambito. Indica il [!DNL Commerce] [ambito](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} è stato creato e impostato su `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | Scegli il tuo [!DNL Commerce] [visualizzazione store](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} a cui sincronizzare i valori degli attributi di Amazon. Scelta `All Store Views (Global)` aggiorna il valore in tutte le visualizzazioni dello store. |
+| [!UICONTROL Magento Product Attribute Scope] | Non viene visualizzato quando si modifica un attributo se l&#39;attributo è stato creato con `Global` ambito. Indica che [!DNL Commerce] [ambito](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) è stato creato e impostato su `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | Scegli il tuo [!DNL Commerce] [visualizzazione store](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) a cui sincronizzare i valori degli attributi di Amazon. Scelta `All Store Views (Global)` aggiorna il valore in tutte le visualizzazioni dello store. |

@@ -1,10 +1,10 @@
 ---
-title: Informazioni su Amazon Marketplace
+title: "Informazioni su [!DNL Amazon Marketplace]"
 description: Espandi la portata del tuo Adobe Commerce o Magenti Open Source Store sfruttando il catalogo dei prodotti come voci nel Marketplace Amazon.
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---

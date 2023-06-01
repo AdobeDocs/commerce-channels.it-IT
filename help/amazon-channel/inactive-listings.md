@@ -1,15 +1,15 @@
 ---
-title: Inserzioni inattive
+title: Inserzioni Amazon inattive
 description: Il canale di vendita Amazon offre [!UICONTROL Inactive] per monitorare le inattività [!DNL Amazon Marketplace] inserzioni.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Inserzioni inattive
+# Inserzioni Amazon inattive
 
 Il _[!UICONTROL Inactive]_mostra i prodotti pubblicati in Amazon ma non attivi nel [!DNL Amazon Marketplace]. Le tue inserzioni potrebbero essere inattive per diversi motivi. Ad esempio, potresti non essere idoneo a elencare quel particolare marchio. Le inserzioni inattive sono determinate dagli standard di inserzione di Amazon e dai [!DNL Amazon Seller Central] autorizzazioni dell’account.
 
@@ -37,7 +37,7 @@ Sotto **[!UICONTROL Select]** nel _[!UICONTROL Action]_colonna:
 >
 >Se sono presenti inserzioni in corso, sopra le schede viene visualizzato un messaggio che indica il numero di inserzioni.
 
-![Inserzioni Amazon inattive](assets/amazon-inactive-listings.png)
+![Inserzioni Amazon inattive](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

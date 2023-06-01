@@ -1,15 +1,15 @@
 ---
-title: Azioni di regole di prezzo standard
+title: 'Canale di vendita Amazon: azioni della regola di prezzo standard'
 description: Utilizza le azioni della regola di prezzo standard per aumentare o diminuire un prezzo di listino di Amazon relativo al prezzo di catalogo Commerce (o origine prezzo).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Azioni di regole di prezzo standard
+# Azioni della regola di prezzo standard
 
 Un&#39;azione di regola di prezzo standard ti consente di aumentare o diminuire un prezzo di inserzione di Amazon di una percentuale specifica o di un importo in dollari fisso relativo al [!DNL Commerce] prezzo di catalogo (o origine prezzo).
 
@@ -32,7 +32,7 @@ Le sezioni di un&#39;azione di una regola di prezzo standard includono:
 
    - `Increase By` : scegli quando desideri che il valore venga aumentato prima di inserirlo nell’elenco di Amazon.
 
-1. Per **[!UICONTROL Apply]**, scegli un’opzione e un’opzione per determinare come definire *[!UICONTROL Magento Price Source]* definito nel [Prezzo di vendita](./listing-price.md) valore da regolare:
+1. Per **[!UICONTROL Apply]**, scegli un’opzione per determinare come desideri che venga definito *[!UICONTROL Magento Price Source]* definito nel [Prezzo di vendita](./listing-price.md) valore da regolare:
 
    - `Apply as percentage` - Scegli quando vuoi definire *[!UICONTROL Magento Price Source]* definito nel [Prezzo di vendita](./listing-price.md) valore adeguato di una percentuale
 
@@ -46,7 +46,7 @@ Le sezioni di un&#39;azione di una regola di prezzo standard includono:
 
 1. Al termine, fai clic su **[!UICONTROL Save pricing rule]**.
 
-![Regola prezzo standard](assets/ob-price-rule-action-standard-example.png)
+![Regola prezzo standard](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |---|---|

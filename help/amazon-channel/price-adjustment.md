@@ -1,15 +1,15 @@
 ---
-title: Adeguamento prezzo
+title: Canale di vendita Amazon - [!UICONTROL Price Adjustment]
 description: Configurare gli adeguamenti di prezzo per definire il calcolo del prezzo dopo aver identificato l'origine del prezzo del concorrente Amazon.
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Adeguamento prezzo
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Definire l&#39;adeguamento dei prezzi in _[!UICONTROL Price Adjustment]_sezione.
 
    - Quando **[!UICONTROL Apply]** è impostato su `Apply as fixed amount`, immettere il valore numerico per l&#39;importo fisso (ad esempio: invio `25` per un adeguamento fisso di 25 dollari).
 
-![Regola di rideterminazione prezzi intelligente - Adeguamento prezzo](assets/amazon-price-adjustment.png)
+![Regola di rideterminazione prezzi intelligente - Adeguamento prezzo](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |---|---|

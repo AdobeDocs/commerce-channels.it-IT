@@ -1,15 +1,15 @@
 ---
-title: Inserzioni in corso
+title: Inserzioni Amazon attive
 description: Il canale di vendita Amazon fornisce la scheda Attivo per monitorare le inserzioni Amazon attive e che corrispondono a un prodotto nel catalogo Adobe Commerce.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Inserzioni in corso
+# Inserzioni Amazon attive
 
 Il _[!UICONTROL Active]_mostra le tue inserzioni di Amazon attive sul [!DNL Amazon Marketplace] e che sono stati associati a un prodotto nel tuo [!DNL Commerce] catalogo.
 
@@ -39,7 +39,7 @@ Sotto **[!UICONTROL Select]** nel _[!UICONTROL Action]_colonna:
 >
 >Se sono presenti inserzioni in corso, il numero di inserzioni viene visualizzato in un messaggio sopra le schede.
 
-![Inserzioni in corso](assets/amazon-active-listings.png)
+![Inserzioni in corso](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 

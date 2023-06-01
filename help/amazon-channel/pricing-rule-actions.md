@@ -1,16 +1,16 @@
 ---
-title: Azioni di regola prezzo
+title: Canale di vendita Amazon - Azioni regola prezzo
 description: Utilizzare le azioni delle regole di prezzo per definire i calcoli di adeguamento applicati all'origine del prezzo per determinare il prezzo di listino di Amazon.
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Azioni di regola prezzo
+# Azioni regola prezzi
 
 Le azioni delle regole di prezzo definiscono i calcoli di adeguamento applicati all&#39;origine del prezzo per determinare il prezzo di listino.
 

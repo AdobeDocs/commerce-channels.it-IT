@@ -1,15 +1,15 @@
 ---
-title: "Onboarding: crea regola di inserzione"
+title: Creare una regola di inserimento nell’elenco di Amazon
 description: Durante il completamento del processo di onboarding del canale di vendita Amazon, crea le regole di inserzione iniziali per la generazione di inserzioni Amazon per il tuo [!DNL Commerce] prodotti.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Onboarding: crea regola di inserzione
+# Creare una regola di inserimento nell’elenco di Amazon
 
 Le regole di inserzione possono essere definite durante l’onboarding, ma possono anche essere modificate in qualsiasi momento. Dopo l’onboarding, puoi accedere al [regole di inserzione](./listing-rules.md) in negozio [dashboard](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Le regole di inserzione possono essere definite durante l’onboarding, ma posso
 
 1. Controlla le inserzioni nell&#39;Anteprima inserzioni:
 
-   ![Anteprima elenco](assets/amazon-ob-listing-preview.png)
+   ![Anteprima elenco](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - I prodotti elencati in questa scheda non sono idonei per l’inserzione in Amazon in base alle impostazioni correnti della regola di inserzione.
 

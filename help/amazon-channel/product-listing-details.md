@@ -1,15 +1,15 @@
 ---
-title: Visualizza dettagli elenco
+title: Visualizzare i dettagli dell’inserzione di Amazon
 description: Per informazioni sulle metriche della concorrenza nelle inserzioni Amazon e sulle singole modifiche SKU/prodotto, consulta la pagina Dettagli sull’elenco dei prodotti .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Visualizza dettagli elenco
+# Visualizzare i dettagli dell’inserzione di Amazon
 
 Il _[!UICONTROL Product Listing Details]_Questa pagina mostra ulteriori informazioni sugli elenchi di prodotti attivi, incluso il Log delle attività di elenco, che mostra le modifiche su un singolo SKU/prodotto. Queste informazioni possono aiutarti a comprendere le metriche della concorrenza sui tuoi prodotti e sulle singole modifiche SKU/prodotto. Ulteriori informazioni su questa pagina includono:
 
@@ -28,7 +28,7 @@ Le informazioni visualizzate sul prodotto includono:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Dettagli inserzione](assets/amazon-product-listing-details.png)
+![Dettagli inserzione](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Registro attività elenco {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Mostra tutte le attività recenti per l’elenco di Amazon. Le informazioni visu
 - Commenti: fornisce ulteriori dettagli relativi al tipo di azione di inserimento nell’elenco che si è verificata.
 - Data di esecuzione: identifica la data e l&#39;ora in cui si è verificata l&#39;azione.
 
-![Dettagli dell’elenco dei prodotti - Registro delle attività dell’elenco](assets/amazon-listing-activity-log.png)
+![Dettagli dell’elenco dei prodotti - Registro delle attività dell’elenco](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Prezzo Buy Box concorrente {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Questa scheda mostra informazioni sul commerciante Amazon che detiene il [[!DNL 
 - Landed Price (Prezzo di arrivo): identifica il prezzo di listino più il prezzo di spedizione per l&#39;inserzione.
 - Ultimo aggiornamento: identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
 
-![Dettagli dell’elenco dei prodotti: prezzi Buy Box concorrenti](assets/amazon-listing-details-buy-box-2.png)
+![Dettagli dell’elenco dei prodotti: prezzi Buy Box concorrenti](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Prezzi del concorrente più basso {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ In questa scheda vengono visualizzate informazioni sui concorrenti di Amazon per
 - Conteggio feedback: identifica il conteggio dei feedback di Amazon per il commerciante al prezzo più basso.
 - Ultimo aggiornamento: identifica la data e l’ora in cui le informazioni sui prezzi sono state aggiornate da Amazon.
 
-![Dettagli dell’elenco dei prodotti - Prezzo concorrente più basso](assets/amazon-listing-details-lowest-comp.png)
+![Dettagli dell’elenco dei prodotti - Prezzo concorrente più basso](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

@@ -2,16 +2,16 @@
 title: Elabora ordini
 description: "Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Elabora ordini
 
-Dopo [!DNL Walmart Marketplace] gli ordini sono stati confermati e inviati con successo a [!DNL Channel Manager], utilizza [Gestione ordini Commerce](https://docs.magento.com/user-guide/sales/orders-workspace.html) per elaborare l&#39;ordine.
+Dopo [!DNL Walmart Marketplace] gli ordini sono stati confermati e inviati con successo a [!DNL Channel Manager], utilizza [Gestione ordini Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) per elaborare l&#39;ordine.
 
 Channel Manager sincronizza gli aggiornamenti in [!DNL Walmart Marketplace] per garantire che lo stato dell&#39;ordine e le informazioni di spedizione [!DNL Commerce] corrisponde ai dati tracciati in [!DNL Walmart Marketplace].
 
@@ -37,22 +37,21 @@ Quando vengono elaborati gli ordini Commerce e [!DNL Channel Manager] sincronizz
 
 1. Per visualizzare [!DNL Walmart Marketplace] ordini, seleziona **[!UICONTROL Orders]**.
 
-1. Nella tabella Ordini aprire l&#39;ordine da spedire selezionando l&#39;opzione **Numero ordine Commerce**.
+1. Nella tabella Ordini aprire l&#39;ordine da spedire selezionando l&#39;opzione **[!UICONTROL Commerce Order Number]**.
 
 1. Creare e sottomettere una spedizione per tutto o parte di un ordine selezionando **[!UICONTROL Ship]**.
 
-   ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-detail-with-external-order-id.png)
+   ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * Scegliere un vettore di spedizione e aggiungere un numero di registrazione selezionando **[!UICONTROL Add tracking number]**.
 
-      ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-shipment-add-tracking-number.png)
+      ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * Compilare il resto del modulo di spedizione in base alle esigenze. Consulta [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) per istruzioni dettagliate.
+   * Compilare il resto del modulo di spedizione in base alle esigenze. Consulta [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) per istruzioni dettagliate.
 
 1. Dopo aver sottomesso la spedizione, tenere traccia della [stato ordine](manage-orders.md#about-order-status) in [!DNL Channel Manager] per verificare che gli aggiornamenti siano stati inviati a [!DNL Walmart Marketplace].
 
-Dopo la spedizione di un ordine, è possibile elaborare rimborsi completi o parziali da [!DNL Channel Manager] per gli articoli inclusi nell&#39;ordine in base alle richieste di restituzione ricevute da [!DNL Walmart Marketplace]. Consulta [ordini di reso e di rimborso](return-refund-orders.md).
+Dopo la spedizione di un ordine, è possibile elaborare rimborsi completi o parziali da [!DNL Channel Manager] per gli articoli inclusi nell&#39;ordine in base alle richieste di restituzione ricevute da [!DNL Walmart Marketplace]. Consulta [Ordini di reso e di rimborso](return-refund-orders.md).
 
 ## Annullare un ordine
 
@@ -60,20 +59,20 @@ Dopo la spedizione di un ordine, è possibile elaborare rimborsi completi o parz
 
 1. Apri la vista del negozio selezionando l’icona dell’occhio per un negozio del canale di vendita.
 
-1. Per visualizzare [!DNL Walmart Marketplace] ordini, seleziona *[!UICONTROL *Orders]**.
+1. Per visualizzare [!DNL Walmart Marketplace] ordini, seleziona *[!UICONTROL Orders]**.
 
-1. Nella tabella Ordini aprire [pagina dettagli ordine](manage-orders.md#view-order-detail) selezionando la **Numero ordine Commerce** per l’ordine da annullare.
+1. Nella tabella Ordini aprire [pagina dettagli ordine](manage-orders.md#view-order-detail) selezionando la **[!UICONTROL Commerce Order Number]** per l’ordine da annullare.
 
-   ![Visualizzazione dettagli ordine Commerce per un[!DNL Walmart Marketplace]ordine](assets/order-detail-with-external-order-id.png)
+   ![Visualizzazione dettagli ordine Commerce per un[!DNL Walmart Marketplace]ordine](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. Annulla l’ordine.
 
    * Seleziona **Annulla** dal menu Dettagli ordine.
 
-   * Il giorno [!UICONTROL Cancel Order] , selezionare il **Motivo annullamento**.
-   ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/cancel-order-reason-selector.png)
+   * Il giorno [!UICONTROL Cancel Order] , selezionare il **[!UICONTROL Cancellation reason]**.
+   ![Visualizzazione dettagli ordine Commerce per un [!DNL Walmart Marketplace] ordine](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * Seleziona **Annulla ordine**.
+   * Seleziona **[!UICONTROL Cancel Order]**.
 
 
 1. Dopo aver inviato l’annullamento, tieni traccia di [stato ordine](manage-orders.md#about-order-status) in [!DNL Channel Manager] per verificare che gli aggiornamenti siano stati inviati a [!DNL Walmart Marketplace].

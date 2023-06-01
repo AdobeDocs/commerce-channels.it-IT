@@ -4,9 +4,9 @@ description: "Connetti l’istanza a [!DNL Channel Manager] completando alcuni p
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dopo aver completato il processo di onboarding di Channel Manager, puoi accedere, configurare e gestire le operazioni di vendita dei canali di Walmart Marketplace da Adobe Commerce. Channel Manager è disponibile dal [!UICONTROL Channel Manager] opzione sul [!UICONTROL Commerce Admin Marketing] menu.
 
-![[!DNL Channel Manager] Opzione in visualizzazione Amministratore](assets/channel-manager-admin-view.png)
+![[!DNL Channel Manager] Opzione in visualizzazione Amministratore](assets/channel-manager-admin-view.png){width="500"}
 
 ## Requisiti
 
@@ -24,17 +24,17 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
 
 - **[Requisiti di Walmart Marketplace](walmart-requirements.md)**-Verificare che siano soddisfatti i requisiti per l&#39;integrazione con Channel Manager, tra cui [configurazione dell&#39;account del venditore](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) e la generazione della chiave API per abilitare l’integrazione.
 
-- **Informazioni account Commerce**-Download e installazione [!DNL Channel Manager] richiede un [Account Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. È necessario disporre di un ID account e delle credenziali con accesso Proprietario o Amministratore al [!DNL Adobe Commerce] o [!DNL Magento Open Source] dell&#39;istanza.
+- **Informazioni account Commerce**-Download e installazione [!DNL Channel Manager] richiede un [Account Commerce](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html). È necessario disporre di un ID account e delle credenziali con accesso Proprietario o Amministratore al [!DNL Adobe Commerce] o [!DNL Magento Open Source] dell&#39;istanza.
 
    - **ID IMMAGINE**-[Accedi](https://account.magento.com/customer/account/login/) al [!DNL Commerce] account da cui ottenere l’ID **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] il [!DNL Commerce] impostazioni account](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] il [!DNL Commerce] impostazioni account](assets/mageid-my-commerce-account.png){width="250"}
 
    - **Tasti di accesso-** Ottieni chiavi di autenticazione da scaricare [!DNL Commerce] estensioni da [!DNL Commerce] Repository del compositore `([!DNL repo.magento.com]`).
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      Nei progetti Adobe Commerce e di Magento Open Source, il proprietario può impostare [Accesso condiviso](https://docs.magento.com/user-guide/magento/magento-account-share.html) per consentire ai dipendenti e ai fornitori di servizi attendibili di scaricare estensioni utilizzando le credenziali dell&#39;account Proprietario o del titolare della licenza.
+      Nei progetti Adobe Commerce e di Magento Open Source, il proprietario può impostare [Accesso condiviso](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) per consentire ai dipendenti e ai fornitori di servizi attendibili di scaricare estensioni utilizzando le credenziali dell&#39;account Proprietario o del titolare della licenza.
 
       Per [!DNL Adobe Commerce] nei progetti di infrastruttura cloud, i programmi di installazione del software devono disporre dei seguenti diritti di accesso [!DNL Commerce] istanza:
 
@@ -42,10 +42,10 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
       - Accesso amministratore a un ambiente specifico
       - un [!DNL Adobe Commerce] account con autorizzazioni per accedere all’archivio del Compositore
 
-      Consulta [Gestire l’accesso degli utenti](https://devdocs.magento.com/cloud/project/user-admin.html).
+      Consulta [Gestire l’accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nel *Guida di Commerce su infrastruttura cloud*.
 
 
-- **Esperienza utilizzando Compositore e[!DNL Commerce CLI]**-Vedere [Installazione generale di CLI](https://devdocs.magento.com/extensions/install/){target="_blank"} per informazioni sull&#39;utilizzo di questi strumenti per installare e gestire le estensioni su [!DNL Adobe Commerce] o [!DNL Magento Open Source] piattaforme.
+- **Esperienza utilizzando Compositore e[!DNL Commerce CLI]**-Vedere [Installare un’estensione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) nel *Guida all’installazione* per informazioni sull&#39;utilizzo di questi strumenti per installare e gestire le estensioni su [!DNL Adobe Commerce] o [!DNL Magento Open Source] piattaforme.
 
 - **[[!DNL Amazon Sales Channel] versione 4.4.2 o successiva](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-Se è stato attivato [!DNL Amazon Sales Channel] per [!DNL Commerce] siti, verifica che il tuo [!DNL Commerce] sulla piattaforma è installata la versione 4.4.2 o successiva prima dell’installazione [!DNL Channel Manager].
 
@@ -53,15 +53,15 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
 
    Se prevedi di utilizzare Channel Manager per la gestione dell’inventario e degli ordini, devi aver installato e abilitato l’estensione Inventory management nell’istanza Adobe Commerce e di Magento Open Source. In genere, questa estensione viene installata e abilitata per impostazione predefinita in Adobe Commerce e [!DNL Magento Open Source] 2.3.x e versioni successive.
 
-   Se hai aggiornato Commerce dalla versione 2.2.x o se hai disabilitato Inventory management, aggiorna l’installazione per includere i moduli richiesti. Consulta [Installare Inventory management](https://devdocs.magento.com/extensions/inventory-management/) nella documentazione di Adobe Commerce Developer.
+   Se hai aggiornato Commerce dalla versione 2.2.x o se hai disabilitato Inventory management, aggiorna l’installazione per includere i moduli richiesti. Consulta [Installare Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) nel *Guida di Inventory management*.
 
 ### Requisiti di sistema
 
-- [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
-- [PHP 7,3 / 7,4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
-- [Compositore 1.x o versione successiva](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [Adobe Commerce 2.4.x](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [PHP 7,3 / 7,4](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)
+- [Compositore 1.x o versione successiva](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/overview.html)
 - [[!DNL Amazon Sales Channel] versione 4.4.2 o successiva](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se è stato attivato [!DNL Amazon Sales Channel] per [!DNL Commerce] siti, verifica che il tuo [!DNL Commerce] sulla piattaforma è installata la versione 4.4.2 prima dell’installazione [!DNL Channel Manager].
-- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html)
 
 ### Piattaforme supportate
 

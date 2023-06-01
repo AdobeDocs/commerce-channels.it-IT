@@ -1,15 +1,15 @@
 ---
-title: Inserzioni non ammissibili
+title: Inserzioni Amazon non ammissibili
 description: Il canale di vendita Amazon offre [!UICONTROL Ineligible] per la gestione degli oggetti non sono idonee per essere inserite in un'inserzione in base alle regole correnti.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Inserzioni non ammissibili
+# Inserzioni Amazon non ammissibili
 
 Il _[!UICONTROL Ineligible]_La scheda mostra un elenco di tutti i prodotti attualmente pubblicati su Amazon ma che non sono idonei come inserzione in base alle regole di inserzione correnti. Se un prodotto precedente era idoneo e le regole di inserzione vengono modificate in modo da renderlo non idoneo, la quantità associata a un prodotto scende a 0 e il prodotto viene contrassegnato come_ non idoneo _. Tuttavia, è ancora presente nel tuo [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ Sotto **[!UICONTROL Select]** nel _[!UICONTROL Action]_colonna:
 >[!NOTE]
 >Se sono presenti inserzioni in corso, il numero di inserzioni viene visualizzato in un messaggio sopra le schede.
 
-![Inserzioni Amazon non ammissibili](assets/amazon-ineligible-listings.png)
+![Inserzioni Amazon non ammissibili](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 
