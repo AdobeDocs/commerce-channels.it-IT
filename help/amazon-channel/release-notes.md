@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] note sulla versione'
 description: Consulta le note sulla versione per informazioni su tutte [!DNL Amazon Sales Channel] versioni.
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] può essere installato nelle istanze con Magenti Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x e 2.4.x dell’infrastruttura cloud. L’estensione non è più supportata in Adobe Commerce 2.1, Magento Open Source 2.2 o Magento 1.
 > <br>Supporto disponibile per [!DNL Amazon sales channel]  versioni 4.0.0 e 4.1.0 solo sulle versioni Adobe Commerce 2.3.x.
 > <br>[!DNL Amazon sales channel] la versione 4.2.0+ è compatibile con le versioni di Adobe Commerce 2.3.x, ma è disponibile il supporto solo per le versioni di Adobe Commerce 2.4.x.
+>
 
 Queste note sulla versione descrivono la versione iniziale di [!DNL Amazon sales channel] e includono:
 

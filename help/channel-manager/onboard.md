@@ -1,10 +1,11 @@
 ---
 title: Onboarding [!DNL Channel Manager]
 description: "Connetti l’istanza a [!DNL Channel Manager] completando alcuni passaggi di onboarding."
-role: User
 level: Intermediate
+role: Leader, Admin, Developer
+feature: Sales Channels, Install
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,22 +29,21 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
 
    - **ID IMMAGINE**-[Accedi](https://account.magento.com/customer/account/login/) al [!DNL Commerce] account da cui ottenere l’ID **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] il [!DNL Commerce] impostazioni account](assets/mageid-my-commerce-account.png){width="250"}
+     ![[!DNL MAGEID] il [!DNL Commerce] impostazioni account](assets/mageid-my-commerce-account.png){width="250"}
 
    - **Tasti di accesso-** Ottieni chiavi di autenticazione da scaricare [!DNL Commerce] estensioni da [!DNL Commerce] Repository del compositore `([!DNL repo.magento.com]`).
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
+     ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      Nei progetti Adobe Commerce e di Magento Open Source, il proprietario può impostare [Accesso condiviso](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) per consentire ai dipendenti e ai fornitori di servizi attendibili di scaricare estensioni utilizzando le credenziali dell&#39;account Proprietario o del titolare della licenza.
+     Nei progetti Adobe Commerce e di Magento Open Source, il proprietario può impostare [Accesso condiviso](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) per consentire ai dipendenti e ai fornitori di servizi attendibili di scaricare estensioni utilizzando le credenziali dell&#39;account Proprietario o del titolare della licenza.
 
-      Per [!DNL Adobe Commerce] nei progetti di infrastruttura cloud, i programmi di installazione del software devono disporre dei seguenti diritti di accesso [!DNL Commerce] istanza:
+     Per [!DNL Adobe Commerce] nei progetti di infrastruttura cloud, i programmi di installazione del software devono disporre dei seguenti diritti di accesso [!DNL Commerce] istanza:
 
       - Accesso utente privilegiato al progetto Cloud
       - Accesso amministratore a un ambiente specifico
       - un [!DNL Adobe Commerce] account con autorizzazioni per accedere all’archivio del Compositore
 
-      Consulta [Gestire l’accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nel *Guida di Commerce su infrastruttura cloud*.
-
+     Consulta [Gestire l’accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nel *Guida di Commerce su infrastruttura cloud*.
 
 - **Esperienza utilizzando Compositore e[!DNL Commerce CLI]**-Vedere [Installare un’estensione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) nel *Guida all’installazione* per informazioni sull&#39;utilizzo di questi strumenti per installare e gestire le estensioni su [!DNL Adobe Commerce] o [!DNL Magento Open Source] piattaforme.
 
@@ -51,9 +51,9 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
 
 - **[!DNL Inventory Management]estensione per Adobe Commerce e Magenti Open Source**
 
-   Se prevedi di utilizzare Channel Manager per la gestione dell’inventario e degli ordini, devi aver installato e abilitato l’estensione Inventory management nell’istanza Adobe Commerce e di Magento Open Source. In genere, questa estensione viene installata e abilitata per impostazione predefinita in Adobe Commerce e [!DNL Magento Open Source] 2.3.x e versioni successive.
+  Se prevedi di utilizzare Channel Manager per la gestione dell’inventario e degli ordini, devi aver installato e abilitato l’estensione Inventory management nell’istanza Adobe Commerce e di Magento Open Source. In genere, questa estensione viene installata e abilitata per impostazione predefinita in Adobe Commerce e [!DNL Magento Open Source] 2.3.x e versioni successive.
 
-   Se hai aggiornato Commerce dalla versione 2.2.x o se hai disabilitato Inventory management, aggiorna l’installazione per includere i moduli richiesti. Consulta [Installare Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) nel *Guida di Inventory management*.
+  Se hai aggiornato Commerce dalla versione 2.2.x o se hai disabilitato Inventory management, aggiorna l’installazione per includere i moduli richiesti. Consulta [Installare Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) nel *Guida di Inventory management*.
 
 ### Requisiti di sistema
 

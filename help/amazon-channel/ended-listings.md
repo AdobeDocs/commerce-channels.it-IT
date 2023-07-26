@@ -1,8 +1,9 @@
 ---
 title: Inserzioni Amazon scadute
 description: Il Sales Channel Amazon fornisce la scheda Terminato per esaminare le inserzioni scadute di Amazon Marketplace, che puoi ripubblicare quando lo desideri.
+feature: Sales Channels, Products
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Per la pubblicazione delle inserzioni, consulta [Pubblicare manualmente un elenc
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 
 | Colonna | Descrizione |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
 | [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN sta per Numeri di identificazione standard di Amazon. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
 | [!UICONTROL Product Listing Name] | Il nome del prodotto. |

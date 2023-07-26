@@ -1,8 +1,9 @@
 ---
 title: Ordini di restituzione e di rimborso
 description: Istruzioni per l'emissione di rimborsi completi o parziali per le richieste di rimpatrio ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ Gli scenari seguenti descrivono come emettere rimborsi per diversi tipi di richi
 
    * È possibile esaminare le restituzioni selezionando la **[!UICONTROL Returns]** scheda.
 
-      È inoltre possibile accedere alle informazioni di ritorno da [!UICONTROL Orders] pagina. Cerca [!UICONTROL Shipped] ordini con una richiesta di reso. Quindi, seleziona la `Return requested` collegamento in [!UICONTROL Status Details] per visualizzare ed elaborare la richiesta.
+     È inoltre possibile accedere alle informazioni di ritorno da [!UICONTROL Orders] pagina. Cerca [!UICONTROL Shipped] ordini con una richiesta di reso. Quindi, seleziona la `Return requested` collegamento in [!UICONTROL Status Details] per visualizzare ed elaborare la richiesta.
 
 1. Nella tabella Restituzioni, trovare un risultato con il *[!UICONTROL Received]* stato.
 
@@ -148,13 +149,13 @@ Gli scenari seguenti descrivono come emettere rimborsi per diversi tipi di richi
 
    * Dalla sezione [!UICONTROL Status Details] colonna, seleziona **[!UICONTROL Create credit memo]** per aprire la pagina dei dettagli dell&#39;ordine in [!DNL Commerce].
 
-      Se l&#39;ordine non è stato fatturato, nella pagina Dettagli ordine viene visualizzato un messaggio di errore che richiede di crearne uno. Seleziona **[!UICONTROL Create invoice]**. Allora, [crea e salva la fattura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Se l&#39;ordine non è stato fatturato, nella pagina Dettagli ordine viene visualizzato un messaggio di errore che richiede di crearne uno. Seleziona **[!UICONTROL Create invoice]**. Allora, [crea e salva la fattura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Nella pagina dei dettagli dell&#39;ordine selezionare **[!UICONTROL Credit Memo]**.
 
    * In entrata [!UICONTROL Items to Refund] sezione del [!UICONTROL Credit Memo], aggiorna **[!UICONTROL Qty to refund]** e **[!UICONTROL Return to Stock]** informazioni relative agli elementi inclusi nella richiesta di reso.
 
-      Assicurati di restituire solo gli elementi elencati nella richiesta di restituzione.
+     Assicurati di restituire solo gli elementi elencati nella richiesta di restituzione.
 
    * Per aggiungere un commento, immettere il testo nel **[!UICONTROL Credit Memo Comments]**
 

@@ -1,8 +1,9 @@
 ---
 title: 'Canale di vendita Amazon: azioni della regola di prezzo standard'
 description: Utilizza le azioni della regola di prezzo standard per aumentare o diminuire un prezzo di listino di Amazon relativo al prezzo di catalogo Commerce (o origine prezzo).
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Le sezioni di un&#39;azione di una regola di prezzo standard includono:
 ![Regola prezzo standard](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Seleziona `Standard price rule`. |
 | [!UICONTROL Price Action] | Opzioni:<ul><li>**[!UICONTROL Decrease By]** - Scegli quando vuoi definire [!DNL Commerce] il valore dell’origine del prezzo deve essere diminuito prima di essere inserito nell’elenco di Amazon.</li><li>**[!UICONTROL Increase By]** - Scegli quando vuoi definire [!DNL Commerce] valore di origine del prezzo da aumentare prima di inserirlo in Amazon.</li></ul> |
 | [!UICONTROL Apply] | Opzioni:<ul><li>**[!UICONTROL Apply as percentage]** - Scegli quando vuoi definire [!DNL Commerce] valore origine prezzo rettificato in percentuale.</li><li>**[!UICONTROL Apply as fixed amount]** - Scegli quando vuoi definire [!DNL Commerce] valore origine prezzo rettificato da un importo fisso.</li></ul> |

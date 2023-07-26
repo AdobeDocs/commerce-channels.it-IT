@@ -1,8 +1,9 @@
 ---
 title: Mappa attributi catalogo
 description: '''Mappa attributi per corrispondenza [DNL! Prodotti Commerce] a esistenti [!DNL Walmart Marketplace] elenchi e sincronizzazione dei dati tra [!DNL Channel Manager] e [!DNL Walmart]."'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Se il catalogo non ha un attributo corrispondente, [aggiungere o convertire un a
 
    - Seleziona l’attributo corrispondente da [!DNL Commerce] catalogo del negozio.
 
-      L&#39;esempio seguente mappa [!UICONTROL Walmart Marketplace UPC] all’attributo UPC nel catalogo dei prodotti.
+     L&#39;esempio seguente mappa [!UICONTROL Walmart Marketplace UPC] all’attributo UPC nel catalogo dei prodotti.
 
-      ![Mappa gli attributi per i criteri di corrispondenza prodotto](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![Mappa gli attributi per i criteri di corrispondenza prodotto](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Seleziona **[!UICONTROL Save]**.

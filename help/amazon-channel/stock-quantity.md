@@ -1,8 +1,9 @@
 ---
-title: Canale di vendita Amazon - [!UICONTROL Stock/Quantity]
+title: SALES CHANNEL AMAZON - [!UICONTROL Stock/Quantity]
 description: Per controllare la sincronizzazione dei dettagli sulla quantità di prodotti dal tuo punto vendita al tuo [!DNL Amazon Seller Central] conto, aggiorna le impostazioni Stock/Quantità.
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ La quantità è un attributo regionale e si basa sulla **[!UICONTROL Amazon Mark
 ![Impostazioni scorte/quantità](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | Immettere un valore numerico per la quantità minima di un prodotto in modo che il prodotto possa essere inserito nell&#39;elenco Amazon (il valore predefinito è `0`).<br><br>Se il [!DNL Commerce] le scorte dei prodotti sono inferiori a questo numero, la rispettiva inserzione Amazon non è idonea per le vendite tramite Amazon. |
 | [!UICONTROL Maximum Listed Quantity] | Immetti un valore numerico per la quantità da mostrare nell’inserzione di Amazon.<br><br>Quando un articolo viene venduto, l&#39;inserzione Amazon viene ripubblicata con la quantità inserita qui. Questa impostazione viene in genere utilizzata quando non si gestisce l’inventario dei prodotti.<br><br>Ad esempio, si inserisce il valore Quantità massima elencata come `10`. La quantità effettiva per un prodotto è `80`. Poiché hai impostato questo valore su `10`, nell’elenco di Amazon viene sempre visualizzata una quantità disponibile di `10`. La quantità disponibile viene sempre visualizzata con il valore definito, anche quando la quantità di scorte è inferiore. |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | Immetti un valore per la quantità visualizzata per le inserzioni Amazon.<br><br>Amazon richiede la pubblicazione di una quantità disponibile. Per [!DNL Commerce] prodotti impostati per non gestire le scorte ma che desideri elencare su Amazon, l’elenco viene pubblicato con la quantità disponibile del valore inserito qui. |

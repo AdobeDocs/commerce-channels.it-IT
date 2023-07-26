@@ -1,9 +1,10 @@
 ---
 title: "Onboarding [!DNL Amazon Sales Channel]"
 description: Scopri le attività preliminari alla configurazione, i passaggi di onboarding e come Amazon funziona con il Sales Channel Amazon in Adobe Commerce e Magenti Open Source.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Il [!DNL Amazon Sales Channel] L&#39;estensione supporta più store di Amazon. P
 >Le impostazioni del canale di vendita Amazon influiscono sulle inserzioni Amazon. Le impostazioni iniziali dell&#39;inserzione, dei prezzi e dei prodotti sono predefinite. Puoi modificare i [impostazioni store](./ob-store-review.md) (inserzioni, prezzi, ordini e rapporti) dopo la connessione del tuo Negozio al tuo [!DNL Amazon Seller Central] account.
 
 | Passaggi | Cosa succede |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Attività di pre-configurazione](./amazon-pre-setup-tasks.md) | Prima di iniziare l’onboarding, assicurati di disporre di un [!DNL Amazon Seller Central] account. Ci sono anche alcuni [!DNL Commerce] requisiti e raccomandazioni da completare prima dell’onboarding. |
 | [Verifica la chiave API di Amazon](./amazon-verify-api-key.md) | Quando si accede al canale di vendita Amazon, [!DNL Commerce] verifica e convalida automaticamente la chiave API di Amazon aggiunta nella configurazione dell’archivio. Se la chiave API non è stata aggiunta o non è valida, viene richiesto di: [aggiungere o aggiornare la chiave API di Amazon](./amazon-verify-api-key.md). |
 | [Integrazione store](./store-integration.md) | Questo passaggio include la creazione di un negozio di canali di vendita Amazon e la successiva connessione al tuo [!DNL Amazon Seller Central] account. Sono necessarie le credenziali di accesso primarie per [!DNL Amazon Seller Central] account (l&#39;e-mail o il telefono utilizzato per creare l&#39;account del venditore) per questo passaggio. |

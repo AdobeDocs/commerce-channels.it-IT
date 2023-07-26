@@ -1,8 +1,9 @@
 ---
 title: "Regola di tariffazione intelligente: prezzo minimo"
 description: Utilizza le impostazioni del prezzo base per determinare il prezzo più basso per una regola di determinazione prezzi intelligente per gestire le tue inserzioni Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ In questo esempio, il prezzo minimo è impostato per essere superiore del 3% al 
 ![Esempio di regola di rideterminazione prezzi intelligente: prezzo minimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Scegli la [!DNL Commerce] attributo che indica il limite minimo relativo (prezzo più basso). Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli il `Cost` attributo. |
 | [!UICONTROL Floor Price Action] | Scegliere un&#39;azione di adeguamento della determinazione prezzi. Opzioni:<ul><li>**[!UICONTROL Decrease By]** - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da regolare verso il basso, creando un prezzo minimo inferiore per la regola, prima di mettere in vendita ad Amazon.</li><li>**[!UICONTROL Increase By]** - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da adeguare, creando un prezzo base più alto per la regola, prima di inserirlo nell’elenco di Amazon.</li><li>**[!UICONTROL Match]** - Scegliere quando non si desidera che il prezzo di vendita fluttui al di sotto del _[!UICONTROL Floor Price Source]_valore. Quando viene scelto, il_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_campi sono disattivati.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un adeguamento percentuale relativo al _[!UICONTROL Floor Price Source]_valore. |

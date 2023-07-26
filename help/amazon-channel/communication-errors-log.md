@@ -1,8 +1,9 @@
 ---
 title: Registro degli errori di comunicazione di Amazon
 description: Nel registro degli errori di comunicazione vengono visualizzati tutti gli errori di comunicazione tra Amazon e [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Le home page del canale di vendita Amazon hanno alcuni punti in comune [controll
 ## Colonne predefinite
 
 | Colonna | Descrizione |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Il nome dell’archivio definito al momento della configurazione dell’archivio Amazon. Fai riferimento a [Integrazione store](./store-integration.md). |
 | [!UICONTROL Error Code] | Codice ricevuto da Amazon per identificare il tipo di errore. |
 | [!UICONTROL Message] | Messaggio che descrive l’errore associato al codice di errore. |

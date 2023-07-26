@@ -1,8 +1,9 @@
 ---
-title: Canale di vendita Amazon - Impostazioni generali delle regole di determinazione prezzi
+title: Sales Channel Amazon - Impostazioni generali delle regole di determinazione prezzi
 description: Utilizzare le impostazioni generali della regola prezzo per definire le caratteristiche principali di una regola prezzo di vendita.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Definisci il nome, la descrizione, le date di attivazione e la priorità della r
 ![Impostazioni generali delle regole di determinazione prezzi](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obbligatorio) Immetti un nome per la regola, utilizzato a scopo di identificazione interna. Il nome della regola è tanto più descrittivo quanto migliore. Ad esempio, &quot;25% di sconto sulla vendita di libri di fine anno&quot;. |
 | [!UICONTROL Description] | Immettere una descrizione dettagliata che illustri la regola (utilizzata anche per scopi interni). Ad esempio, &quot;Vendita di fine anno, 25% di sconto su tutti gli articoli della categoria Libri&quot;. |
 | [!UICONTROL Status] | Opzioni:<ul><li>**[!UICONTROL Inactive]** - La regola di prezzo non si applica alle tue inserzioni. Questa opzione può essere utilizzata quando si modifica una regola di determinazione dei prezzi o si disattiva dopo una promozione limitata.</li><li>**[!UICONTROL Active]** - La regola di determinazione dei prezzi si applica alle tue inserzioni e regola i prezzi prima di pubblicarle su Amazon.</li></ul> |

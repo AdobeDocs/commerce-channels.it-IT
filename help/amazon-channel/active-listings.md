@@ -1,17 +1,18 @@
 ---
 title: Inserzioni Amazon attive
 description: Il canale di vendita Amazon fornisce la scheda Attivo per monitorare le inserzioni Amazon attive e che corrispondono a un prodotto nel catalogo Adobe Commerce.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Inserzioni Amazon attive
 
-Il _[!UICONTROL Active]_mostra le tue inserzioni di Amazon attive sul [!DNL Amazon Marketplace] e che sono stati associati a un prodotto nel tuo [!DNL Commerce] catalogo.
+Il _[!UICONTROL Active]_mostra le inserzioni attive sulla scheda [!DNL Amazon Marketplace] che sono stati associati a un prodotto nel tuo [!DNL Commerce] catalogo.
 
 Le azioni disponibili sul _[!UICONTROL Active]_La scheda include:
 
@@ -44,7 +45,7 @@ Sotto **[!UICONTROL Select]** nel _[!UICONTROL Action]_colonna:
 Le home page del canale di vendita Amazon hanno alcuni punti in comune [controlli workspace](./workspace-controls.md) che ti consentono di personalizzare i dati visualizzati.
 
 | Colonna | Descrizione |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
 | [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. <br><br>ASIN è l&#39;acronimo di [!DNL Amazon Standard Identification Number]. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
 | [!UICONTROL Product Listing Name] | Il nome del prodotto. |

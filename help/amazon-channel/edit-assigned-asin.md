@@ -1,8 +1,9 @@
 ---
 title: Modificare un codice ASIN assegnato
 description: Modifica il valore ASIN di un prodotto Commerce se non corrisponde correttamente a una delle tue inserzioni Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

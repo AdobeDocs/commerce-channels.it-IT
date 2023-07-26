@@ -1,8 +1,10 @@
 ---
 title: Creare una regola di inserimento nell’elenco di Amazon
 description: Durante il completamento del processo di onboarding del canale di vendita Amazon, crea le regole di inserzione iniziali per la generazione di inserzioni Amazon per il tuo [!DNL Commerce] prodotti.
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ Le regole di inserzione possono essere definite durante l’onboarding, ma posso
 
    - **[!UICONTROL Ineligible Listings]** - I prodotti elencati in questa scheda non sono idonei per l’inserzione in Amazon in base alle impostazioni correnti della regola di inserzione.
 
-      I prodotti non ammissibili non vengono pubblicati in Amazon. Se un prodotto non idoneo è già presente nell’elenco di Amazon e l’inserzione di Amazon corrisponde a [!DNL Commerce] prodotto del catalogo, la quantità per l’elenco Amazon diventa `0` per impedire la vendita del prodotto. Per rimuovere manualmente un’inserzione da Amazon, consulta [Chiusura di un’inserzione di Amazon](./end-listings-manually.md). I prodotti che non sono idonei in base ai requisiti Amazon non sono elencati qui. Tali prodotti sono elencati nella [[!UICONTROL Inactive Listings] scheda](./inactive-listings.md).
+     I prodotti non ammissibili non vengono pubblicati in Amazon. Se un prodotto non idoneo è già presente nell’elenco di Amazon e l’inserzione di Amazon corrisponde a [!DNL Commerce] prodotto del catalogo, la quantità per l’elenco Amazon diventa `0` per impedire la vendita del prodotto. Per rimuovere manualmente un’inserzione da Amazon, consulta [Chiusura di un’inserzione di Amazon](./end-listings-manually.md). I prodotti che non sono idonei in base ai requisiti Amazon non sono elencati qui. Tali prodotti sono elencati nella [[!UICONTROL Inactive Listings] scheda](./inactive-listings.md).
 
-      Per modificare una `Ineligible` inserimento in un elenco `Eligible` inserzione, ripeti questa procedura e modifica le regole di inserzione.
+     Per modificare una `Ineligible` inserimento in un elenco `Eligible` inserzione, ripeti questa procedura e modifica le regole di inserzione.
 
    - **[!UICONTROL Eligible Listings]** - I prodotti elencati in questa scheda sono idonei per l’inserzione in Amazon in base alla configurazione della regola di inserzione corrente e sono idonei in base ai requisiti di Amazon. Questa scheda include le tue inserzioni esistenti di Amazon che vengono importate (se hai **[!UICONTROL Import Third Party Listings]** imposta su `Import Listing` nel tuo [Impostazioni elenco](./listing-settings.md)).
 

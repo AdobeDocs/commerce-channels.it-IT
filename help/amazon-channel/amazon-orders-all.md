@@ -1,8 +1,9 @@
 ---
 title: Visualizza ordini Amazon
 description: Visualizza gli ordini di Amazon Marketplace in Adobe Commerce o nell’amministratore di Magento Open Source.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ Puoi applicare i filtri all’elenco degli ordini nel _[!UICONTROL Filter by]_se
 >- A seconda della larghezza della finestra di visualizzazione, è possibile che il testo delle colonne si sovrapponga. Per espandere le colonne del testo da disporre, allargare la visualizzazione della finestra.
 >- Quando si filtra per _[!UICONTROL Total]_, filtrare per numeri interi. L&#39;immissione di un importo decimale può causare errori nei risultati.
 
-
 ### Colonne predefinite
 
 | Colonna | Descrizione |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Disponibile solo in _[!UICONTROL All Orders]_visualizzazione.<br>Limita l’elenco degli ordini in base a:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | La data dell’acquisto, ricevuta da Amazon. |
 | [!UICONTROL Order Number] | Il numero di ordine generato da e ricevuto da Amazon. Per visualizzare la schermata Dettagli ordine di Amazon, fai clic sul collegamento. |

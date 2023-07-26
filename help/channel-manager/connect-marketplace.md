@@ -2,7 +2,9 @@
 title: 'Connetti [!DNL Channel Manager] a [!DNL Walmart Marketplace]'
 description: "Collegare una visualizzazione di Commerce Store a [!DNL Walmart Marketplace] creare il canale di vendita per gestire gli elenchi di prodotti, le scorte, i prezzi e gli ordini di vendita di Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+role: Admin, Developer
+feature: Sales Channels, Install, Integration
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -39,7 +41,7 @@ Dopo aver installato Channel Manager sul [!DNL Commerce] , crea un canale di ven
 
    - Seleziona la [!DNL Commerce] store view che offre i prodotti che desideri vendere sul marketplace.
 
-      ![Configurare la connessione tra [!DNL Commerce] e [!DNL Walmart Marketplace] da [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
+     ![Configurare la connessione tra [!DNL Commerce] e [!DNL Walmart Marketplace] da [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - Inserisci un valore univoco **[!UICONTROL store name]**.
 
@@ -53,21 +55,21 @@ Dopo aver installato Channel Manager sul [!DNL Commerce] , crea un canale di ven
 
    - Se non disponi delle credenziali, recuperale dal [!DNL Walmart Marketplace Developer Portal] selezionando **[!UICONTROL Get API credentials]**.
 
-      Sul portale per sviluppatori, seleziona la tua regione (Stati Uniti e Canada) e quindi accedi.
+     Sul portale per sviluppatori, seleziona la tua regione (Stati Uniti e Canada) e quindi accedi.
 
-      ![[!DNL Walmart Marketplace] accesso account](assets/walmart-marketplace-login-page.png){width="600"}
+     ![[!DNL Walmart Marketplace] accesso account](assets/walmart-marketplace-login-page.png){width="600"}
 
    - Nel modulo della chiave API, copia e salva **[!UICONTROL Client ID]** e **[!UICONTROL Client Secret]** valori per [!UICONTROL Adobe Inc Production API key] in un luogo sicuro.
 
-      ![[!DNL Walmart Marketplace API key] pagina di configurazione](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
+     ![[!DNL Walmart Marketplace API key] pagina di configurazione](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
-      >[!NOTE]
-      >
-      >Se il [!DNL Adobe Inc] non è elencato nel Portale per sviluppatori, seleziona **[!UICONTROL Add New Key for a Solution Provider]** per configurare le autorizzazioni e generare la chiave. Per informazioni dettagliate sulla configurazione, consulta [Genera un [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
+     >[!NOTE]
+     >
+     >Se il [!DNL Adobe Inc] non è elencato nel Portale per sviluppatori, seleziona **[!UICONTROL Add New Key for a Solution Provider]** per configurare le autorizzazioni e generare la chiave. Per informazioni dettagliate sulla configurazione, consulta [Genera un [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
    - Torna a [!DNL Channel Manager] per aggiungere le credenziali al **[!UICONTROL Walmart Connection]** informazioni.
 
-      Quando aggiungi le credenziali, Adobe nasconde il segreto client e memorizza il valore in un archivio protetto.
+     Quando aggiungi le credenziali, Adobe nasconde il segreto client e memorizza il valore in un archivio protetto.
 
 1. Seleziona **[!UICONTROL Save Store]** per applicare la configurazione e connettersi al [!DNL Walmart marketplace].
 

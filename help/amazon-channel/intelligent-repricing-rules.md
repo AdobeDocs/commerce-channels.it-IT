@@ -1,8 +1,9 @@
 ---
 title: "Regola di tariffazione intelligente: seleziona tipo di regola"
 description: Determina il prezzo dell’inserzione di Amazon in base ai prezzi della concorrenza creando una regola di rideterminazione intelligente dei prezzi.
+feature: Sales Channels, Products, Price Rules
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Definisci il tipo di regola in _[!UICONTROL Select Rule Type]_sezione.
 ![Regola di rideterminazione prezzi intelligente: seleziona tipo di regola](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|--- |--- |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Seleziona un tipo di regola. Opzioni:<ul><li>**[!UICONTROL Standard price rule]** - Questo tipo di regola ti consente di aumentare o diminuire il prezzo di inserzione di Amazon di una percentuale specifica o di un importo fisso in dollari relativo al _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]** - Questo tipo di regola ti consente di adeguare il prezzo di inserzione di Amazon in base ai prezzi del concorrente. Quando viene scelto, il _[!UICONTROL Minimum Positive Feedback]_e_[!UICONTROL Minimum Feedback Count]_ sono attivati.</li></ul> |
 | [!UICONTROL Competitor Price Source] | Seleziona l’origine del prezzo desiderata. Opzioni:<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Scegliere questa opzione quando si desidera adeguare i prezzi di Amazon in base all&#39;Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prezzo di vendita. A [!DNL Buy Box] il prezzo esiste quando più venditori su Amazon offrono lo stesso prodotto. Amazon definisce [!DNL Buy Box] in base ai requisiti prestazionali. I commercianti cercano di vincere [!DNL Buy Box] stato del venditore e massima visibilità delle inserzioni dei prodotti.</li><li>**[!UICONTROL Use Lowest Competitor Price]** - Scegli questa opzione quando vuoi confrontare e adeguare il prezzo dell&#39;inserzione al [prezzo concorrente più basso](./lowest-competitor-pricing.md) per lo stesso prodotto. Quando viene scelto, il _[!UICONTROL Minimum Positive Feedback]_e_[!UICONTROL Minimum Feedback Count]_ sono attivati.</li></ul> |
 | [!UICONTROL Minimum Positive Feedback] | Attivo solo se `Use Lowest Competitor Price` viene selezionato. Opzioni:<ul><li>**[!UICONTROL All Competitor's Prices]** - Scegliere quando confrontare e adeguare i prezzi in base a tutti i prezzi della concorrenza per lo stesso prodotto.</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** - Scegli quando vuoi limitare i concorrenti a cui confrontare e adeguare i tuoi prezzi. Questa impostazione limita ulteriormente i tuoi concorrenti richiedendo che la loro inserzione abbia un minimo della percentuale scelta di feedback positivo e quindi utilizzi il prezzo più basso di quel sottoinsieme di concorrenti.</li></ul> |

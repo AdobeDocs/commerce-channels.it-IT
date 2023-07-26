@@ -1,8 +1,9 @@
 ---
 title: Visualizzare i dettagli dell’inserzione di Amazon
-description: Per informazioni sulle metriche della concorrenza nelle inserzioni Amazon e sulle singole modifiche SKU/prodotto, consulta la pagina Dettagli sull’elenco dei prodotti .
+description: Per comprendere le metriche della concorrenza sulle inserzioni Amazon e sulle singole modifiche SKU/prodotto, visita la pagina Dettagli sull’elenco dei prodotti.
+feature: Sales Channels, Products, Merchandising
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%

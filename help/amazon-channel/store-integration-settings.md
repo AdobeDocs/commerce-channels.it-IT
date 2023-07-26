@@ -1,8 +1,9 @@
 ---
-title: Canale di vendita Amazon - [!UICONTROL Store Integration Settings]
+title: SALES CHANNEL AMAZON - [!UICONTROL Store Integration Settings]
 description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e configura le impostazioni di integrazione del negozio tramite [!UICONTROL Amazon Store] dashboard
+feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Store Integration Settings]
 
-Dopo aver integrato il tuo store, rivedi e configura le impostazioni di integrazione tramite il [!UICONTROL Amazon Store] dashboard. Queste impostazioni vengono visualizzate per *Inattivo* e *Attivo* negozi. Qui puoi modificare il nome del tuo store di Amazon e l’indirizzo e-mail associato al store durante l’integrazione.
+Dopo aver integrato il tuo store, rivedi e configura le impostazioni di integrazione tramite il [!UICONTROL Amazon Store] dashboard. Queste impostazioni vengono visualizzate per *Inattivo* e *Attivo* negozi. Qui puoi modificare il nome del tuo store Amazon e l’indirizzo e-mail associato al store durante l’integrazione.
 
 ## Modifica impostazioni di integrazione store
 

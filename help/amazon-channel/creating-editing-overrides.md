@@ -1,8 +1,9 @@
 ---
 title: Creare e modificare le sostituzioni del canale di vendita Amazon
 description: Utilizza le sostituzioni del Sales Channel Amazon per applicare le modifiche a una singola inserzione Amazon o a più inserzioni.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ Il _[!UICONTROL Edit Listing Overrides]_è disponibile sul_[!UICONTROL Inactive]
 ### Sostituisci tipi
 
 | Ignora | Descrizione |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Una sostituzione prezzo definisce il prezzo per le inserzioni. Questa sostituzione ha la priorità su tutte le impostazioni automatizzate fino a quando non viene rimossa.<br><br>Per modificare il prezzo del prodotto, scegliere **[!UICONTROL Change Listing Price]** e inserisci il nuovo prezzo per **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Una sostituzione del tempo di gestione definisce il tempo necessario (in giorni) per elaborare e spedire i prodotti. Una sostituzione del tempo di gestione ha la priorità su tutte le impostazioni automatizzate e predefinite del tempo di gestione fino a quando la sostituzione non viene rimossa.<br><br>Il valore esistente in _[!UICONTROL Handling Time Override]_è il tempo di imballaggio predefinito definito nel [impostazioni elenco](./listing-settings.md) o il tempo di gestione dell&#39;override definito. Se si rimuove una sostituzione del tempo di gestione, per impostazione predefinita viene utilizzato il tempo di gestione definito nelle impostazioni dell&#39;inserzione.<br><br>Per definire una sostituzione del tempo di gestione, scegliere **[!UICONTROL Change Handling Time]**e immettere il nuovo tempo di imballaggio (in giorni) per **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Per ignorare la condizione dell&#39;elenco, scegliere **[!UICONTROL Change Condition]** e scegli la nuova condizione da **Sostituzione condizione**. |

@@ -1,8 +1,9 @@
 ---
 title: 'Visualizza e gestisci ordini da [!DNL Channel Manager]'
 description: '''Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."'
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,9 +124,9 @@ Nelle tabelle seguenti vengono descritti i controlli e le colonne disponibili pe
 
 - **[!UICONTROL Canceled]**- Ordini annullati dal [!DNL Commerce] archiviare.
 
-   Al termine dell’annullamento dell’ordine, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli restituiti. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
+  Al termine dell’annullamento dell’ordine, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli restituiti. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
 
-- **[!UICONTROL Return requested]**- Se Walmart Marketplace richiede una restituzione per gli articoli dell&#39;ordine che sono stati spediti, `Return requested` il collegamento viene visualizzato in [!UICONTROL Status details] colonna. Selezionando il collegamento si apre [!UICONTROL Returns] per visualizzare la restituzione e gestire il processo di rimborso.
+- **[!UICONTROL Return requested]**- Se Walmart Marketplace richiede una restituzione per gli articoli dell&#39;ordine spediti, `Return requested` il collegamento viene visualizzato in [!UICONTROL Status details] colonna. Selezionando il collegamento si apre [!UICONTROL Returns] per visualizzare la restituzione e gestire il processo di rimborso.
 
 - **[!UICONTROL Error]**- Ordini con errori. Possono verificarsi errori quando un&#39;operazione di aggiornamento dell&#39;ordine non riesce. Ad esempio, si verificano degli errori se [!DNL Channel Manager] non può ricevere un nuovo ordine da Walmart. Possono verificarsi anche se [!DNL Channel Manager] non può inviare un aggiornamento di spedizione o annullamento dell&#39;ordine al [!DNL Walmart Marketplace]. Se un&#39;operazione non riesce, nella pagina Ordini viene visualizzata una _Errore_ stato dell&#39;ordine. Per ulteriori informazioni, consulta [Correggi errori ordine](errore process-orders.md#fix-shipping-and-cancel).
 
@@ -172,6 +173,6 @@ Nella vetrina Commerce, gli ordini importati da [!DNL Walmart Marketplace] inclu
 
 - **Elementi ordinati**- In questa sezione vengono elencati gli articoli dell&#39;ordine in tutti gli ordini di Commerce. Il [!UICONTROL Qty] fornisce la cronologia dello stato per gli elementi dell&#39;ordine. Ad esempio, se un ordine è stato fatturato, spedito e rimborsato, è possibile visualizzare le transizioni di stato.
 
-   ![Dettagli ordine cronologia stato articoli ordinati [!DNL Walmart Marketplace] ordini](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![Dettagli ordine cronologia stato articoli ordinati [!DNL Walmart Marketplace] ordini](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Visualizzare i dettagli della fattura articolo e del rimborso selezionando [!UICONTROL Invoice] e [!UICONTROL Credit Memo] dal menu di navigazione. È inoltre possibile accedere alla nota di credito direttamente dal [[!UICONTROL Returns]](return-refund-orders.md) dashboard nel tuo negozio del canale di vendita.

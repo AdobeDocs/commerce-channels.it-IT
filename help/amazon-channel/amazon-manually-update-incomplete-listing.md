@@ -1,8 +1,9 @@
 ---
 title: Aggiorna informazioni richieste di Amazon
 description: Il canale di vendita Amazon fornisce la scheda Incompleta per monitorare i prodotti del catalogo Commerce per i quali mancano le informazioni richieste da Amazon.
+feature: Sales Channels, Merchandising, Catalogs, Products
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%

@@ -3,8 +3,11 @@ title: '''[!DNL Amazon Sales Channel] Guida"'
 description: Informazioni complete su [!DNL Amazon sales channel] per gli amministratori di Adobe Commerce e di Magento Open Source, incluse l’installazione e l’onboarding
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ Questa guida presenta alcuni [!DNL Amazon Seller Central] informazioni, i requis
 >Questa guida non descrive le funzionalità principali di Adobe Commerce e Magenti Open Source.
 
 | Superfici | Descrizione |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Introduzione al canale di vendita Amazon](./overview.md) | Ulteriori informazioni sulle nozioni di base del canale di vendita Amazon, sulle funzioni chiave, sulle best practice e altro ancora. |
 | [Canale di vendita Amazon integrato](./amazon-onboarding-home.md) | Creazione rapida di store Amazon e integrazione con [!DNL Amazon Seller Central]. Metti in moto il tuo canale di vendita Amazon per iniziare a vendere. |
 | [Home del canale di vendita Amazon](./amazon-sales-channel-home.md) | Ulteriori informazioni sulla home page del canale di vendita Amazon e sulle opzioni e attività disponibili. Visualizza informazioni di riepilogo sugli store di Amazon e accedi ai dettagli e alle impostazioni dello store. |
@@ -40,7 +43,7 @@ Questa guida presenta alcuni [!DNL Amazon Seller Central] informazioni, i requis
 ## Documentazione aggiuntiva
 
 | Risorsa documentazione | Descrizione |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Documentazione di Adobe Commerce 2.4 per esercenti](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Documentazione incentrata sui commercianti per Adobe Commerce e Magenti Open Source |
 | [Documentazione dei servizi per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentazione per supportare una raccolta di servizi che consentono ai commercianti di integrare i componenti chiave della propria attività con il negozio. |
 | [Guida di Commerce su infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |

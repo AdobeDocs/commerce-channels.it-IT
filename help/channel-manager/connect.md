@@ -1,10 +1,11 @@
 ---
 title: 'Connetti a [!DNL Commerce] Servizi'
 description: "Connetti Channel Manager a [!DNL Commerce] servizi per consentire la sincronizzazione dei dati e la comunicazione tra [!DNL Commerce] , Channel Manager e altri servizi di supporto."
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Il [!DNL Commerce Services Connector] integra il servizio Channel Manager con Ad
 
 - **Account Commerce**-Per installare il software su [!DNL Commerce] istanze, è necessario disporre di un account con accesso Proprietario o Amministratore al [!DNL Commerce] piattaforma.
 
-   I proprietari degli account e gli utenti con privilegi avanzati possono creare account amministratore dal [!DNL Commerce] o dalla riga di comando utilizzando [!DNL Commerce] Comando CLI `admin:user:create`.
+  I proprietari degli account e gli utenti con privilegi avanzati possono creare account amministratore dal [!DNL Commerce] o dalla riga di comando utilizzando [!DNL Commerce] Comando CLI `admin:user:create`.
 
 - **Chiave API di produzione Adobe Commerce**-Questo [chiave](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) consente l’accesso API ai servizi richiesti da Channel Manager. Sono necessarie le credenziali pubbliche e private per questa chiave.
 

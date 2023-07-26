@@ -1,8 +1,10 @@
 ---
 title: Best practice e limitazioni per [!DNL Amazon sales channel]
 description: Rivedi le best practice e le limitazioni nell’utilizzo del canale di vendita Amazon per Adobe Commerce e Magenti Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ Le best practice includono:
 
 - Per le regioni del Regno Unito, è consigliabile iscriversi al programma [Servizio di calcolo IVA Amazon](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} prima dell’onboarding di Amazon sales channel.
 
-
-   >[!NOTE]
-   >
-   >Potrebbero essere necessari 10-14 giorni affinché Amazon verifichi e attivi il tuo account del Servizio di calcolo dell’IVA.
+  >[!NOTE]
+  >
+  >Potrebbero essere necessari 10-14 giorni affinché Amazon verifichi e attivi il tuo account del Servizio di calcolo dell’IVA.
 
 Le limitazioni includono:
 

@@ -1,8 +1,9 @@
 ---
 title: Canale di vendita Amazon - [!UICONTROL Ready to List]
 description: Il canale di vendita Amazon fornisce la scheda Pronto per l’elenco per aiutarti a esaminare i prodotti Commerce che soddisfano i criteri di idoneità ma non vengono elencati automaticamente.
+feature: Sales Channels, Products, Merchandising
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Sono disponibili alcune opzioni per l&#39;esecuzione manuale [pubblicare una nuo
 ## Colonne predefinite
 
 | Colonna | Descrizione |
-|---|---|
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
 | [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN è l&#39;acronimo di [!DNL Amazon Standard Identification Number]. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
 | [!UICONTROL Product Listing Name] | Il nome del prodotto. |

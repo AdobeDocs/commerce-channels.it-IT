@@ -1,9 +1,9 @@
 ---
 title: Gestire i prezzi di Amazon
 description: Puoi impostare i prezzi per le tue inserzioni Amazon in modo che differiscano dal tuo Negozio Commerce utilizzando le regole di prezzo.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Esistono due tipi di regole per la determinazione dei prezzi:
 - [Regola determinazione prezzi standard](./standard-price-rules.md)
 - [Regola di tariffazione intelligente](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Le regole di rideterminazione dei prezzi intelligenti non funzionano correttamente se l’area geografica di Amazon è impostata su `Inactive` stato, così come si presenta durante l’onboarding. I calcoli dei prezzi dipendono dalle tariffe di spedizione e l&#39;area geografica deve essere compresa `Active` stato delle tariffe di spedizione da sincronizzare da Amazon.
-   >
-   >Per aggiornare lo stato dell’area geografica nell’account Amazon, passa a Impostazioni > Informazioni account > Impostazioni ferie. Fai riferimento a [Amazon: Elenco dello stato per le vacanze](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (è richiesto l&#39;accesso centrale del venditore).
+  >[!IMPORTANT]
+  >
+  >Le regole di rideterminazione dei prezzi intelligenti non funzionano correttamente se l’area geografica di Amazon è impostata su `Inactive` stato, così come si presenta durante l’onboarding. I calcoli dei prezzi dipendono dalle tariffe di spedizione e l&#39;area geografica deve essere compresa `Active` stato delle tariffe di spedizione da sincronizzare da Amazon.
+  >
+  >Per aggiornare lo stato dell’area geografica nell’account Amazon, passa a Impostazioni > Informazioni account > Impostazioni ferie. Fai riferimento a [Amazon: Elenco dello stato per le vacanze](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (è richiesto l&#39;accesso centrale del venditore).
 
 Questa funzione consente di manipolare i prezzi di Amazon in modo simile al [!DNL Commerce] [regole di prezzo catalogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Puoi creare regole complesse che ti consentono di modificare i prezzi per prodotti specifici, prodotti all&#39;interno di categorie specifiche o anche con attributi specifici.
 
@@ -58,7 +58,7 @@ Un&#39;altra opzione di prezzo è [sostituzione prezzo](./overrides.md), imposta
 ## Colonne predefinite
 
 | Colonna | Descrizione |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Nome della regola di determinazione prezzi, come impostato in [Impostazioni generali regola determinazione prezzi](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | Tipo di regola, come impostato in [Azioni regole determinazione prezzi](./pricing-rule-actions.md) (Regola di prezzo standard o Regola di rideterminazione prezzi intelligente) |
 | [!UICONTROL Is Active] | Se la regola è attiva, come impostato in [Impostazioni generali regola determinazione prezzi](./pricing-rule-general-settings.md) |

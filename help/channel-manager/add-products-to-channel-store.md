@@ -1,8 +1,9 @@
 ---
 title: Aggiungere prodotti a Channel Manager
 description: "Crea assortimento di prodotti per [!DNL Walmart Marketplace] vendite aggiungendo prodotti dal catalogo al canale di vendita configurato in Channel Manager."
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ Il processo di importazione può richiedere fino a 30 minuti o più, a seconda d
 
    - Seleziona **[!UICONTROL Save]**.
 
-      Viene visualizzato un messaggio di conferma.
+     Viene visualizzato un messaggio di conferma.
 
-      ![Messaggio di conferma dell’importazione del prodotto dal catalogo al canale di vendita](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![Messaggio di conferma dell’importazione del prodotto dal catalogo al canale di vendita](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Se il messaggio indica che l’aggiornamento è pianificato, utilizza [coda:consumers:inizio](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] per elaborare immediatamente l&#39;aggiornamento.
+     Se il messaggio indica che l’aggiornamento è pianificato, utilizza [coda:consumers:inizio](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] per elaborare immediatamente l&#39;aggiornamento.
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. Al termine dell’operazione di importazione, verifica i prodotti aggiunti tornando a [!DNL Channel Manager] e selezione **[!UICONTROL Listings]**.
 

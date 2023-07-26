@@ -1,8 +1,9 @@
 ---
 title: Dashboard store di Amazon
 description: Visualizza l’attività per i tuoi store di Amazon dall’amministratore di Commerce utilizzando il dashboard di Amazon Store.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ Il dashboard dello store include anche i dati dello store e collegamenti alle im
 
 - **[!UICONTROL Store Listings]** : mostra una rappresentazione grafica delle vendite del negozio negli ultimi 7 o 30 giorni insieme ai dati di vendita relativi al ciclo di vita.
 
-   Questa sezione mostra anche i conteggi delle inserzioni per il tuo [inserzioni in corso](./active-listings.md), [inserzioni inattive](./inactive-listings.md), e elenchi in corso, insieme ai collegamenti alle corrispondenti _[!UICONTROL Product Listings]_pagina. Puoi anche fare clic su **[!UICONTROL Manage Listings]**per aprire_[!UICONTROL Product Listings]_ pagina. Consulta [Gestisci le inserzioni Amazon](./managing-product-listings.md).
+  Questa sezione mostra anche i conteggi delle inserzioni per il tuo [inserzioni in corso](./active-listings.md), [inserzioni inattive](./inactive-listings.md), e elenchi in corso, insieme ai collegamenti alle corrispondenti _[!UICONTROL Product Listings]_pagina. Puoi anche fare clic su **[!UICONTROL Manage Listings]**per aprire_[!UICONTROL Product Listings]_ pagina. Consulta [Gestisci le inserzioni Amazon](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** : mostra informazioni sugli ordini Amazon più recenti. Le informazioni elencate si basano sulle informazioni ricevute da Amazon. Questa tabella non viene aggiornata con [!DNL Commerce] informazioni sull&#39;ordine, anche quando [importazione ordine](./order-settings.md) è abilitato. Per visualizzare tutti gli ordini di Amazon, fai clic su **Tutti gli ordini**.
 
-   Consulta [Visualizza ordini Amazon](./amazon-orders-all.md) per le descrizioni delle colonne, vedere [Gestisci ordini](./managing-orders.md) per ulteriori informazioni.
+  Consulta [Visualizza ordini Amazon](./amazon-orders-all.md) per le descrizioni delle colonne, vedere [Gestisci ordini](./managing-orders.md) per ulteriori informazioni.
 
 - **[!UICONTROL Seller Central links]** : fornisce collegamenti a importanti [!DNL Amazon Seller Central] informazioni.

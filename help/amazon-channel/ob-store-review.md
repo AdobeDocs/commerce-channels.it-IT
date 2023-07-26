@@ -1,8 +1,9 @@
 ---
 title: Verifica le impostazioni del negozio per il canale di vendita Amazon
 description: Dopo aver completato il processo di onboarding del canale di vendita Amazon, rivedi e aggiorna il [!DNL Commerce] impostazioni dello store.
+feature: Sales Channels, Configuration
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Canale di vendita Amazon - [!UICONTROL Listing Price]
 description: Utilizza le impostazioni Prezzo inserzione per determinare l'origine del prezzo e il valore del prezzo di base (predefinito) per le tue inserzioni Amazon.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
 
 1. Per **[!UICONTROL Magento Price Source]** (obbligatorio), scegli un’opzione.
 
-   Il valore predefinito è `Price`. Questa impostazione determina l&#39;origine del prezzo utilizzata per le inserzioni Amazon. Se si crea [regole di determinazione prezzi](./pricing-products.md), le regole vengono applicate al valore definito per l’attributo selezionato qui. È possibile selezionare qualsiasi attributo di determinazione prezzi configurato. Tuttavia, se l&#39;attributo selezionato non viene compilato per un prodotto, l&#39;origine del prezzo del prodotto viene impostata automaticamente su `Price` quando vengono applicate le regole di determinazione prezzi per determinare il prezzo di listino di Amazon pubblicato.
+   Il valore predefinito è `Price`. Questa impostazione determina l&#39;origine del prezzo utilizzata per le inserzioni Amazon. Se si crea [regole di determinazione prezzi](./pricing-products.md), le regole vengono applicate al valore definito per l’attributo selezionato qui. È possibile selezionare qualsiasi attributo di determinazione prezzi configurato. Tuttavia, se l&#39;attributo selezionato non viene compilato per un prodotto, l&#39;origine del prezzo del prodotto utilizza come valore predefinito `Price` quando vengono applicate le regole di determinazione prezzi per determinare il prezzo di listino di Amazon pubblicato.
 
 1. Per **[!UICONTROL Minimum Advertised Price (MAP)**], scegli un’opzione.
 
@@ -49,6 +50,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
    - `Disabled` - (Impostazione predefinita) Scegli quando non desideri applicare l&#39;IVA al prezzo dell&#39;inserzione.
 
    - `Enabled` - Scegli quando applicare l&#39;IVA al prezzo dell&#39;inserzione. L’IVA viene generalmente utilizzata come imposta sulle vendite nei paesi europei e viene aggiunta al prezzo finale indicato in Amazon. L&#39;IVA non si applica al prezzo finale per le inserzioni utilizzate in una regola di determinazione prezzi intelligente, a meno che [prezzo base](./floor-price.md) è un hit.
+
    >[!NOTE]
    >
    >Le imprese dell&#39;Unione europea (UE) sono tenute a inviare fatture agli acquirenti, in modo che il cliente possa trasferire l&#39;imposta. È possibile generare queste fatture e calcolare le imposte personalmente oppure utilizzare un servizio di calcolo delle imposte come Amazon VAT Calculation Service. Amazon consiglia di registrarsi al [Servizio di calcolo IVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Se scegli un metodo diverso, sei responsabile della conformità IVA.>
@@ -66,6 +68,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
    - `Set Default PTC` - Scegliere se si dispone di un codice IVA prodotto universale (PTC) che si desidera utilizzare per tutti i prodotti. Una volta scelto, devi completare _[!UICONTROL Default PTC]_.
 
       - Per **[!UICONTROL Default PTC]**, inserisci il PTC predefinito da utilizzare per tutte le inserzioni Amazon idonee. Se il PTC predefinito è impostato nel [!DNL Amazon Seller Central] account, lascia vuoto questo campo. Le modifiche apportate a questo campo non influiscono sulle inserzioni esistenti di Amazon. Per modificare il PTC predefinito per un&#39;inserzione esistente, l&#39;inserzione deve essere [terminato](./end-listings-manually.md) e viene creata una nuova inserzione.
+
    >[!NOTE]
    >
    >Se utilizzi il Servizio di calcolo IVA di Amazon, devi conoscere la categoria fiscale dei tuoi prodotti. Un PTC è il codice ID della categoria fiscale di Amazon per gli acquisti B2B nell’UE. Consulta [Codici imposta prodotto di Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ Le opzioni elencate in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum 
 ![Prezzo di vendita](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Determina l&#39;origine del prezzo utilizzata durante la creazione delle inserzioni Amazon. Il valore predefinito è `Price`. Se scegli un attributo diverso, ad esempio `Amazon Price` o `Special Price`, il valore definito per l’attributo viene utilizzato per l’inserzione in Amazon. Tuttavia, se l’attributo selezionato non è definito, `Price` viene utilizzato. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | Il [!DNL Commerce] Attributo per la determinazione dei prezzi MAP. Scegliendo l&#39;opzione MAP, l&#39;inserzione Amazon viene automaticamente impostata sul prezzo MAP se quest&#39;ultimo è inferiore al prezzo MAP. |
 | [!UICONTROL Strike Through Price (MSRP)] | Il [!DNL Commerce] attributo che rappresenta la determinazione prezzi MSRP. Se il prezzo dell&#39;inserzione Amazon è inferiore al prezzo MSRP, viene visualizzato uno strike-through del prezzo MSRP e del prezzo dell&#39;inserzione. Questa impostazione viene utilizzata anche per calcolare l&#39;importo e la percentuale del &quot;salvataggio&quot;, ma questa funzione si applica solo alle inserzioni che hanno vinto il [Buy Box](./buy-box-competitor-pricing.md) posizione. |

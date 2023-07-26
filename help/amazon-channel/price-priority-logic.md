@@ -1,8 +1,9 @@
 ---
 title: Canale di vendita Amazon - Logica di priorità prezzo
 description: Nel determinare il prezzo pubblicato per un’inserzione Amazon, il canale di vendita Amazon applica la priorità.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Se il prezzo del prodotto è impostato su `Use Default`, torna al valore di prez
 
 ## Esempio 1
 
-|  | Priorità sito Web | Prezzo (sito Web) | Usa predefinito |
-|---|---|---|---|
+|         | Priorità sito Web | Prezzo (sito Web) | Usa predefinito |
+|---------|------------------|-----------------|-------------|
 | Predefinito | 0 | $31.99 | -- |
 | Store 1 | 1 | $24.99 | No |
 | Store 2 | 2 | $27.99 | Sì |
@@ -35,8 +36,8 @@ Se il prezzo del prodotto è impostato su `Use Default`, torna al valore di prez
 
 ## Esempio 2
 
-|  | Priorità sito Web | Sito Web prezzi | Usa predefinito |
-|---|---|---|---|
+|         | Priorità sito Web | Sito Web prezzi | Usa predefinito |
+|---------|------------------|---------------|-------------|
 | Predefinito | 0 | $31.99 | -- |
 | Store 1 | 1 | $24.99 | Sì |
 | Store 2 | 2 | $27.99 | No |
@@ -48,8 +49,8 @@ Se il prezzo del prodotto è impostato su `Use Default`, torna al valore di prez
 
 ## Esempio 3
 
-|  | Priorità sito Web | Sito Web prezzi | Usa predefinito |
-|---|---|---|---|
+|         | Priorità sito Web | Sito Web prezzi | Usa predefinito |
+|---------|------------------|---------------|-------------|
 | Predefinito | 0 | $31.99 | $30.00 |
 | Store 1 | 1 | $24.99 | -- |
 | Store 2 | 2 | $27.99 | $20.00 |

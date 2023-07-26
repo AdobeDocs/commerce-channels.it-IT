@@ -1,8 +1,9 @@
 ---
 title: Gestisci le inserzioni
 description: '''Gestire le inserzioni del canale di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source."'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ Nell’area di lavoro dell’inserzione, l’etichetta Stato mostra la posizione
 
 * **[!UICONTROL Match]**-Identifica i prodotti con corrispondenza riuscita il [!DNL Walmart].
 
-   Una corrispondenza si verifica quando il valore dell’attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un [!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde a, l’offerta di prodotto Commerce viene aggiunta all’elenco esistente.
+  Una corrispondenza si verifica quando il valore dell’attributo del prodotto, ad esempio il codice UPC, corrisponde al valore UPC in un [!DNL Walmart Marketplace] elenco. Quando un prodotto corrisponde a, l’offerta di prodotto Commerce viene aggiunta all’elenco esistente.
 
-   Controlla la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard per esaminare l’elenco dei prodotti aggiornato e verificare i dettagli dei prodotti, il prezzo e la quantità di magazzino.
+  Controlla la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard per esaminare l’elenco dei prodotti aggiornato e verificare i dettagli dei prodotti, il prezzo e la quantità di magazzino.
 
 * **[!UICONTROL Match - Match in Stage]**- Identifica i prodotti con corrispondenza [!DNL Walmart] che non può essere connesso fino al [!DNL Walmart Marketplace] il negozio è in diretta. I prodotti con questo stato si connettono automaticamente quando [!DNL Walmart Marketplace] il negozio entra in funzione.
 
@@ -102,4 +103,4 @@ Nell’area di lavoro dell’inserzione, l’etichetta Stato mostra la posizione
 
 * **[!UICONTROL Error description]**- Fornisce informazioni dettagliate sull&#39;errore dell&#39;elenco.
 
-   Dopo aver risolto l’errore, invia nuovamente il prodotto per la corrispondenza. Consulta [Risolvere i problemi relativi agli errori di corrispondenza prodotto](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Dopo aver risolto l’errore, invia nuovamente il prodotto per la corrispondenza. Consulta [Risolvere i problemi relativi agli errori di corrispondenza prodotto](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

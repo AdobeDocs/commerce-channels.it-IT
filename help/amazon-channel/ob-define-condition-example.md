@@ -1,8 +1,9 @@
 ---
 title: "Esempio: definire una condizione per le regole di elenco di Amazon"
 description: Durante la creazione delle regole di inserzione, definisci le condizioni per identificare i prodotti del catalogo Commerce da elencare nel Marketplace Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ L&#39;istruzione della regola dispone di due collegamenti in grassetto che, se s
 
    - **[!UICONTROL Conditions Combination]** - Scegli di consentire la creazione di un altro set di `All/Any` e `True/False` all&#39;interno del set esistente.
 
-      ![Combinazione di condizioni](assets/ob-conditions-combinations.png){width="500"}
+     ![Combinazione di condizioni](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - Gli attributi del prodotto dipendono dall’impostazione dell’attributo. Affinché un attributo venga visualizzato nell’elenco, deve essere configurato per l’utilizzo nelle condizioni della regola promozionale. Consulta la _Usa per condizioni regola promozionale_ in [Attributi del prodotto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      Nell’elenco in **[!UICONTROL Product Attribute]**, scegli l’attributo che desideri utilizzare come base della condizione. Per questo esempio, la condizione selezionata è `Amazon FBA`.
+     Nell’elenco in **[!UICONTROL Product Attribute]**, scegli l’attributo che desideri utilizzare come base della condizione. Per questo esempio, la condizione selezionata è `Amazon FBA`.
 
-      ![Condizione riga 2, parte 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Condizione riga 2, parte 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      La condizione selezionata viene visualizzata nell&#39;istruzione, seguita da altri due collegamenti in grassetto. Le opzioni variano a seconda dell’attributo di prodotto selezionato.
+     La condizione selezionata viene visualizzata nell&#39;istruzione, seguita da altri due collegamenti in grassetto. Le opzioni variano a seconda dell’attributo di prodotto selezionato.
 
-      L&#39;attributo impostato non può essere modificato. Per modificare l&#39;attributo, eliminare la riga e aggiungere il nuovo attributo. È possibile eliminare una riga di condizione facendo clic su Elimina (![Icona Elimina](assets/btn-del-red.png)) alla fine della riga.
+     L&#39;attributo impostato non può essere modificato. Per modificare l&#39;attributo, eliminare la riga e aggiungere il nuovo attributo. È possibile eliminare una riga di condizione facendo clic su Elimina (![Icona Elimina](assets/btn-del-red.png)) alla fine della riga.
 
       1. Clic **[!UICONTROL is]** e scegli l’operatore di confronto che descrive la condizione che i prodotti devono soddisfare.
 
@@ -74,6 +75,7 @@ L&#39;istruzione della regola dispone di due collegamenti in grassetto che, se s
          L&#39;elemento selezionato viene visualizzato nell&#39;istruzione per completare la condizione.
 
          ![Condizione riga 2, parte 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Questa condizione è stata completata. Come indicato, questa condizione significa che qualsiasi prodotto nel [!DNL Commerce] catalogo con l’attributo FBA di Amazon impostato sul valore `Yes` può essere inserito nell’elenco di Amazon per la regione e il negozio. Puoi aggiungere altre righe di condizione per restringere ulteriormente i prodotti idonei.
 
 1, Per aggiungere un&#39;altra riga di condizione all&#39;istruzione, tornare al passaggio 1 e ripetere il processo fino al completamento di tutte le condizioni desiderate.

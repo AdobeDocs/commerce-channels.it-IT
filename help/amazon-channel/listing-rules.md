@@ -1,8 +1,9 @@
 ---
 title: Canale di vendita Amazon - [!UICONTROL Listing Rules]
 description: Le regole di utilizzo degli elenchi determinano i prodotti del catalogo Commerce pubblicati come inserzioni di Amazon Marketplace.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Le modifiche alla quantità e allo stato di idoneità influiscono su tutte le in
 Consulta [Esempio: definire una condizione](./ob-define-condition-example.md).
 
 | Campo | Descrizione |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Le opzioni disponibili dipendono dal [siti web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) che hai configurato nel tuo [!DNL Commerce] configurazione. Seleziona il sito web per i prodotti idonei elencati su Amazon. È possibile selezionare un solo sito web, in quanto ogni sito web richiede un negozio Amazon univoco creato nel canale di vendita Amazon. |
 | [!UICONTROL Conditions] | Utilizzato per definire [!DNL Commerce] attributi per l’idoneità del prodotto nell’area geografica Amazon. Consulta [Esempio: definire una condizione](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Le tue inserzioni potenziali su Amazon si popolano su _[!UICONTROL Listing Previ
 
 - **[!UICONTROL Ineligible Listings]** - I prodotti elencati non sono idonei per l’inserzione in Amazon in base alle regole e condizioni correnti.
 
-   I prodotti non ammissibili non vengono pubblicati in Amazon. Se un prodotto non idoneo è già presente nell’elenco di Amazon e l’inserzione di Amazon corrisponde a [!DNL Commerce] prodotto del catalogo, la quantità per l’elenco Amazon diventa `0` per impedire la vendita del prodotto. Per rimuovere manualmente un’inserzione, consulta [Chiusura di un’inserzione di Amazon](./end-listings-manually.md). I prodotti che non sono idonei in base ai requisiti Amazon non sono elencati qui. Tali prodotti sono elencati nella [Scheda per le inserzioni inattive](./inactive-listings.md).
+  I prodotti non ammissibili non vengono pubblicati in Amazon. Se un prodotto non idoneo è già presente nell’elenco di Amazon e l’inserzione di Amazon corrisponde a [!DNL Commerce] prodotto del catalogo, la quantità per l’elenco Amazon diventa `0` per impedire la vendita del prodotto. Per rimuovere manualmente un’inserzione, consulta [Chiusura di un’inserzione di Amazon](./end-listings-manually.md). I prodotti che non sono idonei in base ai requisiti Amazon non sono elencati qui. Tali prodotti sono elencati nella [Scheda per le inserzioni inattive](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - I prodotti elencati sono idonei per l’inserzione in Amazon in base alle regole e condizioni correnti dell’inserzione e sono inoltre idonei in base ai requisiti Amazon. Questo elenco include le tue inserzioni esistenti di Amazon che importano (se hai **Importa elenchi di terze parti** imposta su `Import Listing` in [Impostazioni elenco](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Le tue inserzioni potenziali su Amazon si popolano su _[!UICONTROL Listing Previ
 ### Elenco dei record di anteprima
 
 | Campo | Descrizione |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | Numero sequenziale univoco assegnato a un [!DNL Commerce] al momento dell’aggiunta del prodotto al catalogo. |
 | [!UICONTROL Thumbnail] | Mostra una miniatura dell&#39;immagine principale del prodotto. |
 | [!UICONTROL Name] | Il nome del prodotto, gestito nel [!DNL Commerce] [griglia prodotti](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

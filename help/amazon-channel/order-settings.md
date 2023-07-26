@@ -1,10 +1,11 @@
 ---
 title: Impostazioni ordine Amazon
 description: Utilizza le impostazioni ordine per determinare il modo in cui gli ordini Amazon vengono importati ed elaborati nel tuo archivio Commerce.
+feature: Sales Channels, Orders, Inventory, Configuration
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: a93ba31a95f32cc6ea285aed2399255021985693
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 
    - `Enabled` - (Predefinito) Scegli quando vuoi creare il corrispondente [!DNL Commerce] ordini quando vengono ricevuti nuovi ordini da Amazon. [!DNL Commerce] gli ordini vengono creati in base allo stato e alle scorte di Amazon.
 
-      >[!NOTE]
-      >
-      >Gli ordini di importazione Amazon devono essere impostati su `Enabled` per gestire gli ordini di Amazon in [!DNL Commerce] [ordini](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) flusso di lavoro. Se impostato su `Disabled`, gli ordini Amazon non hanno un corrispondente [!DNL Commerce] numero di ordine e non può essere gestito in [!DNL Commerce]. Puoi gestire questi ordini nel tuo [!DNL Amazon Seller Central] account.
+     >[!NOTE]
+     >
+     >Gli ordini di importazione Amazon devono essere impostati su `Enabled` per gestire gli ordini di Amazon in [!DNL Commerce] [ordini](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) flusso di lavoro. Se impostato su `Disabled`, gli ordini Amazon non hanno un corrispondente [!DNL Commerce] numero di ordine e non può essere gestito in [!DNL Commerce]. Puoi gestire questi ordini nel tuo [!DNL Amazon Seller Central] account.
 
 1. Per **[!UICONTROL Import Amazon Orders Into Magento Store]**, scegli quale [!DNL Commerce] memorizza gli ordini Amazon a cui sono associati quando l’ordine corrispondente viene creato in [!DNL Commerce].
 
@@ -54,6 +55,7 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
    - `Build Using Magento Order Number` - (Impostazione predefinita) Scegli quando vuoi creare un [!DNL Commerce] numero di ordine per l’ordine Amazon corrispondente utilizzando [!DNL Commerce] ID ordine assegnato in modo incrementale.
 
    - `Build Using Amazon Order Number` - Scegli quando creare il [!DNL Commerce] numero di ordine utilizzando il corrispondente numero di ordine assegnato da Amazon.
+
    >[!NOTE]
    >
    >Dopo l’importazione di un ordine, il numero dell’ordine di Amazon viene visualizzato nel _[!UICONTROL Recent Orders]_nel dashboard del negozio. Il [!DNL Commerce] numero ordine viene visualizzato quando si visualizzano i dettagli dell&#39;ordine in [!DNL Commerce] [Ordini](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) Workspace.
@@ -71,15 +73,14 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 ![Impostazioni ordine](assets/amazon-order-settings.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
-|---|---|
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | Opzioni:<ul><li>**[!UICONTROL Disabled]** - Scegliere se non si desidera creare gli ordini corrispondenti in [!DNL Commerce] quando si ricevono nuovi ordini da Amazon. Quando vengono selezionati, tutti gli altri campi di questa pagina vengono disabilitati.</li><li>**[!UICONTROL Enabled]** - (Predefinito) Scegli quando vuoi creare il corrispondente [!DNL Commerce] ordini quando vengono ricevuti nuovi ordini da Amazon. [!DNL Commerce] gli ordini vengono creati in base allo stato e alle scorte di Amazon.</li></ul><br><br>`Enabled` deve essere scelto per gestire gli ordini di Amazon in [!DNL Commerce]. Quando `Disabled` viene selezionato, gli ordini Amazon vengono visualizzati nel dashboard del negozio, ma devono essere gestiti nel tuo [!DNL Amazon Seller Central] account. |
 | [!UICONTROL Import Amazon Orders Into Magento Store] | Scegli quale [!DNL Commerce] archiviare gli ordini Amazon a cui sono associati quando vengono creati in [!DNL Commerce] [Ordini](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) Workspace. L&#39;impostazione predefinita è la vista Store per [!DNL Commerce] sito Web selezionato quando [ha aggiunto Amazon store](./store-integration.md). Se desideri modificare questa impostazione, l’elenco delle opzioni dipende dal [!DNL Commerce] archivi configurati nella configurazione. Consulta [Negozi](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html). |
 | [!UICONTROL Customer Creation] | Opzioni:<ul><li>**[!UICONTROL No Customer Creation (guest)]** - (Impostazione predefinita) Scegli se non desideri creare un account cliente in [!DNL Commerce] utilizzando i dati cliente importati dall’ordine di Amazon. Quando viene selezionata, questa opzione comunica [!DNL Commerce] per elaborare un ordine Amazon importato nello stesso modo in cui elabora un pagamento come ospite.</li><li>**[!UICONTROL Build New Customer Account]** - Scegliere quando si desidera creare un nuovo account cliente nel [!DNL Commerce] database del cliente che utilizza i dati del cliente importati con l’ordine Amazon. Questa opzione consente di creare [!DNL Commerce] database dei clienti basato sugli ordini di Amazon.</li></ul> |
 | Origine numero ordine | Opzioni:<ul><li>**[!UICONTROL Build Using Magento Order Number]** - (Impostazione predefinita) Scegli quando vuoi creare un [!DNL Commerce] numero di ordine per l’ordine Amazon corrispondente utilizzando [!DNL Commerce] ID ordine assegnato in modo incrementale. </li><li>**Genera con numero ordine Amazon** - Scegli quando creare il [!DNL Commerce] numero di ordine utilizzando il corrispondente numero di ordine assegnato da Amazon.</li></ul> |
 | Ordini in sospeso | Opzioni:<ul><li>**[!UICONTROL Do Not Reserve Quantity]** - Scegliere quando non si desidera [!DNL Commerce] quantità di scorte interessate dagli ordini Amazon. Scegli se utilizzare Amazon per il processo di evasione (FBA). Quando viene scelto e si riceve un ordine Amazon, la quantità ordinata non influisce sulla [!DNL Commerce] quantità di magazzino.</li><li>**[!UICONTROL Reserve Quantity]** - Scegli quando desideri che la quantità dell&#39;ordine nell&#39;ordine Amazon sia &quot;prenotata&quot; nel tuo [!DNL Commerce] quantità di magazzino. Una volta scelto e ricevi un ordine Amazon, la quantità ordinata verrà &quot;prenotata&quot; nel tuo [!DNL Commerce] quantità di scorte per evitare [!DNL Commerce] azioni derivanti da &quot;vendita eccessiva&quot;. La quantità &quot;prenotata&quot; non è disponibile per l&#39;acquisto tramite [!DNL Commerce] vetrina.</li></ul> |
-| [!UICONTROL Order Status] | Opzioni:<ul><li>**[!UICONTROL Default Order Status]** - (Impostazione predefinita) Scegliere quando si desidera assegnare lo stato predefinito dell&#39;ordine ai nuovi ordini importati da Amazon. Lo stato predefinito per i nuovi ordini (a meno che non sia stato creato uno stato personalizzato per i nuovi ordini) è `Pending`. Consulta [Ordini di elaborazione](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>>**[!UICONTROL Custom Order Status]** - Scegliere quando si desidera assegnare agli ordini appena creati importati da Amazon uno stato diverso da quello predefinito. Quando viene scelto, **[!UICONTROL Processing Order Status]** consente di scegliere lo stato da utilizzare per gli ordini appena creati importati da Amazon.</li></ul> |
-| [!UICONTROL Processing Orders Status] | Attivato quando _[!UICONTROL Order Status]_è impostato su `Custom Order Status`. Scegliere lo stato dell&#39;ordine da assegnare ai nuovi ordini. Le opzioni in questo campo dipendono dalle opzioni di stato predefinite in [!DNL Commerce]. Consulta [Stato ordine](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Puoi anche creare uno stato personalizzato dell’ordine da visualizzare qui. Per creare uno stato dell’ordine personalizzato, consulta [Stato ordine personalizzato]( | [!UICONTROL Processing Orders Status] | Attivato quando _[!UICONTROL Order Status]_è impostato su `Custom Order Status`. Scegliere lo stato dell&#39;ordine da assegnare ai nuovi ordini. Le opzioni in questo campo dipendono dalle opzioni di stato predefinite in [!DNL Commerce]. Consulta [Stato ordine](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Puoi anche creare uno stato personalizzato dell’ordine da visualizzare qui. Per creare uno stato dell’ordine personalizzato, consulta [Stato ordine personalizzato](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html#custom-order-status). |
-| ). |
+| [!UICONTROL Order Status] | Opzioni:<ul><li>**[!UICONTROL Default Order Status]** - (Impostazione predefinita) Scegliere quando si desidera assegnare lo stato predefinito dell&#39;ordine ai nuovi ordini importati da Amazon. Lo stato predefinito per i nuovi ordini (a meno che non sia stato creato uno stato personalizzato per i nuovi ordini) è `Pending`. Consulta [Ordini di elaborazione](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>**[!UICONTROL Custom Order Status]** - Scegliere quando si desidera assegnare agli ordini appena creati importati da Amazon uno stato diverso da quello predefinito. Quando viene scelto, **[!UICONTROL Processing Order Status]** consente di scegliere lo stato da utilizzare per gli ordini appena creati importati da Amazon.</li></ul> |
+| [!UICONTROL Processing Orders Status] | Attivato quando _[!UICONTROL Order Status]_è impostato su `Custom Order Status`. Scegliere lo stato dell&#39;ordine da assegnare ai nuovi ordini. Le opzioni in questo campo dipendono dalle opzioni di stato predefinite in [!DNL Commerce]. Consulta [Stato ordine](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Puoi anche creare uno stato personalizzato dell’ordine da visualizzare qui. Per creare uno stato dell’ordine personalizzato, consulta [Stato ordine personalizzato] |
 
 ## [!DNL Commerce] creazione ordine
 
@@ -92,7 +93,7 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 >Supportato solo nelle integrazioni Adobe Commerce e Magenti Open Source 2.3.x.
 
 | Canale di evasione | [!DNL Commerce] Stato inventario | Stato ordine Amazon | [!UICONTROL Create Magento Order] Impostazione | Inventario riservato |
-|---|---|---|---|---|
+|---------------------|-------------------------------------------|---------------------|-------------------------------------------|--------------------|
 | FBA | In magazzino<br>Esaurito<br>Non gestire | In sospeso | No | No |
 | FBA | In magazzino<br>Esaurito<br>Non gestire | PendingAvailability | No | No |
 | FBA | In magazzino<br>Esaurito<br>Non gestire | Annullato | No | No |

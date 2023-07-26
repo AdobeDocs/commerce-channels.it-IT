@@ -1,8 +1,9 @@
 ---
 title: Gestire gli elenchi di prodotti Amazon per azione
 description: Quando gestisci le inserzioni di Amazon, puoi applicare un’azione a una o più inserzioni.
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Opzioni in **[!UICONTROL Actions]** può applicare l’azione a più inserzioni,
 Vedi anche [Gestisci le inserzioni per Stato / Scheda](./managing-listings-by-tab.md).
 
 | Azione | Descrizione | Schede |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | Utilizzato per spostare di nuovo i prodotti incompleti attraverso il processo di corrispondenza. Per tentare una nuova corrispondenza, è necessario modificare il [Elenco](./listing-settings.md) e [Ricerca nel catalogo](./catalog-search.md) per aumentare il potenziale di abbinamento automatico. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | Abbina manualmente i prodotti del catalogo alle inserzioni di Amazon selezionando un&#39;inserzione da abbinare, inserendo un codice ASIN da abbinare o assegnando una condizione mancante. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | Visualizza ulteriori informazioni sui prodotti attivi, tra cui il registro attività elenco, che mostra le modifiche su un singolo SKU/prodotto. | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

@@ -1,8 +1,9 @@
 ---
 title: Canale di vendita Amazon - Controlli Workspace
 description: Il Sales Channel Amazon fornisce controlli dell’area di lavoro che consentono di individuare le inserzioni, visualizzare le informazioni e applicare facilmente e con facilità le azioni.
+feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%

@@ -1,8 +1,9 @@
 ---
 title: Canale di vendita Amazon - [!UICONTROL Overrides]
 description: Il Sales Channel Amazon fornisce la scheda Sostituzioni per aiutarti a identificare e gestire le modalità di applicazione delle sostituzioni nelle inserzioni Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Il _[!UICONTROL Overrides]_Questa scheda mostra le tue inserzioni Amazon alle qu
 ## Tipi di sostituzioni
 
 | Tipo | Descrizione |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Prezzo | Sostituzione che imposta il prezzo dell&#39;inserzione, ignorando tutte le altre impostazioni relative al prezzo dell&#39;inserzione. <br><br>**Esempio**: hai definito una regola del prezzo di sconto del 20% che si applica a tutti i prodotti in una categoria specifica del catalogo. Hai un prodotto nuovo per il mercato e la domanda è elevata, quindi non desideri applicare il prezzo scontato all&#39;inserzione anche se il prodotto si trova in quella categoria. Puoi selezionare l’inserzione, [creare una sostituzione prezzo](./creating-editing-overrides.md#edit-override-single-listing)e definiscono il prezzo di listino in una sostituzione prezzo. |
 | Tempo di imballaggio | Sostituzione che imposta il tempo di gestione per un&#39;inserzione, ignorando il tempo di gestione predefinito impostato nelle impostazioni dell&#39;inserzione.<br><br>**Esempio**: il tempo di gestione predefinito per le inserzioni è impostato su 2 giorni. Hai un prodotto che è fragile e richiede un giorno in più per garantire il suo imballaggio speciale per la spedizione. Puoi visualizzare l’inserzione: [creare una sostituzione del tempo di gestione](./creating-editing-overrides.md#edit-override-single-listing)e definire il tempo di imballaggio in tre giorni.<br><br>**Nota:** Non disponibile per i prodotti impostati su `Fulfilled by Amazon`. |
 | Condizione | Sostituzione che imposta il valore della condizione di un elenco, indipendentemente dall&#39;attributo della condizione assegnato all&#39;elenco.<br><br>**Esempio**: la maggior parte dei prodotti nel catalogo sono in condizioni Nuove, ma il prodotto è in condizioni Rinnovate. Puoi visualizzare l’inserzione: [creare una sostituzione di condizione](./creating-editing-overrides.md#edit-override-single-listing)e definiscono la condizione Refurbished per l’inserzione.<br><br>**Nota:** Non disponibile per i prodotti impostati su `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ Le home page del canale di vendita Amazon hanno alcuni punti in comune [controll
 ## Colonne predefinite
 
 | Colonna | Descrizione |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Lo SKU (Stock Keeping Unit) assegnato da Amazon a un prodotto per identificare il prodotto, le opzioni, il prezzo e il produttore. |
 | [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN sta per Numeri di identificazione standard di Amazon. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
 | [!UICONTROL Condition Override] | La nuova condizione definita nell’override. Se la sostituzione applicata all’elenco non è una sostituzione di condizione, `Not Selected` in questa colonna. |

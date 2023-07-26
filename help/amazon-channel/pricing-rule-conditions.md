@@ -1,9 +1,9 @@
 ---
 title: Canale di vendita Amazon - Condizioni della regola di prezzo
 description: Utilizzare le condizioni della regola del prezzo per determinare quali prodotti sono idonei per la regola del prezzo di listino.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ L’istruzione della regola dispone di due collegamenti in grassetto che, se cli
 
    - Per **[!UICONTROL Product Attribute]**, scegli l’attributo che desideri definire come base della condizione. Per questo esempio, la condizione selezionata è `Category`.
 
-      ![Condizione regola prezzo - riga 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Condizione regola prezzo - riga 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      La condizione selezionata viene visualizzata nell&#39;istruzione, seguita da altri due collegamenti in grassetto. Le opzioni variano a seconda dell’attributo di prodotto selezionato.
+     La condizione selezionata viene visualizzata nell&#39;istruzione, seguita da altri due collegamenti in grassetto. Le opzioni variano a seconda dell’attributo di prodotto selezionato.
 
-      Dopo aver impostato l&#39;attributo, non è possibile modificarlo. Per modificare l&#39;attributo, eliminare la riga e aggiungere il nuovo attributo. È possibile eliminare una riga di condizione facendo clic su Elimina (![Icona Elimina](assets/btn-del-red.png) alla fine della riga.
+     Dopo aver impostato l&#39;attributo, non è possibile modificarlo. Per modificare l&#39;attributo, eliminare la riga e aggiungere il nuovo attributo. È possibile eliminare una riga di condizione facendo clic su Elimina (![Icona Elimina](assets/btn-del-red.png) alla fine della riga.
 
    - Clic **[!UICONTROL is]** e scegli l’operatore di confronto che descrive la condizione che i prodotti devono soddisfare.
 
-      In questo esempio, l’operatore di confronto è `is`. Le opzioni disponibili dipendono dall’attributo selezionato nel passaggio precedente e possono includere diverse opzioni di confronto. Le opzioni possono includere valori corrispondenti, non includendo o includendo almeno uno di un valore, maggiore di, uguale e inferiore a un importo numerico. In questo esempio, le opzioni sono `is` e `is not`.
+     In questo esempio, l’operatore di confronto è `is`. Le opzioni disponibili dipendono dall’attributo selezionato nel passaggio precedente e possono includere diverse opzioni di confronto. Le opzioni possono includere valori corrispondenti, non includendo o includendo almeno uno di un valore, maggiore di, uguale e inferiore a un importo numerico. In questo esempio, le opzioni sono `is` e `is not`.
 
    - Clic **[!UICONTROL ...]** e scegliere il valore di attributo su cui si basa la condizione. Le opzioni dipendono dalla configurazione dell’attributo.
 
-      Potrebbe essere richiesto di selezionare un&#39;opzione o di immettere un valore per la condizione. In questo esempio, il campo viene visualizzato vuoto. Per selezionare le categorie per la regola, fai clic sull’icona del selettore (![Icona selettore](assets/btn-chooser.png)) per visualizzare le opzioni selezionate. Questa regola è per _Libri_, seleziona la **[!UICONTROL Books]** casella di controllo. Il numero di categoria viene popolato. Per accettare le selezioni della categoria, fai clic sull’icona del segno di spunta verde (![Icona segno di spunta](assets/btn-check-mark-green.png)).
+     Potrebbe essere richiesto di selezionare un&#39;opzione o di immettere un valore per la condizione. In questo esempio, il campo viene visualizzato vuoto. Per selezionare le categorie per la regola, fai clic sull’icona del selettore (![Icona selettore](assets/btn-chooser.png)) per visualizzare le opzioni selezionate. Questa regola è per _Libri_, seleziona la **[!UICONTROL Books]** casella di controllo. Il numero di categoria viene popolato. Per accettare le selezioni della categoria, fai clic sull’icona del segno di spunta verde (![Icona segno di spunta](assets/btn-check-mark-green.png)).
 
-      ![Condizione regola prezzo - riga 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Condizione regola prezzo - riga 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      L&#39;elemento selezionato viene visualizzato nell&#39;istruzione per completare la condizione.
+     L&#39;elemento selezionato viene visualizzato nell&#39;istruzione per completare la condizione.
 
-      ![Condizione regola prezzo - riga 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Condizione regola prezzo - riga 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Questa condizione di esempio è completa. Come indicato, questa condizione significa che qualsiasi prodotto nel [!DNL Commerce] catalogo con una categoria di libri definita (`4`) è idoneo per questa regola tariffaria. Puoi aggiungere altre righe di condizione per restringere ulteriormente i prodotti idonei.
+     Questa condizione di esempio è completa. Come indicato, questa condizione significa che qualsiasi prodotto nel [!DNL Commerce] catalogo con una categoria di libri definita (`4`) è idoneo per questa regola tariffaria. Puoi aggiungere altre righe di condizione per restringere ulteriormente i prodotti idonei.
 
 1. Per aggiungere un&#39;altra linea di condizione all&#39;istruzione, tornare al passo 1 e ripetere il processo fino al completamento di tutte le condizioni desiderate.
 

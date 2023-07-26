@@ -1,9 +1,9 @@
 ---
 title: Ricerca nel catalogo per inserzioni Amazon
 description: Per impostare la corrispondenza degli attributi che consente di mappare i prodotti idonei del catalogo Commerce con le inserzioni di Amazon, aggiorna le impostazioni di Ricerca nel catalogo.
-redirect_from: /sales-channels/asc/ob-catalog-search.html
+feature: Sales Channels, Search, Catalogs, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Se desideri aggiungere attributi, consulta [Creare attributi di prodotto per cor
 ![Ricerca nel catalogo](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Campo | Descrizione |
-|--- |--- |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Un blocco univoco di 10 lettere e/o numeri che identificano gli elementi.<br><br>ASIN è l&#39;acronimo di [!DNL Amazon Standard Identification Number]. Un codice ASIN è un blocco univoco di 10 lettere e/o numeri che identificano gli elementi. Per i libri, il codice ASIN è uguale al numero ISBN, ma per tutti gli altri prodotti viene creato un nuovo codice ASIN al momento del caricamento dell&#39;elemento nel catalogo. Puoi trovare un codice ASIN nella pagina dei dettagli del prodotto di Amazon, insieme a ulteriori dettagli relativi all’elemento. |
 | [!UICONTROL EAN (European Article Number)] | Un codice di identificazione del prodotto a 12 o 13 cifre. Il numero di articolo europeo (EAN) è uno standard di codice a barre, un codice di identificazione del prodotto a 12 o 13 cifre. Ogni EAN identifica in modo univoco il prodotto, il produttore e i relativi attributi; in genere, l&#39;EAN viene stampato su un&#39;etichetta o un imballaggio di prodotto come codice a barre. Amazon richiede codici EAN per migliorare la qualità dei risultati della ricerca e la qualità del catalogo. È possibile ottenere gli EAN dal produttore. |
 | [!UICONTROL GCID (Global Catalog Identifier)] | Il Global Catalog Identifier (GCID) è un ID per prodotti che non hanno un codice UPC o ISBN. Il registro dei marchi di Amazon consente di registrarsi come proprietario del marchio e di creare un ID univoco per i prodotti che potrebbero non disporre di un UPC o ISBN. |
