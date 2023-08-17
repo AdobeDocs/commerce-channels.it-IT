@@ -1,6 +1,6 @@
 ---
 title: 'Visualizza e gestisci ordini da [!DNL Channel Manager]'
-description: '''Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source."'
+description: '''Visualizza e gestisci [!DNL Walmart Marketplace] ordini con [!DNL Channel Manager] per Adobe Commerce e Magento Open Source."'
 feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -28,7 +28,7 @@ Nell’amministratore della vetrina, puoi visualizzare i dati dell’ordine da [
 
 >[!NOTE]
 >
->Possono essere necessari fino a 35 minuti per [!DNL Walmart Marketplace] ordine di visualizzazione in [!DNL Channel Manager] elenco ordini. [!DNL Walmart] richiede circa 30 minuti per elaborare gli ordini in arrivo e inviarli a [!DNL Channel Manager]. Dopo aver ricevuto l’ordine, la creazione e la visualizzazione dell’ordine in Adobe Commerce o Magenti Open Source richiede circa altri cinque minuti.
+>Possono essere necessari fino a 35 minuti per [!DNL Walmart Marketplace] ordine di visualizzazione in [!DNL Channel Manager] elenco ordini. [!DNL Walmart] richiede circa 30 minuti per elaborare gli ordini in arrivo e inviarli a [!DNL Channel Manager]. Dopo aver ricevuto l’ordine, la creazione e la visualizzazione dell’ordine in Adobe Commerce o Magento Open Source richiede circa altri cinque minuti.
 
 ## Controlli degli ordini e descrizioni delle colonne
 
@@ -116,7 +116,7 @@ Nelle tabelle seguenti vengono descritti i controlli e le colonne disponibili pe
 
 ## Stato ordine
 
-[!UICONTROL Order Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] ordini gestiti da Adobe Commerce o Magenti Open Source. Gli aggiornamenti dello stato dell’ordine si verificano quando [!DNL Channel Manager] riceve informazioni aggiornate sull&#39;ordine da [!DNL Walmart Marketplace] o [!DNL Commerce] sistema di ordinazione. Gli ordini possono avere i seguenti stati:
+[!UICONTROL Order Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] ordini gestiti da Adobe Commerce o Magento Open Source. Gli aggiornamenti dello stato dell’ordine si verificano quando [!DNL Channel Manager] riceve informazioni aggiornate sull&#39;ordine da [!DNL Walmart Marketplace] o [!DNL Commerce] sistema di ordinazione. Gli ordini possono avere i seguenti stati:
 
 - **[!UICONTROL Shipped]**- Ordini spediti dal [!DNL Commerce] archiviare. Quando l&#39;ordine viene spedito, [!DNL Channel Manager] invia un aggiornamento a [!DNL Walmart Marketplace] per aggiornare lo stato di spedizione su Walmart e fornire il numero di registrazione dell&#39;ordine per la spedizione. Dopo la spedizione di un ordine, gli articoli dell&#39;ordine possono essere parzialmente o completamente rimborsati se Walmart emette un modulo di autorizzazione per la restituzione del materiale promozionale. Consulta [Restituzioni e restituzioni](return-refund-orders.md).
 
@@ -126,7 +126,7 @@ Nelle tabelle seguenti vengono descritti i controlli e le colonne disponibili pe
 
   Al termine dell’annullamento dell’ordine, il [!DNL Commerce] la quantità di magazzino viene aggiornata per riflettere gli articoli restituiti. Allora, [!DNL Channel Manager] sincronizza l&#39;aggiornamento con [!DNL Walmart Marketplace].
 
-- **[!UICONTROL Return requested]**- Se Walmart Marketplace richiede una restituzione per gli articoli dell&#39;ordine spediti, `Return requested` il collegamento viene visualizzato in [!UICONTROL Status details] colonna. Selezionando il collegamento si apre [!UICONTROL Returns] per visualizzare la restituzione e gestire il processo di rimborso.
+- **[!UICONTROL Return requested]**- Se Walmart Marketplace richiede una restituzione per gli articoli dell&#39;ordine che sono stati spediti, `Return requested` il collegamento viene visualizzato in [!UICONTROL Status details] colonna. Selezionando il collegamento si apre [!UICONTROL Returns] per visualizzare la restituzione e gestire il processo di rimborso.
 
 - **[!UICONTROL Error]**- Ordini con errori. Possono verificarsi errori quando un&#39;operazione di aggiornamento dell&#39;ordine non riesce. Ad esempio, si verificano degli errori se [!DNL Channel Manager] non può ricevere un nuovo ordine da Walmart. Possono verificarsi anche se [!DNL Channel Manager] non può inviare un aggiornamento di spedizione o annullamento dell&#39;ordine al [!DNL Walmart Marketplace]. Se un&#39;operazione non riesce, nella pagina Ordini viene visualizzata una _Errore_ stato dell&#39;ordine. Per ulteriori informazioni, consulta [Correggi errori ordine](errore process-orders.md#fix-shipping-and-cancel).
 

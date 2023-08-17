@@ -49,7 +49,7 @@ Controlla i requisiti per l’utilizzo di Channel Manager e raccogli le informaz
 
 - **[[!DNL Amazon Sales Channel] versione 4.4.2 o successiva](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-Se è stato attivato [!DNL Amazon Sales Channel] per [!DNL Commerce] siti, verifica che il tuo [!DNL Commerce] sulla piattaforma è installata la versione 4.4.2 o successiva prima dell’installazione [!DNL Channel Manager].
 
-- **[!DNL Inventory Management]estensione per Adobe Commerce e Magenti Open Source**
+- **[!DNL Inventory Management]estensione per Adobe Commerce e Magento Open Source**
 
   Se prevedi di utilizzare Channel Manager per la gestione dell’inventario e degli ordini, devi aver installato e abilitato l’estensione Inventory management nell’istanza Adobe Commerce e di Magento Open Source. In genere, questa estensione viene installata e abilitata per impostazione predefinita in Adobe Commerce e [!DNL Magento Open Source] 2.3.x e versioni successive.
 

@@ -10,13 +10,13 @@ exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Amazon Sales Channel] Guida
+# Guida [!DNL Amazon Sales Channel]
 
-Questa guida è destinata agli amministratori di Adobe Commerce e Magenti Open Source. Include informazioni dettagliate sull’installazione e l’onboarding di [!DNL Amazon sales channel], nonché la configurazione e la gestione dei servizi. È necessario conoscere già le nozioni di base della configurazione e delle funzionalità principali di Commerce.
+Questa guida è destinata agli amministratori di Adobe Commerce e Magento Open Source. Include informazioni dettagliate sull’installazione e l’onboarding di [!DNL Amazon sales channel], nonché la configurazione e la gestione dei servizi. È necessario conoscere già le nozioni di base della configurazione e delle funzionalità principali di Commerce.
 
 [!DNL Amazon sales channel] dispone di due aree per gli amministratori:
 
@@ -27,7 +27,7 @@ Questa guida presenta alcuni [!DNL Amazon Seller Central] informazioni, i requis
 
 >[!NOTE]
 >
->Questa guida non descrive le funzionalità principali di Adobe Commerce e Magenti Open Source.
+>Questa guida non descrive le funzionalità principali di Adobe Commerce e Magento Open Source.
 
 | Superfici | Descrizione |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,11 +44,11 @@ Questa guida presenta alcuni [!DNL Amazon Seller Central] informazioni, i requis
 
 | Risorsa documentazione | Descrizione |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Documentazione di Adobe Commerce 2.4 per esercenti](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Documentazione incentrata sui commercianti per Adobe Commerce e Magenti Open Source |
+| [Documentazione di Adobe Commerce 2.4 per esercenti](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Documentazione incentrata sui commercianti per Adobe Commerce e Magento Open Source |
 | [Documentazione dei servizi per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentazione per supportare una raccolta di servizi che consentono ai commercianti di integrare i componenti chiave della propria attività con il negozio. |
-| [Guida di Commerce su infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |
+| [Guida di Commerce su infrastruttura Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |
 | [Guide operative di Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentazione di sistema su concetti, processi, strumenti e best practice per sviluppare, distribuire e gestire progetti implementati su piattaforme Adobe Commerce e di Magento Open Source. |
-| [Documentazione per gli sviluppatori di Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per creare e personalizzare Adobe Commerce o Magenti Open Source |
+| [Documentazione per gli sviluppatori di Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per creare e personalizzare Adobe Commerce o Magento Open Source |
 
 {style="table-layout:auto"}
 

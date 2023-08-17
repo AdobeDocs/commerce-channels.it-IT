@@ -1,6 +1,6 @@
 ---
 title: "Informazioni su [!DNL Amazon Marketplace]"
-description: Espandi la portata del tuo Adobe Commerce o Magenti Open Source Store sfruttando il catalogo dei prodotti come voci nel Marketplace Amazon.
+description: Espandi la portata del tuo Adobe Commerce o Magento Open Source Store sfruttando il catalogo dei prodotti come voci nel Marketplace Amazon.
 role: Leader, Admin, User
 feature: Sales Channels, Tools and External Services
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
@@ -35,7 +35,7 @@ Se desideri contribuire con informazioni sul prodotto o correggere informazioni 
 
 Amazon offre due opzioni per l’evasione e la spedizione degli ordini:
 
-- **Soddisfatto dal commerciante (FBM)**: i venditori di terze parti memorizzano il proprio inventario. Quando un cliente effettua un ordine, il venditore gestisce l&#39;imballaggio e la spedizione al cliente. Questa opzione consente di completare le spedizioni tramite Adobe Commerce e Magenti Open Source o altre terze parti.
+- **Soddisfatto dal commerciante (FBM)**: i venditori di terze parti memorizzano il proprio inventario. Quando un cliente effettua un ordine, il venditore gestisce l&#39;imballaggio e la spedizione al cliente. Questa opzione consente di completare le spedizioni tramite Adobe Commerce e Magento Open Source o altre terze parti.
 
 - **Soddisfatto da Amazon (FBA)**: i venditori di terze parti memorizzano l’inventario nei centri di distribuzione di Amazon in tutto il mondo. Quando un cliente effettua un ordine, Amazon gestisce l’imballaggio e la spedizione al cliente. I dettagli e lo stato dell’ordine vengono inviati ad Adobe Commerce o al Magento Open Source.
 

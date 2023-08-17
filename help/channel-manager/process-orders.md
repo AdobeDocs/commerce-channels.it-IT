@@ -1,6 +1,6 @@
 ---
 title: Elabora ordini
-description: "Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magenti Open Source."
+description: "Istruzioni per la spedizione e l'annullamento [!DNL Walmart Marketplace] ordini da Adobe Commerce e Magento Open Source."
 feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282

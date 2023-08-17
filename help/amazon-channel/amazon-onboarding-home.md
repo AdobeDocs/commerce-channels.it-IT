@@ -1,6 +1,6 @@
 ---
 title: "Onboarding [!DNL Amazon Sales Channel]"
-description: Scopri le attività preliminari alla configurazione, i passaggi di onboarding e come Amazon funziona con il Sales Channel Amazon in Adobe Commerce e Magenti Open Source.
+description: Scopri le attività preliminari alla configurazione, i passaggi di onboarding e come Amazon funziona con il Sales Channel Amazon in Adobe Commerce e Magento Open Source.
 role: Leader, Admin, User
 feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Onboarding [!DNL Amazon Sales Channel]
 
-Questa sezione descrive le attività preliminari alla configurazione, i passaggi per l’onboarding e alcuni concetti chiave sul funzionamento di Amazon con il canale di vendita Amazon in Adobe Commerce e Magenti Open Source.
+Questa sezione descrive le attività preliminari alla configurazione, i passaggi per l’onboarding e alcuni concetti chiave sul funzionamento di Amazon con il canale di vendita Amazon in Adobe Commerce e Magento Open Source.
 
 Il [!DNL Amazon Sales Channel] L&#39;estensione supporta più store di Amazon. Per un singolo [!DNL Amazon Seller Central] che opera nell’area geografica Amazon Stati Uniti/Canada/Messico, crea tre negozi Amazon (uno per le vendite negli Stati Uniti, in Messico e in Canada). Ognuno dei tre negozi definisce il paese del marketplace durante la sua creazione. Se ne hai più di uno [!DNL Amazon Seller Central] account, potresti avere fino a tre store di Amazon per ciascuno dei tuoi [!DNL Amazon Seller Central] account. Se vendi anche nel Regno Unito, avrai un quarto negozio Amazon.
 

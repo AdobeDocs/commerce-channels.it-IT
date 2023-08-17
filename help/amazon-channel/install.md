@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Solo [!DNL Amazon Sales Channel] le versioni di estensione 4.0+ sono supportate per le versioni di Adobe Commerce e Magenti Open Source 2.4.x. Se esegui una versione 2.3.x, consulta la documentazione di [versione del canale di vendita Amazon compatibile](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Per ulteriori informazioni sulla compatibilità delle versioni, vedere [Disponibilità](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) nella documentazione per gli sviluppatori.
+>Solo [!DNL Amazon Sales Channel] le versioni di estensione 4.0+ sono supportate per le versioni di Adobe Commerce e Magento Open Source 2.4.x. Se esegui una versione 2.3.x, consulta la documentazione di [versione del canale di vendita Amazon compatibile](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Per ulteriori informazioni sulla compatibilità delle versioni, vedere [Disponibilità](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) nella documentazione per gli sviluppatori.
 
 Il [!UICONTROL Amazon Sales Channel] L’estensione installa e aggiunge funzioni per integrare il catalogo Commerce con [!DNL Amazon Seller Accounts] per vendere tramite [!DNL Amazon Marketplace]. Per ulteriori informazioni, vedere [Sales Channel Amazon](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] e [note sulla versione](release-notes.md).
 
 ## Requisiti
 
-- **Istanza Commerce**: Il [!DNL Amazon Sales Channel] l’estensione può essere installata sulle istanze con Magenti Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x o successive dell’infrastruttura cloud. Non è più supportato nelle versioni 2.1, 2.2 o 1.x.
+- **Istanza Commerce**: Il [!DNL Amazon Sales Channel] l’estensione può essere installata sulle istanze con Magento Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x o successive dell’infrastruttura cloud. Non è più supportato nelle versioni 2.1, 2.2 o 1.x.
 - **Account Web Commerce**: è necessario disporre di un account web Commerce, utilizzato per creare e tenere traccia di una chiave API.
 - **Chiave API**: crea una chiave API del canale di vendita di Amazon tramite il tuo account web Commerce. Le istruzioni seguenti includono questi passaggi.
 

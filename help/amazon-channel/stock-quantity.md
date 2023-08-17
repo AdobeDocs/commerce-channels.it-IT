@@ -20,7 +20,7 @@ La quantità è un attributo regionale e si basa sulla **[!UICONTROL Amazon Mark
 
 >[!NOTE]
 >
->Per gli utenti di Adobe Commerce e Magenti Open Source 2.3.x, il canale di vendita Amazon supporta l’utilizzo dell’estensione Inventory management senza alcuna configurazione aggiuntiva. Consulta [Gestione dell’inventario](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
+>Per gli utenti di Adobe Commerce e Magento Open Source 2.3.x, il canale di vendita Amazon supporta l’utilizzo dell’estensione Inventory management senza alcuna configurazione aggiuntiva. Consulta [Gestione dell’inventario](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
 ## Configura impostazioni scorte/quantità {#configure-stock--quantity-settings}
 

@@ -17,9 +17,9 @@ ht-degree: 0%
 
 * A [!DNL Walmart] Account del venditore
 
-* Una chiave API a cui collegare Adobe Commerce o Magenti Open Source [!DNL Walmart Marketplace]
+* Una chiave API a cui collegare Adobe Commerce o Magento Open Source [!DNL Walmart Marketplace]
 
-  Il [!DNL Walmart Marketplace] Chiave API per abilitare l’integrazione tra [!DNL Channel Manager] ad Adobe [!DNL Commerce] o Magenti Open Source e il Walmart Marketplace. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
+  Il [!DNL Walmart Marketplace] Chiave API per abilitare l’integrazione tra [!DNL Channel Manager] ad Adobe [!DNL Commerce] o Magento Open Source e il Walmart Marketplace. Imposta la chiave API in Seller Central prima di avviare il processo di onboarding di Channel Manager.
 
 ## Configurare un [!DNL Walmart Seller] account
 

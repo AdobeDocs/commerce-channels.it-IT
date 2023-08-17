@@ -90,7 +90,7 @@ Gli ordini importati da Amazon possono essere gestiti nel [!DNL Commerce] [fluss
 
 >[!NOTE]
 >
->Supportato solo nelle integrazioni Adobe Commerce e Magenti Open Source 2.3.x.
+>Supportato solo nelle integrazioni Adobe Commerce e Magento Open Source 2.3.x.
 
 | Canale di evasione | [!DNL Commerce] Stato inventario | Stato ordine Amazon | [!UICONTROL Create Magento Order] Impostazione | Inventario riservato |
 |---------------------|-------------------------------------------|---------------------|-------------------------------------------|--------------------|

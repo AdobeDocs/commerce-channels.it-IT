@@ -26,7 +26,7 @@ Se il prezzo del prodotto è impostato su `Use Default`, torna al valore di prez
 
 |         | Priorità sito Web | Prezzo (sito Web) | Usa predefinito |
 |---------|------------------|-----------------|-------------|
-| Predefinito | 0 | $31.99 | -- |
+| Predefinito | 0 | $31.99 | — |
 | Store 1 | 1 | $24.99 | No |
 | Store 2 | 2 | $27.99 | Sì |
 

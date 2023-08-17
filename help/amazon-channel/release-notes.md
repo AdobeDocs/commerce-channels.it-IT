@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [!DNL Amazon sales channel] può essere installato nelle istanze con Magenti Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x e 2.4.x dell’infrastruttura cloud. L’estensione non è più supportata in Adobe Commerce 2.1, Magento Open Source 2.2 o Magento 1.
+> [!DNL Amazon sales channel] può essere installato nelle istanze con Magento Open Source, Adobe Commerce e Adobe Commerce nelle versioni 2.3.x e 2.4.x dell’infrastruttura cloud. L’estensione non è più supportata in Adobe Commerce 2.1, Magento Open Source 2.2 o Magento 1.
 > <br>Supporto disponibile per [!DNL Amazon sales channel]  versioni 4.0.0 e 4.1.0 solo sulle versioni Adobe Commerce 2.3.x.
 > <br>[!DNL Amazon sales channel] la versione 4.2.0+ è compatibile con le versioni di Adobe Commerce 2.3.x, ma è disponibile il supporto solo per le versioni di Adobe Commerce 2.4.x.
 >

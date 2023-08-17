@@ -35,7 +35,7 @@ La chiave API viene convalidata ogni volta che accedi al tuo canale di vendita A
 
    - Se hai effettuato l’accesso a [!DNL Commerce] account, il _[!UICONTROL API Portal]_sezione del_[!UICONTROL My Account]_ viene visualizzata automaticamente.
 
-   - Se non si è connessi, verrà richiesto di immettere [!DNL Commerce] nome utente e password dell’account prima del _[!UICONTROL API Portal]_viene visualizzata la scheda.
+   - Se non è stato eseguito l&#39;accesso, verrà richiesto di immettere [!DNL Commerce] nome utente e password dell’account prima del _[!UICONTROL API Portal]_viene visualizzata la scheda.
 
    - Se non disponi di un account, visita [il [!DNL Commerce] pagina account](https://account.magento.com/customer/account/login/){target="_blank"} e registrarsi. Questo account deve far parte della tua azienda o attività.
 

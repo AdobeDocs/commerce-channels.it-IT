@@ -54,7 +54,7 @@ Definisci il tipo di regola in _[!UICONTROL Select Rule Type]_sezione.
 
 >[!NOTE]
 >
->Potresti usare le opzioni di feedback e prezzi dei concorrenti per evitare di basare i tuoi prezzi su un concorrente che ha un feedback negativo e vende un prodotto di qualità inferiore.
+>Potresti utilizzare le opzioni di feedback e prezzi dei concorrenti per evitare di basare i tuoi prezzi su un concorrente che ha un feedback negativo e vende un prodotto di qualità inferiore.
 
 ![Regola di rideterminazione prezzi intelligente: seleziona tipo di regola](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 

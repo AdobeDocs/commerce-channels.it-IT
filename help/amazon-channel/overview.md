@@ -17,7 +17,7 @@ In qualità di venditore Adobe Commerce o di Magento Open Source, puoi utilizzar
 
 Dopo [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] diventa un &quot;centro di comando centrale&quot; per la gestione e il controllo delle inserzioni, degli ordini e dell&#39;inventario di Amazon e dei prezzi del tuo Amazon Store. [Integrazione store](./store-integration.md) connette il tuo [!DNL Commerce] e Amazon per sincronizzare i dati tra entrambe le piattaforme. Il canale di vendita Amazon consente di:
 
-- [Onboarding](./amazon-onboarding-home.md) e integrarne uno o più [!DNL Amazon Seller Central] account con Adobe Commerce o Magenti Open Source.
+- [Onboarding](./amazon-onboarding-home.md) e integrarne uno o più [!DNL Amazon Seller Central] account con Adobe Commerce o Magento Open Source.
 
 - Importa e sincronizza le inserzioni esistenti di Amazon e abbina i tuoi prodotti con quelli del tuo [!DNL Commerce] , creando un catalogo di prodotti centralizzato.
 

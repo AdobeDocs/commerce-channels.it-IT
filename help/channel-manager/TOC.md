@@ -1,6 +1,6 @@
 ---
 user-guide-title: '''[!DNL Channel Manager] Guida"'
-user-guide-description: '"Incrementa le vendite ed espandi la tua base di clienti integrando Adobe Commerce o Magenti Open Source con il tuo [!DNL Walmart Marketplace] Account centrale del venditore.'''
+user-guide-description: '"Incrementa le vendite ed espandi la tua base di clienti integrando Adobe Commerce o Magento Open Source con il tuo [!DNL Walmart Marketplace] Account centrale del venditore.'''
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 role: Admin, User
 feature: Sales Channels

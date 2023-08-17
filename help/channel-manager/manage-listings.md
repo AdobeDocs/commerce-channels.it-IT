@@ -1,6 +1,6 @@
 ---
 title: Gestisci le inserzioni
-description: '''Gestire le inserzioni del canale di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magenti Open Source."'
+description: '''Gestire le inserzioni del canale di vendita per un [!DNL Commerce] archiviare con Channel Manager per Adobe Commerce e Magento Open Source."'
 feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
@@ -78,7 +78,7 @@ Nelle tabelle seguenti vengono descritti i controlli e le colonne disponibili pe
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Nome del prodotto da [!DNL Commerce] catalogo del negozio. |
 | [!UICONTROL SKU (Unique ID)] | Lo SKU assegnato al prodotto nel [!DNL Commerce] catalogo. |
-| [!UICONTROL  Quantity] | Quantità di scorte disponibili in Adobe Commerce o Magenti Open Source. |
+| [!UICONTROL  Quantity] | Quantità di scorte disponibili in Adobe Commerce o Magento Open Source. |
 | [!UICONTROL Price] | Il prezzo del prodotto dal [!DNL Commerce] catalogo del negozio. Gli aggiornamenti dei prezzi del catalogo vengono sincronizzati in Channel Manager e quindi inviati a [!DNL Walmart Marketplace]  in modo che gli articoli elencati mostrino il prezzo corrente. |
 | [!UICONTROL Status] | Indica lo stato dell&#39;ordine corrente nel [!DNL Commerce] flusso di lavoro dell’ordine. Lo stato viene aggiornato quando si aggiungono correttamente prodotti a [!DNL Channel Manager] e quando i prodotti si abbinano sul mercato. Se un’operazione non riesce, l’elenco mostra uno stato di errore. Dopo aver corretto l’errore, [!DNL Channel Manager] ritenta l&#39;operazione e aggiorna lo stato. |
 | [!UICONTROL Error Description] | Fornisce informazioni di errore aggiuntive per i prodotti con `[!DNL Error]` stato. |

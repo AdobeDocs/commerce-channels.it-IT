@@ -88,6 +88,6 @@ _Sono necessarie le credenziali di accesso primarie per [!DNL Amazon Seller Cent
 
 ![Home del canale di vendita Amazon con nuova scheda del negozio](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
-Il tuo nuovo canale di vendita Amazon è ora collegato al tuo [!DNL Amazon Seller Central] account.
+Il tuo nuovo Amazon Sales Channel Store è ora collegato al tuo [!DNL Amazon Seller Central] account.
 
 ![Icona Successivo](assets/btn-next.png) [**Continua a creare una regola di elenco**](./ob-create-listing-rule.md)

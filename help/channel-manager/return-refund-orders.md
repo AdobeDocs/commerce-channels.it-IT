@@ -1,6 +1,6 @@
 ---
 title: Ordini di restituzione e di rimborso
-description: Istruzioni per l'emissione di rimborsi completi o parziali per le richieste di rimpatrio ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magenti Open Source.
+description: Istruzioni per l'emissione di rimborsi completi o parziali per le richieste di rimpatrio ricevute da [!DNL Walmart Marketplace] da [!DNL Channel Manager] per Adobe Commerce e Magento Open Source.
 feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -103,7 +103,7 @@ convertito nell’ora locale.</td>
 
 ## Stato di ritorno
 
-[!UICONTROL Return Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] richieste di restituzione gestite da Adobe Commerce o Magenti Open Source.
+[!UICONTROL Return Status] fornisce informazioni sullo stato corrente di [!DNL Walmart Marketplace] richieste di restituzione gestite da Adobe Commerce o Magento Open Source.
 
 Gli aggiornamenti dello stato di ritorno si verificano quando [!DNL Channel Manager] riceve una richiesta di ritorno da [!DNL Walmart Marketplace] o quando [!DNL Commerce] viene creata una nota di credito per elaborare il rimborso per gli articoli restituiti.
 
