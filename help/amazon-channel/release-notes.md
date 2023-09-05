@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] note sulla versione'
 description: Consulta le note sulla versione per informazioni su tutte [!DNL Amazon Sales Channel] versioni.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
+source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,21 @@ Queste note sulla versione descrivono la versione iniziale di [!DNL Amazon sales
 ![Problema noto](../assets/bug.svg) Problemi noti
 
 Consulta [Prossime versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) per controllo delle versioni, supporto e compatibilità.
+
+## v4.5.0
+
+*30 agosto 2023*
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+![Nuovo](../assets/new.svg) È stato aggiunto il gateway API Adobe.IO, che cambia da MAGI, per una maggiore sicurezza dell’autenticazione. `ServicesId` fornisce una nuova interfaccia utente per gestire le credenziali Adobe.IO, simile ad altre [Servizi Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+
+>[!NOTE]
+>
+>I commercianti devono garantire che [chiavi API pubbliche e private](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) vengono aggiornati per la produzione.
+
+
+![Problema risolto](../assets/fix.svg) È stato identificato un problema di impostazione della configurazione ed è stato risolto il flusso di creazione dell’ordine.
 
 ## v4.4.4
 
