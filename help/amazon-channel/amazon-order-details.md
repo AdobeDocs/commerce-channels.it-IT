@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## Visualizza dettagli ordine Amazon
 
-1. Clic **[!UICONTROL View Store]** sulla scheda del negozio.
+1. Fare clic su **[!UICONTROL View Store]** sulla scheda dello store.
 
-1. In _[!UICONTROL Recent Orders]_, fare clic su un numero d&#39;ordine.
+1. Nella sezione _[!UICONTROL Recent Orders]_fare clic su un numero di ordine.
 
-   Il _[!UICONTROL Amazon Order Details]_viene visualizzata la pagina.
+   Verrà aperta la pagina _[!UICONTROL Amazon Order Details]_.
 
 >[!NOTE]
 >
->Se l’importazione degli ordini è abilitata nel [Impostazioni ordine](./order-settings.md) e l’ordine è [soddisfatto da Amazon (FBA)](./fulfilled-by.md), è possibile che vengano visualizzati dati fittizi per alcuni campi nei dettagli dell&#39;ordine. Amazon non invia i seguenti dati per gli ordini FBA.
+>Se l&#39;importazione degli ordini è abilitata nelle [Impostazioni ordine](./order-settings.md) e l&#39;ordine è [evaso da Amazon (FBA)](./fulfilled-by.md), è possibile che nei dettagli dell&#39;ordine vengano visualizzati dati fittizi per alcuni campi. Amazon non invia i seguenti dati per gli ordini FBA.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Scheda Dettagli ordine e spedizione
 
-Il _[!UICONTROL Order and Shipping Details]_Questa scheda mostra informazioni dettagliate sull’ordine, così come ricevute da Amazon.
+La scheda _[!UICONTROL Order and Shipping Details]_mostra informazioni dettagliate sull&#39;ordine, così come ricevute da Amazon.
 
 >[!IMPORTANT]
 >
@@ -59,12 +59,12 @@ Il _[!UICONTROL Order and Shipping Details]_Questa scheda mostra informazioni de
 
 ### Scheda Articoli ordine
 
-Il _[!UICONTROL Order Items]_Questa scheda mostra tutti gli elementi associati all’ordine di Amazon, così come sono stati ricevuti da Amazon.
+La scheda _[!UICONTROL Order Items]_mostra tutti gli elementi associati all&#39;ordine Amazon, così come ricevuti da Amazon.
 
-![Dettagli articolo ordine](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
+![Dettagli elemento ordine](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Scheda Tracciamento
 
-Il _[!UICONTROL Tracking]_Questa scheda mostra le informazioni di tracciamento associate all’ordine Amazon.
+La scheda _[!UICONTROL Tracking]_mostra le informazioni di tracciamento associate all&#39;ordine Amazon.
 
 ![Dettagli di tracciamento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

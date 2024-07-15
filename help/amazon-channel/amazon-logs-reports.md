@@ -5,7 +5,7 @@ feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ L’estensione del canale di vendita Amazon include alcuni registri e rapporti s
 
 Non sono disponibili azioni per i registri o i rapporti store, in quanto sono funzioni di sola revisione.
 
-I seguenti registri sono accessibili da [dashboard store](./amazon-store-dashboard.md).
+È possibile accedere ai seguenti registri dal [dashboard dello store](./amazon-store-dashboard.md).
 
-- Il [Registro delle modifiche alle inserzioni](./listing-changes-log.md) mostra le modifiche apportate al tuo account Amazon Seller come riflesso delle impostazioni del tuo canale di vendita Amazon.
+- Il [registro delle modifiche alle inserzioni](./listing-changes-log.md) mostra le modifiche che si sono verificate nel tuo account Amazon Seller come riflesso delle impostazioni del tuo canale di vendita Amazon.
 
-- Il [Registro errori di comunicazione](./communication-errors-log.md) mostra eventuali errori di comunicazione segnalati con Amazon.
+- Il [registro errori di comunicazione](./communication-errors-log.md) mostra eventuali errori di comunicazione segnalati con Amazon.
 
-È possibile accedere ai seguenti rapporti specifici dello store da [dashboard store](./amazon-store-dashboard.md).
+È possibile accedere ai seguenti report specifici dell&#39;archivio dal [dashboard dell&#39;archivio](./amazon-store-dashboard.md).
 
-- Il [Analisi dei prezzi competitivi](./competitive-price-analysis.md) mostra che il tuo Amazon _prezzo allo sbarco_ (prezzo di listino più prezzo di spedizione) in relazione al [Buy Box](./buy-box-competitor-pricing.md) prezzo e [concorrente più basso](./lowest-competitor-pricing.md) prezzo.
+- Il rapporto dell&#39;[Analisi prezzi competitivi](./competitive-price-analysis.md) indica che il tuo Amazon _ha acquistato il prezzo_ (prezzo di listino più prezzo di spedizione) in relazione al prezzo [Buy Box](./buy-box-competitor-pricing.md) e al prezzo [del concorrente più basso](./lowest-competitor-pricing.md).
 
-- Il [Miglioramenti alle inserzioni](./listing-improvements.md) Il rapporto mostra tutti i miglioramenti suggeriti per l’inserzione forniti da Amazon per lo store selezionato.
+- Il report [Miglioramenti elenco](./listing-improvements.md) mostra tutti i miglioramenti suggeriti per l&#39;elenco forniti da Amazon per l&#39;archivio selezionato.
 
 >[!TIP]
 >
->È inoltre possibile controllare il file di registro per ulteriori informazioni quando è necessaria la risoluzione dei problemi. Consulta [Impostazioni amministrazione canale di vendita](./sales-channel-settings.md). La registrazione di sincronizzazione del canale di vendita Amazon viene scritta in `{Commerce Root}/var/log/channel_amazon.log` e possono essere visualizzati in [modalità sviluppatore](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).
+>È inoltre possibile controllare il file di registro per ulteriori informazioni quando è necessaria la risoluzione dei problemi. Consulta [Impostazioni amministratore canale vendite](./sales-channel-settings.md). La registrazione sincronizzazione canale di vendita Amazon è scritta nel file `{Commerce Root}/var/log/channel_amazon.log` e può essere visualizzata in [modalità sviluppatore](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

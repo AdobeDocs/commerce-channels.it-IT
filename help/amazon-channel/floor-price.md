@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -20,39 +20,39 @@ Le sezioni di una regola di rideterminazione dei prezzi intelligente includono:
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-Il [prezzo base](./floor-price.md) le impostazioni proteggono automaticamente il prezzo più basso del prodotto dalle regole di prezzo intelligenti. Utilizza queste impostazioni per impostare un prezzo minimo per le tue regole di prezzo intelligenti, assicurandoti che i tuoi prodotti non siano elencati al di sotto di un prezzo desiderato.
+Le impostazioni del [prezzo base](./floor-price.md) proteggono automaticamente il prezzo del prodotto più basso dalle regole di prezzo intelligenti. Utilizza queste impostazioni per impostare un prezzo minimo per le tue regole di prezzo intelligenti, assicurandoti che i tuoi prodotti non siano elencati al di sotto di un prezzo desiderato.
 
-Gli attributi del prezzo base si basano sull&#39;ambito del sito Web se [!DNL Commerce] lo store sta utilizzando l&#39;ambito di determinazione prezzi del sito Web. Consulta [Limite prezzo](./price-scope.md).
+Gli attributi del prezzo base si basano sull&#39;ambito del sito Web se lo store [!DNL Commerce] utilizza l&#39;ambito di determinazione prezzi del sito Web. Vedi [Ambito prezzo](./price-scope.md).
 
 Il prezzo minimo viene utilizzato solo quando **[!UICONTROL Rule Type]** è impostato su `Intelligent repricing rule`.
 
 ## Configura prezzo minimo
 
-Definisci l’impostazione del prezzo più basso in _[!UICONTROL Floor Price]_sezione.
+Definire il prezzo più basso nella sezione _[!UICONTROL Floor Price]_.
 
 1. Per **[!UICONTROL Floor Price Source]**, scegliere un attributo origine prezzo.
 
-   Scegli la [!DNL Commerce] [attributo prodotto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) che indica il limite del pavimento relativo. Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli il *Costo* attributo.
+   Scegli l&#39;[!DNL Commerce] [attributo di prodotto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) che indica il limite di soglia relativo. Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo del tuo oggetto, scegli l&#39;attributo *Costo*.
 
-1. Per **[!UICONTROL Floor Price Action]**, scegli un’opzione.
+1. Per **[!UICONTROL Floor Price Action]**, scegliere un&#39;opzione.
 
-   - `Decrease By` - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da regolare verso il basso, creando un prezzo minimo inferiore per la regola, prima di mettere in vendita ad Amazon.
+   - `Decrease By` - Scegliere quando si desidera che il valore _[!UICONTROL Floor Price Source]_definito venga ridotto, creando un prezzo minimo inferiore per la regola, prima di eseguire l&#39;inserzione in Amazon.
 
-   - `Increase By` - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da adeguare, creando un prezzo base più alto per la regola, prima di inserirlo nell’elenco di Amazon.
+   - `Increase By` - Scegliere quando adeguare il valore _[!UICONTROL Floor Price Source]_definito, creando un prezzo minimo più alto per la regola, prima di mettere in vendita l&#39;oggetto ad Amazon.
 
-   - `Match` - Scegliere quando non si desidera che il prezzo di vendita fluttui al di sotto del _[!UICONTROL Floor Price Source]_valore. Se impostato su `Match`, il_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_campi sono disattivati.
+   - `Match` - Scegliere se non si desidera che il prezzo di vendita fluttui al di sotto del valore definito _[!UICONTROL Floor Price Source]_. Se impostato su `Match`, i campi_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_sono disabilitati.
 
 1. Lascia **[!UICONTROL Apply]** predefinito come `Apply as percentage`.
 
-1. Per **[!UICONTROL Floor Adjustment Price]**, immettere il valore numerico per la percentuale di adeguamento _[!UICONTROL Floor Price Source]_valore.
+1. Per **[!UICONTROL Floor Adjustment Price]**, immetti il valore numerico della percentuale per regolare il valore _[!UICONTROL Floor Price Source]_.
 
 In questo esempio, il prezzo minimo è impostato per essere superiore del 3% al costo dell&#39;articolo.
 
-![Esempio di regola di rideterminazione prezzi intelligente: prezzo minimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
+![Esempio di regola di rideterminazione prezzi intelligente - prezzo minimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descrizione |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Floor Price Source] | Scegli la [!DNL Commerce] attributo che indica il limite minimo relativo (prezzo più basso). Ad esempio, se non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli il `Cost` attributo. |
-| [!UICONTROL Floor Price Action] | Scegliere un&#39;azione di adeguamento della determinazione prezzi. Opzioni:<ul><li>**[!UICONTROL Decrease By]** - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da regolare verso il basso, creando un prezzo minimo inferiore per la regola, prima di mettere in vendita ad Amazon.</li><li>**[!UICONTROL Increase By]** - Scegli quando vuoi definire _[!UICONTROL Floor Price Source]_valore da adeguare, creando un prezzo base più alto per la regola, prima di inserirlo nell’elenco di Amazon.</li><li>**[!UICONTROL Match]** - Scegliere quando non si desidera che il prezzo di vendita fluttui al di sotto del _[!UICONTROL Floor Price Source]_valore. Quando viene scelto, il_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_campi sono disattivati.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un adeguamento percentuale relativo al _[!UICONTROL Floor Price Source]_valore. |
-| [!UICONTROL Floor Adjustment Amount] | Immettere il valore numerico per la percentuale di adeguamento _[!UICONTROL Floor Price Source]_valore. |
+| [!UICONTROL Floor Price Source] | Scegliere l&#39;attributo [!DNL Commerce] che indica il limite minimo relativo (prezzo più basso). Se ad esempio non vuoi che il prezzo dell&#39;inserzione Amazon scenda sotto il costo dell&#39;oggetto, scegli l&#39;attributo `Cost`. |
+| [!UICONTROL Floor Price Action] | Scegliere un&#39;azione di adeguamento della determinazione prezzi. Opzioni:<ul><li>**[!UICONTROL Decrease By]** - Scegliere quando si desidera che il valore _[!UICONTROL Floor Price Source]_definito venga ridotto, creando un prezzo minimo inferiore per la regola, prima di eseguire l&#39;inserzione in Amazon.</li><li>**[!UICONTROL Increase By]** - Scegliere quando adeguare il valore _[!UICONTROL Floor Price Source]_definito, creando un prezzo minimo più alto per la regola, prima di mettere in vendita l&#39;oggetto ad Amazon.</li><li>**[!UICONTROL Match]** - Scegliere se non si desidera che il prezzo di vendita fluttui al di sotto del valore definito _[!UICONTROL Floor Price Source]_. Se scelti, i campi_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_sono disabilitati.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un adeguamento percentuale relativo al valore _[!UICONTROL Floor Price Source]_. |
+| [!UICONTROL Floor Adjustment Amount] | Immettere il valore numerico della percentuale per regolare il valore _[!UICONTROL Floor Price Source]_. |

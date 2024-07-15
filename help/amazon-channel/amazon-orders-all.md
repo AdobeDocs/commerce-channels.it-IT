@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visualizza ordini Amazon
 
-Esistono due modi per visualizzare gli ordini di Amazon: _[!UICONTROL Recent Orders]_e_[!UICONTROL All Orders]_.
+Esistono due modi per visualizzare gli ordini Amazon: _[!UICONTROL Recent Orders]_e_[!UICONTROL All Orders]_.
 
 Entrambe le opzioni mostrano le informazioni di base sull’ordine ricevute da Amazon, tra cui:
 
@@ -23,31 +23,31 @@ Entrambe le opzioni mostrano le informazioni di base sull’ordine ricevute da A
 - Totale complessivo
 - Note ordine
 
-_[!UICONTROL All Orders]_visualizza aggiunge opzioni di filtro per le ricerche degli ordini.
+La visualizzazione _[!UICONTROL All Orders]_aggiunge opzioni di filtro per le ricerche degli ordini.
 
 >[!NOTE]
 >
->Ad eccezione del _[!UICONTROL Order Notes]_, la colonna_[!UICONTROL Amazon orders]_ La tabella viene compilata con le informazioni sugli ordini ricevute da Amazon. Il _Note ordine_ la colonna è aggiornata da [!DNL Commerce] come l’ordine elabora.
+>Ad eccezione della colonna _[!UICONTROL Order Notes]_, la tabella_[!UICONTROL Amazon orders]_ viene compilata con le informazioni sull&#39;ordine ricevute da Amazon. La colonna _Note ordine_ è stata aggiornata da [!DNL Commerce] durante l&#39;elaborazione dell&#39;ordine.
 
 ## Ordini recenti
 
-Puoi visualizzare gli ordini più recenti in _[!UICONTROL Recent Orders]_sezione del [dashboard store](./amazon-store-dashboard.md).
+Puoi visualizzare gli ordini più recenti nella sezione _[!UICONTROL Recent Orders]_del [dashboard dello store](./amazon-store-dashboard.md).
 
 ![Ordini recenti](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Visualizza gli ordini recenti di Amazon
 
-1. Clic **[!UICONTROL View Store]** su una carta del negozio.
+1. Fare clic su **[!UICONTROL View Store]** su una scheda dello store.
 
-1. Visualizza gli ordini in _[!UICONTROL Recent Orders]_sezione.
+1. Visualizza gli ordini nella sezione _[!UICONTROL Recent Orders]_.
 
-1. Per visualizzare i dettagli dell’ordine, fai clic sul numero dell’ordine di Amazon in _[!UICONTROL Order Number]_colonna.
+1. Per visualizzare i dettagli dell&#39;ordine, fare clic sul numero dell&#39;ordine Amazon nella colonna _[!UICONTROL Order Number]_.
 
-   Il _[!UICONTROL Amazon Order Details]_viene visualizzata la pagina dell’ordine.
+   Viene aperta la pagina _[!UICONTROL Amazon Order Details]_per l&#39;ordine.
 
 ## Visualizza tutti gli ordini
 
-Puoi visualizzare tutti gli ordini di Amazon sulla _[!UICONTROL Amazon orders]_pagina (nota anche come_[!UICONTROL All Orders]_ view). La tabella Ordini di Amazon è simile alla _[!UICONTROL Recent Orders]_sezione del dashboard del negozio, ma consente di visualizzare tutti gli ordini di Amazon e di restringere l’elenco degli ordini con le seguenti opzioni di filtro:
+Puoi visualizzare tutti gli ordini Amazon nella pagina _[!UICONTROL Amazon orders]_(denominata anche visualizzazione_[!UICONTROL All Orders]_). La tabella Ordini di Amazon è simile alla sezione _[!UICONTROL Recent Orders]_del dashboard del negozio, ma consente di visualizzare tutti gli ordini di Amazon e di restringere l&#39;elenco degli ordini con le seguenti opzioni di filtro:
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -59,27 +59,27 @@ Puoi visualizzare tutti gli ordini di Amazon sulla _[!UICONTROL Amazon orders]_p
 
 ### Visualizza tutti gli ordini Amazon
 
-1. Clic **[!UICONTROL View Store]** su una carta del negozio.
+1. Fare clic su **[!UICONTROL View Store]** su una scheda dello store.
 
-1. Clic **[!UICONTROL All Orders]** nel _[!UICONTROL Recent Orders]_sezione.
+1. Fare clic su **[!UICONTROL All Orders]** nella sezione _[!UICONTROL Recent Orders]_.
 
-1. Per restringere l&#39;elenco o cercare un numero di ordine specifico, completare la **[!UICONTROL Filter by]** e fai clic su **[!UICONTROL Apply filters]**.
+1. Per limitare l&#39;elenco o cercare un numero di ordine specifico, completare i parametri **[!UICONTROL Filter by]** e fare clic su **[!UICONTROL Apply filters]**.
 
-1. Per visualizzare i dettagli dell’ordine, fai clic sul numero dell’ordine di Amazon in _[!UICONTROL Order Number]_colonna.
+1. Per visualizzare i dettagli dell&#39;ordine, fare clic sul numero dell&#39;ordine Amazon nella colonna _[!UICONTROL Order Number]_.
 
-   Il _[!UICONTROL Amazon Order Details]_viene visualizzata la pagina dell’ordine.
+   Viene aperta la pagina _[!UICONTROL Amazon Order Details]_per l&#39;ordine.
 
 ## Utilizzo dei filtri
 
-Puoi applicare i filtri all’elenco degli ordini nel _[!UICONTROL Filter by]_sezione. Effettuare le selezioni e fare clic su **[!UICONTROL Apply filters]**. I filtri applicati vengono visualizzati sopra la griglia degli ordini.
+È possibile applicare i filtri all&#39;elenco ordini nella sezione _[!UICONTROL Filter by]_. Effettuare le selezioni e fare clic su **[!UICONTROL Apply filters]**. I filtri applicati vengono visualizzati sopra la griglia degli ordini.
 
-![Filtri per visualizzare gli ordini di Amazon](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
+![Filtri per la visualizzazione degli ordini di Amazon](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Modifica dei filtri applicati
 
-- Puoi aggiungere o modificare i filtri nella sezione _[!UICONTROL Filter by]_sezione. Clic **[!UICONTROL Apply filters]**per aggiornare l&#39;elenco degli ordini e le opzioni di filtro visualizzate sopra la griglia degli ordini.
+- È possibile aggiungere o modificare i filtri nella sezione _[!UICONTROL Filter by]_. Fare clic su **[!UICONTROL Apply filters]**per aggiornare l&#39;elenco degli ordini e le opzioni di filtro visualizzate sopra la griglia degli ordini.
 
-- Per rimuovere i filtri, uno alla volta, fai clic sul pulsante `x` per il filtro o tutti contemporaneamente facendo clic su **[!UICONTROL Clear all filters]**. La rimozione di un filtro aggiorna l&#39;elenco degli ordini e le opzioni di filtro visualizzate sopra la griglia degli ordini.
+- È possibile rimuovere i filtri, uno alla volta facendo clic su `x` per il filtro oppure tutti contemporaneamente facendo clic su **[!UICONTROL Clear all filters]**. La rimozione di un filtro aggiorna l&#39;elenco degli ordini e le opzioni di filtro visualizzate sopra la griglia degli ordini.
 
 - Se l&#39;elenco degli ordini è lungo, è possibile utilizzare i controlli di impaginazione sotto la griglia per visualizzare più ordini.
 
@@ -96,10 +96,10 @@ Puoi applicare i filtri all’elenco degli ordini nel _[!UICONTROL Filter by]_se
 
 | Colonna | Descrizione |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Filter by] | Disponibile solo in _[!UICONTROL All Orders]_visualizzazione.<br>Limita l’elenco degli ordini in base a:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
+| [!UICONTROL Filter by] | Disponibile solo nella visualizzazione _[!UICONTROL All Orders]_.<br>Limita l&#39;elenco degli ordini in base a:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | La data dell’acquisto, ricevuta da Amazon. |
 | [!UICONTROL Order Number] | Il numero di ordine generato da e ricevuto da Amazon. Per visualizzare la schermata Dettagli ordine di Amazon, fai clic sul collegamento. |
 | [!UICONTROL Status] | Lo stato dell’ordine, ricevuto da Amazon. Opzioni: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
 | [!UICONTROL Buyer's Name] | Il nome della persona che ha effettuato l’ordine ricevuto da Amazon. |
 | [!UICONTROL Grand Total] | Il valore totale in valuta dell’ordine, come ricevuto da Amazon. |
-| [!UICONTROL Order Notes] | Azione più recente registrata per l’ordine durante l’elaborazione in [!DNL Commerce]. Le informazioni includono, tra l’altro, gli errori di importazione degli ordini e gli aggiornamenti dell’elaborazione degli ordini.<br>**Nota**: campo aggiornato da [!DNL Commerce] come l’ordine elabora. |
+| [!UICONTROL Order Notes] | Azione più recente registrata per l&#39;ordine durante l&#39;elaborazione in [!DNL Commerce]. Le informazioni includono, tra l’altro, gli errori di importazione degli ordini e gli aggiornamenti dell’elaborazione degli ordini.<br>**Nota**: questo campo è stato aggiornato da [!DNL Commerce] durante l&#39;elaborazione dell&#39;ordine. |

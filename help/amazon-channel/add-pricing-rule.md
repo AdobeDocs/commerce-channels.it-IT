@@ -1,37 +1,37 @@
 ---
 title: Aggiungere regole di determinazione prezzi di Amazon
-description: Utilizza le regole di determinazione prezzi per gestire i prezzi di inserzione sul Marketplace Amazon per il catalogo prodotti Commerce.
+description: Utilizza le regole di determinazione prezzi per gestire i prezzi delle inserzioni sul Marketplace Amazon per il catalogo dei prodotti Commerce.
 role: Admin
 feature: Sales Channels, Products, Merchandising
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Aggiungere regole di determinazione prezzi di Amazon
 
-Le regole di determinazione prezzi possono essere configurate o modificate in qualsiasi momento dopo l&#39;integrazione del negozio. Le regole di determinazione prezzi fanno parte di [Impostazioni elenco](./listing-settings.md) e sono accessibili nel [dashboard store](./amazon-store-dashboard.md).
+Le regole di determinazione prezzi possono essere configurate o modificate in qualsiasi momento dopo l&#39;integrazione del negozio. Le regole di determinazione prezzi fanno parte di [Impostazioni elenco](./listing-settings.md) e sono accessibili nel [dashboard archivio](./amazon-store-dashboard.md).
 
 ## Regola prezzo standard
 
-Un’azione di regola di prezzo standard ti consente di aumentare o diminuire un prezzo di inserzione di Amazon di una percentuale specifica o di un importo in dollari fisso relativo al **[!UICONTROL Magento Price Source*]* definito nel [Prezzo di vendita](./listing-price.md).
+Un&#39;azione di regola di prezzo standard consente di aumentare o diminuire un prezzo di vendita Amazon di una percentuale specifica o di un importo fisso in dollari relativo al **[!UICONTROL Magento Price Source*]* definito nel [Prezzo di vendita](./listing-price.md).
 
 ### Aggiungere una regola di determinazione prezzi standard
 
-1. Clic **[!UICONTROL Pricing rules]** nel dashboard del negozio.
+1. Fare clic su **[!UICONTROL Pricing rules]** nel dashboard dell&#39;archivio.
 
-1. Clic **[!UICONTROL Add new pricing rule]**.
+1. Fare clic su **[!UICONTROL Add new pricing rule]**.
 
-1. Completa il **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
+1. Completare **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
 
-1. Completa il **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** per la regola.
+1. Completare **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** per la regola.
 
-1. Completa il **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** per la regola.
+1. Completare **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** per la regola.
 
-1. Al termine, fai clic su **[!UICONTROL Save pricing rule]**.
+1. Al termine, fare clic su **[!UICONTROL Save pricing rule]**.
 
 ## Regola di rideterminazione prezzi intelligente
 
@@ -39,15 +39,15 @@ Una regola di rideterminazione dei prezzi intelligente utilizza i prezzi dei con
 
 ### Aggiungere una regola di rideterminazione prezzi intelligente
 
-1. Clic **[!UICONTROL Pricing rules]** nel dashboard del negozio.
+1. Fare clic su **[!UICONTROL Pricing rules]** nel dashboard dell&#39;archivio.
 
-1. Clic **[!UICONTROL Add new pricing rule]**.
+1. Fare clic su **[!UICONTROL Add new pricing rule]**.
 
-1. Completa il **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
+1. Completare **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** per la regola.
 
-1. Completa il **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** per la regola.
+1. Completare **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** per la regola.
 
-1. Completa il **[!UICONTROL Price Rule Actions]** per la regola.
+1. Completare **[!UICONTROL Price Rule Actions]** per la regola.
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -59,4 +59,4 @@ Una regola di rideterminazione dei prezzi intelligente utilizza i prezzi dei con
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. Al termine, fai clic su **[!UICONTROL Save pricing rule]**.
+1. Al termine, fare clic su **[!UICONTROL Save pricing rule]**.

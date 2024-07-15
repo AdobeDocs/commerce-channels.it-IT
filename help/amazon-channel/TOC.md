@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guida utente di Amazon Sales Channel
-user-guide-description: Genera vendite tramite Amazon integrando Adobe Commerce o Magento Open Source con il tuo [!DNL Amazon Seller Central] account.
+user-guide-description: Genera vendite tramite Amazon integrando Adobe Commerce o Magento Open Source con il tuo account  [!DNL Amazon Seller Central] .
 breadcrumb-title: Canale di vendita Amazon
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 4%
 
 - [Guida utente di Amazon Sales Channel](guide-overview.md)
 - [Introduzione al canale di vendita Amazon](overview.md)
-- Introduzione {#getting-started}
+- Introduzione a {#getting-started}
    - [Informazioni su Amazon Marketplace](about-amazon-marketplace.md)
    - [Amazon e il catalogo Commerce](about-listings-and-catalog.md)
    - [Best practice e limitazioni](amazon-best-practices.md)
    - [Installare l’estensione](install.md)
-- Onboarding {#onboarding}
+- Onboarding di {#onboarding}
    - [Canale di vendita Amazon integrato](amazon-onboarding-home.md)
    - [Attività di pre-configurazione](amazon-pre-setup-tasks.md)
    - [Crea [!DNL Commerce] attributi per Amazon](ob-creating-magento-attributes.md)
@@ -30,10 +30,10 @@ ht-degree: 4%
    - [Integrazione store](store-integration.md)
    - [Crea regola di elenco](ob-create-listing-rule.md)
    - [Impostazioni store predefinite](default-store-settings.md)
-- Gestire il canale di vendita {#manage}
+- Gestisci il canale di vendita {#manage}
    - [Home page](amazon-sales-channel-home.md)
    - [Negozi Amazon](managing-stores.md)
-   - [Controlli di Workspace](workspace-controls.md)
+   - [Controlli Workspace](workspace-controls.md)
    - [Apprendimento e preparazione](learning-preparation.md)
    - Attributi {#attributes}
       - [Visualizza attributi](attributes-view.md)
@@ -58,7 +58,7 @@ ht-degree: 4%
 - [Impostazioni integrazione store](store-integration-settings.md)
 - Regole di inserzione e determinazione prezzi {#rules}
    - [Regole di inserzione](listing-rules.md)
-   - Regole di determinazione prezzi {#pricing-rules}
+   - Regole prezzi {#pricing-rules}
       - [Gestire i prezzi](pricing-products.md)
       - [Aggiungi nuova regola di determinazione prezzi](add-pricing-rule.md)
       - [Impostazioni generali regola prezzo](pricing-rule-general-settings.md)
@@ -77,9 +77,9 @@ ht-degree: 4%
    - Esempi {#rules-examples}
       - [Definire una condizione](ob-define-condition-example.md)
       - [Esempi di regole di prezzo](price-rule-examples.md)
-- Rapporti e registri {#reports-logs}
+- Report e registri {#reports-logs}
    - [Registra e archivia i rapporti](amazon-logs-reports.md)
-   - Memorizza report {#store-reports}
+   - Archivia report {#store-reports}
       - [Analisi dei prezzi competitivi](competitive-price-analysis.md)
       - [Miglioramenti alle inserzioni](listing-improvements.md)
    - Registri {#logs}
@@ -104,10 +104,10 @@ ht-degree: 4%
       - [Crea un SKU del venditore di alias](create-alias-seller-sku.md)
       - [Modificare un codice ASIN assegnato](edit-assigned-asin.md)
       - [Terminare un’inserzione in Amazon](end-listings-manually.md)
-      - [Pubblicare un’inserzione in Amazon](publish-listings-manually.md)
+      - [PUBLISH e AMAZON](publish-listings-manually.md)
       - [Aggiorna informazioni richieste](amazon-manually-update-incomplete-listing.md)
       - [Visualizza dettagli](product-listing-details.md)
-- Gestire gli ordini {#admin-orders}
+- Gestisci ordini {#admin-orders}
    - [Gestire gli ordini](managing-orders.md)
    - [Visualizza ordini Amazon](amazon-orders-all.md)
    - [Visualizza dettagli ordine Amazon](amazon-order-details.md)

@@ -1,6 +1,6 @@
 ---
 title: Gestisci connessione a Walmart Marketplace
-description: '"Aggiornare le credenziali API per autorizzare la connessione tra un [DNL! Commerce] vista store e [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] elenchi di prodotti e sincronizzazione dei dati di inventario, prezzo, ordine e spedizione tra [!DNL Commerce] e il Walmart".'
+description: '"Aggiornare le credenziali API per autorizzare la connessione tra un [DNL! Commerce] visualizza store e  [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] inserzioni prodotti e sincronizza i dati di inventario, prezzo, ordine e spedizione tra [!DNL Commerce] e Walmart.'''
 role: Admin, Developer
 feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Mappa vettori di spedizione
 
-Prima di [elabora spedizioni ordine](process-orders.md#ship-an-order) per [!DNL Walmart Marketplace] ordini, mappa i vettori di spedizione preferiti di Walmart al vettore corrispondente in [!DNL Commerce] in modo che i dati di spedizione possano essere sincronizzati tra [!DNL Walmart] e [!DNL Commerce].
+Prima di [elaborare spedizioni ordini](process-orders.md#ship-an-order) per [!DNL Walmart Marketplace] ordini, mappare i vettori di spedizione preferiti di Walmart al vettore corrispondente in [!DNL Commerce] in modo che i dati di spedizione possano essere sincronizzati tra [!DNL Walmart] e [!DNL Commerce].
 
-I vettori commerciali che non mappano su un vettore preferito sono etichettati come *[!UICONTROL Other Carrier]* il [!DNL Walmart].
+I gestori Commerce che non eseguono il mapping a un gestore preferito sono etichettati come *[!UICONTROL Other Carrier]* il [!DNL Walmart].
 
 **Prerequisiti**
 
-Revisione [Requisiti Walmart](walmart-requirements.md) per [!DNL Marketplace Seller account].
+Rivedi [Requisiti Walmart](walmart-requirements.md) per [!DNL Marketplace Seller account].
 
 ## Aggiorna credenziali di connessione
 
-1. Il giorno [!UICONTROL Listings] pagina per il negozio del canale di vendita, seleziona **[!UICONTROL Channel Settings]**.
+1. Nella pagina [!UICONTROL Listings] per il negozio del canale di vendita, selezionare **[!UICONTROL Channel Settings]**.
 
-1. On **[!UICONTROL Channel Settings]**, seleziona **[!UICONTROL Walmart Connection]**.
+1. In **[!UICONTROL Channel Settings]**, selezionare **[!UICONTROL Walmart Connection]**.
 
-1. Per modificare le credenziali, seleziona **[!UICONTROL Change Credentials]**
+1. Per modificare le credenziali, selezionare **[!UICONTROL Change Credentials]**
 
    ![Aggiorna le credenziali API di Walmart per autorizzare la connessione](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
-1. Inserisci il **[!UICONTROL Walmart Client ID]** e **[!UICONTROL Walmart Client Secret]**.
+1. Immettere **[!UICONTROL Walmart Client ID]** e **[!UICONTROL Walmart Client Secret]**.
 
-1. Seleziona **[!UICONTROL Save]** per applicare la configurazione.
+1. Selezionare **[!UICONTROL Save]** per applicare la configurazione.
